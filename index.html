@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Long Investor — Asset Recommendations Dashboard</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      padding: 24px;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    .header { text-align: center; margin-bottom: 28px; }
+    .header h1 { font-size: 26px; font-weight: 700; color: #f8fafc; letter-spacing: -0.5px; }
+    .header .subtitle { color: #94a3b8; font-size: 13px; margin-top: 6px; }
+    .header .date { color: #64748b; font-size: 12px; margin-top: 4px; }
+
+    /* ── Summary cards ── */
+    .summary-row {
+      display: flex; gap: 12px; justify-content: center;
+      margin-bottom: 20px; flex-wrap: wrap;
+    }
+    .summary-card {
+      background: #1e2433; border: 1px solid #2d3748;
+      border-radius: 10px; padding: 13px 18px; text-align: center; min-width: 110px;
+    }
+    .summary-card .num { font-size: 28px; font-weight: 800; line-height: 1; }
+    .summary-card .lbl { font-size: 10px; color: #94a3b8; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .num-total    { color: #60a5fa; }
+    .num-buy-now  { color: #22c55e; }
+    .num-trending { color: #60a5fa; }
+    .num-neg      { color: #f87171; }
+    .num-appr     { color: #f59e0b; }
+    .num-confirm  { color: #4ade80; }
+
+    /* ── Status bar ── */
+    .status-bar {
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 10px;
+      background: #1a2035; border: 1px solid #2d3748; border-radius: 10px;
+      padding: 10px 18px; margin-bottom: 20px;
+    }
+    .status-left { display: flex; align-items: center; gap: 10px; }
+    .status-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+    .status-dot.loading { background: #f59e0b; animation: pulse 1s infinite; }
+    .status-dot.ok      { background: #22c55e; }
+    .status-dot.error   { background: #f87171; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+    #status-text { font-size: 13px; color: #94a3b8; }
+    .status-right { font-size: 12px; color: #475569; }
+    #countdown { color: #60a5fa; font-family: 'SF Mono', monospace; }
+
+    /* ── Table ── */
+    .table-wrap { overflow-x: auto; border-radius: 12px; border: 1px solid #2d3748; }
+    table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    thead tr { background: #1a2035; }
+    thead th {
+      padding: 11px 10px; text-align: left; font-size: 10px; font-weight: 600;
+      color: #64748b; text-transform: uppercase; letter-spacing: 0.6px;
+      white-space: nowrap; border-bottom: 1px solid #2d3748;
+    }
+    tbody tr { border-bottom: 1px solid #1e2433; transition: background 0.12s; }
+    tbody tr:hover { background: #1a2232; }
+    tbody tr:last-child { border-bottom: none; }
+    td { padding: 9px 10px; vertical-align: middle; white-space: nowrap; }
+
+    /* ── Section headers ── */
+    .section-header td {
+      background: #141b2e; color: #475569; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; padding: 7px 10px;
+      border-bottom: 1px solid #2d3748; border-top: 1px solid #2d3748;
+    }
+
+    /* ── Ticker (clickable) ── */
+    .ticker {
+      font-weight: 700; font-size: 14px; color: #60a5fa;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      cursor: pointer; transition: color 0.15s;
+      text-decoration: underline; text-decoration-style: dotted;
+      text-underline-offset: 3px;
+    }
+    .ticker:hover { color: #93c5fd; }
+    .company { font-size: 10px; color: #64748b; margin-top: 2px; }
+
+    /* ── TLI Sentiment badges ── */
+    .badge {
+      display: inline-block; padding: 2px 7px; border-radius: 20px;
+      font-size: 10px; font-weight: 700; white-space: nowrap; letter-spacing: 0.2px;
+    }
+    .badge-buy-now       { background:#052e16; color:#4ade80; border:1px solid #166534; }
+    .badge-trending-buy  { background:#0c1a3a; color:#60a5fa; border:1px solid #1d4ed8; }
+    .badge-trending-neg  { background:#2d0b0b; color:#f87171; border:1px solid #991b1b; }
+    .badge-appreciating  { background:#2a1a00; color:#fbbf24; border:1px solid #b45309; }
+
+    /* ── Elliott Wave badges ── */
+    .wave {
+      display: inline-block; padding: 2px 7px; border-radius: 4px;
+      font-size: 10px; font-weight: 700; font-family: 'SF Mono', monospace;
+      white-space: nowrap;
+    }
+    .wave-impulse { background:#071f12; color:#4ade80; border:1px solid #166534; }
+    .wave-correct { background:#0c1625; color:#93c5fd; border:1px solid #1e3a5f; }
+    .wave-top     { background:#261a00; color:#fbbf24; border:1px solid #92400e; }
+    .wave-bear    { background:#280a0a; color:#f87171; border:1px solid #7f1d1d; }
+
+    /* ── Price cells ── */
+    .price-cell  { display:flex; flex-direction:column; gap:2px; }
+    .live-price  { color:#e2e8f0; font-weight:600; font-family:'SF Mono',monospace; font-size:13px; }
+    .live-chg    { font-size:10px; font-family:'SF Mono',monospace; color:#475569; }
+    .price-link  { text-decoration:none; display:inline-block; }
+    .price-link:hover .live-price { color:#93c5fd; text-decoration:underline; text-underline-offset:3px; }
+    .live-chg.up { color:#4ade80; }
+    .live-chg.dn { color:#f87171; }
+    .price-val   { font-family:'SF Mono','Fira Code',monospace; font-size:11px; color:#94a3b8; }
+    .price-none  { color:#374151; font-size:11px; }
+
+    @keyframes flash-green { 0%,100%{background:transparent} 30%{background:#14532d40} }
+    @keyframes flash-red   { 0%,100%{background:transparent} 30%{background:#43140740} }
+    .flash-up { animation: flash-green 0.8s ease; }
+    .flash-dn { animation: flash-red   0.8s ease; }
+
+    /* ── Appreciation potential ── */
+    .appr { font-family:'SF Mono',monospace; font-weight:700; font-size:12px; }
+    .appr-huge { color:#4ade80; }
+    .appr-high { color:#86efac; }
+    .appr-med  { color:#bef264; }
+    .appr-low  { color:#fbbf24; }
+    .appr-none { color:#374151; }
+
+    /* ── Analyst ── */
+    .analyst-strong-buy { color:#4ade80; font-weight:600; font-size:11px; }
+    .analyst-buy        { color:#86efac; font-weight:600; font-size:11px; }
+    .analyst-mod-buy    { color:#bef264; font-weight:600; font-size:11px; }
+    .analyst-hold       { color:#fbbf24; font-weight:600; font-size:11px; }
+    .analyst-bullish    { color:#34d399; font-weight:600; font-size:11px; }
+    .analyst-none       { color:#374151; font-size:11px; }
+
+    /* ── Overall rec ── */
+    .rec-buy {
+      display:inline-flex; align-items:center; gap:5px;
+      background:#14532d; color:#4ade80; border:1px solid #166534;
+      border-radius:6px; padding:3px 10px; font-size:11px; font-weight:800;
+    }
+    .rec-wait {
+      display:inline-flex; align-items:center; gap:5px;
+      background:#1e2433; color:#64748b; border:1px solid #2d3748;
+      border-radius:6px; padding:3px 10px; font-size:11px; font-weight:700;
+    }
+    .dot-buy  { width:6px; height:6px; border-radius:50%; background:#22c55e; display:inline-block; }
+    .dot-wait { width:6px; height:6px; border-radius:50%; background:#475569; display:inline-block; }
+
+    tr.row-buy       { background:#071410; }
+    tr.row-buy:hover { background:#0d2918; }
+
+    /* ── Sentiment Changed highlight ── */
+    tr.row-sentiment-changed {
+      border-left: 3px solid #f59e0b !important;
+    }
+    tr.row-sentiment-changed td:first-child {
+      padding-left: 7px;
+    }
+    .sentiment-changed-indicator {
+      display: inline-block;
+      background: #2a1a0020;
+      color: #f59e0b;
+      border: 1px solid #f59e0b55;
+      border-radius: 4px;
+      font-size: 9px;
+      padding: 1px 5px;
+      margin-left: 5px;
+      vertical-align: middle;
+      font-weight: 700;
+      white-space: nowrap;
+      letter-spacing: 0.2px;
+    }
+
+    /* ── Collection badges ── */
+    .col-badge {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 9px;
+      font-weight: 700;
+      margin: 1px 2px 1px 0;
+      cursor: pointer;
+      transition: opacity 0.15s, transform 0.1s;
+      white-space: nowrap;
+      letter-spacing: 0.2px;
+      text-decoration: none;
+    }
+    .col-badge:hover { opacity: 0.75; transform: translateY(-1px); }
+    .col-none { color: #374151; font-size: 11px; }
+
+    /* ── Modal overlay ── */
+    .modal-overlay {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,0.75); z-index: 1000;
+      align-items: center; justify-content: center;
+      backdrop-filter: blur(3px);
+    }
+    .modal-overlay.open { display: flex; }
+    .modal-card {
+      background: #1a2035; border: 1px solid #2d3748; border-radius: 16px;
+      padding: 28px 32px; max-width: 520px; width: 90%;
+      max-height: 85vh; overflow-y: auto;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.7);
+      position: relative;
+    }
+    .modal-close {
+      position: absolute; top: 16px; right: 18px;
+      background: none; border: none; color: #64748b;
+      font-size: 22px; cursor: pointer; line-height: 1;
+      transition: color 0.15s;
+    }
+    .modal-close:hover { color: #e2e8f0; }
+    .modal-ticker {
+      font-family: 'SF Mono', monospace; font-size: 28px;
+      font-weight: 800; color: #f1f5f9; margin-bottom: 2px;
+    }
+    .modal-company { font-size: 12px; color: #64748b; margin-bottom: 16px; }
+    .modal-badges  { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
+    .modal-section { margin-bottom: 18px; }
+    .modal-section-title {
+      font-size: 10px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1px; color: #475569; margin-bottom: 8px;
+    }
+    .modal-summary {
+      font-size: 13px; color: #cbd5e1; line-height: 1.7;
+    }
+    .modal-levels {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+    }
+    .modal-level {
+      background: #0f1520; border: 1px solid #2d3748; border-radius: 8px;
+      padding: 10px 14px;
+    }
+    .modal-level-label { font-size: 10px; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; }
+    .modal-level-value { font-family: 'SF Mono', monospace; font-size: 14px; font-weight: 700; color: #e2e8f0; margin-top: 3px; }
+    .modal-appr-box {
+      background: #071a0e; border: 1px solid #166534; border-radius: 8px;
+      padding: 12px 16px; display: flex; align-items: center; justify-content: space-between;
+    }
+    .modal-appr-label { font-size: 11px; color: #4ade80; font-weight: 600; }
+    .modal-appr-value { font-family: 'SF Mono', monospace; font-size: 22px; font-weight: 800; color: #4ade80; }
+
+    /* ── Collection Page (full-screen overlay) ── */
+    .collection-page {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: #0f1117;
+      z-index: 500;
+      overflow-y: auto;
+      padding: 24px;
+    }
+    .collection-page.open { display: block; }
+    .collection-page-header {
+      display: flex; align-items: flex-start; gap: 20px;
+      margin-bottom: 24px; flex-wrap: wrap;
+    }
+    .collection-back-btn {
+      background: #1e2433; border: 1px solid #2d3748; color: #94a3b8;
+      padding: 8px 16px; border-radius: 8px; font-size: 13px;
+      cursor: pointer; transition: color 0.15s, border-color 0.15s;
+      white-space: nowrap; flex-shrink: 0; margin-top: 2px;
+    }
+    .collection-back-btn:hover { color: #e2e8f0; border-color: #475569; }
+    .collection-page-title-wrap { flex: 1; }
+    .collection-page-name {
+      font-size: 22px; font-weight: 800; color: #f1f5f9; line-height: 1.2;
+    }
+    .collection-page-meta {
+      font-size: 12px; color: #64748b; margin-top: 4px;
+    }
+    .collection-legend {
+      font-size: 11px; color: #475569; margin-bottom: 16px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .legend-dot {
+      display: inline-block; width: 8px; height: 8px;
+      border-radius: 50%; background: #f59e0b; margin-right: 2px;
+    }
+
+    /* ── Footnote ── */
+    .footnote {
+      text-align: center; margin-top: 20px; font-size: 11px;
+      color: #475569; line-height: 1.7;
+    }
+    .footnote strong { color: #64748b; }
+
+    .load-error {
+      max-width: 640px; margin: 80px auto; text-align: center;
+      color: #f87171; font-size: 14px; line-height: 1.7;
+    }
+
+    @media (max-width: 1100px) {
+      body { padding: 12px; }
+      .header h1 { font-size: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📊 The Long Investor — Asset Recommendations</h1>
+  <div class="subtitle" id="header-subtitle">Loading…</div>
+  <div class="date" id="header-date"></div>
+</div>
+
+<!-- Summary Cards -->
+<div class="summary-row" id="summary-row">
+  <div class="summary-card"><div class="num num-total" id="sum-total">—</div><div class="lbl">Assets</div></div>
+  <div class="summary-card"><div class="num num-buy-now" id="sum-buy-now">—</div><div class="lbl">Buy Now</div></div>
+  <div class="summary-card"><div class="num num-trending" id="sum-trending">—</div><div class="lbl">Trending to Buy</div></div>
+  <div class="summary-card"><div class="num num-neg" id="sum-neg">—</div><div class="lbl">Trending Neg.</div></div>
+  <div class="summary-card"><div class="num num-appr" id="sum-appr">—</div><div class="lbl">Appreciating</div></div>
+  <div class="summary-card"><div class="num num-confirm" id="sum-confirm">—</div><div class="lbl">BUY Confirmed</div></div>
+</div>
+
+<!-- Status bar -->
+<div class="status-bar">
+  <div class="status-left">
+    <span id="status-dot" class="status-dot loading"></span>
+    <span id="status-text">Loading recommendations…</span>
+  </div>
+  <div class="status-right">
+    Updated: <span id="last-updated">—</span> &nbsp;·&nbsp; Next refresh in <span id="countdown">—</span>
+  </div>
+</div>
+
+<!-- Main Table -->
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Asset</th>
+      <th>TLI Sentiment</th>
+      <th>Collection</th>
+      <th>TLI Wave</th>
+      <th>TLI Entry Point</th>
+      <th>TLI LT Target</th>
+      <th>Appr. Potential</th>
+      <th>Live Price</th>
+      <th>Analyst</th>
+      <th>Analyst Target</th>
+      <th>Overall</th>
+    </tr>
+  </thead>
+  <tbody id="main-tbody">
+    <tr><td colspan="12" class="section-header">Loading recommendations…</td></tr>
+  </tbody>
+</table>
+</div>
+
+<!-- Footnote -->
+<div class="footnote">
+  <p>
+    <strong>Sentiment:</strong>
+    <span style="color:#4ade80">● Buy Now</span> &nbsp;|&nbsp;
+    <span style="color:#60a5fa">● Trending to Buy</span> &nbsp;|&nbsp;
+    <span style="color:#f87171">● Trending Neg.</span> &nbsp;|&nbsp;
+    <span style="color:#fbbf24">● Appreciating — Don't Buy</span>
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <strong>BUY confirmed</strong> = TLI "Buy Now" <em>AND</em> Analyst ≥ Buy
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <strong>Appreciation Potential</strong> = (LT Target − Entry) / Entry × 100%
+  </p>
+  <p style="margin-top:6px">
+    <span style="color:#f59e0b">▏</span> <strong style="color:#64748b">Amber border</strong> = TLI Sentiment changed since last update &nbsp;·&nbsp;
+    Click a <strong style="color:#64748b">Collection badge</strong> to view all assets in that collection
+  </p>
+  <p style="margin-top:6px">
+    Live prices via Yahoo Finance (every 15 min) · Analyst ratings from S&amp;P Global via StockAnalysis.com ·
+    Elliott Wave analysis from The Long Investor · Recommendations updated automatically from email — see
+    <span id="data-updated-note">—</span>
+  </p>
+  <p style="margin-top:6px; color:#374151">
+    For informational purposes only. Not financial advice.
+  </p>
+</div>
+
+<!-- ═══════════════════════════════════════
+     TICKER MODAL
+═══════════════════════════════════════ -->
+<div id="modal-overlay" class="modal-overlay" role="dialog" aria-modal="true">
+  <div class="modal-card">
+    <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+    <div class="modal-ticker" id="modal-ticker"></div>
+    <div class="modal-company" id="modal-company"></div>
+    <div class="modal-badges" id="modal-badges"></div>
+
+    <div class="modal-section">
+      <div class="modal-section-title">TLI Analysis</div>
+      <div class="modal-summary" id="modal-summary"></div>
+    </div>
+
+    <div class="modal-section" id="modal-levels-section">
+      <div class="modal-section-title">Key Levels</div>
+      <div class="modal-levels" id="modal-levels"></div>
+    </div>
+
+    <div id="modal-appr-section" style="display:none; margin-bottom:18px;">
+      <div class="modal-section-title" style="margin-bottom:8px;">Appreciation Potential</div>
+      <div class="modal-appr-box">
+        <div>
+          <div class="modal-appr-label" id="modal-appr-from"></div>
+          <div style="font-size:10px;color:#475569;margin-top:2px;" id="modal-appr-desc"></div>
+        </div>
+        <div class="modal-appr-value" id="modal-appr-pct"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     COLLECTION PAGE (full-screen overlay)
+═══════════════════════════════════════ -->
+<div id="collection-page" class="collection-page" role="region" aria-label="Collection view">
+  <div class="collection-page-header">
+    <button class="collection-back-btn" id="collection-back">← Back to Dashboard</button>
+    <div class="collection-page-title-wrap">
+      <div class="collection-page-name" id="collection-page-name"></div>
+      <div class="collection-page-meta" id="collection-page-meta"></div>
+    </div>
+  </div>
+  <div class="collection-legend">
+    <span class="legend-dot"></span> Amber border = TLI Sentiment changed since last update
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Asset</th>
+          <th>TLI Sentiment</th>
+          <th>TLI Wave</th>
+          <th>TLI Entry Point</th>
+          <th>TLI LT Target</th>
+          <th>Appr. Potential</th>
+          <th>Live Price</th>
+          <th>Analyst</th>
+          <th>Analyst Target</th>
+          <th>Overall</th>
+        </tr>
+      </thead>
+      <tbody id="collection-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     JAVASCRIPT
+═══════════════════════════════════════ -->
+<script>
+(function () {
+  'use strict';
+
+  // Everything below is driven entirely by data.json.
+  // New recommendation emails only ever need to add/update an entry
+  // in data.json (via the scheduled extraction task) — this file never
+  // needs to be hand-edited again.
+
+  const DATA_URL = 'data.json';
+
+  // Fixed display order + section headings for each sentiment bucket.
+  const SENTIMENT_ORDER = [
+    { key: 'Buy Now',              heading: '🟢 &nbsp;TLI SENTIMENT: BUY NOW — Analyst-Confirmed Entries First' },
+    { key: 'Trending to Buy',      heading: '🔵 &nbsp;TLI SENTIMENT: TRENDING TO BUY POINT — Watch These Levels' },
+    { key: 'Trending Negatively',  heading: '🔴 &nbsp;TLI SENTIMENT: TRENDING NEGATIVELY — No Entry; Monitor Support Levels' },
+    { key: 'Appreciating',         heading: "🟡 &nbsp;TLI SENTIMENT: APPRECIATING — DON'T BUY — Wait for Wave Pullback Entry" }
+  ];
+
+  let DATA = null;          // parsed data.json
+  let ASSETS = {};          // sym -> asset object
+  let ASSET_COLLECTIONS = {}; // sym -> [collection names]
+
+  function getApprClass(appr) {
+    if (!appr || appr === '—') return 'appr-none';
+    const pct = parseFloat(appr);
+    if (pct >= 90) return 'appr-huge';
+    if (pct >= 60) return 'appr-high';
+    if (pct >= 30) return 'appr-med';
+    return 'appr-low';
+  }
+
+  function makeCollBadge(collName) {
+    const style = (DATA.collectionStyles && DATA.collectionStyles[collName])
+      || 'background:#1e2433;color:#94a3b8;border:1px solid #2d3748';
+    return `<span class="col-badge" style="${style}" data-collection="${collName}">${collName}</span>`;
+  }
+
+  function assetRowHtml(a, rank) {
+    const changed = a.prevSentiment && a.prevSentiment !== a.sentiment;
+    const changedHtml = changed
+      ? `<span class="sentiment-changed-indicator">↕ was ${a.prevSentiment}</span>`
+      : '';
+    const rowClass = (a.sentiment === 'Buy Now' ? 'row-buy' : '') + (changed ? ' row-sentiment-changed' : '');
+    const cols = ASSET_COLLECTIONS[a.sym] || [];
+    const colHtml = cols.length ? cols.map(makeCollBadge).join('') : '<span class="col-none">—</span>';
+    const apprHtml = a.appr
+      ? `<span class="appr ${getApprClass(a.appr)}">${a.appr}</span>`
+      : `<span class="appr-none">—</span>`;
+    const isBuy = a.recClass === 'rec-buy';
+
+    return `<tr class="${rowClass.trim()}">
+      <td class="price-none">${rank}</td>
+      <td><div class="ticker" data-sym="${a.sym}">$${a.displaySym || a.sym}</div><div class="company">${a.company}</div></td>
+      <td><span class="badge ${a.sentimentClass}">${a.sentiment}</span>${changedHtml}</td>
+      <td>${colHtml}</td>
+      <td><span class="wave ${a.waveClass}">${a.wave}</span></td>
+      <td class="price-val">${a.entry || '—'}</td>
+      <td class="price-val">${a.target || '—'}</td>
+      <td>${apprHtml}</td>
+      <td><div class="price-cell"><a class="price-link" href="https://finance.yahoo.com/quote/${a.yfSymbol || a.sym}" target="_blank" rel="noopener" title="Open ${a.sym} on Yahoo Finance"><span class="live-price" id="price-${a.sym}">—</span></a><span class="live-chg" id="chg-${a.sym}"></span></div></td>
+      <td class="${a.analystClass || 'analyst-none'}">${a.analyst || '—'}</td>
+      <td class="price-val">${a.analystTarget || '—'}</td>
+      <td><span class="${a.recClass}"><span class="${isBuy ? 'dot-buy' : 'dot-wait'}"></span>${a.rec}</span></td>
+    </tr>`;
+  }
+
+  function renderMainTable() {
+    const tbody = document.getElementById('main-tbody');
+    let html = '';
+    let rank = 0;
+    SENTIMENT_ORDER.forEach(section => {
+      const rows = DATA.assets.filter(a => a.sentiment === section.key);
+      if (!rows.length) return;
+      html += `<tr><td colspan="12" class="section-header">${section.heading}</td></tr>`;
+      rows.forEach(a => { rank++; html += assetRowHtml(a, rank); });
+    });
+    tbody.innerHTML = html || '<tr><td colspan="12" class="section-header">No recommendations yet</td></tr>';
+  }
+
+  function renderSummary() {
+    const total   = DATA.assets.length;
+    const buyNow  = DATA.assets.filter(a => a.sentiment === 'Buy Now').length;
+    const trend   = DATA.assets.filter(a => a.sentiment === 'Trending to Buy').length;
+    const neg     = DATA.assets.filter(a => a.sentiment === 'Trending Negatively').length;
+    const appr    = DATA.assets.filter(a => a.sentiment === 'Appreciating').length;
+    const confirm = DATA.assets.filter(a => a.recClass === 'rec-buy').length;
+    document.getElementById('sum-total').textContent    = total;
+    document.getElementById('sum-buy-now').textContent  = buyNow;
+    document.getElementById('sum-trending').textContent = trend;
+    document.getElementById('sum-neg').textContent      = neg;
+    document.getElementById('sum-appr').textContent     = appr;
+    document.getElementById('sum-confirm').textContent  = confirm;
+  }
+
+  function renderHeader() {
+    document.getElementById('header-subtitle').textContent = DATA.meta.subtitle;
+    const collNames = Object.keys(DATA.collections).join(' · ');
+    document.getElementById('header-date').textContent =
+      `Analysis: ${DATA.meta.analysisDate} | Collections: ${collNames} · Prices every 15 min`;
+    const dt = new Date(DATA.meta.lastUpdated);
+    const dtStr = isNaN(dt) ? DATA.meta.lastUpdated : dt.toLocaleString('en-US');
+    document.getElementById('data-updated-note').textContent = `data last refreshed ${dtStr}`;
+  }
+
+  /* ─────────────── COLLECTION PAGE ─────────────── */
+  function renderCollectionPage(collName) {
+    const syms = DATA.collections[collName] || [];
+    document.getElementById('collection-page-name').textContent = collName;
+    document.getElementById('collection-page-meta').textContent =
+      syms.length + ' assets · Click any ticker for TLI analysis';
+
+    const tbody = document.getElementById('collection-tbody');
+    tbody.innerHTML = syms.map((sym, i) => {
+      const d = ASSETS[sym];
+      if (!d) return '';
+
+      const priceEl = document.getElementById('price-' + sym);
+      const chgEl   = document.getElementById('chg-'   + sym);
+      const livePrice = priceEl ? priceEl.textContent : '—';
+      const liveChg   = chgEl ? chgEl.textContent : '';
+      const chgCls    = chgEl ? (chgEl.classList.contains('up') ? 'up' : chgEl.classList.contains('dn') ? 'dn' : '') : '';
+
+      const apprHtml = d.appr
+        ? `<span class="appr ${getApprClass(d.appr)}">${d.appr}</span>`
+        : `<span class="appr-none">—</span>`;
+
+      const changed = d.prevSentiment && d.prevSentiment !== d.sentiment;
+      const changedHtml = changed
+        ? `<span class="sentiment-changed-indicator">↕ was ${d.prevSentiment}</span>`
+        : '';
+
+      const isBuy = d.recClass === 'rec-buy';
+      const rowClass = (d.sentiment === 'Buy Now' ? 'row-buy' : '') + (changed ? ' row-sentiment-changed' : '');
+
+      return `<tr class="${rowClass.trim()}">
+        <td class="price-none">${i + 1}</td>
+        <td>
+          <div class="ticker" data-sym="${sym}">$${d.displaySym || sym}</div>
+          <div class="company">${d.company}</div>
+        </td>
+        <td>
+          <span class="badge ${d.sentimentClass}">${d.sentiment}</span>${changedHtml}
+        </td>
+        <td><span class="wave ${d.waveClass}">${d.wave}</span></td>
+        <td class="price-val">${d.entry || '—'}</td>
+        <td class="price-val">${d.target || '—'}</td>
+        <td>${apprHtml}</td>
+        <td>
+          <div class="price-cell">
+            <a class="price-link" href="https://finance.yahoo.com/quote/${d.yfSymbol || sym}" target="_blank" rel="noopener" title="Open on Yahoo Finance"><span class="live-price">${livePrice}</span></a>
+            <span class="live-chg ${chgCls}">${liveChg}</span>
+          </div>
+        </td>
+        <td class="${d.analystClass || 'analyst-none'}">${d.analyst || '—'}</td>
+        <td class="price-val">${d.analystTarget || '—'}</td>
+        <td>
+          <span class="${d.recClass}">
+            <span class="${isBuy ? 'dot-buy' : 'dot-wait'}"></span>${d.rec}
+          </span>
+        </td>
+      </tr>`;
+    }).join('');
+
+    document.getElementById('collection-page').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeCollectionPage() {
+    document.getElementById('collection-page').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  /* ─────────────── MODAL LOGIC ─────────────── */
+  function showModal(sym) {
+    const d = ASSETS[sym];
+    if (!d) return;
+
+    document.getElementById('modal-ticker').textContent  = '$' + (d.displaySym || sym);
+    document.getElementById('modal-company').textContent = d.company;
+    document.getElementById('modal-summary').textContent = d.summary || '';
+
+    const badgesEl = document.getElementById('modal-badges');
+    const changed = d.prevSentiment && d.prevSentiment !== d.sentiment;
+    badgesEl.innerHTML = `
+      <span class="badge ${d.sentimentClass}">${d.sentiment}</span>
+      <span class="wave ${d.waveClass}">${d.wave}</span>
+      ${changed ? `<span class="sentiment-changed-indicator">↕ was ${d.prevSentiment}</span>` : ''}
+    `;
+
+    const levelsEl = document.getElementById('modal-levels');
+    levelsEl.innerHTML = (d.levels || []).map(l => `
+      <div class="modal-level">
+        <div class="modal-level-label">${l.label}</div>
+        <div class="modal-level-value">${l.value}</div>
+      </div>
+    `).join('');
+
+    const apprSection = document.getElementById('modal-appr-section');
+    if (d.appr) {
+      apprSection.style.display = 'block';
+      document.getElementById('modal-appr-pct').textContent  = d.appr;
+      document.getElementById('modal-appr-from').textContent = `Entry ${d.entry} → Target ${d.target}`;
+      document.getElementById('modal-appr-desc').textContent = '(TLI LT Target − TLI Entry) / TLI Entry × 100%';
+    } else {
+      apprSection.style.display = 'none';
+    }
+
+    document.getElementById('modal-overlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    document.getElementById('modal-overlay').classList.remove('open');
+    if (!document.getElementById('collection-page').classList.contains('open')) {
+      document.body.style.overflow = '';
+    }
+  }
+
+  document.addEventListener('click', e => {
+    const badge = e.target.closest('[data-collection]');
+    if (badge) { renderCollectionPage(badge.dataset.collection); return; }
+    const ticker = e.target.closest('.ticker');
+    if (ticker) { showModal(ticker.dataset.sym); return; }
+    const overlay = document.getElementById('modal-overlay');
+    if (e.target === overlay) { closeModal(); return; }
+  });
+
+  document.getElementById('modal-close').addEventListener('click', closeModal);
+  document.getElementById('collection-back').addEventListener('click', closeCollectionPage);
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') { closeCollectionPage(); closeModal(); }
+  });
+
+  /* ─────────────── PRICE REFRESH ─────────────── */
+  const REFRESH_MS = 15 * 60 * 1000;
+  let SYMBOLS = [];   // derived from data.json at load time — never hand-maintained
+
+  let nextRefreshAt   = Date.now() + REFRESH_MS;
+  let autoRefreshTimer = null;
+  let countdownTimer   = null;
+
+  const $dot       = () => document.getElementById('status-dot');
+  const $text      = () => document.getElementById('status-text');
+  const $updated   = () => document.getElementById('last-updated');
+  const $countdown = () => document.getElementById('countdown');
+
+  // Yahoo's v8 chart endpoint needs no crumb/cookie (unlike the old v7 quote
+  // endpoint, which now 401s). We route through a chain of CORS proxies so it
+  // also works when index.html is opened directly from disk (file://) or from
+  // a static host without its own backend.
+  const CHART_BASE = 'https://query1.finance.yahoo.com/v8/finance/chart/';
+  const PROXIES = [
+    url => url,                                                                    // direct (works when served from a web host)
+    url => 'https://api.codetabs.com/v1/proxy/?quest=' + encodeURIComponent(url),  // reliable free CORS proxy
+    url => 'https://api.allorigins.win/raw?url='       + encodeURIComponent(url),
+    url => 'https://corsproxy.io/?url='                + encodeURIComponent(url),
+    url => 'https://thingproxy.freeboard.io/fetch/'    + url,
+  ];
+  let preferredProxy = 0;
+
+  async function fetchViaProxies(url) {
+    const order = [preferredProxy, ...PROXIES.map((_, i) => i).filter(i => i !== preferredProxy)];
+    let lastErr;
+    for (const idx of order) {
+      try {
+        const r = await fetch(PROXIES[idx](url), { headers: { Accept: 'application/json' } });
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        const j = await r.json();
+        if (!j || !j.chart || !j.chart.result || !j.chart.result[0] || !j.chart.result[0].meta) {
+          throw new Error('unexpected shape');
+        }
+        preferredProxy = idx;
+        return j;
+      } catch (e) { lastErr = e; }
+    }
+    throw lastErr || new Error('all sources failed');
+  }
+
+  async function fetchOne(sym) {
+    const url = `${CHART_BASE}${encodeURIComponent(sym)}?interval=1d&range=1d`;
+    const meta = (await fetchViaProxies(url)).chart.result[0].meta;
+    const price = meta.regularMarketPrice;
+    const prev  = (meta.chartPreviousClose != null) ? meta.chartPreviousClose : meta.previousClose;
+    const pct   = (price != null && prev) ? ((price - prev) / prev) * 100 : null;
+    return { symbol: sym, regularMarketPrice: price, regularMarketChangePercent: pct };
+  }
+
+  async function fetchQuotes() {
+    const out = [];
+    const CHUNK = 5;
+    for (let i = 0; i < SYMBOLS.length; i += CHUNK) {
+      const settled = await Promise.allSettled(SYMBOLS.slice(i, i + CHUNK).map(fetchOne));
+      settled.forEach(s => {
+        if (s.status === 'fulfilled' && s.value.regularMarketPrice != null) out.push(s.value);
+      });
+    }
+    if (!out.length) throw new Error('all sources blocked');
+    return out;
+  }
+
+  function fmtPrice(p, sym) {
+    if (sym === 'BTC-USD') return '$' + Math.round(p).toLocaleString('en-US');
+    if (p >= 1000) return '$' + p.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    return '$' + p.toFixed(2);
+  }
+
+  function flashCell(el, up) {
+    const td = el.closest('td');
+    if (!td) return;
+    td.classList.remove('flash-up', 'flash-dn');
+    void td.offsetWidth;
+    td.classList.add(up ? 'flash-up' : 'flash-dn');
+  }
+
+  // Reverse lookup: yfSymbol -> internal sym (e.g. 'BTC-USD' -> 'BTC')
+  let YF_TO_SYM = {};
+
+  function applyQuotes(quotes) {
+    let n = 0;
+    quotes.forEach(q => {
+      const sym = YF_TO_SYM[q.symbol] || q.symbol;
+      const pe = document.getElementById('price-' + sym);
+      const ce = document.getElementById('chg-'   + sym);
+      if (!pe) return;
+      const p = q.regularMarketPrice, pct = q.regularMarketChangePercent;
+      if (p != null) {
+        const old = pe.textContent, nw = fmtPrice(p, q.symbol);
+        if (old !== nw && old !== '—') {
+          flashCell(pe, p > parseFloat(old.replace(/[$,]/g, '')));
+        }
+        pe.textContent = nw;
+        n++;
+      }
+      if (ce && pct != null) {
+        const sign = pct >= 0 ? '+' : '';
+        ce.textContent = `${sign}${pct.toFixed(2)}%`;
+        ce.className = 'live-chg ' + (pct >= 0 ? 'up' : 'dn');
+      }
+    });
+    return n;
+  }
+
+  function updateCountdown() {
+    const rem = Math.max(0, nextRefreshAt - Date.now());
+    const m   = Math.floor(rem / 60000);
+    const s   = Math.floor((rem % 60000) / 1000);
+    const el  = $countdown();
+    if (el) el.textContent = `${m}:${String(s).padStart(2,'0')}`;
+  }
+
+  async function refreshPrices() {
+    const dot = $dot(), txt = $text();
+    if (dot) dot.className = 'status-dot loading';
+    if (txt) txt.textContent = 'Fetching live prices…';
+    try {
+      const quotes = await fetchQuotes();
+      const n      = applyQuotes(quotes);
+      const ts     = new Date().toLocaleTimeString('en-US', { hour:'2-digit', minute:'2-digit', second:'2-digit' });
+      const upd    = $updated();
+      if (upd) upd.textContent = ts;
+      if (dot) dot.className = 'status-dot ok';
+      if (txt) txt.textContent = `${n} of ${SYMBOLS.length} live prices updated`;
+      clearTimeout(autoRefreshTimer);
+      nextRefreshAt    = Date.now() + REFRESH_MS;
+      autoRefreshTimer = setTimeout(refreshPrices, REFRESH_MS);
+    } catch (err) {
+      if (dot) dot.className = 'status-dot error';
+      if (txt) txt.textContent = 'Price fetch failed — ' + err.message;
+      clearTimeout(autoRefreshTimer);
+      autoRefreshTimer = setTimeout(refreshPrices, 5 * 60 * 1000);
+    }
+  }
+
+  /* ─────────────── INIT ─────────────── */
+  async function init() {
+    try {
+      const res = await fetch(DATA_URL, { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      DATA = await res.json();
+    } catch (err) {
+      document.getElementById('main-tbody').innerHTML =
+        `<tr><td colspan="12" class="section-header">Could not load data.json — ${err.message}</td></tr>`;
+      document.getElementById('status-text').textContent = 'Data load failed';
+      document.getElementById('status-dot').className = 'status-dot error';
+      return;
+    }
+
+    ASSETS = {};
+    DATA.assets.forEach(a => { ASSETS[a.sym] = a; });
+
+    ASSET_COLLECTIONS = {};
+    Object.entries(DATA.collections).forEach(([col, syms]) => {
+      syms.forEach(s => {
+        (ASSET_COLLECTIONS[s] = ASSET_COLLECTIONS[s] || []).push(col);
+      });
+    });
+
+    SYMBOLS = DATA.assets.map(a => a.yfSymbol || a.sym);
+    YF_TO_SYM = {};
+    DATA.assets.forEach(a => { YF_TO_SYM[a.yfSymbol || a.sym] = a.sym; });
+
+    renderHeader();
+    renderSummary();
+    renderMainTable();
+
+    countdownTimer = setInterval(updateCountdown, 1000);
+    updateCountdown();
+    refreshPrices();
+  }
+
+  init();
+
+})();
+</script>
+</body>
+</html>
