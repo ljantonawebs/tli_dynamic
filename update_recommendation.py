@@ -112,12 +112,12 @@ def load_data():
             },
             "assets": [],
         }
-    return json.loads(DATA_PATH.read_text())
+    return json.loads(DATA_PATH.read_text(encoding="utf-8"))
 
 
 def save_data(data):
     data["meta"]["lastUpdated"] = datetime.now(timezone.utc).isoformat()
-    DATA_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+    DATA_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
 def merge_entry(data, entry):
