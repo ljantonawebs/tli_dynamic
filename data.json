@@ -3,7 +3,7 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "July 3, 2026",
-    "lastUpdated": "2026-07-03T12:09:17.532Z"
+    "lastUpdated": "2026-07-05T13:05:42.185094+00:00"
   },
   "collections": {
     "Top 10": [
@@ -45,7 +45,8 @@
       "REGN",
       "PALL",
       "DCTH",
-      "ZVRA"
+      "ZVRA",
+      "GRAB"
     ],
     "Safe Haven": [
       "PFE",
@@ -65,19 +66,12 @@
       "sym": "BABA",
       "company": "Alibaba Group · NYSE ADR",
       "sentiment": "Buy Now",
-      "sentimentClass": "badge-buy-now",
       "wave": "Wave 4 (ABC)",
-      "waveClass": "wave-correct",
       "entry": "~$94 (200 WMA / BUY ALERT)",
       "target": "$190",
-      "appr": "+102%",
-      "prevSentiment": null,
-      "analystClass": "analyst-strong-buy",
       "analyst": "Strong Buy",
       "analystTarget": "$190.23",
-      "recClass": "rec-buy",
-      "rec": "BUY",
-      "summary": "TLI issued a BUY ALERT at $94 and states plainly that BABA is a buy right now: price has given a strong pullback, is below the 200 WMA, and RSI is oversold. The Wave 4 ABC correction is near completion, setting up a Wave 5 impulse toward $190+. The lower it dips below the 200 WMA, the higher the margin of safety.",
+      "summary": "TLI reiterates a Strong Buy on BABA and is actively building it toward a 10% portfolio position. The stock remains below the 200 WMA in a clean 3-wave pullback, trading on the opposite cycle to the US market. TLI points to Alibaba's ongoing ~$19.7B buyback authorization through 2027 and continued daily repurchases as a bullish signal, even as some funds trim their stake. Fundamentals keep strengthening despite elevated AI capex, keeping the long-term path toward $190 intact.",
       "levels": [
         {
           "label": "Entry Zone",
@@ -96,10 +90,17 @@
           "value": "$190.23"
         }
       ],
+      "appr": "+102%",
       "collections": [
         "Top 20",
         "Watchlist"
       ],
+      "sentimentClass": "badge-buy-now",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-strong-buy",
+      "recClass": "rec-buy",
+      "rec": "BUY",
+      "prevSentiment": null,
       "yfSymbol": "BABA",
       "displaySym": "BABA"
     },
@@ -1052,41 +1053,41 @@
     {
       "sym": "BTC",
       "company": "Bitcoin · Cryptocurrency",
-      "sentiment": "Trending Negatively",
-      "sentimentClass": "badge-trending-neg",
-      "wave": "Wave C ↓ (capitulation)",
-      "waveClass": "wave-bear",
-      "entry": "— (watch ≤ 200 WMA)",
+      "sentiment": "Buy Now",
+      "wave": "Wave 2 ↓ (200 WMA retest)",
+      "entry": "~$62,000 (200 WMA)",
       "target": "$180,000 (LT)",
-      "appr": null,
-      "prevSentiment": "Buy Now",
-      "analystClass": "analyst-bullish",
       "analyst": "Bullish",
       "analystTarget": "$100K–$180K",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "TLI's read: the market has turned its back on crypto and we are close to capitulation, with sentiment reset. This is a contrarian accumulation stance — no fresh buy alert yet — with the 200 WMA the level to watch for the next entry before a longer-term move toward $180,000. Downgraded from Buy Now to Trending Negatively short-term.",
+      "summary": "TLI notes BTC has round-tripped back to the 200 WMA near $62k after basing for two weeks at the 0.618 Fib around $57.5k, a textbook Wave 2 pullback. A flip of the 200 WMA to support could draw buyers back in, and TLI expects the same setup to play out for ETH. With this retest holding, TLI is calling BTC (and ETH) a buy right now, an upgrade from the prior wait-and-watch stance.",
       "levels": [
         {
-          "label": "Entry Watch",
-          "value": "≤ 200 WMA"
+          "label": "Entry Zone",
+          "value": "~$62,000 (200 WMA)"
         },
         {
           "label": "LT Target",
           "value": "$180,000"
         },
         {
-          "label": "Sentiment",
-          "value": "Near capitulation"
+          "label": "Wave Count",
+          "value": "Wave 2 retest → resume up"
         },
         {
-          "label": "Prior",
-          "value": "Buy Now → Trending Neg."
+          "label": "Analyst Target",
+          "value": "$100K–$180K"
         }
       ],
+      "appr": "+190%",
       "collections": [
         "Top 20"
       ],
+      "sentimentClass": "badge-buy-now",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-bullish",
+      "recClass": "rec-buy",
+      "rec": "BUY",
+      "prevSentiment": "Trending Negatively",
       "yfSymbol": "BTC-USD",
       "displaySym": "BTC"
     },
@@ -1379,6 +1380,43 @@
       ],
       "yfSymbol": "ZVRA",
       "displaySym": "ZVRA"
+    },
+    {
+      "sym": "GRAB",
+      "company": "Grab Holdings · Nasdaq",
+      "sentiment": "Buy Now",
+      "wave": "Wave 3 ↑",
+      "entry": "~$3.88 (200 WMA / 0.618 Fib)",
+      "target": "$10 (Wave 3)",
+      "analyst": "Hold",
+      "analystTarget": null,
+      "summary": "TLI is watching Southeast Asian and Latin American names, including GRAB, as a hedge heading into a possible September rotation out of the US, since these have completed clean ABC corrections and trade on an opposite cycle to US equities. GRAB just retested its 200 WMA and TLI calls it a buy under that level, with a further add point where the 200 WMA and 0.618 Fib converge near $3.88. The Wave 3 target sits at the 1.618 Fib extension around $10.",
+      "levels": [
+        {
+          "label": "Entry Zone",
+          "value": "~$3.88 (200 WMA / 0.618 Fib)"
+        },
+        {
+          "label": "LT Target",
+          "value": "$10 (Wave 3)"
+        },
+        {
+          "label": "Wave Count",
+          "value": "Wave 3 ↑"
+        }
+      ],
+      "collections": [
+        "Watchlist"
+      ],
+      "appr": "+158%",
+      "sentimentClass": "badge-buy-now",
+      "waveClass": "wave-impulse",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
+      "yfSymbol": "GRAB",
+      "displaySym": "GRAB"
     }
   ]
 }
