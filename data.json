@@ -3,7 +3,7 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "July 3, 2026",
-    "lastUpdated": "2026-07-03T12:09:17.532Z"
+    "lastUpdated": "2026-07-06T01:15:29.891738+00:00"
   },
   "collections": {
     "Top 10": [
@@ -30,7 +30,11 @@
       "BTC",
       "AMD",
       "V",
-      "UNH"
+      "UNH",
+      "ABNB",
+      "QQQ",
+      "SPY",
+      "PYPL"
     ],
     "Watchlist": [
       "BABA",
@@ -45,7 +49,8 @@
       "REGN",
       "PALL",
       "DCTH",
-      "ZVRA"
+      "ZVRA",
+      "MSFT"
     ],
     "Safe Haven": [
       "PFE",
@@ -436,24 +441,17 @@
     {
       "sym": "GOOG",
       "company": "Alphabet Inc Class C · NASDAQ",
-      "sentiment": "Trending to Buy",
-      "sentimentClass": "badge-trending-buy",
-      "wave": "Wave 4",
-      "waveClass": "wave-correct",
-      "entry": "$351 (2.618 Fib) ⚡",
+      "sentiment": "Appreciating",
+      "wave": "Wave 5",
+      "entry": "$351 (2.618 Fib, reclaimed)",
       "target": "$453 (3.618 Fib)",
-      "appr": "+29%",
-      "prevSentiment": null,
-      "analystClass": "analyst-strong-buy",
       "analyst": "Strong Buy",
       "analystTarget": "$426.62",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "GOOG dipped just below the 2.618 Fib at $351. TLI wants to give price the chance to reclaim this level and continue the wave up. Watch for a bullish confirmation / weekly close back above $351 before entering; the next objective is $453 (3.618 Fib).",
+      "summary": "GOOG closed the week in the Bull Case at $356, above the 2.618 Fib at $351. As long as that level holds, TLI expects Wave 5 to extend toward the 3.618 Fib at $453, consistent with an expected market melt-up into NVDA earnings and the midterms.",
       "levels": [
         {
           "label": "Entry Zone",
-          "value": "$351 (2.618 Fib) ⚡"
+          "value": "$351 (2.618 Fib)"
         },
         {
           "label": "LT Target",
@@ -461,7 +459,7 @@
         },
         {
           "label": "Wave Count",
-          "value": "Wave 4 → Wave 5"
+          "value": "Wave 5 (extending)"
         },
         {
           "label": "Analyst Target",
@@ -471,6 +469,13 @@
       "collections": [
         "Top 20"
       ],
+      "appr": "+29%",
+      "sentimentClass": "badge-appreciating",
+      "waveClass": "wave-top",
+      "analystClass": "analyst-strong-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": "Trending to Buy",
       "yfSymbol": "GOOG",
       "displaySym": "GOOG"
     },
@@ -478,31 +483,24 @@
       "sym": "AMZN",
       "company": "Amazon.com Inc · NASDAQ",
       "sentiment": "Trending to Buy",
-      "sentimentClass": "badge-trending-buy",
       "wave": "Wave 4",
-      "waveClass": "wave-correct",
       "entry": "$231 (50 WMA)",
       "target": "$290 (2.618 Fib)",
-      "appr": "+26%",
-      "prevSentiment": null,
-      "analystClass": "analyst-strong-buy",
       "analyst": "Strong Buy",
       "analystTarget": "$312.99",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "AMZN tested the 50 WMA at $231 for support, briefly dipped below and reclaimed it to close the week at $232. TLI's target entry is the 50 WMA; once Wave 4 completes there, Wave 5 targets $290.",
+      "summary": "AMZN cleanly retested the 50 WMA at $231, where buyers stepped in. TLI is now watching for a break back above the 2 Fib at $250, which would confirm the Bull Case and open the path to a Wave 5 completion at the 2.618 Fib near $290.",
       "levels": [
         {
           "label": "Entry Zone",
           "value": "$231 (50 WMA)"
         },
         {
-          "label": "LT Target",
-          "value": "$290 (2.618 Fib)"
+          "label": "Confirmation",
+          "value": "$250 (2 Fib)"
         },
         {
-          "label": "Wave Count",
-          "value": "Wave 4 → Wave 5"
+          "label": "LT Target",
+          "value": "$290 (2.618 Fib)"
         },
         {
           "label": "Analyst Target",
@@ -512,38 +510,38 @@
       "collections": [
         "Top 20"
       ],
+      "appr": "+26%",
+      "sentimentClass": "badge-trending-buy",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-strong-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
       "yfSymbol": "AMZN",
       "displaySym": "AMZN"
     },
     {
       "sym": "AAPL",
       "company": "Apple Inc · NASDAQ",
-      "sentiment": "Trending to Buy",
-      "sentimentClass": "badge-trending-buy",
-      "wave": "Wave 4",
-      "waveClass": "wave-correct",
-      "entry": "$260 (50 WMA)",
-      "target": "~$400 (Wave 5)",
-      "appr": "+54%",
-      "prevSentiment": null,
-      "analystClass": "analyst-buy",
+      "sentiment": "Appreciating",
+      "wave": "Wave 5",
+      "entry": "$310 (2.618 Fib breakout)",
+      "target": "$356 (3.618 Fib ext.)",
       "analyst": "Buy",
       "analystTarget": "$315.09",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "AAPL pulled back with the market and got some Friday relief, closing near $283. TLI is watching the 50 WMA (~$260) as the buy zone for the Wave 4 low before a Wave 5 push toward $400. Patient — not chasing.",
+      "summary": "AAPL rallied 4.8% on Friday to close near $308, putting it back within reach of the 2.618 Fib at $310 and the prior high. TLI's focus is whether AAPL can break and hold above that level to set a new higher high; a continued market rally into earnings and the midterms could extend Wave 5 toward the 3.618 Fib at $356.",
       "levels": [
         {
           "label": "Entry Zone",
-          "value": "$260 (50 WMA)"
+          "value": "$310 (2.618 Fib)"
         },
         {
           "label": "LT Target",
-          "value": "~$400 (Wave 5)"
+          "value": "$356 (3.618 Fib ext.)"
         },
         {
           "label": "Wave Count",
-          "value": "Wave 4 → Wave 5"
+          "value": "Wave 5 (extending)"
         },
         {
           "label": "Analyst Target",
@@ -553,6 +551,13 @@
       "collections": [
         "Top 20"
       ],
+      "appr": "+15%",
+      "sentimentClass": "badge-appreciating",
+      "waveClass": "wave-top",
+      "analystClass": "analyst-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": "Trending to Buy",
       "yfSymbol": "AAPL",
       "displaySym": "AAPL"
     },
@@ -560,23 +565,16 @@
       "sym": "MSFT",
       "company": "Microsoft Corp · NASDAQ",
       "sentiment": "Trending to Buy",
-      "sentimentClass": "badge-trending-buy",
       "wave": "Wave C",
-      "waveClass": "wave-correct",
-      "entry": "$344 (0.5 Fib)",
+      "entry": "200 WMA (repeated dip zone)",
       "target": "$450+ (first: $386)",
-      "appr": "+31%",
-      "prevSentiment": null,
-      "analystClass": "analyst-strong-buy",
       "analyst": "Strong Buy",
       "analystTarget": "$561.11",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "MSFT made a lower low, so TLI now treats this as a Wave C, with the 0.5 Fib at $344 the focus. A hold there sets up the next impulse toward $386 first and $450+ longer term.",
+      "summary": "MSFT has dipped below the 200 WMA twice since March, giving two separate opportunities to accumulate. TLI sees no doubt about MSFT's long-term staying power and considers adding here, at the 200 WMA, a straightforward decision; a dip below the MA would only improve the margin of safety.",
       "levels": [
         {
           "label": "Entry Zone",
-          "value": "$344 (0.5 Fib, Wave C)"
+          "value": "200 WMA (dip zone)"
         },
         {
           "label": "First Target",
@@ -592,8 +590,16 @@
         }
       ],
       "collections": [
-        "Top 20"
+        "Top 20",
+        "Watchlist"
       ],
+      "appr": "+125%",
+      "sentimentClass": "badge-trending-buy",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-strong-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
       "yfSymbol": "MSFT",
       "displaySym": "MSFT"
     },
@@ -601,31 +607,24 @@
       "sym": "SHOP",
       "company": "Shopify Inc Class A · NASDAQ",
       "sentiment": "Trending to Buy",
-      "sentimentClass": "badge-trending-buy",
       "wave": "Wave 4",
-      "waveClass": "wave-correct",
-      "entry": "$113 (0.618 Fib)",
+      "entry": "$94 (0.78 Fib low)",
       "target": "$227 (2.618 Fib)",
-      "appr": "+101%",
-      "prevSentiment": null,
-      "analystClass": "analyst-buy",
       "analyst": "Buy",
       "analystTarget": "$148.22",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "SHOP closed the week above the 0.618 Fib at $113. TLI's focus is holding that level; if it holds, the path opens toward $227 (2.618 Fib) — over 100% from entry.",
+      "summary": "SHOP pulled back deeper than usual for a Wave 4, down to the 0.78 Fib at $94, but the chart remains technically valid with a higher low now in place. TLI wants to see a higher high above $124, then a flip of the 50 WMA ($136) to support, before targeting the blue resistance at $176 that would confirm Wave 5 toward the 2.618 Fib at $227.",
       "levels": [
         {
           "label": "Entry Zone",
-          "value": "$113 (0.618 Fib)"
+          "value": "$94 (0.78 Fib)"
+        },
+        {
+          "label": "Next Hurdle",
+          "value": "$136 (50 WMA)"
         },
         {
           "label": "LT Target",
           "value": "$227 (2.618 Fib)"
-        },
-        {
-          "label": "Wave Count",
-          "value": "Wave 4 → Wave 5"
         },
         {
           "label": "Analyst Target",
@@ -635,6 +634,13 @@
       "collections": [
         "Top 20"
       ],
+      "appr": "+141%",
+      "sentimentClass": "badge-trending-buy",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
       "yfSymbol": "SHOP",
       "displaySym": "SHOP"
     },
@@ -642,27 +648,20 @@
       "sym": "PLTR",
       "company": "Palantir Technologies · NASDAQ",
       "sentiment": "Trending to Buy",
-      "sentimentClass": "badge-trending-buy",
-      "wave": "Post Wave 3",
-      "waveClass": "wave-top",
-      "entry": "$106 (0.5 Fib pullback)",
-      "target": "$180",
-      "appr": "+70%",
-      "prevSentiment": null,
-      "analystClass": "analyst-buy",
+      "wave": "Wave 4 → 5",
+      "entry": "$130 (0.38 Fib reclaim)",
+      "target": "$180 (Wave 5)",
       "analyst": "Buy",
       "analystTarget": "$182.75",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "PLTR completed its victory lap by hitting the long-called $106 level. Price has since dropped fast toward the 0.5 Fib at $106, which TLI flags as the buy zone. A hold there sets up the Wave 4 → Wave 5 entry toward $180.",
+      "summary": "PLTR tested the 0.5 Fib at $106 as expected and has since bounced to $129. TLI's focus is whether price can reclaim the 0.38 Fib at $130; doing so opens a challenge of the 50 WMA at $158, and a break above that would put PLTR back in the Bull Case toward $180.",
       "levels": [
         {
-          "label": "Wave 3 Target Hit",
-          "value": "$106 ✓"
+          "label": "Entry Zone",
+          "value": "$130 (0.38 Fib)"
         },
         {
-          "label": "Entry (Wave 4)",
-          "value": "~$106 (0.5 Fib)"
+          "label": "Next Hurdle",
+          "value": "$158 (50 WMA)"
         },
         {
           "label": "LT Target",
@@ -676,6 +675,13 @@
       "collections": [
         "Top 20"
       ],
+      "appr": "+38%",
+      "sentimentClass": "badge-trending-buy",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
       "yfSymbol": "PLTR",
       "displaySym": "PLTR"
     },
@@ -889,40 +895,40 @@
       "sym": "TSLA",
       "company": "Tesla Inc · NASDAQ",
       "sentiment": "Trending Negatively",
-      "sentimentClass": "badge-trending-neg",
       "wave": "Wave 4 ↓",
-      "waveClass": "wave-bear",
       "entry": "—",
       "target": "$754 (LT Wave 5)",
-      "appr": null,
-      "prevSentiment": null,
-      "analystClass": "analyst-buy",
       "analyst": "Buy",
       "analystTarget": "$421.16",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "The battleground is the 50 WMA at $402, which TSLA is struggling to hold. If $402 is not reclaimed, TLI's next level to watch is the 0.5 Fib around $300 — a level to monitor, not an entry.",
+      "summary": "TSLA spent another week battling the 50 WMA at $404 and closed down 7% Friday at $393. TLI is watching for the wedge support line to hold; as long as it does, the 50 WMA should eventually be reclaimed on the way to a breakout above $487, confirming the Bull Case and keeping the long-term Wave 3 target of $754 in play.",
       "levels": [
         {
           "label": "Key Support",
-          "value": "50 WMA ~$402"
+          "value": "Wedge support line"
         },
         {
-          "label": "Watch Level",
-          "value": "$300 (0.5 Fib)"
+          "label": "Confirmation",
+          "value": "$487 breakout"
         },
         {
-          "label": "LT Target (if holds)",
+          "label": "LT Target",
           "value": "$754"
         },
         {
-          "label": "Status",
-          "value": "No entry yet"
+          "label": "Analyst Target",
+          "value": "$421.16"
         }
       ],
       "collections": [
         "Top 20"
       ],
+      "appr": null,
+      "sentimentClass": "badge-trending-neg",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
       "yfSymbol": "TSLA",
       "displaySym": "TSLA"
     },
@@ -970,82 +976,82 @@
     {
       "sym": "NKE",
       "company": "Nike Inc Class B · NYSE",
-      "sentiment": "Trending Negatively",
-      "sentimentClass": "badge-trending-neg",
+      "sentiment": "Trending to Buy",
       "wave": "Wave C ↓",
-      "waveClass": "wave-bear",
-      "entry": "—",
-      "target": "— (post-earnings)",
-      "appr": null,
-      "prevSentiment": null,
-      "analystClass": "analyst-buy",
+      "entry": "Below $39 (post-earnings support)",
+      "target": "—",
       "analyst": "Buy",
       "analystTarget": "$55.38",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "NKE remains within a large descending wedge and reported earnings this week. TLI is watching the 0.78 Fib (~$39) as potential support and waiting on the earnings reaction before re-evaluating.",
+      "summary": "NKE's earnings included a one-off payment that flattered EPS, but results weren't as dire as the chart suggests for a company still generating $46B in revenue. Price briefly dipped below $39 post-earnings before bouncing; TLI now views any level below $39 as a clear long-term buy, though patience of several months or more is required.",
       "levels": [
         {
-          "label": "Watch Level",
-          "value": "~$39 (0.78 Fib)"
+          "label": "Entry Zone",
+          "value": "Below $39"
         },
         {
           "label": "Wave Count",
-          "value": "Wave C (bearish)"
+          "value": "Wave C ↓ (post-earnings)"
         },
         {
           "label": "Catalyst",
-          "value": "Earnings"
+          "value": "Earnings reaction"
         },
         {
-          "label": "Status",
-          "value": "Monitoring"
+          "label": "Analyst Target",
+          "value": "$55.38"
         }
       ],
       "collections": [
         "Top 20"
       ],
+      "appr": null,
+      "sentimentClass": "badge-trending-buy",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": "Trending Negatively",
       "yfSymbol": "NKE",
       "displaySym": "NKE"
     },
     {
       "sym": "OSCR",
       "company": "Oscar Health Inc · NYSE",
-      "sentiment": "Trending Negatively",
-      "sentimentClass": "badge-trending-neg",
-      "wave": "Wave 2 ↓",
-      "waveClass": "wave-bear",
+      "sentiment": "Appreciating",
+      "wave": "Wave 3 (aggressive move)",
       "entry": "—",
-      "target": "— (watch support)",
-      "appr": null,
-      "prevSentiment": "Appreciating",
-      "analystClass": "analyst-hold",
+      "target": "—",
       "analyst": "Hold",
       "analystTarget": "$22.60",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "OSCR is starting to bend — no lower low yet, but under pressure below the green resistance at $30 after news the CEO sold shares. Downgraded from Appreciating to Trending Negatively; TLI wants to see whether support holds.",
+      "summary": "OSCR is behaving like a growth-hype stock despite being framed as a safe haven, mirroring Silver's aggressive Wave 3 move. The market mispriced the setup for over a year, letting the stock dip nearly 40% even after management guided +60% revenue growth; support held in the standard 0.5-0.618 Fib zone for Wave 2, and price has since run from $10 to $32.",
       "levels": [
         {
-          "label": "Resistance",
-          "value": "$30 (green line)"
+          "label": "Wave Count",
+          "value": "Wave 3 (aggressive)"
         },
         {
-          "label": "Wave Count",
-          "value": "Under pressure"
+          "label": "Recent Move",
+          "value": "$10 → $32"
         },
         {
           "label": "Prior",
-          "value": "Appreciating → Trending Neg."
+          "value": "Trending Negatively → Appreciating"
         },
         {
-          "label": "Status",
-          "value": "Monitoring"
+          "label": "Analyst Target",
+          "value": "$22.60"
         }
       ],
       "collections": [
         "Top 20"
       ],
+      "appr": null,
+      "sentimentClass": "badge-appreciating",
+      "waveClass": "wave-impulse",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": "Trending Negatively",
       "yfSymbol": "OSCR",
       "displaySym": "OSCR"
     },
@@ -1178,40 +1184,40 @@
       "sym": "AMD",
       "company": "Advanced Micro Devices · NASDAQ",
       "sentiment": "Appreciating",
-      "sentimentClass": "badge-appreciating",
-      "wave": "Wave 4 → 5",
-      "waveClass": "wave-top",
-      "entry": "—",
+      "wave": "Wave 4 → Wave 5",
+      "entry": "$497 (1.618 Fib)",
       "target": "$686 (Wave 5 ext.)",
-      "appr": null,
-      "prevSentiment": null,
-      "analystClass": "analyst-strong-buy",
       "analyst": "Strong Buy",
       "analystTarget": "$500.40",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "AMD continued to hold above the 1.618 Fib and closed near $521. If it keeps holding, Wave 4 is complete and Wave 5 is underway toward $686. Already appreciating — TLI advises against chasing; the ideal entry was the Wave 4 low.",
+      "summary": "Every dip in AMD keeps getting bought as bulls defend the 1.618 Fib at $497. If price holds above this level, Wave 4 may have already completed with Wave 5 now underway, though TLI flags the alternative that this could be a Wave B within an Expanded Flat. Still bullish long term; Wave 5 target remains $686, with downside risk at the 0.38 Fib near $409.",
       "levels": [
         {
-          "label": "Wave 4 Low",
-          "value": "~$521 (1.618 Fib)"
+          "label": "Key Support",
+          "value": "$497 (1.618 Fib)"
         },
         {
           "label": "LT Target",
           "value": "$686 (Wave 5)"
         },
         {
-          "label": "Wave Count",
-          "value": "Wave 4 → Wave 5"
+          "label": "Downside Risk",
+          "value": "$409 (0.38 Fib)"
         },
         {
-          "label": "Status",
-          "value": "Don’t chase"
+          "label": "Analyst Target",
+          "value": "$500.40"
         }
       ],
       "collections": [
         "Top 20"
       ],
+      "appr": "+38%",
+      "sentimentClass": "badge-appreciating",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-strong-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
       "yfSymbol": "AMD",
       "displaySym": "AMD"
     },
@@ -1219,20 +1225,17 @@
       "sym": "V",
       "company": "Visa Inc Class A · NYSE",
       "sentiment": "Appreciating",
-      "sentimentClass": "badge-appreciating",
       "wave": "Wave 5",
-      "waveClass": "wave-top",
       "entry": "—",
       "target": "$411 (2.0 Fib)",
-      "appr": null,
-      "prevSentiment": null,
-      "analystClass": "analyst-strong-buy",
       "analyst": "Strong Buy",
       "analystTarget": "$398.83",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "V is behaving exactly as expected for the start of a Wave 5 — it retraced to the 0.38 Fib just below $300 and bounced. TLI's Wave 5 objective is $411 (2.0 Fib). Late-cycle, so new entries are unfavorable.",
+      "summary": "V has bounced over 20% since holding the 0.38 Fib at $299 and is now reaching for the 1.618 Fib at $366. A break and hold above that level secures the Wave 5 objective at $411; a Fed rate pause would make that target even more likely.",
       "levels": [
+        {
+          "label": "Key Level",
+          "value": "$366 (1.618 Fib)"
+        },
         {
           "label": "Wave 5 Target",
           "value": "$411 (2.0 Fib)"
@@ -1242,10 +1245,6 @@
           "value": "Wave 5 (final)"
         },
         {
-          "label": "Post Wave 5",
-          "value": "ABC correction expected"
-        },
-        {
           "label": "Analyst Target",
           "value": "$398.83"
         }
@@ -1253,6 +1252,13 @@
       "collections": [
         "Top 20"
       ],
+      "appr": null,
+      "sentimentClass": "badge-appreciating",
+      "waveClass": "wave-top",
+      "analystClass": "analyst-strong-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
       "yfSymbol": "V",
       "displaySym": "V"
     },
@@ -1260,31 +1266,24 @@
       "sym": "UNH",
       "company": "UnitedHealth Group · NYSE",
       "sentiment": "Appreciating",
-      "sentimentClass": "badge-appreciating",
       "wave": "Wave 1 ↑",
-      "waveClass": "wave-impulse",
       "entry": "—",
-      "target": "$446–$460 (Wave 1 top)",
-      "appr": null,
-      "prevSentiment": null,
-      "analystClass": "analyst-buy",
+      "target": "$585 (Wave 3, LT)",
       "analyst": "Buy",
       "analystTarget": "$411.31",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "TLI's high-conviction Buffett-aligned position is playing out. UNH is in Wave 1 toward $446–$460; once Wave 1 tops, TLI expects a Wave 2 correction to create the next buy opportunity for the larger Wave 3.",
+      "summary": "UNH is bouncing strongly off the 0.78 Fib and remains in Wave 1, on track to test the declining 200 WMA near $446. TLI expects that resistance test to align with seasonal weakness into September, triggering a Wave 2 pullback into the $333-$357 buy zone (where the 50 WMA already sits) before Wave 3 targets $585.",
       "levels": [
         {
           "label": "Wave 1 Target",
-          "value": "$446–$460"
+          "value": "$446 (200 WMA)"
         },
         {
-          "label": "Next Entry",
-          "value": "Wave 2 pullback (TBD)"
+          "label": "Next Buy Zone",
+          "value": "$333–$357 (Wave 2)"
         },
         {
-          "label": "Wave Count",
-          "value": "Wave 1 ↑"
+          "label": "LT Target",
+          "value": "$585 (Wave 3)"
         },
         {
           "label": "Analyst Target",
@@ -1295,6 +1294,13 @@
         "Top 10",
         "Top 20"
       ],
+      "appr": null,
+      "sentimentClass": "badge-appreciating",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
       "yfSymbol": "UNH",
       "displaySym": "UNH"
     },
@@ -1379,6 +1385,170 @@
       ],
       "yfSymbol": "ZVRA",
       "displaySym": "ZVRA"
+    },
+    {
+      "sym": "ABNB",
+      "company": "Airbnb Inc · NASDAQ",
+      "sentiment": "Appreciating",
+      "wave": "Wave 3",
+      "entry": "$129 (breakout retest)",
+      "target": "$182 (1.618 Fib, Wave 3)",
+      "analyst": "Hold",
+      "analystTarget": null,
+      "summary": "ABNB broke above the confluence of two WMAs at $129, retested that level for support over roughly four weeks, and has since bounced to a higher high. Higher highs and higher lows continue with no change to the chart count; the Wave 3 objective remains the 1.618 Fib at $182, with downside risk at $129.",
+      "levels": [
+        {
+          "label": "Entry Zone",
+          "value": "$129 (breakout support)"
+        },
+        {
+          "label": "LT Target",
+          "value": "$182 (1.618 Fib)"
+        },
+        {
+          "label": "Next Resistance",
+          "value": "$163 (Wave B, Feb)"
+        },
+        {
+          "label": "Downside Risk",
+          "value": "$129"
+        }
+      ],
+      "collections": [
+        "Top 20"
+      ],
+      "appr": "+41%",
+      "sentimentClass": "badge-appreciating",
+      "waveClass": "wave-impulse",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
+      "yfSymbol": "ABNB",
+      "displaySym": "ABNB"
+    },
+    {
+      "sym": "QQQ",
+      "company": "Invesco QQQ Trust · NASDAQ",
+      "sentiment": "Appreciating",
+      "wave": "Wave 5 (bullish wedge)",
+      "entry": "—",
+      "target": "$732 (2 Fib, current test)",
+      "analyst": "Hold",
+      "analystTarget": null,
+      "summary": "A bullish wedge has formed on QQQ since early June against the 2 Fib at $732, the 50 Day MA, and the 0.236 Fib support. TLI notes Wave 5 typically ends at the 2.618 Fib rather than the 2 Fib, so an early rejection here would need an unusual catalyst like a rate hike; otherwise the uptrend should hold into earnings season and through NVDA's report in late August.",
+      "levels": [
+        {
+          "label": "Current Test",
+          "value": "$732 (2 Fib)"
+        },
+        {
+          "label": "Wave Count",
+          "value": "Wave 5 (bullish wedge)"
+        },
+        {
+          "label": "Risk Catalyst",
+          "value": "Rate hike surprise"
+        },
+        {
+          "label": "Key Report",
+          "value": "NVDA earnings (late Aug)"
+        }
+      ],
+      "collections": [
+        "Top 20"
+      ],
+      "appr": null,
+      "sentimentClass": "badge-appreciating",
+      "waveClass": "wave-top",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
+      "yfSymbol": "QQQ",
+      "displaySym": "QQQ"
+    },
+    {
+      "sym": "SPY",
+      "company": "SPDR S&P 500 ETF Trust · NYSE",
+      "sentiment": "Appreciating",
+      "wave": "Wave 5 (subwave 5 pending)",
+      "entry": "—",
+      "target": "—",
+      "analyst": "Hold",
+      "analystTarget": null,
+      "summary": "SPY is working through a more traditional ABC pullback than QQQ's wedge, but both charts remain bullish after reclaiming the 50 Day MA. TLI sees this as subwave 4 of Wave 5, with subwave 5 still to complete by the end of August or start of September; no changes to strategy with earnings season about ten days out.",
+      "levels": [
+        {
+          "label": "Wave Count",
+          "value": "Wave 5, subwave 4 complete"
+        },
+        {
+          "label": "Timing",
+          "value": "Subwave 5 by Aug/Sep"
+        },
+        {
+          "label": "Key Catalyst",
+          "value": "FOMC minutes (Jul 8)"
+        },
+        {
+          "label": "Status",
+          "value": "No change to strategy"
+        }
+      ],
+      "collections": [
+        "Top 20"
+      ],
+      "appr": null,
+      "sentimentClass": "badge-appreciating",
+      "waveClass": "wave-top",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
+      "yfSymbol": "SPY",
+      "displaySym": "SPY"
+    },
+    {
+      "sym": "PYPL",
+      "company": "PayPal Holdings Inc · NASDAQ",
+      "sentiment": "Trending to Buy",
+      "wave": "Wave 2 (basing)",
+      "entry": "$56 (50 WMA / wedge breakout)",
+      "target": "$67 (200 WMA)",
+      "analyst": "Hold",
+      "analystTarget": null,
+      "summary": "PYPL remains within its wedge with little change this week; the focus is the confluence between the 50 WMA and the wedge breakout level at $56. A break above would put PYPL in the Bull Case with the 200 WMA at $67 as the next target. Price has dipped into the accumulation zone a couple of times, keeping downside risk minimal, but a higher low is still needed to confirm the reversal.",
+      "levels": [
+        {
+          "label": "Entry Zone",
+          "value": "$56 (50 WMA / wedge)"
+        },
+        {
+          "label": "LT Target",
+          "value": "$67 (200 WMA)"
+        },
+        {
+          "label": "Wave Count",
+          "value": "Wave 2 (basing)"
+        },
+        {
+          "label": "Status",
+          "value": "Awaiting higher low"
+        }
+      ],
+      "collections": [
+        "Top 20"
+      ],
+      "appr": "+20%",
+      "sentimentClass": "badge-trending-buy",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
+      "yfSymbol": "PYPL",
+      "displaySym": "PYPL"
     }
   ]
 }
