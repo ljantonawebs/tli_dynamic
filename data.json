@@ -3,7 +3,7 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "July 3, 2026",
-    "lastUpdated": "2026-07-08T12:01:44.438207+00:00"
+    "lastUpdated": "2026-07-08T20:10:48.768602+00:00"
   },
   "collections": {
     "Top 10": [
@@ -451,19 +451,12 @@
       "sym": "GOOG",
       "company": "Alphabet Inc Class C · NASDAQ",
       "sentiment": "Trending to Buy",
-      "sentimentClass": "badge-trending-buy",
       "wave": "Wave 4",
-      "waveClass": "wave-correct",
-      "entry": "$351 (2.618 Fib) ⚡",
+      "entry": "$351 (2.618 Fib / rising wedge support)",
       "target": "$453 (3.618 Fib)",
-      "appr": "+29%",
-      "prevSentiment": null,
-      "analystClass": "analyst-strong-buy",
       "analyst": "Strong Buy",
       "analystTarget": "$426.62",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "GOOG dipped just below the 2.618 Fib at $351. TLI wants to give price the chance to reclaim this level and continue the wave up. Watch for a bullish confirmation / weekly close back above $351 before entering; the next objective is $453 (3.618 Fib).",
+      "summary": "GOOG continues to hold the 2.618 Fib / rising wedge support at $351; TLI wants to see that level reclaimed before adding, which would open the path toward the Wave 5 target of $453. TLI notes that even a strong company like GOOG can decline within the normal rules of price action, and would be an eager buyer on any deeper drop toward $250 later this year.",
       "levels": [
         {
           "label": "Entry Zone",
@@ -478,13 +471,20 @@
           "value": "Wave 4 → Wave 5"
         },
         {
-          "label": "Analyst Target",
-          "value": "$426.62"
+          "label": "Stretch Buy",
+          "value": "$250 (deep pullback)"
         }
       ],
       "collections": [
         "Top 20"
       ],
+      "appr": "+29%",
+      "sentimentClass": "badge-trending-buy",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-strong-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
       "yfSymbol": "GOOG",
       "displaySym": "GOOG"
     },
@@ -1315,32 +1315,25 @@
     {
       "sym": "DCTH",
       "company": "Delcath Systems · NASDAQ",
-      "sentiment": "Appreciating",
-      "sentimentClass": "badge-appreciating",
-      "wave": "Wave 3 top",
-      "waveClass": "wave-top",
-      "entry": "—",
-      "target": "~$22 (1.618 Fib)",
-      "appr": null,
-      "prevSentiment": null,
-      "analystClass": "analyst-strong-buy",
+      "sentiment": "Trending to Buy",
+      "wave": "Wave 3 complete → Wave 4",
+      "entry": "$11.75 (Wave 4 target, add zone)",
+      "target": "$18 (Wave 5)",
       "analyst": "Strong Buy",
       "analystTarget": "$22.00",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "summary": "DCTH keeps ignoring the market — up +7% on a day the QQQ was down 3% — and is approaching TLI's small Wave 3 target at the 1.618 Fib (~$22). A strong hold since the $10 support add; TLI would wait for a Wave 4 pullback before adding more.",
+      "summary": "DCTH pulled back -7% premarket, more than the broader market, but TLI says this was expected: price hit resistance at the 1.618 Fib (~$12.50), completing Wave 3 on schedule. TLI is now watching for a further dip to $11.75 to complete Wave 4 before adding again, with Wave 5 then targeting $18.",
       "levels": [
         {
           "label": "Wave 3 Target",
-          "value": "~$22 (1.618 Fib)"
+          "value": "$12.50 (1.618 Fib, hit)"
         },
         {
-          "label": "Next Entry",
-          "value": "Wave 4 pullback (TBD)"
+          "label": "Wave 4 Add Zone",
+          "value": "$11.75"
         },
         {
-          "label": "Wave Count",
-          "value": "Near Wave 3 top"
+          "label": "LT Target",
+          "value": "$18 (Wave 5)"
         },
         {
           "label": "Analyst Target",
@@ -1350,6 +1343,13 @@
       "collections": [
         "Watchlist"
       ],
+      "appr": "+53%",
+      "sentimentClass": "badge-trending-buy",
+      "waveClass": "wave-impulse",
+      "analystClass": "analyst-strong-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": "Appreciating",
       "yfSymbol": "DCTH",
       "displaySym": "DCTH"
     },
@@ -1403,18 +1403,22 @@
       "target": null,
       "analyst": "Hold",
       "analystTarget": null,
-      "summary": "MELI dipped into TLI's buy zone below the 0.5 Fib at $1,621 and the 200-week moving average at $1,686 exactly as anticipated, and has since reclaimed the 200 WMA. The stock is now working toward the 50 WMA and the psychological $2,000 level; a breakout above $2,000 would confirm the bull case is back on. A retest of the 200 WMA would offer another low-risk entry.",
-      "collections": [],
+      "summary": "MELI remains back above the 200 WMA and is holding up better than the broader market, down only about 1% on a weak day. TLI's next focus is reclaiming the 0.38 Fib at $1,863, with the $2,000 confluence of the 50 WMA, bull-case trendline and psychological resistance acting as a magnet above that. A break above $2,000 would put the previous highs back in view.",
       "levels": [
         {
           "label": "Entry Zone",
           "value": "$1,621-$1,686"
         },
         {
+          "label": "Next Focus",
+          "value": "$1,863 (0.38 Fib)"
+        },
+        {
           "label": "Key Resistance",
-          "value": "$2,000"
+          "value": "$2,000 (confluence)"
         }
       ],
+      "collections": [],
       "appr": null,
       "sentimentClass": "badge-trending-buy",
       "waveClass": "wave-correct",
@@ -1428,35 +1432,39 @@
     {
       "sym": "NVDA",
       "company": "NVIDIA Corp · NASDAQ",
-      "sentiment": "Appreciating",
-      "wave": "Wave 5 ↑",
-      "entry": "$188 (hold above 50 WMA)",
+      "sentiment": "Trending to Buy",
+      "wave": "Wave A ↓ (correction within Wave 5)",
+      "entry": "$191 (0.618 Fib / 200 DMA confluence)",
       "target": "$266",
       "analyst": "Hold",
       "analystTarget": null,
-      "summary": "Ahead of NVDA's expected August 26 earnings, TLI's focus is on the stock holding above the 50-week moving average at $188 and eventually reclaiming the 1 Fib at $228 from below. Longer term, TLI is still watching for the completion of Wave 5, which it views as essential fuel for the broader market's melt-up, with a bull-case target of $266.",
-      "collections": [],
+      "summary": "NVDA has pulled back in five waves to the 0.618 Fib / 200-day MA confluence around $191, which TLI reads as a Wave A rather than the start of a deeper decline. TLI expects a Wave B relief bounce toward the $212-218 zone next, and is watching the 50-week MA as the level that must hold for the broader bull case, and the $266 Wave 5 target, to stay intact.",
       "levels": [
         {
-          "label": "Wave Count",
-          "value": "Wave 5 ↑"
+          "label": "Key Support",
+          "value": "$191 (0.618 Fib / 200 DMA)"
+        },
+        {
+          "label": "Wave B Bounce Target",
+          "value": "$212-$218"
         },
         {
           "label": "LT Target",
-          "value": "$266"
+          "value": "$266 (Wave 5)"
         },
         {
-          "label": "Key Support",
-          "value": "$188 (50 WMA)"
+          "label": "Critical Support",
+          "value": "50-week MA"
         }
       ],
-      "appr": "+41%",
-      "sentimentClass": "badge-appreciating",
-      "waveClass": "wave-top",
+      "collections": [],
+      "appr": "+39%",
+      "sentimentClass": "badge-trending-buy",
+      "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevSentiment": null,
+      "prevSentiment": "Appreciating",
       "yfSymbol": "NVDA",
       "displaySym": "NVDA"
     },
