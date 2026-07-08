@@ -344,10 +344,10 @@
       <th>TLI Sentiment</th>
       <th>Collection</th>
       <th>TLI Wave</th>
+      <th>Live Price</th>
       <th>TLI Entry Point</th>
       <th>TLI LT Target</th>
       <th>Appr. Potential</th>
-      <th>Live Price</th>
       <th>Analyst</th>
       <th>Analyst Target</th>
       <th>Overall</th>
@@ -441,10 +441,10 @@
           <th>Asset</th>
           <th>TLI Sentiment</th>
           <th>TLI Wave</th>
+          <th>Live Price</th>
           <th>TLI Entry Point</th>
           <th>TLI LT Target</th>
           <th>Appr. Potential</th>
-          <th>Live Price</th>
           <th>Analyst</th>
           <th>Analyst Target</th>
           <th>Overall</th>
@@ -515,10 +515,10 @@
       <td><span class="badge ${a.sentimentClass}">${a.sentiment}</span>${changedHtml}</td>
       <td>${colHtml}</td>
       <td><span class="wave ${a.waveClass}">${a.wave}</span></td>
+      <td><div class="price-cell"><a class="price-link" href="https://finance.yahoo.com/quote/${a.yfSymbol || a.sym}" target="_blank" rel="noopener" title="Open ${a.sym} on Yahoo Finance"><span class="live-price" id="price-${a.sym}">—</span></a><span class="live-chg" id="chg-${a.sym}"></span></div></td>
       <td class="price-val">${a.entry || '—'}</td>
       <td class="price-val">${a.target || '—'}</td>
       <td>${apprHtml}</td>
-      <td><div class="price-cell"><a class="price-link" href="https://finance.yahoo.com/quote/${a.yfSymbol || a.sym}" target="_blank" rel="noopener" title="Open ${a.sym} on Yahoo Finance"><span class="live-price" id="price-${a.sym}">—</span></a><span class="live-chg" id="chg-${a.sym}"></span></div></td>
       <td class="${a.analystClass || 'analyst-none'}">${a.analyst || '—'}</td>
       <td class="price-val">${a.analystTarget || '—'}</td>
       <td><span class="${a.recClass}"><span class="${isBuy ? 'dot-buy' : 'dot-wait'}"></span>${a.rec}</span></td>
@@ -603,15 +603,15 @@
           <span class="badge ${d.sentimentClass}">${d.sentiment}</span>${changedHtml}
         </td>
         <td><span class="wave ${d.waveClass}">${d.wave}</span></td>
-        <td class="price-val">${d.entry || '—'}</td>
-        <td class="price-val">${d.target || '—'}</td>
-        <td>${apprHtml}</td>
         <td>
           <div class="price-cell">
             <a class="price-link" href="https://finance.yahoo.com/quote/${d.yfSymbol || sym}" target="_blank" rel="noopener" title="Open on Yahoo Finance"><span class="live-price">${livePrice}</span></a>
             <span class="live-chg ${chgCls}">${liveChg}</span>
           </div>
         </td>
+        <td class="price-val">${d.entry || '—'}</td>
+        <td class="price-val">${d.target || '—'}</td>
+        <td>${apprHtml}</td>
         <td class="${d.analystClass || 'analyst-none'}">${d.analyst || '—'}</td>
         <td class="price-val">${d.analystTarget || '—'}</td>
         <td>
