@@ -3,7 +3,7 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "July 3, 2026",
-    "lastUpdated": "2026-07-08T20:10:48.768602+00:00"
+    "lastUpdated": "2026-07-09T01:04:55.445081+00:00"
   },
   "collections": {
     "Top 10": [
@@ -58,7 +58,10 @@
       "CELH",
       "GRAB",
       "MP",
-      "QCOM"
+      "QCOM",
+      "MOS",
+      "VSXY",
+      "COCOA"
     ],
     "Safe Haven": [
       "PFE",
@@ -3093,6 +3096,125 @@
       "prevSentiment": null,
       "yfSymbol": "ABNB",
       "displaySym": "ABNB"
+    },
+    {
+      "sym": "MOS",
+      "company": "The Mosaic Company · NYSE",
+      "sentiment": "Buy Now",
+      "wave": "Wave 3 ↑",
+      "entry": "$27 (50 DMA starter) / $31 (200 DMA trigger)",
+      "target": "$49",
+      "analyst": "Hold",
+      "analystTarget": null,
+      "summary": "MOS is rallying off Wave 2 support at $25 as Middle East supply pressure lifts fertilizer prices, and price has already reclaimed the 200-day MA at $31 within days. TLI still sees the setup as intact, preferring either a 200-day flip to support at $31 or a shallower retest of the 50-day MA at $27 as an add zone. The Wave 3 target sits at the 1.618 Fib near $49.",
+      "collections": [
+        "Watchlist"
+      ],
+      "levels": [
+        {
+          "label": "Wave 2 Support",
+          "value": "$25"
+        },
+        {
+          "label": "Entry Zone",
+          "value": "$27 (50 DMA) / $31 (200 DMA)"
+        },
+        {
+          "label": "Wave Count",
+          "value": "Wave 3 ↑"
+        },
+        {
+          "label": "LT Target",
+          "value": "$49 (1.618 Fib)"
+        }
+      ],
+      "appr": "+81%",
+      "sentimentClass": "badge-buy-now",
+      "waveClass": "wave-impulse",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
+      "yfSymbol": "MOS",
+      "displaySym": "MOS"
+    },
+    {
+      "sym": "VSXY",
+      "company": "Victoria's Secret & Co · NYSE",
+      "sentiment": "Appreciating",
+      "wave": "Wave 3 ↑ (Wave 2 complete)",
+      "entry": "$40 (Wave 2 low, 0.5 Fib / 200 DMA)",
+      "target": "$128",
+      "analyst": "Hold",
+      "analystTarget": null,
+      "summary": "VSXY smashed the quarter with an EPS beat of roughly +80%, validating TLI's original thesis first shared last July at $18. Wave 2 held cleanly at the 0.5 Fib and 200-day MA around $40, and the share price has since ripped from $40 to $75 in two weeks. TLI leaves the Wave 3 target at $128 and the eventual Wave 5 target at $181 unchanged.",
+      "collections": [
+        "Watchlist"
+      ],
+      "levels": [
+        {
+          "label": "Wave 2 Support",
+          "value": "$40"
+        },
+        {
+          "label": "Wave Count",
+          "value": "Wave 3 ↑"
+        },
+        {
+          "label": "Wave 3 Target",
+          "value": "$128 (1.618 Fib)"
+        },
+        {
+          "label": "Wave 5 Target",
+          "value": "$181"
+        }
+      ],
+      "appr": "+220%",
+      "sentimentClass": "badge-appreciating",
+      "waveClass": "wave-impulse",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
+      "yfSymbol": "VSXY",
+      "displaySym": "VSXY"
+    },
+    {
+      "sym": "COCOA",
+      "company": "Cocoa Futures · ICE",
+      "sentiment": "Buy Now",
+      "wave": "Ascending Triangle Breakout ↑",
+      "entry": "$4,800 (breakout / retest zone)",
+      "target": "$5,600",
+      "analyst": "Hold",
+      "analystTarget": null,
+      "summary": "TLI flags a very bullish setup on Cocoa futures: price has held a strong ascending triangle for months and is now testing the breakout level at $4,800. He believes once $4,800 flips to support, price can run cleanly to the 200 WMA at $5,600 before meeting the larger channel resistance for the next breakout test. Flagged as a name worth watching for members trading futures via Plus500.",
+      "collections": [
+        "Watchlist"
+      ],
+      "levels": [
+        {
+          "label": "Breakout",
+          "value": "$4,800"
+        },
+        {
+          "label": "Wave Count",
+          "value": "Triangle Breakout ↑"
+        },
+        {
+          "label": "Next Resistance",
+          "value": "$5,600 (200 WMA)"
+        }
+      ],
+      "appr": "+17%",
+      "sentimentClass": "badge-buy-now",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevSentiment": null,
+      "yfSymbol": "COCOA",
+      "displaySym": "COCOA"
     }
   ]
 }
