@@ -121,7 +121,8 @@
         "Watchlist"
       ],
       "yfSymbol": "BABA",
-      "displaySym": "BABA"
+      "displaySym": "BABA",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "ZETA",
@@ -162,7 +163,8 @@
       "rec": "BUY",
       "prevSentiment": null,
       "yfSymbol": "ZETA",
-      "displaySym": "ZETA"
+      "displaySym": "ZETA",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "WYFI",
@@ -203,7 +205,8 @@
       "rec": "BUY",
       "prevSentiment": null,
       "yfSymbol": "WYFI",
-      "displaySym": "WYFI"
+      "displaySym": "WYFI",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "ADUR",
@@ -244,7 +247,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "ADUR",
-      "displaySym": "ADUR"
+      "displaySym": "ADUR",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "GRRR",
@@ -285,7 +289,8 @@
       "rec": "BUY",
       "prevSentiment": null,
       "yfSymbol": "GRRR",
-      "displaySym": "GRRR"
+      "displaySym": "GRRR",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "ASTS",
@@ -326,7 +331,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "ASTS",
-      "displaySym": "ASTS"
+      "displaySym": "ASTS",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "SE",
@@ -369,7 +375,8 @@
         "Watchlist"
       ],
       "yfSymbol": "SE",
-      "displaySym": "SE"
+      "displaySym": "SE",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "PFE",
@@ -410,7 +417,8 @@
         "Safe Haven"
       ],
       "yfSymbol": "PFE",
-      "displaySym": "PFE"
+      "displaySym": "PFE",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "SLV",
@@ -451,7 +459,8 @@
       "rec": "BUY",
       "prevSentiment": null,
       "yfSymbol": "SLV",
-      "displaySym": "SLV"
+      "displaySym": "SLV",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "GOOG",
@@ -492,7 +501,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "GOOG",
-      "displaySym": "GOOG"
+      "displaySym": "GOOG",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "AMZN",
@@ -533,7 +543,8 @@
         "Top 20"
       ],
       "yfSymbol": "AMZN",
-      "displaySym": "AMZN"
+      "displaySym": "AMZN",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "AAPL",
@@ -574,7 +585,8 @@
         "Top 20"
       ],
       "yfSymbol": "AAPL",
-      "displaySym": "AAPL"
+      "displaySym": "AAPL",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "MSFT",
@@ -615,7 +627,8 @@
         "Top 20"
       ],
       "yfSymbol": "MSFT",
-      "displaySym": "MSFT"
+      "displaySym": "MSFT",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "SHOP",
@@ -656,7 +669,8 @@
         "Top 20"
       ],
       "yfSymbol": "SHOP",
-      "displaySym": "SHOP"
+      "displaySym": "SHOP",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "PLTR",
@@ -697,7 +711,8 @@
         "Top 20"
       ],
       "yfSymbol": "PLTR",
-      "displaySym": "PLTR"
+      "displaySym": "PLTR",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "BIDU",
@@ -739,7 +754,8 @@
         "Watchlist"
       ],
       "yfSymbol": "BIDU",
-      "displaySym": "BIDU"
+      "displaySym": "BIDU",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "NVO",
@@ -780,7 +796,8 @@
         "Top 10"
       ],
       "yfSymbol": "NVO",
-      "displaySym": "NVO"
+      "displaySym": "NVO",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "CRM",
@@ -821,7 +838,8 @@
         "Watchlist"
       ],
       "yfSymbol": "CRM",
-      "displaySym": "CRM"
+      "displaySym": "CRM",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "NFLX",
@@ -862,7 +880,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "NFLX",
-      "displaySym": "NFLX"
+      "displaySym": "NFLX",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "REGN",
@@ -903,7 +922,8 @@
       "rec": "BUY",
       "prevSentiment": "Trending to Buy",
       "yfSymbol": "REGN",
-      "displaySym": "REGN"
+      "displaySym": "REGN",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "TSLA",
@@ -944,7 +964,8 @@
         "Top 20"
       ],
       "yfSymbol": "TSLA",
-      "displaySym": "TSLA"
+      "displaySym": "TSLA",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "NIO",
@@ -985,7 +1006,8 @@
         "Top 20"
       ],
       "yfSymbol": "NIO",
-      "displaySym": "NIO"
+      "displaySym": "NIO",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "NKE",
@@ -1026,7 +1048,8 @@
         "Top 20"
       ],
       "yfSymbol": "NKE",
-      "displaySym": "NKE"
+      "displaySym": "NKE",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "OSCR",
@@ -1067,7 +1090,8 @@
         "Top 20"
       ],
       "yfSymbol": "OSCR",
-      "displaySym": "OSCR"
+      "displaySym": "OSCR",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "BTC",
@@ -1108,7 +1132,8 @@
         "Top 20"
       ],
       "yfSymbol": "BTC-USD",
-      "displaySym": "BTC"
+      "displaySym": "BTC",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "PEP",
@@ -1150,7 +1175,8 @@
         "Safe Haven"
       ],
       "yfSymbol": "PEP",
-      "displaySym": "PEP"
+      "displaySym": "PEP",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "PALL",
@@ -1192,7 +1218,8 @@
         "Safe Haven"
       ],
       "yfSymbol": "PALL",
-      "displaySym": "PALL"
+      "displaySym": "PALL",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "AMD",
@@ -1233,7 +1260,8 @@
         "Top 20"
       ],
       "yfSymbol": "AMD",
-      "displaySym": "AMD"
+      "displaySym": "AMD",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "V",
@@ -1274,7 +1302,8 @@
         "Top 20"
       ],
       "yfSymbol": "V",
-      "displaySym": "V"
+      "displaySym": "V",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "UNH",
@@ -1316,7 +1345,8 @@
         "Top 20"
       ],
       "yfSymbol": "UNH",
-      "displaySym": "UNH"
+      "displaySym": "UNH",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "DCTH",
@@ -1357,7 +1387,8 @@
       "rec": "WAIT",
       "prevSentiment": "Appreciating",
       "yfSymbol": "DCTH",
-      "displaySym": "DCTH"
+      "displaySym": "DCTH",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "ZVRA",
@@ -1398,7 +1429,8 @@
       "rec": "WAIT",
       "prevSentiment": "Appreciating",
       "yfSymbol": "ZVRA",
-      "displaySym": "ZVRA"
+      "displaySym": "ZVRA",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "MELI",
@@ -1433,7 +1465,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "MELI",
-      "displaySym": "MELI"
+      "displaySym": "MELI",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "NVDA",
@@ -1472,7 +1505,8 @@
       "rec": "WAIT",
       "prevSentiment": "Appreciating",
       "yfSymbol": "NVDA",
-      "displaySym": "NVDA"
+      "displaySym": "NVDA",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "TOST",
@@ -1509,7 +1543,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "TOST",
-      "displaySym": "TOST"
+      "displaySym": "TOST",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "JD",
@@ -1542,7 +1577,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "JD",
-      "displaySym": "JD"
+      "displaySym": "JD",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "ONDS",
@@ -1573,7 +1609,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "ONDS",
-      "displaySym": "ONDS"
+      "displaySym": "ONDS",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "HIMS",
@@ -1614,7 +1651,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "HIMS",
-      "displaySym": "HIMS"
+      "displaySym": "HIMS",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "SOFI",
@@ -1651,7 +1689,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "SOFI",
-      "displaySym": "SOFI"
+      "displaySym": "SOFI",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "OPEN",
@@ -1686,7 +1725,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "OPEN",
-      "displaySym": "OPEN"
+      "displaySym": "OPEN",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "COIN",
@@ -1715,7 +1755,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "COIN",
-      "displaySym": "COIN"
+      "displaySym": "COIN",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "HYPE",
@@ -1750,7 +1791,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "HYPE",
-      "displaySym": "HYPE"
+      "displaySym": "HYPE",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "CIFR",
@@ -1785,7 +1827,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "CIFR",
-      "displaySym": "CIFR"
+      "displaySym": "CIFR",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "NBIS",
@@ -1826,7 +1869,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "NBIS",
-      "displaySym": "NBIS"
+      "displaySym": "NBIS",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "IREN",
@@ -1857,7 +1901,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "IREN",
-      "displaySym": "IREN"
+      "displaySym": "IREN",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "MU",
@@ -1888,7 +1933,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "MU",
-      "displaySym": "MU"
+      "displaySym": "MU",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "SPCX",
@@ -1923,7 +1969,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "SPCX",
-      "displaySym": "SPCX"
+      "displaySym": "SPCX",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "NU",
@@ -1962,7 +2009,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "NU",
-      "displaySym": "NU"
+      "displaySym": "NU",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "ETH",
@@ -1995,7 +2043,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "ETH",
-      "displaySym": "ETH"
+      "displaySym": "ETH",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "VICI",
@@ -2032,7 +2081,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "VICI",
-      "displaySym": "VICI"
+      "displaySym": "VICI",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "ALB",
@@ -2067,7 +2117,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "ALB",
-      "displaySym": "ALB"
+      "displaySym": "ALB",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "RDDT",
@@ -2102,7 +2153,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "RDDT",
-      "displaySym": "RDDT"
+      "displaySym": "RDDT",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "CELH",
@@ -2139,7 +2191,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "CELH",
-      "displaySym": "CELH"
+      "displaySym": "CELH",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "RACE",
@@ -2174,7 +2227,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "RACE",
-      "displaySym": "RACE"
+      "displaySym": "RACE",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "CTSH",
@@ -2209,7 +2263,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "CTSH",
-      "displaySym": "CTSH"
+      "displaySym": "CTSH",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "SEZL",
@@ -2248,7 +2303,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "SEZL",
-      "displaySym": "SEZL"
+      "displaySym": "SEZL",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "RR",
@@ -2283,7 +2339,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "RR",
-      "displaySym": "RR"
+      "displaySym": "RR",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "GRAB",
@@ -2316,7 +2373,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "GRAB",
-      "displaySym": "GRAB"
+      "displaySym": "GRAB",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "ASTI",
@@ -2355,7 +2413,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "ASTI",
-      "displaySym": "ASTI"
+      "displaySym": "ASTI",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "EBAY",
@@ -2386,7 +2445,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "EBAY",
-      "displaySym": "EBAY"
+      "displaySym": "EBAY",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "ABCL",
@@ -2425,7 +2485,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "ABCL",
-      "displaySym": "ABCL"
+      "displaySym": "ABCL",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "SIDU",
@@ -2460,7 +2521,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "SIDU",
-      "displaySym": "SIDU"
+      "displaySym": "SIDU",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "MP",
@@ -2497,7 +2559,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "MP",
-      "displaySym": "MP"
+      "displaySym": "MP",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "HOOD",
@@ -2532,7 +2595,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "HOOD",
-      "displaySym": "HOOD"
+      "displaySym": "HOOD",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "GS",
@@ -2567,7 +2631,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "GS",
-      "displaySym": "GS"
+      "displaySym": "GS",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "ACN",
@@ -2602,7 +2667,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "ACN",
-      "displaySym": "ACN"
+      "displaySym": "ACN",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "NOW",
@@ -2641,7 +2707,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "NOW",
-      "displaySym": "NOW"
+      "displaySym": "NOW",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "PG",
@@ -2682,7 +2749,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "PG",
-      "displaySym": "PG"
+      "displaySym": "PG",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "AF",
@@ -2717,7 +2785,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "AF",
-      "displaySym": "AF"
+      "displaySym": "AF",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "BUD",
@@ -2752,7 +2821,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "BUD",
-      "displaySym": "BUD"
+      "displaySym": "BUD",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "HASI",
@@ -2791,7 +2861,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "HASI",
-      "displaySym": "HASI"
+      "displaySym": "HASI",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "QCOM",
@@ -2828,7 +2899,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "QCOM",
-      "displaySym": "QCOM"
+      "displaySym": "QCOM",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "KKR",
@@ -2859,7 +2931,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "KKR",
-      "displaySym": "KKR"
+      "displaySym": "KKR",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "ON",
@@ -2898,7 +2971,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "ON",
-      "displaySym": "ON"
+      "displaySym": "ON",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "OKLO",
@@ -2937,7 +3011,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "OKLO",
-      "displaySym": "OKLO"
+      "displaySym": "OKLO",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "DUOL",
@@ -2972,7 +3047,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "DUOL",
-      "displaySym": "DUOL"
+      "displaySym": "DUOL",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "DKNG",
@@ -3013,7 +3089,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "DKNG",
-      "displaySym": "DKNG"
+      "displaySym": "DKNG",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "ASML",
@@ -3048,7 +3125,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "ASML",
-      "displaySym": "ASML"
+      "displaySym": "ASML",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "PYPL",
@@ -3077,7 +3155,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "PYPL",
-      "displaySym": "PYPL"
+      "displaySym": "PYPL",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "ABNB",
@@ -3114,7 +3193,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "ABNB",
-      "displaySym": "ABNB"
+      "displaySym": "ABNB",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "MOS",
@@ -3155,7 +3235,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "MOS",
-      "displaySym": "MOS"
+      "displaySym": "MOS",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "VSXY",
@@ -3196,7 +3277,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "VSXY",
-      "displaySym": "VSXY"
+      "displaySym": "VSXY",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "COCOA",
@@ -3233,7 +3315,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "COCOA",
-      "displaySym": "COCOA"
+      "displaySym": "COCOA",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "TGT",
@@ -3272,7 +3355,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "TGT",
-      "displaySym": "TGT"
+      "displaySym": "TGT",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "DASH",
@@ -3313,7 +3397,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "DASH",
-      "displaySym": "DASH"
+      "displaySym": "DASH",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     },
     {
       "sym": "SLNH",
@@ -3352,7 +3437,8 @@
       "rec": "WAIT",
       "prevSentiment": null,
       "yfSymbol": "SLNH",
-      "displaySym": "SLNH"
+      "displaySym": "SLNH",
+      "lastUpdated": "2026-07-09T21:11:24.891955+00:00"
     }
   ]
 }

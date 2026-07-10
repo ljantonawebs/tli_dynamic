@@ -145,6 +145,7 @@ def merge_entry(data, entry):
     entry["prevSentiment"] = prev_sentiment if (prev_sentiment and prev_sentiment != entry["sentiment"]) else None
     entry["yfSymbol"] = YF_SYMBOL_OVERRIDE.get(sym, sym)
     entry["displaySym"] = DISPLAY_SYMBOL_OVERRIDE.get(sym, sym)
+    entry["lastUpdated"] = datetime.now(timezone.utc).isoformat()
 
     # update the collections index too, so new collections mentioned in the
     # email (e.g. "$AAPL - Top 10") show up as clickable badges immediately

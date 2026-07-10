@@ -125,6 +125,26 @@
     .flash-up { animation: flash-green 0.8s ease; }
     .flash-dn { animation: flash-red   0.8s ease; }
 
+    /* ── Sentiment date (under badge) ── */
+    .sentiment-date {
+      font-size: 9px; color: #64748b;
+      margin-top: 3px;
+      font-family: 'SF Mono', monospace;
+      letter-spacing: 0.3px;
+    }
+
+    /* ── Entry point (with proximity highlight) ── */
+    .entry-num {
+      font-family:'SF Mono','Fira Code',monospace; font-size:11px; color:#94a3b8;
+      display:inline-block; padding:2px 6px; border-radius:4px;
+      border:1px solid transparent;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+    }
+    .entry-num.entry-near {
+      background:#052e16; color:#4ade80; border-color:#166534;
+      font-weight:700;
+    }
+
     /* ── Appreciation potential ── */
     .appr { font-family:'SF Mono',monospace; font-weight:700; font-size:12px; }
     .appr-huge { color:#4ade80; }
@@ -344,10 +364,10 @@
       <th>TLI Sentiment</th>
       <th>Collection</th>
       <th>TLI Wave</th>
+      <th>Live Price</th>
       <th>TLI Entry Point</th>
       <th>TLI LT Target</th>
-      <th>Appr. Potential</th>
-      <th>Live Price</th>
+      <th>TLI Appr.</th>
       <th>Analyst</th>
       <th>Analyst Target</th>
       <th>Overall</th>
@@ -370,7 +390,9 @@
     &nbsp;&nbsp;·&nbsp;&nbsp;
     <strong>BUY confirmed</strong> = TLI "Buy Now" <em>AND</em> Analyst ≥ Buy
     &nbsp;&nbsp;·&nbsp;&nbsp;
-    <strong>Appreciation Potential</strong> = (LT Target − Entry) / Entry × 100%
+    <strong>TLI Appr.</strong> = (LT Target − Entry) / Entry × 100%
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <span style="color:#4ade80">Green entry</span> = live price within 10% of TLI Entry
   </p>
   <p style="margin-top:6px">
     <span style="color:#f59e0b">▏</span> <strong style="color:#64748b">Amber border</strong> = TLI Sentiment changed since last update &nbsp;·&nbsp;
@@ -441,10 +463,10 @@
           <th>Asset</th>
           <th>TLI Sentiment</th>
           <th>TLI Wave</th>
+          <th>Live Price</th>
           <th>TLI Entry Point</th>
           <th>TLI LT Target</th>
-          <th>Appr. Potential</th>
-          <th>Live Price</th>
+          <th>TLI Appr.</th>
           <th>Analyst</th>
           <th>Analyst Target</th>
           <th>Overall</th>
@@ -490,6 +512,36 @@
     return 'appr-low';
   }
 
+  function parseEntryPrice(entry) {
+    if (!entry) return null;
+    const m = String(entry).match(/\$?\s*([\d,]+(?:\.\d+)?)/);
+    if (!m) return null;
+    const n = parseFloat(m[1].replace(/,/g, ''));
+    return isFinite(n) ? n : null;
+  }
+
+  function formatEntryPrice(n) {
+    if (n == null) return '—';
+    if (n >= 1000) return '$' + n.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
+    return '$' + n.toFixed(2);
+  }
+
+  function formatSentimentDate(iso) {
+    if (!iso) return '';
+    const d = new Date(iso);
+    if (isNaN(d)) return '';
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+
+  function entryCellHtml(a) {
+    const n = parseEntryPrice(a.entry);
+    const shown = formatEntryPrice(n);
+    if (n == null) {
+      return `<td><span class="entry-num" id="entry-${a.sym}">${shown}</span></td>`;
+    }
+    return `<td><span class="entry-num" id="entry-${a.sym}" data-entry="${n}">${shown}</span></td>`;
+  }
+
   function makeCollBadge(collName) {
     const style = (DATA.collectionStyles && DATA.collectionStyles[collName])
       || 'background:#1e2433;color:#94a3b8;border:1px solid #2d3748';
@@ -508,17 +560,19 @@
       ? `<span class="appr ${getApprClass(a.appr)}">${a.appr}</span>`
       : `<span class="appr-none">—</span>`;
     const isBuy = a.recClass === 'rec-buy';
+    const dateStr = formatSentimentDate(a.lastUpdated);
+    const dateHtml = dateStr ? `<div class="sentiment-date">${dateStr}</div>` : '';
 
     return `<tr class="${rowClass.trim()}">
       <td class="price-none">${rank}</td>
       <td><div class="ticker" data-sym="${a.sym}">$${a.displaySym || a.sym}</div><div class="company">${a.company}</div></td>
-      <td><span class="badge ${a.sentimentClass}">${a.sentiment}</span>${changedHtml}</td>
+      <td><span class="badge ${a.sentimentClass}">${a.sentiment}</span>${changedHtml}${dateHtml}</td>
       <td>${colHtml}</td>
       <td><span class="wave ${a.waveClass}">${a.wave}</span></td>
-      <td class="price-val">${a.entry || '—'}</td>
+      <td><div class="price-cell"><a class="price-link" href="https://finance.yahoo.com/quote/${a.yfSymbol || a.sym}" target="_blank" rel="noopener" title="Open ${a.sym} on Yahoo Finance"><span class="live-price" id="price-${a.sym}">—</span></a><span class="live-chg" id="chg-${a.sym}"></span></div></td>
+      ${entryCellHtml(a)}
       <td class="price-val">${a.target || '—'}</td>
       <td>${apprHtml}</td>
-      <td><div class="price-cell"><a class="price-link" href="https://finance.yahoo.com/quote/${a.yfSymbol || a.sym}" target="_blank" rel="noopener" title="Open ${a.sym} on Yahoo Finance"><span class="live-price" id="price-${a.sym}">—</span></a><span class="live-chg" id="chg-${a.sym}"></span></div></td>
       <td class="${a.analystClass || 'analyst-none'}">${a.analyst || '—'}</td>
       <td class="price-val">${a.analystTarget || '—'}</td>
       <td><span class="${a.recClass}"><span class="${isBuy ? 'dot-buy' : 'dot-wait'}"></span>${a.rec}</span></td>
@@ -532,6 +586,9 @@
     SENTIMENT_ORDER.forEach(section => {
       const rows = DATA.assets.filter(a => a.sentiment === section.key);
       if (!rows.length) return;
+      if (section.key === 'Buy Now') {
+        rows.sort((x, y) => (x.recClass === 'rec-buy' ? 0 : 1) - (y.recClass === 'rec-buy' ? 0 : 1));
+      }
       html += `<tr><td colspan="12" class="section-header">${section.heading}</td></tr>`;
       rows.forEach(a => { rank++; html += assetRowHtml(a, rank); });
     });
@@ -592,6 +649,11 @@
 
       const isBuy = d.recClass === 'rec-buy';
       const rowClass = (d.sentiment === 'Buy Now' ? 'row-buy' : '') + (changed ? ' row-sentiment-changed' : '');
+      const dateStr = formatSentimentDate(d.lastUpdated);
+      const dateHtml = dateStr ? `<div class="sentiment-date">${dateStr}</div>` : '';
+      const entryNum = parseEntryPrice(d.entry);
+      const entryShown = formatEntryPrice(entryNum);
+      const entryData = entryNum != null ? ` data-entry="${entryNum}"` : '';
 
       return `<tr class="${rowClass.trim()}">
         <td class="price-none">${i + 1}</td>
@@ -600,18 +662,18 @@
           <div class="company">${d.company}</div>
         </td>
         <td>
-          <span class="badge ${d.sentimentClass}">${d.sentiment}</span>${changedHtml}
+          <span class="badge ${d.sentimentClass}">${d.sentiment}</span>${changedHtml}${dateHtml}
         </td>
         <td><span class="wave ${d.waveClass}">${d.wave}</span></td>
-        <td class="price-val">${d.entry || '—'}</td>
-        <td class="price-val">${d.target || '—'}</td>
-        <td>${apprHtml}</td>
         <td>
           <div class="price-cell">
-            <a class="price-link" href="https://finance.yahoo.com/quote/${d.yfSymbol || sym}" target="_blank" rel="noopener" title="Open on Yahoo Finance"><span class="live-price">${livePrice}</span></a>
+            <a class="price-link" href="https://finance.yahoo.com/quote/${d.yfSymbol || sym}" target="_blank" rel="noopener" title="Open on Yahoo Finance"><span class="live-price" id="cp-price-${sym}">${livePrice}</span></a>
             <span class="live-chg ${chgCls}">${liveChg}</span>
           </div>
         </td>
+        <td><span class="entry-num" id="cp-entry-${sym}"${entryData}>${entryShown}</span></td>
+        <td class="price-val">${d.target || '—'}</td>
+        <td>${apprHtml}</td>
         <td class="${d.analystClass || 'analyst-none'}">${d.analyst || '—'}</td>
         <td class="price-val">${d.analystTarget || '—'}</td>
         <td>
@@ -624,6 +686,7 @@
 
     document.getElementById('collection-page').classList.add('open');
     document.body.style.overflow = 'hidden';
+    updateEntryHighlights();
   }
 
   function closeCollectionPage() {
@@ -798,7 +861,30 @@
         ce.className = 'live-chg ' + (pct >= 0 ? 'up' : 'dn');
       }
     });
+    updateEntryHighlights();
     return n;
+  }
+
+  // Highlight entry-point cells green when within 10% of live price.
+  // Runs after every price refresh and after collection-page render.
+  function updateEntryHighlights() {
+    DATA && DATA.assets && DATA.assets.forEach(a => {
+      const pe = document.getElementById('price-' + a.sym);
+      if (!pe) return;
+      const livePrice = parseFloat(pe.textContent.replace(/[$,]/g, ''));
+      if (!isFinite(livePrice) || livePrice === 0) return;
+      ['entry-', 'cp-entry-'].forEach(prefix => {
+        const el = document.getElementById(prefix + a.sym);
+        if (!el) return;
+        const entryPrice = parseFloat(el.dataset.entry || '');
+        if (!isFinite(entryPrice) || entryPrice === 0) {
+          el.classList.remove('entry-near');
+          return;
+        }
+        const within = Math.abs(entryPrice - livePrice) / livePrice <= 0.10;
+        el.classList.toggle('entry-near', within);
+      });
+    });
   }
 
   function updateCountdown() {
