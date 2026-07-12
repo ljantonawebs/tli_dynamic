@@ -526,6 +526,15 @@
     return '$' + n.toFixed(2);
   }
 
+  function priceOnly(v) {
+    if (!v) return '—';
+    const s = String(v).trim();
+    const idx = s.search(/[(;→]/);
+    const cut = (idx === -1 ? s : s.slice(0, idx)).trim();
+    if (cut && /^~?[$€—]/.test(cut)) return cut;
+    return '—';
+  }
+
   function formatSentimentDate(iso) {
     if (!iso) return '';
     const d = new Date(iso);
@@ -571,10 +580,10 @@
       <td><span class="wave ${a.waveClass}">${a.wave}</span></td>
       <td><div class="price-cell"><a class="price-link" href="https://finance.yahoo.com/quote/${a.yfSymbol || a.sym}" target="_blank" rel="noopener" title="Open ${a.sym} on Yahoo Finance"><span class="live-price" id="price-${a.sym}">—</span></a><span class="live-chg" id="chg-${a.sym}"></span></div></td>
       ${entryCellHtml(a)}
-      <td class="price-val">${a.target || '—'}</td>
+      <td class="price-val" title="${a.target || ''}">${priceOnly(a.target)}</td>
       <td>${apprHtml}</td>
       <td class="${a.analystClass || 'analyst-none'}">${a.analyst || '—'}</td>
-      <td class="price-val">${a.analystTarget || '—'}</td>
+      <td class="price-val" title="${a.analystTarget || ''}">${priceOnly(a.analystTarget)}</td>
       <td><span class="${a.recClass}"><span class="${isBuy ? 'dot-buy' : 'dot-wait'}"></span>${a.rec}</span></td>
     </tr>`;
   }
@@ -672,10 +681,10 @@
           </div>
         </td>
         <td><span class="entry-num" id="cp-entry-${sym}"${entryData}>${entryShown}</span></td>
-        <td class="price-val">${d.target || '—'}</td>
+        <td class="price-val" title="${d.target || ''}">${priceOnly(d.target)}</td>
         <td>${apprHtml}</td>
         <td class="${d.analystClass || 'analyst-none'}">${d.analyst || '—'}</td>
-        <td class="price-val">${d.analystTarget || '—'}</td>
+        <td class="price-val" title="${d.analystTarget || ''}">${priceOnly(d.analystTarget)}</td>
         <td>
           <span class="${d.recClass}">
             <span class="${isBuy ? 'dot-buy' : 'dot-wait'}"></span>${d.rec}
