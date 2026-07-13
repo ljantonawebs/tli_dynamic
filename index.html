@@ -32,12 +32,12 @@
     }
     .summary-card .num { font-size: 28px; font-weight: 800; line-height: 1; }
     .summary-card .lbl { font-size: 10px; color: #94a3b8; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
-    .num-total    { color: #60a5fa; }
-    .num-buy-now  { color: #22c55e; }
-    .num-trending { color: #60a5fa; }
-    .num-neg      { color: #f87171; }
-    .num-appr     { color: #f59e0b; }
-    .num-confirm  { color: #4ade80; }
+    .num-total      { color: #60a5fa; }
+    .num-buy-zone   { color: #22c55e; }
+    .num-watchlist  { color: #60a5fa; }
+    .num-bull-case  { color: #a78bfa; }
+    .num-at-target  { color: #f59e0b; }
+    .num-confirm    { color: #4ade80; }
 
     /* ── Status bar ── */
     .status-bar {
@@ -88,15 +88,15 @@
     .ticker:hover { color: #93c5fd; }
     .company { font-size: 10px; color: #64748b; margin-top: 2px; }
 
-    /* ── TLI Sentiment badges ── */
+    /* ── TLI Stage badges ── */
     .badge {
       display: inline-block; padding: 2px 7px; border-radius: 20px;
       font-size: 10px; font-weight: 700; white-space: nowrap; letter-spacing: 0.2px;
     }
-    .badge-buy-now       { background:#052e16; color:#4ade80; border:1px solid #166534; }
-    .badge-trending-buy  { background:#0c1a3a; color:#60a5fa; border:1px solid #1d4ed8; }
-    .badge-trending-neg  { background:#2d0b0b; color:#f87171; border:1px solid #991b1b; }
-    .badge-appreciating  { background:#2a1a00; color:#fbbf24; border:1px solid #b45309; }
+    .badge-buy-zone   { background:#052e16; color:#4ade80; border:1px solid #166534; }
+    .badge-watchlist  { background:#0c1a3a; color:#60a5fa; border:1px solid #1d4ed8; }
+    .badge-bull-case  { background:#1a0c3a; color:#c4b5fd; border:1px solid #6d28d9; }
+    .badge-at-target  { background:#2a1a00; color:#fbbf24; border:1px solid #b45309; }
 
     /* ── Elliott Wave badges ── */
     .wave {
@@ -125,8 +125,8 @@
     .flash-up { animation: flash-green 0.8s ease; }
     .flash-dn { animation: flash-red   0.8s ease; }
 
-    /* ── Sentiment date (under badge) ── */
-    .sentiment-date {
+    /* ── Stage date (under badge) ── */
+    .category-date {
       font-size: 9px; color: #64748b;
       margin-top: 3px;
       font-family: 'SF Mono', monospace;
@@ -178,14 +178,14 @@
     tr.row-buy       { background:#071410; }
     tr.row-buy:hover { background:#0d2918; }
 
-    /* ── Sentiment Changed highlight ── */
-    tr.row-sentiment-changed {
+    /* ── Stage Changed highlight ── */
+    tr.row-category-changed {
       border-left: 3px solid #f59e0b !important;
     }
-    tr.row-sentiment-changed td:first-child {
+    tr.row-category-changed td:first-child {
       padding-left: 7px;
     }
-    .sentiment-changed-indicator {
+    .category-changed-indicator {
       display: inline-block;
       background: #2a1a0020;
       color: #f59e0b;
@@ -336,10 +336,10 @@
 <!-- Summary Cards -->
 <div class="summary-row" id="summary-row">
   <div class="summary-card"><div class="num num-total" id="sum-total">—</div><div class="lbl">Assets</div></div>
-  <div class="summary-card"><div class="num num-buy-now" id="sum-buy-now">—</div><div class="lbl">Buy Now</div></div>
-  <div class="summary-card"><div class="num num-trending" id="sum-trending">—</div><div class="lbl">Trending to Buy</div></div>
-  <div class="summary-card"><div class="num num-neg" id="sum-neg">—</div><div class="lbl">Trending Neg.</div></div>
-  <div class="summary-card"><div class="num num-appr" id="sum-appr">—</div><div class="lbl">Appreciating</div></div>
+  <div class="summary-card"><div class="num num-buy-zone" id="sum-buy-zone">—</div><div class="lbl">Buy Zone</div></div>
+  <div class="summary-card"><div class="num num-watchlist" id="sum-watchlist">—</div><div class="lbl">Watchlist</div></div>
+  <div class="summary-card"><div class="num num-bull-case" id="sum-bull-case">—</div><div class="lbl">Bull Case</div></div>
+  <div class="summary-card"><div class="num num-at-target" id="sum-at-target">—</div><div class="lbl">At Target / Invalidated</div></div>
   <div class="summary-card"><div class="num num-confirm" id="sum-confirm">—</div><div class="lbl">BUY Confirmed</div></div>
 </div>
 
@@ -361,7 +361,7 @@
     <tr>
       <th>#</th>
       <th>Asset</th>
-      <th>TLI Sentiment</th>
+      <th>TLI Stage</th>
       <th>Collection</th>
       <th>TLI Wave</th>
       <th>Live Price</th>
@@ -382,20 +382,20 @@
 <!-- Footnote -->
 <div class="footnote">
   <p>
-    <strong>Sentiment:</strong>
-    <span style="color:#4ade80">● Buy Now</span> &nbsp;|&nbsp;
-    <span style="color:#60a5fa">● Trending to Buy</span> &nbsp;|&nbsp;
-    <span style="color:#f87171">● Trending Neg.</span> &nbsp;|&nbsp;
-    <span style="color:#fbbf24">● Appreciating — Don't Buy</span>
+    <strong>TLI Stage:</strong>
+    <span style="color:#4ade80">● Buy Zone</span> &nbsp;|&nbsp;
+    <span style="color:#60a5fa">● Watchlist</span> &nbsp;|&nbsp;
+    <span style="color:#c4b5fd">● Bull Case</span> &nbsp;|&nbsp;
+    <span style="color:#fbbf24">● At Target / Invalidated</span>
     &nbsp;&nbsp;·&nbsp;&nbsp;
-    <strong>BUY confirmed</strong> = TLI "Buy Now" <em>AND</em> Analyst ≥ Buy
+    <strong>BUY confirmed</strong> = TLI "Buy Zone" <em>AND</em> Analyst ≥ Buy
     &nbsp;&nbsp;·&nbsp;&nbsp;
     <strong>TLI Appr.</strong> = (LT Target − Entry) / Entry × 100%
     &nbsp;&nbsp;·&nbsp;&nbsp;
     <span style="color:#4ade80">Green entry</span> = live price within 10% of TLI Entry
   </p>
   <p style="margin-top:6px">
-    <span style="color:#f59e0b">▏</span> <strong style="color:#64748b">Amber border</strong> = TLI Sentiment changed since last update &nbsp;·&nbsp;
+    <span style="color:#f59e0b">▏</span> <strong style="color:#64748b">Amber border</strong> = TLI Stage changed since last update &nbsp;·&nbsp;
     Click a <strong style="color:#64748b">Collection badge</strong> to view all assets in that collection
   </p>
   <p style="margin-top:6px">
@@ -453,7 +453,7 @@
     </div>
   </div>
   <div class="collection-legend">
-    <span class="legend-dot"></span> Amber border = TLI Sentiment changed since last update
+    <span class="legend-dot"></span> Amber border = TLI Stage changed since last update
   </div>
   <div class="table-wrap">
     <table>
@@ -461,7 +461,7 @@
         <tr>
           <th>#</th>
           <th>Asset</th>
-          <th>TLI Sentiment</th>
+          <th>TLI Stage</th>
           <th>TLI Wave</th>
           <th>Live Price</th>
           <th>TLI Entry Point</th>
@@ -491,12 +491,12 @@
 
   const DATA_URL = 'data.json';
 
-  // Fixed display order + section headings for each sentiment bucket.
-  const SENTIMENT_ORDER = [
-    { key: 'Buy Now',              heading: '🟢 &nbsp;TLI SENTIMENT: BUY NOW — Analyst-Confirmed Entries First' },
-    { key: 'Trending to Buy',      heading: '🔵 &nbsp;TLI SENTIMENT: TRENDING TO BUY POINT — Watch These Levels' },
-    { key: 'Trending Negatively',  heading: '🔴 &nbsp;TLI SENTIMENT: TRENDING NEGATIVELY — No Entry; Monitor Support Levels' },
-    { key: 'Appreciating',         heading: "🟡 &nbsp;TLI SENTIMENT: APPRECIATING — DON'T BUY — Wait for Wave Pullback Entry" }
+  // Fixed display order + section headings for each TLI stage bucket.
+  const CATEGORY_ORDER = [
+    { key: 'Buy Zone',                 heading: '🟢 &nbsp;TLI STAGE: BUY ZONE — In Accumulation Range / BUY ALERT — Buy or Add Here' },
+    { key: 'Watchlist',                heading: '🔵 &nbsp;TLI STAGE: WATCHLIST — Setup Identified, Awaiting Confirmation — No Action, Don\'t Chase' },
+    { key: 'Bull Case',                heading: '🟣 &nbsp;TLI STAGE: BULL CASE — Support Confirmed, Riding the Wave — Hold, Add on Healthy Pullbacks' },
+    { key: 'At Target / Invalidated',  heading: '🟡 &nbsp;TLI STAGE: AT TARGET / INVALIDATED — Nearing Fib Target or Support Broken — Trim, Reduce, or Step Back' }
   ];
 
   let DATA = null;          // parsed data.json
@@ -535,7 +535,7 @@
     return '—';
   }
 
-  function formatSentimentDate(iso) {
+  function formatCategoryDate(iso) {
     if (!iso) return '';
     const d = new Date(iso);
     if (isNaN(d)) return '';
@@ -558,24 +558,24 @@
   }
 
   function assetRowHtml(a, rank) {
-    const changed = a.prevSentiment && a.prevSentiment !== a.sentiment;
+    const changed = a.prevCategory && a.prevCategory !== a.category;
     const changedHtml = changed
-      ? `<span class="sentiment-changed-indicator">↕ was ${a.prevSentiment}</span>`
+      ? `<span class="category-changed-indicator">↕ was ${a.prevCategory}</span>`
       : '';
-    const rowClass = (a.sentiment === 'Buy Now' ? 'row-buy' : '') + (changed ? ' row-sentiment-changed' : '');
+    const rowClass = (a.category === 'Buy Zone' ? 'row-buy' : '') + (changed ? ' row-category-changed' : '');
     const cols = ASSET_COLLECTIONS[a.sym] || [];
     const colHtml = cols.length ? cols.map(makeCollBadge).join('') : '<span class="col-none">—</span>';
     const apprHtml = a.appr
       ? `<span class="appr ${getApprClass(a.appr)}">${a.appr}</span>`
       : `<span class="appr-none">—</span>`;
     const isBuy = a.recClass === 'rec-buy';
-    const dateStr = formatSentimentDate(a.lastUpdated);
-    const dateHtml = dateStr ? `<div class="sentiment-date">${dateStr}</div>` : '';
+    const dateStr = formatCategoryDate(a.lastUpdated);
+    const dateHtml = dateStr ? `<div class="category-date">${dateStr}</div>` : '';
 
     return `<tr class="${rowClass.trim()}">
       <td class="price-none">${rank}</td>
       <td><div class="ticker" data-sym="${a.sym}">$${a.displaySym || a.sym}</div><div class="company">${a.company}</div></td>
-      <td><span class="badge ${a.sentimentClass}">${a.sentiment}</span>${changedHtml}${dateHtml}</td>
+      <td><span class="badge ${a.categoryClass}">${a.category}</span>${changedHtml}${dateHtml}</td>
       <td>${colHtml}</td>
       <td><span class="wave ${a.waveClass}">${a.wave}</span></td>
       <td><div class="price-cell"><a class="price-link" href="https://finance.yahoo.com/quote/${a.yfSymbol || a.sym}" target="_blank" rel="noopener" title="Open ${a.sym} on Yahoo Finance"><span class="live-price" id="price-${a.sym}">—</span></a><span class="live-chg" id="chg-${a.sym}"></span></div></td>
@@ -592,10 +592,10 @@
     const tbody = document.getElementById('main-tbody');
     let html = '';
     let rank = 0;
-    SENTIMENT_ORDER.forEach(section => {
-      const rows = DATA.assets.filter(a => a.sentiment === section.key);
+    CATEGORY_ORDER.forEach(section => {
+      const rows = DATA.assets.filter(a => a.category === section.key);
       if (!rows.length) return;
-      if (section.key === 'Buy Now') {
+      if (section.key === 'Buy Zone') {
         rows.sort((x, y) => (x.recClass === 'rec-buy' ? 0 : 1) - (y.recClass === 'rec-buy' ? 0 : 1));
       }
       html += `<tr><td colspan="12" class="section-header">${section.heading}</td></tr>`;
@@ -605,18 +605,18 @@
   }
 
   function renderSummary() {
-    const total   = DATA.assets.length;
-    const buyNow  = DATA.assets.filter(a => a.sentiment === 'Buy Now').length;
-    const trend   = DATA.assets.filter(a => a.sentiment === 'Trending to Buy').length;
-    const neg     = DATA.assets.filter(a => a.sentiment === 'Trending Negatively').length;
-    const appr    = DATA.assets.filter(a => a.sentiment === 'Appreciating').length;
-    const confirm = DATA.assets.filter(a => a.recClass === 'rec-buy').length;
-    document.getElementById('sum-total').textContent    = total;
-    document.getElementById('sum-buy-now').textContent  = buyNow;
-    document.getElementById('sum-trending').textContent = trend;
-    document.getElementById('sum-neg').textContent      = neg;
-    document.getElementById('sum-appr').textContent     = appr;
-    document.getElementById('sum-confirm').textContent  = confirm;
+    const total     = DATA.assets.length;
+    const buyZone   = DATA.assets.filter(a => a.category === 'Buy Zone').length;
+    const watchlist = DATA.assets.filter(a => a.category === 'Watchlist').length;
+    const bullCase  = DATA.assets.filter(a => a.category === 'Bull Case').length;
+    const atTarget  = DATA.assets.filter(a => a.category === 'At Target / Invalidated').length;
+    const confirm   = DATA.assets.filter(a => a.recClass === 'rec-buy').length;
+    document.getElementById('sum-total').textContent      = total;
+    document.getElementById('sum-buy-zone').textContent   = buyZone;
+    document.getElementById('sum-watchlist').textContent  = watchlist;
+    document.getElementById('sum-bull-case').textContent  = bullCase;
+    document.getElementById('sum-at-target').textContent  = atTarget;
+    document.getElementById('sum-confirm').textContent    = confirm;
   }
 
   function renderHeader() {
@@ -651,15 +651,15 @@
         ? `<span class="appr ${getApprClass(d.appr)}">${d.appr}</span>`
         : `<span class="appr-none">—</span>`;
 
-      const changed = d.prevSentiment && d.prevSentiment !== d.sentiment;
+      const changed = d.prevCategory && d.prevCategory !== d.category;
       const changedHtml = changed
-        ? `<span class="sentiment-changed-indicator">↕ was ${d.prevSentiment}</span>`
+        ? `<span class="category-changed-indicator">↕ was ${d.prevCategory}</span>`
         : '';
 
       const isBuy = d.recClass === 'rec-buy';
-      const rowClass = (d.sentiment === 'Buy Now' ? 'row-buy' : '') + (changed ? ' row-sentiment-changed' : '');
-      const dateStr = formatSentimentDate(d.lastUpdated);
-      const dateHtml = dateStr ? `<div class="sentiment-date">${dateStr}</div>` : '';
+      const rowClass = (d.category === 'Buy Zone' ? 'row-buy' : '') + (changed ? ' row-category-changed' : '');
+      const dateStr = formatCategoryDate(d.lastUpdated);
+      const dateHtml = dateStr ? `<div class="category-date">${dateStr}</div>` : '';
       const entryNum = parseEntryPrice(d.entry);
       const entryShown = formatEntryPrice(entryNum);
       const entryData = entryNum != null ? ` data-entry="${entryNum}"` : '';
@@ -671,7 +671,7 @@
           <div class="company">${d.company}</div>
         </td>
         <td>
-          <span class="badge ${d.sentimentClass}">${d.sentiment}</span>${changedHtml}${dateHtml}
+          <span class="badge ${d.categoryClass}">${d.category}</span>${changedHtml}${dateHtml}
         </td>
         <td><span class="wave ${d.waveClass}">${d.wave}</span></td>
         <td>
@@ -713,11 +713,11 @@
     document.getElementById('modal-summary').textContent = d.summary || '';
 
     const badgesEl = document.getElementById('modal-badges');
-    const changed = d.prevSentiment && d.prevSentiment !== d.sentiment;
+    const changed = d.prevCategory && d.prevCategory !== d.category;
     badgesEl.innerHTML = `
-      <span class="badge ${d.sentimentClass}">${d.sentiment}</span>
+      <span class="badge ${d.categoryClass}">${d.category}</span>
       <span class="wave ${d.waveClass}">${d.wave}</span>
-      ${changed ? `<span class="sentiment-changed-indicator">↕ was ${d.prevSentiment}</span>` : ''}
+      ${changed ? `<span class="category-changed-indicator">↕ was ${d.prevCategory}</span>` : ''}
     `;
 
     const levelsEl = document.getElementById('modal-levels');
