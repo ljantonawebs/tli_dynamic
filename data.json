@@ -3,7 +3,7 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "July 3, 2026",
-    "lastUpdated": "2026-07-13T19:13:11.780258+00:00"
+    "lastUpdated": "2026-07-13T23:07:13.589242+00:00"
   },
   "collections": {
     "Top 10": [
@@ -258,19 +258,20 @@
     {
       "sym": "GRRR",
       "company": "Gorilla Technology · NASDAQ",
+      "category": "Watchlist",
       "wave": "Wave 3 ↑",
-      "entry": "$21 (wedge breakout, consolidating above 50/200 DMA)",
+      "entry": "$16.59 (50 DMA, watch 200 DMA support)",
       "target": "$33 (Wave 3, 1.618 Fib)",
       "analyst": "Strong Buy",
       "analystTarget": "$36.67",
-      "summary": "GRRR remains in a bullish impulse count, consolidating above both the 50-day and 200-day MAs for two months even through a Wave 2 pullback and a public offering. TLI still calls it a buy, with the Wave 3 target at the 1.618 Fib near $33 representing roughly +80% from current levels.",
+      "summary": "GRRR has slipped back below its 50-day moving average at $16.59 after repeatedly testing it, shifting the near-term setup back to watch-and-wait rather than active accumulation. TLI wants to see whether buyers step in on the next test of this level; a rejection would put the 200-day MA in play as the next support to watch for a clean buy signal. The longer-term Wave 3 count is unchanged, with the 1.618 Fib target still at $33.",
       "collections": [
         "Watchlist"
       ],
       "levels": [
         {
           "label": "Entry Zone",
-          "value": "$21 (wedge breakout)"
+          "value": "$16.59 (50 DMA) / watch 200 DMA"
         },
         {
           "label": "Wave Count",
@@ -278,24 +279,23 @@
         },
         {
           "label": "LT Target",
-          "value": "$33 (+80%)"
+          "value": "$33 (+99%)"
         },
         {
           "label": "Analyst Target",
           "value": "$36.67 (Strong Buy)"
         }
       ],
-      "appr": "+57%",
+      "appr": "+99%",
+      "categoryClass": "badge-watchlist",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-strong-buy",
-      "recClass": "rec-buy",
-      "rec": "BUY",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": "Buy Zone",
       "yfSymbol": "GRRR",
       "displaySym": "GRRR",
-      "lastUpdated": "2026-07-10T18:12:57.179312+00:00",
-      "category": "Buy Zone",
-      "categoryClass": "badge-buy-zone",
-      "prevCategory": null
+      "lastUpdated": "2026-07-13T23:07:13.589172+00:00"
     },
     {
       "sym": "ASTS",
