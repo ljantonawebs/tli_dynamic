@@ -11,15 +11,29 @@ Usage:
     python3 update_recommendation.py --json '{"sym": "AAPL", ...}'
 
 entry.json / --json must contain at minimum:
-    sym, company, sentiment, wave, entry, target, analyst, analystTarget,
+    sym, company, category, wave, entry, target, analyst, analystTarget,
     summary, collections (list), levels (list of {label, value})
+
+`category` is one of:
+    "Buy Zone"               - price sitting in the named accumulation range
+                                (0.5-0.618 Fib, 200 WMA, "load the boat" range),
+                                or an explicit BUY ALERT sent. Buy or add here.
+    "Watchlist"               - setup identified but unconfirmed; waiting for
+                                support confirmation. No action, don't chase.
+    "Bull Case"               - support confirmed or First Target broken;
+                                riding toward the Wave 3/5 Fib targets. Hold,
+                                add on healthy pullbacks.
+    "At Target / Invalidated" - approaching the 1.618/3.618 Fib targets (trim,
+                                take profits), or a key support broke / bearish
+                                pattern formed (thesis invalidated - reduce or
+                                step back to Watchlist).
 
 The script:
   - looks up any existing record for `sym`
-  - if the sentiment changed, moves the old sentiment into `prevSentiment`
-    (this is what draws the amber "sentiment changed" highlight on the dashboard)
+  - if the category changed, moves the old category into `prevCategory`
+    (this is what draws the amber "category changed" highlight on the dashboard)
   - computes `appr` (appreciation potential %) from entry/target if not given
-  - derives `sentimentClass`, `waveClass`, `analystClass`, `recClass`, `rec`
+  - derives `categoryClass`, `waveClass`, `analystClass`, `recClass`, `rec`
   - inserts/updates the asset in data.json and updates data.json's
     meta.lastUpdated timestamp
   - never touches index.html — the dashboard is 100% data-driven
@@ -35,11 +49,11 @@ from pathlib import Path
 
 DATA_PATH = Path(__file__).parent / "data.json"
 
-SENTIMENT_TO_CLASS = {
-    "Buy Now": "badge-buy-now",
-    "Trending to Buy": "badge-trending-buy",
-    "Trending Negatively": "badge-trending-neg",
-    "Appreciating": "badge-appreciating",
+CATEGORY_TO_CLASS = {
+    "Buy Zone": "badge-buy-zone",
+    "Watchlist": "badge-watchlist",
+    "Bull Case": "badge-bull-case",
+    "At Target / Invalidated": "badge-at-target",
 }
 
 WAVE_CLASS_HINTS = [
@@ -59,7 +73,7 @@ ANALYST_TO_CLASS = {
 YF_SYMBOL_OVERRIDE = {"BTC": "BTC-USD"}
 DISPLAY_SYMBOL_OVERRIDE = {"RYCEY": "RR"}
 
-REQUIRED_FIELDS = ["sym", "company", "sentiment", "wave", "entry", "analyst", "summary"]
+REQUIRED_FIELDS = ["sym", "company", "category", "wave", "entry", "analyst", "summary"]
 
 
 def parse_price(s):
@@ -86,10 +100,10 @@ def wave_class_for(wave_text):
     return "wave-correct"
 
 
-def rec_for(sentiment, analyst):
-    is_buy_now = sentiment == "Buy Now"
+def rec_for(category, analyst):
+    is_buy_zone = category == "Buy Zone"
     analyst_ok = analyst in ("Strong Buy", "Buy", "Bullish")
-    if is_buy_now and analyst_ok:
+    if is_buy_zone and analyst_ok:
         return "rec-buy", "BUY"
     return "rec-wait", "WAIT"
 
@@ -130,7 +144,7 @@ def merge_entry(data, entry):
     entry["sym"] = sym
 
     existing = next((a for a in data["assets"] if a["sym"] == sym), None)
-    prev_sentiment = existing["sentiment"] if existing else None
+    prev_category = existing["category"] if existing else None
 
     entry.setdefault("target", existing.get("target") if existing else None)
     entry.setdefault("appr", compute_appr(entry.get("entry"), entry.get("target")))
@@ -138,11 +152,11 @@ def merge_entry(data, entry):
     entry.setdefault("levels", existing.get("levels", []) if existing else [])
     entry.setdefault("collections", existing.get("collections", []) if existing else [])
 
-    entry["sentimentClass"] = SENTIMENT_TO_CLASS.get(entry["sentiment"], "badge-trending-buy")
+    entry["categoryClass"] = CATEGORY_TO_CLASS.get(entry["category"], "badge-watchlist")
     entry["waveClass"] = wave_class_for(entry["wave"])
     entry["analystClass"] = ANALYST_TO_CLASS.get(entry["analyst"], "analyst-none")
-    entry["recClass"], entry["rec"] = rec_for(entry["sentiment"], entry["analyst"])
-    entry["prevSentiment"] = prev_sentiment if (prev_sentiment and prev_sentiment != entry["sentiment"]) else None
+    entry["recClass"], entry["rec"] = rec_for(entry["category"], entry["analyst"])
+    entry["prevCategory"] = prev_category if (prev_category and prev_category != entry["category"]) else None
     entry["yfSymbol"] = YF_SYMBOL_OVERRIDE.get(sym, sym)
     entry["displaySym"] = DISPLAY_SYMBOL_OVERRIDE.get(sym, sym)
     entry["lastUpdated"] = datetime.now(timezone.utc).isoformat()
@@ -176,8 +190,8 @@ def main():
     data = load_data()
     merged = merge_entry(data, entry)
     save_data(data)
-    print(f"OK: {merged['sym']} → sentiment={merged['sentiment']}"
-          + (f" (was {merged['prevSentiment']})" if merged["prevSentiment"] else "")
+    print(f"OK: {merged['sym']} → category={merged['category']}"
+          + (f" (was {merged['prevCategory']})" if merged["prevCategory"] else "")
           + f", rec={merged['rec']}")
 
 
