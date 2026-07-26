@@ -503,6 +503,17 @@
   let ASSETS = {};          // sym -> asset object
   let ASSET_COLLECTIONS = {}; // sym -> [collection names]
 
+  // Only show assets mentioned in a TLI email within the last N weeks.
+  const RECENCY_WEEKS = 3;
+  const RECENCY_MS = RECENCY_WEEKS * 7 * 24 * 60 * 60 * 1000;
+
+  function isRecentAsset(a) {
+    if (!a.lastUpdated) return false;
+    const d = new Date(a.lastUpdated);
+    if (isNaN(d)) return false;
+    return (Date.now() - d.getTime()) <= RECENCY_MS;
+  }
+
   function getApprClass(appr) {
     if (!appr || appr === '—') return 'appr-none';
     const pct = parseFloat(appr);
@@ -593,7 +604,7 @@
     let html = '';
     let rank = 0;
     CATEGORY_ORDER.forEach(section => {
-      const rows = DATA.assets.filter(a => a.category === section.key);
+      const rows = DATA.assets.filter(a => a.category === section.key && isRecentAsset(a));
       if (!rows.length) return;
       if (section.key === 'Buy Zone') {
         rows.sort((x, y) => (x.recClass === 'rec-buy' ? 0 : 1) - (y.recClass === 'rec-buy' ? 0 : 1));
@@ -605,12 +616,13 @@
   }
 
   function renderSummary() {
-    const total     = DATA.assets.length;
-    const buyZone   = DATA.assets.filter(a => a.category === 'Buy Zone').length;
-    const watchlist = DATA.assets.filter(a => a.category === 'Watchlist').length;
-    const bullCase  = DATA.assets.filter(a => a.category === 'Bull Case').length;
-    const atTarget  = DATA.assets.filter(a => a.category === 'At Target / Invalidated').length;
-    const confirm   = DATA.assets.filter(a => a.recClass === 'rec-buy').length;
+    const recent    = DATA.assets.filter(isRecentAsset);
+    const total     = recent.length;
+    const buyZone   = recent.filter(a => a.category === 'Buy Zone').length;
+    const watchlist = recent.filter(a => a.category === 'Watchlist').length;
+    const bullCase  = recent.filter(a => a.category === 'Bull Case').length;
+    const atTarget  = recent.filter(a => a.category === 'At Target / Invalidated').length;
+    const confirm   = recent.filter(a => a.recClass === 'rec-buy').length;
     document.getElementById('sum-total').textContent      = total;
     document.getElementById('sum-buy-zone').textContent   = buyZone;
     document.getElementById('sum-watchlist').textContent  = watchlist;
@@ -620,7 +632,8 @@
   }
 
   function renderHeader() {
-    document.getElementById('header-subtitle').textContent = DATA.meta.subtitle;
+    document.getElementById('header-subtitle').textContent =
+      `Elliott Wave analysis from TLI emails (last ${RECENCY_WEEKS} weeks) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary`;
     const collNames = Object.keys(DATA.collections).join(' · ');
     document.getElementById('header-date').textContent =
       `Analysis: ${DATA.meta.analysisDate} | Collections: ${collNames} · Prices every 15 min`;
@@ -631,7 +644,7 @@
 
   /* ─────────────── COLLECTION PAGE ─────────────── */
   function renderCollectionPage(collName) {
-    const syms = DATA.collections[collName] || [];
+    const syms = (DATA.collections[collName] || []).filter(sym => ASSETS[sym] && isRecentAsset(ASSETS[sym]));
     document.getElementById('collection-page-name').textContent = collName;
     document.getElementById('collection-page-meta').textContent =
       syms.length + ' assets · Click any ticker for TLI analysis';
@@ -941,19 +954,22 @@
       return;
     }
 
+    const recentAssets = DATA.assets.filter(isRecentAsset);
+
     ASSETS = {};
-    DATA.assets.forEach(a => { ASSETS[a.sym] = a; });
+    recentAssets.forEach(a => { ASSETS[a.sym] = a; });
 
     ASSET_COLLECTIONS = {};
     Object.entries(DATA.collections).forEach(([col, syms]) => {
       syms.forEach(s => {
+        if (!ASSETS[s]) return;
         (ASSET_COLLECTIONS[s] = ASSET_COLLECTIONS[s] || []).push(col);
       });
     });
 
-    SYMBOLS = DATA.assets.map(a => a.yfSymbol || a.sym);
+    SYMBOLS = recentAssets.map(a => a.yfSymbol || a.sym);
     YF_TO_SYM = {};
-    DATA.assets.forEach(a => { YF_TO_SYM[a.yfSymbol || a.sym] = a.sym; });
+    recentAssets.forEach(a => { YF_TO_SYM[a.yfSymbol || a.sym] = a.sym; });
 
     renderHeader();
     renderSummary();
