@@ -3,7 +3,7 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "July 3, 2026",
-    "lastUpdated": "2026-07-31T21:09:30.720599+00:00"
+    "lastUpdated": "2026-07-31T21:10:46.433825+00:00"
   },
   "collections": {
     "Top 10": [
@@ -709,44 +709,44 @@
       "sym": "NVO",
       "company": "Novo Nordisk A/S · NYSE ADR",
       "category": "Buy Zone",
-      "wave": "Wave 3 ↑ (early stages) — awaiting 3-wave pullback to complete Wave 2",
+      "wave": "Wave 2 pullback (3-wave) into the Buy Zone",
       "entry": "$43–$45 (Buy Zone for Wave 2 completion)",
-      "target": "$150 (road to new ATHs)",
       "analyst": "Buy",
       "analystTarget": "$85.00",
-      "summary": "TLI continues to use the same NVO chart from the past seven months, with the ideal scenario being a 3-wave pullback into the Buy Zone between $43-$45 to complete Wave 2 before Wave 3 targets the 1.618 Fib near $68. TLI also flags NVO alongside UNH and OSCR as three healthcare names that could all offer a Wave 2 pullback to add to soon, and would be happy adding to all three. The Wave 5 target at the 2.618 Fib nicely aligns with the 200 WMA near $82, en route to the longer-term outlook for new all-time highs.",
+      "summary": "A negative catalyst supplied the drop TLI was waiting for to complete Wave 2, with price already back near the 50/200-day MAs around $46. TLI expects a further 3-wave decline into the $43-$45 buy zone, unchanged from the prior thesis, and compares conviction here to buying UNH at $250. Full conviction to add is called for.",
       "levels": [
         {
           "label": "Buy Zone",
-          "value": "$43–$45 (Wave 2 completion)"
+          "value": "$43–$45"
         },
         {
-          "label": "Wave 3 Target",
-          "value": "$68 (1.618 Fib)"
+          "label": "Current Price",
+          "value": "~$46 (50/200 DMA)"
         },
         {
-          "label": "Wave 5 / 200 WMA Confluence",
-          "value": "$82 (2.618 Fib)"
+          "label": "Wave Count",
+          "value": "Wave 2 (3-wave decline in progress)"
         },
         {
-          "label": "Peer Watch",
-          "value": "UNH and OSCR also flirting with Wave 2 pullbacks"
+          "label": "Analyst Target",
+          "value": "$85.00"
         }
       ],
+      "target": "$150 (road to new ATHs)",
       "appr": "+249%",
       "collections": [
         "Top 10",
         "Watchlist"
       ],
       "categoryClass": "badge-buy-zone",
-      "waveClass": "wave-impulse",
+      "waveClass": "wave-correct",
       "analystClass": "analyst-buy",
       "recClass": "rec-buy",
       "rec": "BUY",
       "prevCategory": null,
       "yfSymbol": "NVO",
       "displaySym": "NVO",
-      "lastUpdated": "2026-07-24T21:19:28.552262+00:00"
+      "lastUpdated": "2026-07-31T21:10:46.270325+00:00"
     },
     {
       "sym": "CRM",
@@ -829,44 +829,44 @@
     {
       "sym": "REGN",
       "company": "Regeneron Pharmaceuticals · NASDAQ",
-      "category": "Watchlist",
-      "wave": "Wave 2 (complete) → Wave 3 pending — bounced off 0.618 Fib, testing 50 WMA",
-      "entry": "$689 (50 WMA) — next buy entry if it holds as support",
-      "target": "$1166 (1.618 Fib, Wave 3)",
+      "category": "Bull Case",
+      "wave": "Wave 2 complete (0.618 Fib) → Wave 3 underway, testing 200 DMA support",
+      "entry": "$708 (200 DMA) — retest for support wanted to confirm Wave 3",
+      "target": "$1100 (1.618 Fib, Wave 3)",
       "analyst": "Strong Buy",
       "analystTarget": "$900.00",
-      "collections": [
-        "Watchlist"
-      ],
-      "summary": "REGN has bounced off the 0.618 Fib at $608 up to the 50-week moving average at $689, forming a series of higher highs and higher lows into this level. TLI says price is now out of the prior Buy Zone, and the next buy entry opens up if $689 flips to support, confirming the Wave 2 pullback is complete and Wave 3 is underway. The 1.618 Fib target remains unchanged at $1166, with earnings due Thursday before the open.",
+      "summary": "REGN's Wave 2 bottomed in textbook fashion at the 0.618 Fib near $608. Price reclaimed the 50-day MA, retested it for support at $640, then broke above the 200-day MA at $708 — TLI now wants a retest of that level to hold as new support to confirm Wave 3 is underway. The Wave 3 target is now cited at $1100 (1.618 Fib), a slight revision down from the prior figure.",
       "levels": [
         {
-          "label": "Current Resistance",
-          "value": "$689 (50 WMA, needs to flip to support)"
-        },
-        {
-          "label": "Prior Support",
+          "label": "Wave 2 Low",
           "value": "$608 (0.618 Fib)"
         },
         {
-          "label": "Wave 3 Target",
-          "value": "$1166 (1.618 Fib)"
+          "label": "50 DMA Support (held)",
+          "value": "$640"
         },
         {
-          "label": "Catalyst",
-          "value": "Earnings Thursday BMO"
+          "label": "200 DMA Support (retest wanted)",
+          "value": "$708"
+        },
+        {
+          "label": "Wave 3 Target",
+          "value": "$1100 (1.618 Fib)"
         }
       ],
-      "appr": "+69%",
-      "categoryClass": "badge-watchlist",
+      "appr": "+55%",
+      "collections": [
+        "Watchlist"
+      ],
+      "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-strong-buy",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": null,
+      "prevCategory": "Watchlist",
       "yfSymbol": "REGN",
       "displaySym": "REGN",
-      "lastUpdated": "2026-07-28T21:19:05.365244+00:00"
+      "lastUpdated": "2026-07-31T21:10:46.433788+00:00"
     },
     {
       "sym": "TSLA",
@@ -1757,44 +1757,40 @@
     {
       "sym": "NBIS",
       "company": "Nebius Group N.V. · NASDAQ",
-      "category": "Watchlist",
-      "wave": "Wave 4 support test at the 0.5 Fib, wave count remains valid",
-      "entry": "$175 (0.5 Fib) — battling for support after rejecting the 50 Day MA",
+      "category": "Bull Case",
+      "wave": "Wave 5 in progress toward the 2.618 Fib",
+      "entry": "$175 (0.5 Fib) — prior battle level, now leading the AI infra rally",
+      "target": "$411 (Wave 5, 2.618 Fib)",
       "analyst": "Hold",
-      "summary": "NBIS continues to battle for support at the 0.5 Fib at $175 after rejecting at the 50 Day MA at $226. TLI wants to see stabilization here before a re-challenge of the 50 Day MA — this time as support — with a break above the 1.618 Fib at $282 confirming Wave 5 is underway. No change to the Wave 5 target at the 2.618 Fib, $411.",
+      "summary": "NBIS led the AI-infrastructure basket again, up roughly 9% premarket after pacing the prior session's rally ahead of WYFI and IREN. TLI notes anyone who held through the year's volatility is up about 125% YTD, reinforcing a hold-don't-trade approach. No chart changes — Wave 5 continues toward the 2.618 Fib target, and this now reads as a confirmed Bull Case rather than a support test.",
       "levels": [
         {
-          "label": "Support Battle",
-          "value": "$175 (0.5 Fib)"
+          "label": "Wave 5 Target",
+          "value": "$411 (2.618 Fib)"
         },
         {
-          "label": "Resistance",
-          "value": "$226 (50 Day MA)"
+          "label": "YTD Performance",
+          "value": "+125% (if held)"
         },
         {
-          "label": "Wave 5 Confirmation",
-          "value": "$282 (1.618 Fib)"
-        },
-        {
-          "label": "LT Target",
-          "value": "$411 (unchanged)"
+          "label": "Momentum",
+          "value": "+9% PM, leading AI infra basket"
         }
       ],
-      "target": "$411 (Wave 5)",
       "appr": "+135%",
       "analystTarget": null,
       "collections": [
         "Watchlist"
       ],
-      "categoryClass": "badge-watchlist",
-      "waveClass": "wave-correct",
+      "categoryClass": "badge-bull-case",
+      "waveClass": "wave-top",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": null,
+      "prevCategory": "Watchlist",
       "yfSymbol": "NBIS",
       "displaySym": "NBIS",
-      "lastUpdated": "2026-07-29T21:10:45.199935+00:00"
+      "lastUpdated": "2026-07-31T21:10:46.377880+00:00"
     },
     {
       "sym": "IREN",
@@ -2048,38 +2044,42 @@
     {
       "sym": "RDDT",
       "company": "Reddit Inc · NYSE",
-      "category": "Bull Case",
-      "wave": "3-wave pullback to confluence support, bounced to 50 WMA",
-      "entry": "$129 (0.618 Fib / bullish wedge support)",
-      "target": "$518 (wedge breakout target)",
+      "category": "Watchlist",
+      "wave": "Wave 2 pullback (post-earnings) after Wave 1 leading diagonal",
+      "entry": "Watching $153 (0.618 Fib) support; $138 (0.78 Fib) if lost",
       "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "RDDT's data moat and cult following aside, the chart shows exactly the setup bulls want: a clean 3-wave pullback into confluence support at the 0.618 Fib and bullish wedge support near $129, followed by a strong bounce to the 50-week MA. Current price is around $173, and a confirmed breakout of the wedge would open the door to a much larger target near $518.",
-      "collections": [],
+      "summary": "RDDT sold off -14% premarket after a negative FCF print, which TLI reads as an overdue Wave 2 pullback following Wave 1's overlapping leading-diagonal bounce. Shares already fell to the 0.618 Fib near $153 premarket; a break below that sends it to the 0.78 Fib around $138. TLI wants a higher low confirmed before adding, moving this back to Watchlist rather than Bull Case for now.",
       "levels": [
         {
-          "label": "Support",
-          "value": "$129 (0.618 Fib / wedge support)"
+          "label": "0.618 Fib Support",
+          "value": "$153"
         },
         {
-          "label": "Current Price",
-          "value": "~$173"
+          "label": "0.78 Fib (downside)",
+          "value": "$138"
         },
         {
-          "label": "Breakout Target",
-          "value": "$518 (wedge measured move)"
+          "label": "Wave Count",
+          "value": "Wave 2 pullback"
+        },
+        {
+          "label": "Resistance",
+          "value": "50 WMA since March"
         }
       ],
-      "appr": "+302%",
-      "categoryClass": "badge-bull-case",
+      "target": "$518 (wedge breakout target)",
+      "appr": "+239%",
+      "analystTarget": null,
+      "collections": [],
+      "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": null,
+      "prevCategory": "Bull Case",
       "yfSymbol": "RDDT",
       "displaySym": "RDDT",
-      "lastUpdated": "2026-07-24T21:19:28.059234+00:00"
+      "lastUpdated": "2026-07-31T21:10:46.213297+00:00"
     },
     {
       "sym": "CELH",
@@ -2726,38 +2726,42 @@
     {
       "sym": "BUD",
       "company": "Anheuser-Busch InBev SA/NV · NYSE",
-      "wave": "Wave 3 target $119, Wave 5 target $165",
-      "entry": "No new entry offered — price continuing steady uptrend",
-      "target": "$165",
+      "category": "Bull Case",
+      "wave": "Wave 3 (clean cup formation) toward the 1.618 Fib",
+      "entry": "No new entry — steady grind higher near $87",
       "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "TLI notes this chart rarely needs updating since it has stayed consistent, continuing to print higher highs and higher lows. The Wave 3 target remains the 1.618 Fib at $119, with a cup formation projected to complete at the $136 resistance line, and the longer-term Wave 5 target unchanged at $165.",
-      "collections": [],
+      "summary": "TLI dislikes the company itself but says the chart is compelling: BUD is grinding higher in Wave 3 within a clean cup formation. Wave 2 support at the 0.618 Fib ($50) has held for over a year, and price now sits around $87 with no changes to the mapped path toward the Wave 5 target.",
       "levels": [
         {
-          "label": "Wave 3 target (1.618 Fib)",
-          "value": "$119"
+          "label": "Wave 3 Interim Target",
+          "value": "$119 (1.618 Fib)"
         },
         {
-          "label": "Cup formation resistance",
-          "value": "$136"
+          "label": "Wave 2 Support (held)",
+          "value": "$50 (0.618 Fib)"
         },
         {
-          "label": "Wave 5 target",
-          "value": "$165"
+          "label": "Current Price",
+          "value": "~$87"
+        },
+        {
+          "label": "Pattern",
+          "value": "Cup formation"
         }
       ],
-      "appr": null,
+      "target": "$165",
+      "appr": "+90%",
+      "analystTarget": null,
+      "collections": [],
+      "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
+      "prevCategory": null,
       "yfSymbol": "BUD",
       "displaySym": "BUD",
-      "lastUpdated": "2026-06-25T11:36:58Z",
-      "category": "Bull Case",
-      "categoryClass": "badge-bull-case",
-      "prevCategory": null
+      "lastUpdated": "2026-07-31T21:10:46.321461+00:00"
     },
     {
       "sym": "HASI",
