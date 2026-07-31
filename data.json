@@ -3,7 +3,7 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "July 3, 2026",
-    "lastUpdated": "2026-07-29T21:10:45.281077+00:00"
+    "lastUpdated": "2026-07-31T21:09:30.720599+00:00"
   },
   "collections": {
     "Top 10": [
@@ -299,40 +299,44 @@
     {
       "sym": "ASTS",
       "company": "AST SpaceMobile · NASDAQ",
-      "category": "Buy Zone",
-      "wave": "3-wave bounce completed off the descending triangle — expecting a retest of the 0.618 Fib",
-      "entry": "$50 (0.618 Fib) — generational Buy Zone, TLI accumulating",
-      "analyst": "Buy",
-      "summary": "ASTS's bounce since mid-July completed in three waves, which typically signals the downtrend isn't over — TLI expects a retest of the 0.618 Fib near $50, right at the apex of the descending triangle, and sees minimal further downside risk from here. With roughly 20 more satellite deployments planned this year and the sector under pressure from SPCX's post-earnings collapse, TLI calls current levels a generational opportunity and continues to accumulate.",
-      "levels": [
-        {
-          "label": "Key Retest",
-          "value": "$50 (0.618 Fib)"
-        },
-        {
-          "label": "Catalyst",
-          "value": "~20 more satellite deployments in 2026"
-        },
-        {
-          "label": "Status",
-          "value": "Accumulate now per TLI"
-        }
-      ],
+      "category": "Bull Case",
+      "wave": "Breakout confirmed — cleared the descending wedge above $57.50 after the Buy Zone alert triggered",
+      "entry": "$57.30 (BUY ALERT trigger) — now breaking out toward $60",
       "target": "$261",
-      "appr": "+422%",
+      "analyst": "Buy",
       "analystTarget": "$110.00",
       "collections": [
         "Watchlist"
       ],
-      "categoryClass": "badge-buy-zone",
+      "summary": "TLI issued a final BUY ALERT on $ASTS at $57.30, and within hours price confirmed a clean breakout above the $57.50 level of a large, steep descending wedge, trading up toward $60 in premarket. This validates the generational Buy Zone thesis from the 0.618 Fib bounce, and the wedge breakout shifts the setup from an accumulation call to a confirmed bullish structure.",
+      "levels": [
+        {
+          "label": "Buy Alert Trigger",
+          "value": "$57.30"
+        },
+        {
+          "label": "Breakout Level",
+          "value": "$57.50 (wedge resistance)"
+        },
+        {
+          "label": "LT Target",
+          "value": "$261"
+        },
+        {
+          "label": "Analyst Target",
+          "value": "$110.00"
+        }
+      ],
+      "appr": "+355%",
+      "categoryClass": "badge-bull-case",
       "waveClass": "wave-correct",
       "analystClass": "analyst-buy",
-      "recClass": "rec-buy",
-      "rec": "BUY",
-      "prevCategory": null,
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": "Buy Zone",
       "yfSymbol": "ASTS",
       "displaySym": "ASTS",
-      "lastUpdated": "2026-07-29T21:10:45.240580+00:00"
+      "lastUpdated": "2026-07-31T21:09:30.617200+00:00"
     },
     {
       "sym": "SE",
@@ -786,30 +790,32 @@
       "sym": "NFLX",
       "company": "Netflix Inc · NASDAQ",
       "category": "Watchlist",
-      "wave": "Primary Wave 2 (ABC complete) — recaptured 200 WMA and blue support line post-earnings",
-      "entry": "$61 (0.618 Fib) — recaptured 200 WMA, awaiting flip to support",
-      "target": "$70 (200 WMA flip) → $97 (50 WMA challenge)",
+      "wave": "Primary Wave 2 (ABC) — testing 200 WMA support",
+      "entry": "$71 (200 WMA, currently holding) — next support $61 (0.618 Fib) if it fails",
+      "target": "$75 (0.5 Fib flip) → $96 (50 WMA challenge)",
       "analyst": "Buy",
       "analystTarget": "$95.00",
-      "collections": [
-        "Watchlist"
-      ],
-      "summary": "NFLX has recaptured the 200-week moving average and its blue support line after a small post-earnings flush below that level, which TLI reads as a sign of strength and a signal to add once the level converts to support. This recapture also symbolizes that NFLX's 3-wave pullback is likely complete — unlike much of the market, NFLX corrected instead of extending Wave 5, which TLI says makes it attractive again despite a not-entirely-clean earnings print. TLI still sees a durable moat and expects margins to improve as AI usage lowers costs.",
+      "collections": [],
+      "summary": "NFLX continues to test the 200 WMA at $71 for support, and so far the level is holding well. If it fails, TLI's next support is the 0.618 Fib at $61, which aligns with the lower wedge line for a tight squeeze. Once support is confirmed, the plan is a wedge breakout followed by flipping $75 (0.5 Fib) to support before challenging the 50 WMA at $96.",
       "levels": [
         {
-          "label": "Recaptured Level",
-          "value": "200 WMA / blue support line"
+          "label": "Current Support",
+          "value": "$71 (200 WMA)"
         },
         {
-          "label": "Next Confirmation",
-          "value": "Flip of 200 WMA to support"
+          "label": "Downside Support",
+          "value": "$61 (0.618 Fib)"
         },
         {
-          "label": "Next Hurdle",
-          "value": "$97 (50 WMA challenge)"
+          "label": "Next Flip Target",
+          "value": "$75 (0.5 Fib)"
+        },
+        {
+          "label": "Upside Target",
+          "value": "$96 (50 WMA)"
         }
       ],
-      "appr": "+15%",
+      "appr": "+6%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-buy",
@@ -818,7 +824,7 @@
       "prevCategory": null,
       "yfSymbol": "NFLX",
       "displaySym": "NFLX",
-      "lastUpdated": "2026-07-28T21:19:05.709932+00:00"
+      "lastUpdated": "2026-07-31T21:09:30.720563+00:00"
     },
     {
       "sym": "REGN",
@@ -1863,27 +1869,27 @@
       "company": "SpaceX Corp · NASDAQ",
       "category": "Watchlist",
       "wave": "Wave (4) corrective channel — support unconfirmed",
-      "entry": "No confirmed zone yet — await support / channel breakout",
-      "analyst": "Hold",
-      "summary": "TLI notes the space sector, including SPCX, remains in a downward trend since its post-IPO pump and is still hunting for a support level. Price action is confined to a tight descending channel, and the analyst thinks a fresh catalyst will be needed before that channel breaks. No actionable entry has been defined yet, so this stays a watch-and-wait situation.",
-      "levels": [
-        {
-          "label": "Trend",
-          "value": "Downward channel since post-IPO high"
-        },
-        {
-          "label": "Status",
-          "value": "Searching for support"
-        },
-        {
-          "label": "Catalyst Needed",
-          "value": "Break of strict channel"
-        }
-      ],
+      "entry": "$100 (1.618 Fib, psychological level) — DCA range $100-$70",
       "target": null,
-      "appr": null,
+      "analyst": "Hold",
       "analystTarget": "$800 (Street target TLI views as unrealistic)",
       "collections": [],
+      "summary": "TLI flags $100 as the obvious level where bulls should start scaling in on SPCX — it's both a psychological round number and the 1.618 Fib, well below the $225 ATH and $147 IPO price. TLI thinks calls for $65-$70 are too extreme but sees a DCA strategy between $100 and $70 as reasonable. TLI personally prefers adding to $ASTS over $SPCX given full commitment there already.",
+      "levels": [
+        {
+          "label": "Entry Zone",
+          "value": "$100 (1.618 Fib)"
+        },
+        {
+          "label": "DCA Range",
+          "value": "$100 - $70"
+        },
+        {
+          "label": "ATH Reference",
+          "value": "$225"
+        }
+      ],
+      "appr": null,
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
@@ -1892,7 +1898,7 @@
       "prevCategory": null,
       "yfSymbol": "SPCX",
       "displaySym": "SPCX",
-      "lastUpdated": "2026-07-17T21:13:32.608226+00:00"
+      "lastUpdated": "2026-07-31T21:09:30.670996+00:00"
     },
     {
       "sym": "NU",
