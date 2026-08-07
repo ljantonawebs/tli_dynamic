@@ -102,8 +102,9 @@
     .wave {
       display: inline-block; padding: 2px 7px; border-radius: 4px;
       font-size: 10px; font-weight: 700; font-family: 'SF Mono', monospace;
-      white-space: nowrap;
+      white-space: nowrap; text-align: center; min-width: 14px; cursor: help;
     }
+    .col-narrow { width: 1%; white-space: nowrap; }
     .wave-impulse { background:#071f12; color:#4ade80; border:1px solid #166534; }
     .wave-correct { background:#0c1625; color:#93c5fd; border:1px solid #1e3a5f; }
     .wave-top     { background:#261a00; color:#fbbf24; border:1px solid #92400e; }
@@ -363,7 +364,7 @@
       <th>Asset</th>
       <th>TLI Stage</th>
       <th>Collection</th>
-      <th>TLI Wave</th>
+      <th class="col-narrow">TLI Wave</th>
       <th>Live Price</th>
       <th>TLI Entry Point</th>
       <th>TLI LT Target</th>
@@ -462,7 +463,7 @@
           <th>#</th>
           <th>Asset</th>
           <th>TLI Stage</th>
-          <th>TLI Wave</th>
+          <th class="col-narrow">TLI Wave</th>
           <th>Live Price</th>
           <th>TLI Entry Point</th>
           <th>TLI LT Target</th>
@@ -545,30 +546,18 @@
     return '—';
   }
 
-  // Strip trailing commentary from a wave count string while keeping short
-  // parenthetical qualifiers intact (e.g. "Wave 4 (ABC)" stays as-is, but
-  // "Wave 3 ↑ — early stages, awaiting pullback" becomes "Wave 3 ↑").
-  const WAVE_CUT_TOKENS = [
-    '—', ' → ', ';', ' - ', ' vs ', ' after ', ' now ', ' while ', ' before ',
-    ' watching ', ' awaiting ', ' holding ', ' testing ', ' with ', ' as ', ' following '
-  ];
-  function waveOnly(v) {
+  // Column display: just the wave number/letter (e.g. "3", "ABC"), so the
+  // TLI Wave column stays narrow. Full text is still on the title tooltip
+  // (hover) and in the ticker's detail modal (click).
+  const WAVE_NUM_RE = /\bwave\b\s*\(?\s*([0-9]+|[a-z])\b\)?/i;
+  function waveNumber(v) {
     if (!v) return '—';
     const s = String(v).trim();
-    let depth = 0, cutIdx = -1;
-    outer:
-    for (let i = 0; i < s.length; i++) {
-      const ch = s[i];
-      if (ch === '(') depth++;
-      else if (ch === ')') depth = Math.max(0, depth - 1);
-      if (depth === 0) {
-        for (const tok of WAVE_CUT_TOKENS) {
-          if (s.startsWith(tok, i)) { cutIdx = i; break outer; }
-        }
-      }
-    }
-    const result = (cutIdx === -1 ? s : s.slice(0, cutIdx)).trim();
-    return result || '—';
+    const m = s.match(WAVE_NUM_RE);
+    if (m) return m[1].toUpperCase();
+    const abc = s.match(/\bABC\b/i);
+    if (abc) return 'ABC';
+    return '—';
   }
 
   function formatCategoryDate(iso) {
@@ -613,7 +602,7 @@
       <td><div class="ticker" data-sym="${a.sym}">$${a.displaySym || a.sym}</div><div class="company">${a.company}</div></td>
       <td><span class="badge ${a.categoryClass}">${a.category}</span>${changedHtml}${dateHtml}</td>
       <td>${colHtml}</td>
-      <td title="${a.wave || ''}"><span class="wave ${a.waveClass}">${waveOnly(a.wave)}</span></td>
+      <td title="${a.wave || ''}"><span class="wave ${a.waveClass}">${waveNumber(a.wave)}</span></td>
       <td><div class="price-cell"><a class="price-link" href="https://finance.yahoo.com/quote/${a.yfSymbol || a.sym}" target="_blank" rel="noopener" title="Open ${a.sym} on Yahoo Finance"><span class="live-price" id="price-${a.sym}">—</span></a><span class="live-chg" id="chg-${a.sym}"></span></div></td>
       ${entryCellHtml(a)}
       <td class="price-val" title="${a.target || ''}">${priceOnly(a.target)}</td>
@@ -711,7 +700,7 @@
         <td>
           <span class="badge ${d.categoryClass}">${d.category}</span>${changedHtml}${dateHtml}
         </td>
-        <td title="${d.wave || ''}"><span class="wave ${d.waveClass}">${waveOnly(d.wave)}</span></td>
+        <td title="${d.wave || ''}"><span class="wave ${d.waveClass}">${waveNumber(d.wave)}</span></td>
         <td>
           <div class="price-cell">
             <a class="price-link" href="https://finance.yahoo.com/quote/${d.yfSymbol || sym}" target="_blank" rel="noopener" title="Open on Yahoo Finance"><span class="live-price" id="cp-price-${sym}">${livePrice}</span></a>
