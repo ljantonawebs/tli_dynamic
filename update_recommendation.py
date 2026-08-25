@@ -100,10 +100,20 @@ def wave_class_for(wave_text):
     return "wave-correct"
 
 
-def rec_for(category, analyst):
-    is_buy_zone = category == "Buy Zone"
+def appr_pct(appr):
+    """Pull the numeric percentage out of an `appr` string like '+157%'."""
+    if not appr:
+        return None
+    m = re.search(r"(-?\d+(?:\.\d+)?)", appr)
+    return float(m.group(1)) if m else None
+
+
+def rec_for(category, analyst, appr=None):
+    stage_ok = category in ("Buy Zone", "Watchlist")
     analyst_ok = analyst in ("Strong Buy", "Buy", "Bullish")
-    if is_buy_zone and analyst_ok:
+    pct = appr_pct(appr)
+    appr_ok = pct is not None and pct > 30
+    if stage_ok and analyst_ok and appr_ok:
         return "rec-buy", "BUY"
     return "rec-wait", "WAIT"
 
@@ -155,7 +165,7 @@ def merge_entry(data, entry):
     entry["categoryClass"] = CATEGORY_TO_CLASS.get(entry["category"], "badge-watchlist")
     entry["waveClass"] = wave_class_for(entry["wave"])
     entry["analystClass"] = ANALYST_TO_CLASS.get(entry["analyst"], "analyst-none")
-    entry["recClass"], entry["rec"] = rec_for(entry["category"], entry["analyst"])
+    entry["recClass"], entry["rec"] = rec_for(entry["category"], entry["analyst"], entry.get("appr"))
     entry["prevCategory"] = prev_category if (prev_category and prev_category != entry["category"]) else None
     entry["yfSymbol"] = YF_SYMBOL_OVERRIDE.get(sym, sym)
     entry["displaySym"] = DISPLAY_SYMBOL_OVERRIDE.get(sym, sym)
