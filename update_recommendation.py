@@ -80,7 +80,7 @@ def parse_price(s):
     """Pull the first dollar-ish number out of a free-text price string."""
     if not s:
         return None
-    m = re.search(r"\$?([\d,]+(?:\.\d+)?)", s)
+    m = re.search(r"\$?(\d[\d,]*(?:\.\d+)?)", s)
     if not m:
         return None
     return float(m.group(1).replace(",", ""))
