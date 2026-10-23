@@ -1,0 +1,4 @@
+# Gmail connector secrets
+gmail_credentials.json
+.gmail_tokens/
+__pycache__/
