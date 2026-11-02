@@ -3,7 +3,7 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "July 3, 2026",
-    "lastUpdated": "2026-10-26T13:21:55.695776+00:00"
+    "lastUpdated": "2026-11-02T13:32:20.009664+00:00"
   },
   "collections": {
     "Top 10": [
@@ -732,43 +732,43 @@
       "sym": "NVO",
       "company": "Novo Nordisk A/S · NYSE ADR",
       "category": "Watchlist",
-      "wave": "Deep Wave 2 finding support at 0.887 Fib",
-      "entry": "$37 (0.887 Fib)",
-      "target": "$65",
+      "wave": "Early Wave 3 after ABC pullback to 0.887 Fib ($37)",
+      "entry": "Flip of 50 Day MA ($41) to support; then 200 Day MA test at $44",
+      "target": "$65 (Wave 3, 1.618 Fib)",
       "analyst": "Buy",
       "analystTarget": "$85.00",
-      "summary": "NVO is holding the 0.887 Fib in a deeper-than-usual Wave 2, valid while the Wave 1 low stays intact. TLI wants sideways consolidation, then a flip of the 0.78 Fib, then a challenge of the wedge/50 WMA confluence. A break above that confluence moves it to the Bull Case, and the Wave 3 target is unchanged.",
+      "summary": "TLI sees limited downside for Novo after the ABC pullback found support at the 0.887 Fib near $37. Price has since put in a higher low and higher high to start Wave 3. A reclaim of the 50 Day MA around $41 would be the next low-risk entry, with the 200 Day MA near $44 the following hurdle. The 4.5% dividend adds support and earnings arrive Wednesday.",
       "levels": [
+        {
+          "label": "50 Day MA",
+          "value": "$41"
+        },
+        {
+          "label": "200 Day MA",
+          "value": "$44"
+        },
+        {
+          "label": "Wave 3 target",
+          "value": "$65"
+        },
         {
           "label": "Support (0.887 Fib)",
           "value": "$37"
-        },
-        {
-          "label": "Wave 1 low",
-          "value": "$35"
-        },
-        {
-          "label": "0.78 Fib",
-          "value": "$38.81"
-        },
-        {
-          "label": "Wedge/50 WMA",
-          "value": "$45"
         }
       ],
       "collections": [
         "Top 10"
       ],
-      "appr": "+76%",
+      "appr": "+30%",
       "categoryClass": "badge-watchlist",
-      "waveClass": "wave-correct",
+      "waveClass": "wave-impulse",
       "analystClass": "analyst-buy",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": "Buy Zone",
+      "prevCategory": null,
       "yfSymbol": "NVO",
       "displaySym": "NVO",
-      "lastUpdated": "2026-10-26T13:21:43.884146+00:00"
+      "lastUpdated": "2026-11-02T13:32:19.949365+00:00"
     },
     {
       "sym": "CRM",
@@ -1956,40 +1956,40 @@
       "sym": "ETH",
       "company": "Ethereum · Cryptocurrency",
       "category": "Buy Zone",
-      "wave": "Wave 2 correction holding 0.5 Fib / 200 DMA, Wave 3 next",
-      "entry": "$2,100 (0.5 Fib + 200 DMA)",
-      "target": "ATH retest via Wave 3 / Wave 5",
+      "wave": "ABC pullback after five waves up",
+      "entry": "$2,158 (200 Day MA + 0.5 Fib confluence); scale in",
+      "target": "Challenge 50 Day MA at $2,500",
       "analyst": "Buy",
-      "analystTarget": null,
-      "summary": "TLI sees the Wave 1 and Wave 2 count as clean, with price sitting on the 200 day MA and the 0.5 Fib near $2,100. He treats ETH as a purely technical position and favors adding where support is found. At $2,100 the price is also at least 15% below the 200 WMA, which gives a margin of safety before a Wave 3 advance.",
+      "analystTarget": "",
+      "summary": "After five clean waves up, Ethereum is pulling back in an ABC into a confluence of the 200 Day MA and 0.5 Fib near $2,158. TLI treats that as the next Buy Zone if support holds, with the 50 Day MA near $2,500 the first upside test. If it fails, the 0.618 Fib at $2,000 is the next support. TLI suggests scaling in for those bullish on crypto.",
       "levels": [
         {
-          "label": "Support (0.5 Fib / 200 DMA)",
-          "value": "$2,100"
+          "label": "Entry Zone",
+          "value": "$2,158"
         },
         {
-          "label": "200 WMA discount",
-          "value": "at least 15% below"
+          "label": "Downside support",
+          "value": "$2,000"
         },
         {
-          "label": "Long-term goal",
-          "value": "Back to ATH"
+          "label": "50 Day MA",
+          "value": "$2,500"
         }
       ],
-      "appr": "-100%",
       "collections": [
         "Top 10",
         "Watchlist"
       ],
+      "appr": "-98%",
       "categoryClass": "badge-buy-zone",
-      "waveClass": "wave-impulse",
+      "waveClass": "wave-correct",
       "analystClass": "analyst-buy",
       "recClass": "rec-buy",
       "rec": "BUY",
-      "prevCategory": "Bull Case",
+      "prevCategory": null,
       "yfSymbol": "ETH",
       "displaySym": "ETH",
-      "lastUpdated": "2026-10-26T13:21:42.770397+00:00"
+      "lastUpdated": "2026-11-02T13:32:20.009611+00:00"
     },
     {
       "sym": "VICI",
@@ -4234,44 +4234,44 @@
     {
       "sym": "EL",
       "company": "Estée Lauder Companies · NYSE",
-      "category": "Watchlist",
-      "wave": "Wave 2 completed and the 50 WMA ($93) has flipped to confirmed support via a clean retest; price closed above the $100 psychological level. Next is a confluence resistance at $122 (200 WMA + Wave 1 high), then a break above $146 would confirm Bull Case entry with an unchanged Wave 3 target.",
-      "entry": "$93 (50 WMA, confirmed support after retest)",
-      "target": "$162 (1.618 Fib, Wave 3 target)",
+      "category": "Bull Case",
+      "wave": "Wave 3 underway after Wave 2 held at $66",
+      "entry": "Wave 2 low $66 held above 0.78 Fib ($64); price ~$112 post-earnings",
+      "target": "$182 (Wave 3, 1.618 Fib); $255 (Wave 5)",
       "analyst": "Hold",
-      "summary": "EL has confirmed support at the 50 WMA ($93) with a textbook breakout-retest-hold, and price has since closed above the $100 psychological level. TLI is now watching for a move through the $122 confluence resistance (200 WMA plus the Wave 1 high), with a break above $146 needed to officially confirm the Bull Case. The Wave 3 target remains unchanged at the 1.618 Fib near $162.",
+      "analystTarget": "$110",
+      "summary": "Estée Lauder beat on earnings with strong margin expansion and raised full-year guidance, which TLI sees as confirming the Wave 3 push. Price is rallying from the $90 October low toward the falling 200 WMA near $120. A flip of the roughly $122 Bull Case line to support would open the path to the Wave 3 and Wave 5 Fib targets, while Street targets of $70-$127 now look stale.",
       "levels": [
         {
-          "label": "Confirmed Support",
-          "value": "$93 (50 WMA)"
+          "label": "Bull Case line",
+          "value": "~$122"
         },
         {
-          "label": "Resistance",
-          "value": "$122 (200 WMA / Wave 1 high)"
+          "label": "Wave 3 target",
+          "value": "$182"
         },
         {
-          "label": "Bull Case Trigger",
-          "value": "$146"
+          "label": "Wave 5 target",
+          "value": "$255"
         },
         {
-          "label": "Wave 3 Target",
-          "value": "$162 (1.618 Fib)"
+          "label": "Analyst target",
+          "value": "~$110"
         }
       ],
       "collections": [
         "Watchlist"
       ],
-      "appr": "+74%",
-      "analystTarget": null,
-      "categoryClass": "badge-watchlist",
+      "appr": "+9000%",
+      "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": null,
+      "prevCategory": "Watchlist",
       "yfSymbol": "EL",
       "displaySym": "EL",
-      "lastUpdated": "2026-09-28T13:19:01.724425+00:00"
+      "lastUpdated": "2026-11-02T13:32:19.893407+00:00"
     },
     {
       "sym": "DOW",
