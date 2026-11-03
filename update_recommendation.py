@@ -131,6 +131,7 @@ def load_data():
 
 def save_data(data):
     data["meta"]["lastUpdated"] = datetime.now(timezone.utc).isoformat()
+    data["meta"]["analysisDate"] = datetime.now(timezone.utc).strftime("%B %-d, %Y")
     DATA_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 

@@ -329,7 +329,7 @@
 <body>
 
 <div class="header">
-  <h1>📊 The Long Investor — Asset Recommendations</h1>
+  <h1>📊 The Long Investor — Asset Recommendations <span id="header-analysis" style="font-size:0.6em;font-weight:400;opacity:.8"></span></h1>
   <div class="subtitle" id="header-subtitle">Loading…</div>
   <div class="date" id="header-date"></div>
 </div>
@@ -648,6 +648,7 @@
   function renderHeader() {
     document.getElementById('header-subtitle').textContent =
       `Elliott Wave analysis from TLI emails (last ${RECENCY_WEEKS} weeks) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary`;
+    document.getElementById('header-analysis').textContent = `· Analysis: ${DATA.meta.analysisDate}`;
     const collNames = Object.keys(DATA.collections).join(' · ');
     document.getElementById('header-date').textContent =
       `Analysis: ${DATA.meta.analysisDate} | Collections: ${collNames} · Prices every 15 min`;
