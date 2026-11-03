@@ -3,7 +3,7 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "July 3, 2026",
-    "lastUpdated": "2026-11-03T13:05:19.296716+00:00"
+    "lastUpdated": "2026-11-03T13:06:14.664176+00:00"
   },
   "collections": {
     "Top 10": [
@@ -124,13 +124,17 @@
       "EWZ",
       "MKC",
       "UNH"
+    ],
+    "India ETF": [
+      "INDA"
     ]
   },
   "collectionStyles": {
     "Top 10": "background:#052e2b;color:#5eead4;border:1px solid #0d9488",
     "Top 20": "background:#1c3a5e;color:#93c5fd;border:1px solid #2563eb",
     "Watchlist": "background:#2a1a00;color:#fbbf24;border:1px solid #b45309",
-    "Safe Haven": "background:#071f12;color:#4ade80;border:1px solid #166534"
+    "Safe Haven": "background:#071f12;color:#4ade80;border:1px solid #166534",
+    "India ETF": "background:#1e2433;color:#94a3b8;border:1px solid #2d3748"
   },
   "assets": [
     {
@@ -173,7 +177,7 @@
       "prevCategory": null,
       "yfSymbol": "BABA",
       "displaySym": "BABA",
-      "lastUpdated": "2026-11-03T13:05:17.905407+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.341498+00:00"
     },
     {
       "sym": "ZETA",
@@ -317,7 +321,7 @@
       "prevCategory": null,
       "yfSymbol": "GRRR",
       "displaySym": "GRRR",
-      "lastUpdated": "2026-11-03T13:05:18.860178+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.185881+00:00"
     },
     {
       "sym": "ASTS",
@@ -355,7 +359,7 @@
       "prevCategory": null,
       "yfSymbol": "ASTS",
       "displaySym": "ASTS",
-      "lastUpdated": "2026-11-03T13:05:19.296687+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.664147+00:00"
     },
     {
       "sym": "SE",
@@ -398,7 +402,7 @@
       "prevCategory": null,
       "yfSymbol": "SE",
       "displaySym": "SE",
-      "lastUpdated": "2026-11-03T13:05:18.345243+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.691670+00:00"
     },
     {
       "sym": "PFE",
@@ -516,7 +520,7 @@
       "prevCategory": "Watchlist",
       "yfSymbol": "GOOG",
       "displaySym": "GOOG",
-      "lastUpdated": "2026-11-03T13:05:18.099562+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.452714+00:00"
     },
     {
       "sym": "AMZN",
@@ -554,7 +558,7 @@
       "prevCategory": null,
       "yfSymbol": "AMZN",
       "displaySym": "AMZN",
-      "lastUpdated": "2026-11-03T13:05:18.292489+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.638724+00:00"
     },
     {
       "sym": "AAPL",
@@ -592,7 +596,7 @@
       "prevCategory": null,
       "yfSymbol": "AAPL",
       "displaySym": "AAPL",
-      "lastUpdated": "2026-11-03T13:05:18.158551+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.495578+00:00"
     },
     {
       "sym": "MSFT",
@@ -634,7 +638,7 @@
       "prevCategory": null,
       "yfSymbol": "MSFT",
       "displaySym": "MSFT",
-      "lastUpdated": "2026-11-03T13:05:18.390504+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.742651+00:00"
     },
     {
       "sym": "SHOP",
@@ -676,7 +680,7 @@
       "prevCategory": null,
       "yfSymbol": "SHOP",
       "displaySym": "SHOP",
-      "lastUpdated": "2026-11-03T13:05:18.566819+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.903353+00:00"
     },
     {
       "sym": "PLTR",
@@ -710,7 +714,7 @@
       "prevCategory": null,
       "yfSymbol": "PLTR",
       "displaySym": "PLTR",
-      "lastUpdated": "2026-11-03T13:05:18.524359+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.864856+00:00"
     },
     {
       "sym": "BIDU",
@@ -749,7 +753,7 @@
       "prevCategory": "Watchlist",
       "yfSymbol": "BIDU",
       "displaySym": "BIDU",
-      "lastUpdated": "2026-11-03T13:05:18.954464+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.271393+00:00"
     },
     {
       "sym": "NVO",
@@ -943,7 +947,7 @@
       "prevCategory": null,
       "yfSymbol": "TSLA",
       "displaySym": "TSLA",
-      "lastUpdated": "2026-11-03T13:05:18.697418+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.021855+00:00"
     },
     {
       "sym": "NIO",
@@ -1019,7 +1023,7 @@
       "prevCategory": null,
       "yfSymbol": "NKE",
       "displaySym": "NKE",
-      "lastUpdated": "2026-11-03T13:05:18.481030+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.823736+00:00"
     },
     {
       "sym": "OSCR",
@@ -1061,7 +1065,7 @@
       "prevCategory": null,
       "yfSymbol": "OSCR",
       "displaySym": "OSCR",
-      "lastUpdated": "2026-11-03T13:05:18.251306+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.584295+00:00"
     },
     {
       "sym": "BTC",
@@ -1103,7 +1107,7 @@
       "prevCategory": null,
       "yfSymbol": "BTC-USD",
       "displaySym": "BTC",
-      "lastUpdated": "2026-11-03T13:05:18.059875+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.398829+00:00"
     },
     {
       "sym": "PEP",
@@ -1146,7 +1150,7 @@
       "prevCategory": "At Target / Invalidated",
       "yfSymbol": "PEP",
       "displaySym": "PEP",
-      "lastUpdated": "2026-11-03T13:05:19.121978+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.501556+00:00"
     },
     {
       "sym": "PALL",
@@ -1223,7 +1227,7 @@
       "prevCategory": null,
       "yfSymbol": "AMD",
       "displaySym": "AMD",
-      "lastUpdated": "2026-11-03T13:05:18.207373+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.541107+00:00"
     },
     {
       "sym": "V",
@@ -1261,7 +1265,7 @@
       "prevCategory": null,
       "yfSymbol": "V",
       "displaySym": "V",
-      "lastUpdated": "2026-11-03T13:05:18.737505+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.069980+00:00"
     },
     {
       "sym": "UNH",
@@ -1305,7 +1309,7 @@
       "prevCategory": null,
       "yfSymbol": "UNH",
       "displaySym": "UNH",
-      "lastUpdated": "2026-11-03T13:05:18.433854+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.783530+00:00"
     },
     {
       "sym": "DCTH",
@@ -1385,39 +1389,43 @@
       "sym": "MELI",
       "company": "MercadoLibre Inc · NASDAQ",
       "category": "Buy Zone",
-      "wave": "Wave 2 pullback below 200 WMA",
-      "entry": "$1,618 (0.78 Fib)",
-      "target": null,
-      "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "MELI fell about 8% after hours to roughly $1,660 following the Brazilian election result. That put it below the 200 WMA and into the buy zone. TLI considers the move an overreaction. A confirmed hold near the 0.78 Fib at $1,618, which lines up with the larger 0.5 Fib, would complete a Wave 2 and give a low-risk entry. Support is not confirmed yet.",
+      "wave": "Finishing Wave 2 (Wave C wick at 0.78 Fib)",
+      "entry": "Buy Zone around $1,618 (0.78 Fib + 0.5 Fib stack)",
+      "target": "$2,500",
+      "analyst": "Buy",
+      "analystTarget": "$2,290",
+      "summary": "MELI dropped after Brazil's election and margin worries, but the underlying growth and credit book look strong. The Wave C wick tagged the $1,618 zone where two Fib supports stack, with earnings due Nov 4. TLI wants support confirmation, then a reclaim of $1,713 and the 200 WMA.",
       "levels": [
         {
-          "label": "Current price",
-          "value": "~$1,660"
-        },
-        {
-          "label": "0.78 Fib",
+          "label": "Entry Zone",
           "value": "$1,618"
         },
         {
-          "label": "200 WMA",
-          "value": "Lost intraday"
+          "label": "Line in the Sand (0.618)",
+          "value": "$1,380"
+        },
+        {
+          "label": "Wave 3 Target (1.618)",
+          "value": "$2,500"
+        },
+        {
+          "label": "Analyst Target",
+          "value": "$2,290"
         }
       ],
-      "appr": null,
       "collections": [
         "Watchlist"
       ],
+      "appr": "+55%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
-      "analystClass": "analyst-hold",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
+      "analystClass": "analyst-buy",
+      "recClass": "rec-buy",
+      "rec": "BUY",
       "prevCategory": null,
       "yfSymbol": "MELI",
       "displaySym": "MELI",
-      "lastUpdated": "2026-10-26T13:21:43.387112+00:00"
+      "lastUpdated": "2026-11-03T13:02:55.195988+00:00"
     },
     {
       "sym": "NVDA",
@@ -1491,7 +1499,7 @@
       "prevCategory": null,
       "yfSymbol": "TOST",
       "displaySym": "TOST",
-      "lastUpdated": "2026-11-03T13:05:18.995196+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.315235+00:00"
     },
     {
       "sym": "JD",
@@ -1574,31 +1582,35 @@
       "sym": "HIMS",
       "company": "Hims & Hers Health · NYSE",
       "category": "Watchlist",
-      "wave": "Wedge squeeze between 200 DMA and 50 DMA",
-      "entry": "Hold $27.21, then flip $29.19",
+      "wave": "ABC pullback from July $39 high; testing Bull Case line",
+      "entry": "Support at $25 (Bull Case line) with 200 WMA at $24",
       "target": "$39",
       "analyst": "Bullish",
-      "analystTarget": null,
-      "summary": "HIMS is consolidating sideways inside a tightening wedge, with the 200 Day MA below and the 50 Day MA plus breakout level above. TLI wants support to hold and then a flip of the 50 Day MA to support. After that the next resistance is at $39, and he reports no change to the plan.",
+      "analystTarget": "",
+      "summary": "HIMS has pulled back in an ABC from its July high near $39 and is now testing the $25 Bull Case line, with the 200 WMA just beneath. TLI wants buyers to defend it and the wedge bottom to be reclaimed, then the 50 WMA and a break above the $30 wedge top. Losing the 200 WMA exposes the 0.78 Fib near $21.",
       "levels": [
         {
-          "label": "Wedge support/200 DMA",
-          "value": "$27.21"
+          "label": "Bull Case Support",
+          "value": "$25"
         },
         {
-          "label": "50 DMA/breakout",
-          "value": "$29.19"
+          "label": "200 WMA",
+          "value": "$24"
         },
         {
-          "label": "Next resistance",
-          "value": "$39"
+          "label": "Wedge Top",
+          "value": "$30"
+        },
+        {
+          "label": "Downside Risk (0.78 Fib)",
+          "value": "$21"
         }
       ],
       "collections": [
         "Top 10",
         "Watchlist"
       ],
-      "appr": "+43%",
+      "appr": "+56%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-bullish",
@@ -1607,7 +1619,7 @@
       "prevCategory": null,
       "yfSymbol": "HIMS",
       "displaySym": "HIMS",
-      "lastUpdated": "2026-10-26T13:21:43.051422+00:00"
+      "lastUpdated": "2026-11-03T13:02:55.017689+00:00"
     },
     {
       "sym": "SOFI",
@@ -1891,28 +1903,24 @@
       "sym": "MU",
       "company": "Micron Technology Inc · NASDAQ",
       "category": "Watchlist",
-      "wave": "Wave C inside triangle, testing lower support",
-      "entry": "$726 (200 Day MA) if $860 fails",
-      "target": null,
+      "wave": "Testing lower wedge support",
+      "entry": "Confirmed support near $800 (0.38 Fib) to $746 (200 DMA)",
+      "target": "",
       "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "Bulls defended the triangle's lower line at $860 and bounced to $913, but price is slipping again. If $860 fails, TLI expects Wave C to extend to a lower low. The 200 Day MA near $726 would then be the next buying opportunity for long-term holders.",
+      "analystTarget": "",
+      "summary": "MU is testing the bottom of its wedge and TLI is waiting to see whether buyers step in. A failure of this level that drops toward the 200 day MA near $746, which lines up with July lows, would offer a strong buy if support is confirmed. No rush; support is not yet confirmed.",
       "levels": [
         {
-          "label": "Triangle support",
-          "value": "$860"
-        },
-        {
-          "label": "Recent bounce high",
-          "value": "$913"
+          "label": "0.38 Fib",
+          "value": "$800"
         },
         {
           "label": "200 Day MA",
-          "value": "$726"
+          "value": "$746"
         }
       ],
-      "appr": null,
       "collections": [],
+      "appr": null,
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
@@ -1921,7 +1929,7 @@
       "prevCategory": null,
       "yfSymbol": "MU",
       "displaySym": "MU",
-      "lastUpdated": "2026-10-26T13:21:43.597231+00:00"
+      "lastUpdated": "2026-11-03T13:02:55.543586+00:00"
     },
     {
       "sym": "SPCX",
@@ -2306,7 +2314,7 @@
       "prevCategory": null,
       "yfSymbol": "SEZL",
       "displaySym": "SEZL",
-      "lastUpdated": "2026-11-03T13:05:19.215245+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.576230+00:00"
     },
     {
       "sym": "RR",
@@ -2384,7 +2392,7 @@
       "prevCategory": null,
       "yfSymbol": "GRAB",
       "displaySym": "GRAB",
-      "lastUpdated": "2026-11-03T13:05:19.172685+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.539245+00:00"
     },
     {
       "sym": "ASTI",
@@ -3110,39 +3118,43 @@
       "sym": "ASML",
       "company": "ASML Holding N.V. · NASDAQ (ADR)",
       "category": "Watchlist",
-      "wave": "Wave 3 completed in the first half of 2026; price is now in a corrective Wave 4 pullback within a bullish wedge, holding above the 50 WMA. A break and hold above the 1.618 Fib ($1,789) would confirm Bull Case entry and open the door to Wave 5 toward the 2.618 Fib target.",
-      "entry": "$1,789 (1.618 Fib, breakout/hold level for Bull Case confirmation)",
-      "target": "$2,534 (2.618 Fib, standard Wave 5 target)",
-      "analyst": "Hold",
-      "summary": "With $DELL and $AMD already running, TLI flags ASML as a laggard worth watching. Wave 3 completed in H1 2026 and price is now working through a corrective Wave 4 pullback inside a bullish wedge, still holding above the 50 WMA. TLI says a break and hold above the 1.618 Fib at $1,789 would confirm the Bull Case and Wave 5 toward the 2.618 Fib target near $2,534 — noting Wave 4 is behaving more like a wedge apex pullback than a deep 0.38 Fib retracement, and that Wave 5 has not started yet.",
+      "wave": "Wave IV pullback, at 50 WMA",
+      "entry": "Hold 0.38 Fib at $1,460 to complete Wave IV",
+      "target": "$2,535",
+      "analyst": "Strong Buy",
+      "analystTarget": "$2,290",
+      "summary": "ASML is about 22% off its $2,000 high after a chip-sector selloff and AI financing worries, but guidance was raised again and supply is sold out into 2028. TLI sees a Wave IV reset with the 0.38 Fib at $1,460 as support, ahead of a Wave V move to the 2.618 Fib.",
       "levels": [
         {
-          "label": "Bull Case Trigger",
-          "value": "$1,789 (1.618 Fib)"
+          "label": "Support (0.38 Fib)",
+          "value": "$1,460"
         },
         {
-          "label": "Wave Count",
-          "value": "Wave 4 pullback in progress, Wave 5 not yet started"
+          "label": "Current",
+          "value": "$1,566"
         },
         {
-          "label": "Wave 5 Target",
-          "value": "$2,534 (2.618 Fib)"
+          "label": "Wave V Target",
+          "value": "$2,535"
+        },
+        {
+          "label": "Analyst Target",
+          "value": "$2,290"
         }
       ],
       "collections": [
         "Watchlist"
       ],
-      "appr": "+42%",
-      "analystTarget": null,
+      "appr": "+667005%",
       "categoryClass": "badge-watchlist",
-      "waveClass": "wave-impulse",
-      "analystClass": "analyst-hold",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-strong-buy",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": "Bull Case",
+      "prevCategory": null,
       "yfSymbol": "ASML",
       "displaySym": "ASML",
-      "lastUpdated": "2026-09-28T13:19:01.138048+00:00"
+      "lastUpdated": "2026-11-03T13:02:55.491198+00:00"
     },
     {
       "sym": "PYPL",
@@ -3184,7 +3196,7 @@
       "prevCategory": null,
       "yfSymbol": "PYPL",
       "displaySym": "PYPL",
-      "lastUpdated": "2026-11-03T13:05:19.079682+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.462096+00:00"
     },
     {
       "sym": "ABNB",
@@ -3674,7 +3686,7 @@
       "prevCategory": "At Target / Invalidated",
       "yfSymbol": "CPER",
       "displaySym": "CPER",
-      "lastUpdated": "2026-11-03T13:05:19.036347+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.409069+00:00"
     },
     {
       "sym": "INTU",
@@ -3752,7 +3764,7 @@
       "prevCategory": null,
       "yfSymbol": "QQQ",
       "displaySym": "QQQ",
-      "lastUpdated": "2026-11-03T13:05:18.777604+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.111139+00:00"
     },
     {
       "sym": "SPY",
@@ -3794,47 +3806,51 @@
       "prevCategory": null,
       "yfSymbol": "SPY",
       "displaySym": "SPY",
-      "lastUpdated": "2026-11-03T13:05:18.817440+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.149670+00:00"
     },
     {
       "sym": "UPS",
       "company": "United Parcel Service · NYSE",
-      "category": "Watchlist",
-      "wave": "An extended Wave 2 pullback, held above Fib support, driven by elevated fuel costs from the ongoing Iran conflict; Wave 3 confirmation is on hold until oil pressure eases.",
-      "entry": "Waiting for price to hold above Fib support before confirming the Wave 3 reversal",
+      "category": "Bull Case",
+      "wave": "Wave C complete; beginning Wave 3, above 50 WMA",
+      "entry": "Bounced from Buy Zone at 0.618 Fib $90; now above 50 WMA $104",
+      "target": "$155",
       "analyst": "Hold",
-      "summary": "UPS is being weighed down by elevated fuel costs tied to the ongoing war in Iran, which has kept oil prices elevated and stalled its reversal. Price has consolidated sideways in an extended Wave 2 while staying above Fib support levels. TLI views UPS as a solid long-term holding, paying a +6.7% dividend while investors wait, and expects it to resume higher once oil prices ease as the conflict de-escalates.",
+      "analystTarget": "",
+      "summary": "UPS bounced out of its Buy Zone near $90 and now sits above the 50 WMA, starting a strong move. TLI expects resistance around $112, a pullback for a higher low, then a run to the 200 WMA near $129 and the Wave 3 target. A resolution of the Iran war could act as a catalyst; the stock also pays about a 6% dividend.",
       "levels": [
         {
-          "label": "Dividend",
-          "value": "+6.7%"
+          "label": "Resistance",
+          "value": "$112"
         },
         {
-          "label": "Wave Count",
-          "value": "Extended Wave 2, above Fib support"
+          "label": "200 WMA",
+          "value": "$129"
         },
         {
-          "label": "LT Target",
-          "value": "$159 (1.618 Fib, Wave 3)"
+          "label": "Wave 3 Target (1.618)",
+          "value": "$155"
+        },
+        {
+          "label": "Buy Zone Low (0.618)",
+          "value": "$90"
         }
       ],
-      "target": "$159 (1.618 Fib, Wave 3)",
-      "appr": "+5200%",
-      "analystTarget": null,
       "collections": [
         "Top 10",
         "Watchlist",
         "Safe Haven"
       ],
-      "categoryClass": "badge-watchlist",
+      "appr": "+24981%",
+      "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": null,
+      "prevCategory": "Watchlist",
       "yfSymbol": "UPS",
       "displaySym": "UPS",
-      "lastUpdated": "2026-09-28T13:19:04.270806+00:00"
+      "lastUpdated": "2026-11-03T13:02:55.275782+00:00"
     },
     {
       "sym": "META",
@@ -4219,44 +4235,44 @@
     {
       "sym": "RKLB",
       "company": "Rocket Lab USA · NASDAQ",
-      "category": "Bull Case",
-      "wave": "Bounced off the 0.618 Fib and broke above the 50 WMA, confirming entry into the Bull Case; now watching for a higher low to fully validate the reversal.",
-      "entry": "$74 (50 WMA, broken above) / $59 (0.618 Fib prior support)",
-      "target": "$211 (1.0 Fib target)",
-      "analyst": "Hold",
-      "summary": "RKLB bounced cleanly off the 0.618 Fib at $59 and has since broken above the 50 WMA at $74, which TLI says confirms entry into the Bull Case. The team is now watching for a higher low to fully validate the reversal, with a retest of the 50 WMA/0.5 Fib confluence flagged as the next add opportunity. The long-term 1.0 Fib target remains at $211.",
+      "category": "Buy Zone",
+      "wave": "Deep in Wave C, squeezing into end of wedge",
+      "entry": "Bottom of wedge below 0.618 Fib $60",
+      "target": "$193",
+      "analyst": "Buy",
+      "analystTarget": "$102",
+      "summary": "RKLB has fallen from about $150 on a space-IPO rotation, big acquisition and Neutron delay to 2027, but backlog is a record and cash remains strong. Price is at the bottom of the wedge below the $60 Fib, which TLI calls the Buy Zone, with earnings next Monday. Reclaiming $60 and the $77 50 WMA would start the reversal.",
+      "levels": [
+        {
+          "label": "Buy Zone",
+          "value": "Wedge bottom <$60"
+        },
+        {
+          "label": "Bull Case (0.5 Fib / 50 WMA)",
+          "value": "$77"
+        },
+        {
+          "label": "Bear Case (0.786)",
+          "value": "$35"
+        },
+        {
+          "label": "Analyst Target",
+          "value": "$102"
+        }
+      ],
       "collections": [
         "Watchlist"
       ],
-      "levels": [
-        {
-          "label": "0.618 Fib Support",
-          "value": "$59"
-        },
-        {
-          "label": "50 WMA Breakout",
-          "value": "$74"
-        },
-        {
-          "label": "Add Zone (Retest)",
-          "value": "50 WMA / 0.5 Fib confluence"
-        },
-        {
-          "label": "1.0 Fib Target",
-          "value": "$211"
-        }
-      ],
-      "appr": "+185%",
-      "analystTarget": null,
-      "categoryClass": "badge-bull-case",
+      "appr": "+31130%",
+      "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
-      "analystClass": "analyst-hold",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "prevCategory": "Buy Zone",
+      "analystClass": "analyst-buy",
+      "recClass": "rec-buy",
+      "rec": "BUY",
+      "prevCategory": "Bull Case",
       "yfSymbol": "RKLB",
       "displaySym": "RKLB",
-      "lastUpdated": "2026-08-14T16:22:02.496160+00:00"
+      "lastUpdated": "2026-11-03T13:02:55.391869+00:00"
     },
     {
       "sym": "ORCL",
@@ -4710,7 +4726,7 @@
       "prevCategory": null,
       "yfSymbol": "SPOT",
       "displaySym": "SPOT",
-      "lastUpdated": "2026-11-03T13:05:18.658589+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.979988+00:00"
     },
     {
       "sym": "ADBE",
@@ -5298,29 +5314,41 @@
       "sym": "MSTR",
       "company": "MicroStrategy Inc (Strategy) · NASDAQ",
       "category": "Watchlist",
-      "wave": "Final short pullback to complete Wave 2",
-      "entry": "Wait for Wave 2 completion (level not given)",
-      "target": null,
-      "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "TLI expects MSTR to track BTC lower in one last brief pullback finishing Wave 2, after Wave 1 was capped at the 200 WMA. He sees ETH showing the same pattern. His personal preference is to buy BTC and ETH directly rather than MSTR or BMNR.",
+      "wave": "Wave 2 pullback after Wave 1 into the 200 WMA",
+      "entry": "Buy Zone $116-$126 (0.618 / 0.78 / 0.5 Fibs)",
+      "target": "$266",
+      "analyst": "Buy",
+      "analystTarget": "$246",
+      "summary": "MSTR trades like leveraged Bitcoin and fell after October's crypto liquidations, with thinner premium to its BTC holdings and a CFO exit pending. Technically it is in a Wave 2 correction with the 0.5 Fib near $126 holding and deeper Fib support underneath. TLI wants confirmed support, and the Nov 11 MSCI decision is a key date.",
       "levels": [
         {
-          "label": "200 WMA rejection",
-          "value": "$170"
+          "label": "Entry Zone",
+          "value": "$116-$126"
+        },
+        {
+          "label": "Wave 3 Target (1.618)",
+          "value": "$266"
+        },
+        {
+          "label": "Bull Case Line",
+          "value": "$167"
+        },
+        {
+          "label": "Bear Case (0.887)",
+          "value": "$68.80"
         }
       ],
-      "appr": null,
       "collections": [],
+      "appr": "+129%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
-      "analystClass": "analyst-hold",
+      "analystClass": "analyst-buy",
       "recClass": "rec-wait",
       "rec": "WAIT",
       "prevCategory": null,
       "yfSymbol": "MSTR",
       "displaySym": "MSTR",
-      "lastUpdated": "2026-10-26T13:21:43.530449+00:00"
+      "lastUpdated": "2026-11-03T13:02:55.090700+00:00"
     },
     {
       "sym": "BMNR",
@@ -5675,7 +5703,7 @@
       "prevCategory": null,
       "yfSymbol": "SILVER",
       "displaySym": "SILVER",
-      "lastUpdated": "2026-11-03T13:05:18.609098+00:00"
+      "lastUpdated": "2026-11-03T13:06:13.941885+00:00"
     },
     {
       "sym": "EWZ",
@@ -5829,7 +5857,7 @@
       "prevCategory": null,
       "yfSymbol": "SOL",
       "displaySym": "SOL",
-      "lastUpdated": "2026-11-03T13:05:19.256708+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.622667+00:00"
     },
     {
       "sym": "BE",
@@ -5907,7 +5935,7 @@
       "prevCategory": null,
       "yfSymbol": "BKNG",
       "displaySym": "BKNG",
-      "lastUpdated": "2026-11-03T13:05:18.912782+00:00"
+      "lastUpdated": "2026-11-03T13:06:14.228484+00:00"
     },
     {
       "sym": "CLF",
@@ -6020,6 +6048,88 @@
       "yfSymbol": "LYFT",
       "displaySym": "LYFT",
       "lastUpdated": "2026-10-26T13:21:43.322977+00:00"
+    },
+    {
+      "sym": "UBER",
+      "company": "Uber Technologies · NYSE",
+      "category": "Watchlist",
+      "wave": "Wave 4 pullback into the 200 WMA",
+      "entry": "Support at 200 WMA near $67.50; below that $61.22 / $51.55",
+      "target": "$100.79",
+      "analyst": "Strong Buy",
+      "analystTarget": "$103",
+      "summary": "UBER is down about 28% from its high on robotaxi competition fears and heavy self-driving spending, and now sits on the 200 WMA in a Wave 4 pullback ahead of Nov 4 earnings. The Wave 1 high near $64 is the invalidation line. Bulls need to flip $70.90 back to support, targeting Wave 5 at $100.79.",
+      "levels": [
+        {
+          "label": "Current / 200 WMA",
+          "value": "$67.50"
+        },
+        {
+          "label": "Bull Case (0.38 Fib)",
+          "value": "$70.90"
+        },
+        {
+          "label": "Invalidation (Wave 1 high)",
+          "value": "$64"
+        },
+        {
+          "label": "Wave 5 Target",
+          "value": "$100.79"
+        }
+      ],
+      "collections": [],
+      "appr": "-50%",
+      "categoryClass": "badge-watchlist",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-strong-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": null,
+      "yfSymbol": "UBER",
+      "displaySym": "UBER",
+      "lastUpdated": "2026-11-03T13:02:55.340600+00:00"
+    },
+    {
+      "sym": "INDA",
+      "company": "iShares MSCI India ETF · NYSE Arca",
+      "category": "Watchlist",
+      "wave": "Wave C, rejected under 200/50 WMA confluence near $50",
+      "entry": "Buy Zone from 0.38 Fib $44.50 down to $40",
+      "target": "$55",
+      "analyst": "Hold",
+      "analystTarget": "",
+      "summary": "INDA remains in Wave C and was rejected near $50 at the 200 and 50 WMA. Foreign selling, a weak rupee, high oil and yields weigh, while local buying and a cheaper valuation help. TLI expects a drop into the $44.50-$40 Buy Zone and wants confirmed support rather than catching the low.",
+      "levels": [
+        {
+          "label": "Buy Zone",
+          "value": "$44.50-$40"
+        },
+        {
+          "label": "Bull Case Line",
+          "value": "$51"
+        },
+        {
+          "label": "Upside (0.618 Fib)",
+          "value": "$55"
+        },
+        {
+          "label": "Deep Value",
+          "value": "$35.33"
+        }
+      ],
+      "collections": [
+        "India ETF"
+      ],
+      "appr": "+14374%",
+      "categoryClass": "badge-watchlist",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": null,
+      "yfSymbol": "INDA",
+      "displaySym": "INDA",
+      "lastUpdated": "2026-11-03T13:02:55.438907+00:00"
     }
   ]
 }
