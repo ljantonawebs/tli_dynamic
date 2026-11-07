@@ -2,8 +2,8 @@
   "meta": {
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
-    "analysisDate": "November 3, 2026",
-    "lastUpdated": "2026-11-03T13:06:14.664176+00:00"
+    "analysisDate": "November 7, 2026",
+    "lastUpdated": "2026-11-07T06:21:08.868326+00:00"
   },
   "collections": {
     "Top 10": [
@@ -17,7 +17,8 @@
       "HIMS",
       "UPS",
       "ETH",
-      "OSCR"
+      "OSCR",
+      "AMD"
     ],
     "Top 20": [
       "BABA",
@@ -103,7 +104,10 @@
       "SILVER",
       "HIMS",
       "BKNG",
-      "PEP"
+      "PEP",
+      "UBER",
+      "VST",
+      "RDDT"
     ],
     "Safe Haven": [
       "PFE",
@@ -140,69 +144,77 @@
     {
       "sym": "BABA",
       "company": "Alibaba Group · NYSE ADR",
-      "category": "Buy Zone",
-      "wave": "Final leg of Wave 2 (Wave C); Wave 2 must not break the Wave 1 low near $92",
-      "entry": "Add at support in the Buy Zone: 0.78 Fib $100 down to the 0.887 Fib $96.55, under the 200 WMA",
-      "target": "$162.27 (1.618 Fib, Wave 3); $202.76 (2.618 Fib, Wave 5)",
+      "category": "Watchlist",
+      "wave": "Wave 2 likely complete, forming a higher low; back above the 200 WMA at $106",
+      "entry": "Hold above the 200 WMA $106; add on confirmation, bull case on a break above the $121 blue resistance",
+      "target": "$162.27 (1.618 Fib, Wave 3)",
       "analyst": "Strong Buy",
       "analystTarget": "$186",
-      "summary": "BABA closed the week at $98, just under the 200 WMA and inside the Buy Zone, on regulatory pressure and the China tech selloff. TLI sees the last leg of Wave 2 with the Wave 1 low near $92 as the line not to cross, and notes cloud revenue growth of 45% and about 13x forward earnings. Earnings are expected November 24; the plan is to add at support and hold.",
+      "summary": "BABA is up 5% premarket to $110 and back above the 200 WMA at $106 as Chinese tech shows signs of a rebound, with an added catalyst in reports that Apple plans to use Qwen models in China from December. The price is forming a higher low, supporting the view that Wave 2 is done. A break above the blue resistance at $121 puts it back in the Bull Case, then the 50 WMA at $130, with the Wave 3 target at the 1.618 Fib near $162.",
       "collections": [
         "Top 20"
       ],
       "levels": [
         {
-          "label": "0.78 Fib",
-          "value": "$100"
+          "label": "200 WMA",
+          "value": "$106"
         },
         {
-          "label": "0.887 Fib",
-          "value": "$96.55"
+          "label": "Blue resistance",
+          "value": "$121"
         },
         {
-          "label": "Wave 1 low",
-          "value": "~$92"
+          "label": "50 WMA",
+          "value": "$130"
         },
         {
-          "label": "0.618 Fib",
-          "value": "$107.50"
+          "label": "1.618 Fib",
+          "value": "$162"
         }
       ],
-      "appr": "+20704%",
-      "categoryClass": "badge-buy-zone",
+      "appr": "-19%",
+      "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-strong-buy",
-      "recClass": "rec-buy",
-      "rec": "BUY",
-      "prevCategory": null,
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": "Buy Zone",
       "yfSymbol": "BABA",
       "displaySym": "BABA",
-      "lastUpdated": "2026-11-03T13:06:13.341498+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.867091+00:00"
     },
     {
       "sym": "ZETA",
       "company": "Zeta Global Holdings · NYSE",
       "category": "Bull Case",
-      "wave": "Wave 3 nearing 1.618 Fib, Wave 4 pullback expected",
-      "entry": "Wait for deeper Wave 4 pullback",
-      "target": "$37 (1.618 Fib)",
+      "wave": "Wave 4 pullback after Wave 3 reached the 1.618 Fib near $37; Wave 4 must not infringe Wave 1",
+      "entry": "ADD zone at the 0.38 Fib $27.66, blue line $26.54, 0.5 Fib $25.14; add on a hold (earnings Monday 9th)",
+      "target": "~$38 (Wave 3 area / blue line); $51.45 (2.618 Fib, Wave 5)",
       "analyst": "Strong Buy",
-      "analystTarget": "$28.31",
-      "summary": "TLI remains happy with ZETA but would not add at current levels. The 50 day MA near $31 is the line to watch, and losing it would mean Wave 4 has begun. Wave 3 could still finish at the 1.618 Fib near $37, and he is waiting for a deeper Wave 4 pullback to add.",
-      "levels": [
-        {
-          "label": "50 DMA",
-          "value": "about $31"
-        },
-        {
-          "label": "Wave 3 target (1.618)",
-          "value": "$37"
-        }
-      ],
+      "analystTarget": "$38",
+      "summary": "ZETA is in the Wave 4 pullback TLI has been waiting for, around $29.75 after Wave 3 hit the 1.618 Fib near $37. The ADD zone starts at the 0.38 Fib at $27.66 with the 0.5 Fib at $25.14 below it. Earnings on Monday 9th may add noise, so TLI wants support confirmation rather than chasing. Street target is ~$38 from 15 analysts.",
       "collections": [
         "Top 10"
       ],
-      "appr": "+825%",
+      "levels": [
+        {
+          "label": "0.38 Fib",
+          "value": "$27.66"
+        },
+        {
+          "label": "Blue line",
+          "value": "$26.54"
+        },
+        {
+          "label": "0.5 Fib",
+          "value": "$25.14"
+        },
+        {
+          "label": "2.618 Fib",
+          "value": "$51.45"
+        }
+      ],
+      "appr": "+9900%",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-strong-buy",
@@ -211,7 +223,7 @@
       "prevCategory": null,
       "yfSymbol": "ZETA",
       "displaySym": "ZETA",
-      "lastUpdated": "2026-10-26T13:21:44.810734+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.834926+00:00"
     },
     {
       "sym": "WYFI",
@@ -250,40 +262,40 @@
     {
       "sym": "ADUR",
       "company": "Aduro Clean Technologies · NASDAQ",
-      "category": "Bull Case",
-      "wave": "Consolidating above the 0.618 Fib within a bullish wedge, structure intact.",
-      "entry": "Started adding at $3.85; the wedge/0.618 Fib support has held through consolidation.",
+      "category": "Watchlist",
+      "wave": "Wave 2 consolidation; dipped below the 0.5 Fib",
+      "entry": "Reclaim and hold the 0.5 Fib at $9.29; strong buy at the 200 WMA / 0.618 Fib confluence $7.31",
+      "target": "$34 (1.618 Fib, Wave 3)",
       "analyst": "Moderate Buy",
-      "summary": "ADUR continues to hold above its 0.618 Fib support inside a bullish wedge, protecting the structure through ongoing consolidation. TLI notes management's near-daily updates and execution pace as a bullish signal, similar to management's demeanor when TLI first began adding at $3.85. The pattern held through last year's 5-month seasonal weakness without breaking down, reinforcing confidence heading into this year's seasonally weak period.",
-      "levels": [
-        {
-          "label": "Entry Zone",
-          "value": "$3.85 (initial add)"
-        },
-        {
-          "label": "Support",
-          "value": "0.618 Fib / bullish wedge"
-        },
-        {
-          "label": "Wave Count",
-          "value": "Consolidation intact, no structure change"
-        }
-      ],
-      "target": "$20.40 (Subwave 5 target)",
-      "appr": "+430%",
       "analystTarget": "$29.00",
+      "summary": "ADUR dipped below the 0.5 Fib at $9.29 but TLI is unconcerned if it reclaims quickly. Otherwise the downside is the 200 WMA and 0.618 Fib confluence at $7.31, which would be a strong buying area. TLI expects the longer Wave 2 consolidation to give a stronger breakout and sees 2027 as a big year, with Wave 3 target at $34.",
       "collections": [
         "Watchlist"
       ],
-      "categoryClass": "badge-bull-case",
+      "levels": [
+        {
+          "label": "0.5 Fib",
+          "value": "$9.29"
+        },
+        {
+          "label": "200 WMA / 0.618 Fib",
+          "value": "$7.31"
+        },
+        {
+          "label": "1.618 Fib",
+          "value": "$34"
+        }
+      ],
+      "appr": "+6700%",
+      "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": null,
+      "prevCategory": "Bull Case",
       "yfSymbol": "ADUR",
       "displaySym": "ADUR",
-      "lastUpdated": "2026-09-28T13:19:00.860061+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.788235+00:00"
     },
     {
       "sym": "GRRR",
@@ -327,27 +339,27 @@
       "sym": "ASTS",
       "company": "AST SpaceMobile · NASDAQ",
       "category": "Buy Zone",
-      "wave": "Wave C continuing lower, approaching the confluence of the wedge's lower support line and the 200 WMA",
-      "entry": "$33 - $39 (200 WMA at $33.54, 'load the boat' range)",
-      "target": null,
+      "wave": "Capitulation-style drop into the load-the-boat range",
+      "entry": "Load-the-boat range; reclaim the 200 WMA and form a higher low; TLI open to doubling the position",
+      "target": "Not specified",
       "analyst": "Buy",
       "analystTarget": "$110.00",
-      "summary": "ASTS is now deep in the Buy Zone as Wave C extends lower toward the meeting point of the wedge's lower yellow support line and the 200 WMA at $33.54. TLI wants buyers to defend this area and calls it his 'load the boat' range, while warning the stock suits only those who can hold through volatility. A failure of the 200 WMA points to the 0.78 Fib at $28. He wants stabilisation, then a break above the wedge's upper resistance and a higher low; he remains bullish.",
+      "summary": "ASTS had a capitulation-style drop on volume of 33 million versus a ~12 million average. Price is in the load-the-boat range, and TLI wants to see buyers reclaim the 200 WMA and then a higher low. The analyst says he would not be against doubling his position. It suits long-term holders who can tolerate volatility.",
       "collections": [
         "Watchlist"
       ],
       "levels": [
         {
-          "label": "200 WMA / wedge support",
-          "value": "$33.54"
+          "label": "Zone",
+          "value": "Load the boat"
         },
         {
-          "label": "Next support (0.78 Fib)",
-          "value": "$28"
+          "label": "200 WMA",
+          "value": "Reclaim needed"
         },
         {
-          "label": "Buy zone",
-          "value": "$33 - $39"
+          "label": "Volume",
+          "value": "33M vs ~12M avg"
         }
       ],
       "appr": null,
@@ -359,50 +371,50 @@
       "prevCategory": null,
       "yfSymbol": "ASTS",
       "displaySym": "ASTS",
-      "lastUpdated": "2026-11-03T13:06:14.664147+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.220194+00:00"
     },
     {
       "sym": "SE",
       "company": "Sea Limited · NYSE ADR",
-      "category": "Buy Zone",
-      "wave": "Wave C of Wave 2, hovering at the 0.78 Fib after dropping below the 200 WMA",
-      "entry": "Buy Zone from the 0.78 Fib at $70.50 up to the 200 WMA at $94",
-      "target": "$337 (1.618 Fib, Wave 3); $502 (2.618 Fib, Wave 5)",
+      "category": "Bull Case",
+      "wave": "Wave C of Wave 2 ended at the 0.78 Fib; support held, heading toward Wave 3",
+      "entry": "Holding; buyers defended the 0.78 Fib at $70",
+      "target": "$337 (1.618 Fib, Wave 3)",
       "analyst": "Strong Buy",
       "analystTarget": "$141",
-      "summary": "SE closed the week at $74 after a sharp slide that began October 20 on the CEO's fintech-listing and AI cloud comments, followed by insider selling and downgrades. TLI sees Wave C of Wave 2 playing out around the 0.78 Fib at $70.50 and calls this a buy rather than a sell. Earnings land November 10; bulls need to reclaim the 200 WMA and the $87 blue line, with the 0.618 Fib at $98.08 next.",
+      "summary": "Buyers defended the 0.78 Fib at $70 and TLI is pleased with the price action. The next goal is the 200 DMA/50 DMA confluence at $97-$98, then $100 psychological resistance. Clearing that could produce a higher high above the Wave B top at $132. TLI still calls SE a buy and keeps the $337 Wave 3 target.",
       "collections": [
         "Top 10",
         "Top 20"
       ],
       "levels": [
         {
-          "label": "0.78 Fib",
-          "value": "$70.50"
+          "label": "0.78 Fib support",
+          "value": "$70"
         },
         {
-          "label": "200 WMA",
-          "value": "$94"
+          "label": "200/50 DMA",
+          "value": "$97 - $98"
         },
         {
-          "label": "Bear Case blue line",
-          "value": "$34.68"
+          "label": "Wave B top",
+          "value": "$132"
         },
         {
-          "label": "Bull Case blue line",
-          "value": "$148"
+          "label": "Wave 3 target",
+          "value": "$337"
         }
       ],
       "appr": "+43105%",
-      "categoryClass": "badge-buy-zone",
-      "waveClass": "wave-correct",
+      "categoryClass": "badge-bull-case",
+      "waveClass": "wave-impulse",
       "analystClass": "analyst-strong-buy",
-      "recClass": "rec-buy",
-      "rec": "BUY",
-      "prevCategory": null,
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": "Buy Zone",
       "yfSymbol": "SE",
       "displaySym": "SE",
-      "lastUpdated": "2026-11-03T13:06:13.691670+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.662301+00:00"
     },
     {
       "sym": "PFE",
@@ -685,36 +697,44 @@
     {
       "sym": "PLTR",
       "company": "Palantir Technologies · NASDAQ",
-      "category": "Watchlist",
-      "wave": "Wave 5 complete at 2.618 Fib / previous ATH; pullback awaited",
-      "entry": "$159 (50 WMA + 0.5 Fib confluence)",
-      "target": null,
+      "category": "Buy Zone",
+      "wave": "Wave 5 topped at $212 near the 2.618 Fib; now in an ABC pullback into the Buy Zone",
+      "entry": "Buy Zone: 0.382 Fib at $172 down to the 0.5 Fib at $159 (aligned with 50 WMA); wait for support confirmation",
+      "target": "$232 (0.618 Fib), then $309 (1 Fib)",
       "analyst": "Buy",
       "analystTarget": "$182.75",
-      "summary": "PLTR completed five perfect waves, with Wave 5 ending where expected at the 2.618 Fib and previous ATH confluence near $204. Like MSFT, TLI wants a pullback into the Buy Zone, where the 50 WMA and 0.5 Fib meet at $159. Until then it is a sit-and-watch situation with no need to rush.",
+      "summary": "PLTR posted a strong Q3 (revenue $2.31B, up 96%, first US commercial quarter above US government) yet trades near $167.50 on slower contract value growth, higher stock comp and a roughly 86x forward P/E. Wave 5 stalled at $212 near the 2.618 Fib. TLI sees price in the Buy Zone and wants support confirmation at $172 to $159 before the next targets of $232 and $309.",
       "collections": [
         "Top 20"
       ],
       "levels": [
         {
-          "label": "Wave 5 top (2.618 Fib / ATH)",
-          "value": "$204"
+          "label": "0.382 Fib",
+          "value": "$172"
         },
         {
-          "label": "50 WMA / 0.5 Fib",
+          "label": "0.5 Fib + 50 WMA",
           "value": "$159"
+        },
+        {
+          "label": "0.618 Fib target",
+          "value": "$232"
+        },
+        {
+          "label": "1 Fib target",
+          "value": "$309"
         }
       ],
-      "appr": null,
-      "categoryClass": "badge-watchlist",
-      "waveClass": "wave-top",
+      "appr": "+60633%",
+      "categoryClass": "badge-buy-zone",
+      "waveClass": "wave-correct",
       "analystClass": "analyst-buy",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "prevCategory": null,
+      "recClass": "rec-buy",
+      "rec": "BUY",
+      "prevCategory": "Watchlist",
       "yfSymbol": "PLTR",
       "displaySym": "PLTR",
-      "lastUpdated": "2026-11-03T13:06:13.864856+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.593646+00:00"
     },
     {
       "sym": "BIDU",
@@ -759,12 +779,15 @@
       "sym": "NVO",
       "company": "Novo Nordisk A/S · NYSE ADR",
       "category": "Watchlist",
-      "wave": "Early Wave 3 after ABC pullback to 0.887 Fib ($37)",
-      "entry": "Flip of 50 Day MA ($41) to support; then 200 Day MA test at $44",
-      "target": "$65 (Wave 3, 1.618 Fib)",
+      "wave": "Early Wave 3 after ABC pullback; higher low and higher high already in, Wave 1 top at $52",
+      "entry": "Break and hold above the 50 Day MA at $41, then flip the 200 Day MA at $44 to support (Bull Case)",
+      "target": "$65 (1.618 Fib, Wave 3)",
       "analyst": "Buy",
       "analystTarget": "$85.00",
-      "summary": "TLI sees limited downside for Novo after the ABC pullback found support at the 0.887 Fib near $37. Price has since put in a higher low and higher high to start Wave 3. A reclaim of the 50 Day MA around $41 would be the next low-risk entry, with the 200 Day MA near $44 the following hurdle. The 4.5% dividend adds support and earnings arrive Wednesday.",
+      "summary": "Novo beat Q3 estimates on both EPS ($0.867 vs $0.731) and revenue ($11.86B vs $11.08B), and the stock is up about 3% pre-market. TLI wants a break and hold above the 50 Day MA at $41, then a flip of the 200 Day MA at $44 to support, which would move it into the Bull Case. A higher high above the Wave 1 top at $52 would confirm. Wave 3 target is unchanged at $65.",
+      "collections": [
+        "Top 10"
+      ],
       "levels": [
         {
           "label": "50 Day MA",
@@ -775,16 +798,13 @@
           "value": "$44"
         },
         {
-          "label": "Wave 3 target",
-          "value": "$65"
+          "label": "Wave 1 top",
+          "value": "$52"
         },
         {
-          "label": "Support (0.887 Fib)",
-          "value": "$37"
+          "label": "1.618 Fib",
+          "value": "$65"
         }
-      ],
-      "collections": [
-        "Top 10"
       ],
       "appr": "+30%",
       "categoryClass": "badge-watchlist",
@@ -795,83 +815,87 @@
       "prevCategory": null,
       "yfSymbol": "NVO",
       "displaySym": "NVO",
-      "lastUpdated": "2026-11-02T13:32:19.949365+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.528706+00:00"
     },
     {
       "sym": "CRM",
       "company": "Salesforce Inc · NYSE",
-      "category": "Watchlist",
-      "wave": "Wave 2 pullback after Wave B bounce, Wave 3 next",
-      "entry": "$207 (Wave 2 buy zone)",
-      "target": null,
+      "category": "Buy Zone",
+      "wave": "Wave 2 pullback after completing Wave 1; price inside the Buy Zone",
+      "entry": "Buy Zone between the 0.38 Fib $221.63 and 0.618 Fib $193.09; wait for support confirmation (earnings 2 December)",
+      "target": "$405.87 (1.618 Fib, Wave 3); $528.03 (2.618 Fib, Wave 5)",
       "analyst": "Buy",
-      "analystTarget": "$220.00",
-      "summary": "CRM rallied from about $145 to $260 since July and is now pulling back for Wave 2. The recent relief bounce stalled at typical Wave B resistance. TLI expects a further dip to $207, and a hold there would give the next entry before Wave 3.",
-      "levels": [
-        {
-          "label": "Wave 2 buy zone",
-          "value": "$207"
-        },
-        {
-          "label": "Rally high",
-          "value": "$260"
-        },
-        {
-          "label": "Prior add",
-          "value": "$164"
-        }
-      ],
-      "appr": null,
+      "analystTarget": "$274",
+      "summary": "CRM is in the Wave 2 pullback around $212.50, working through the 0.5 Fib at $207 which lines up with the 50 WMA. This is where Wave 2 is expected to finish, but TLI wants support confirmed before adding aggressively, especially with earnings on 2 December. Street average target is ~$274, well below the $405.87 Wave 3 level.",
       "collections": [
         "Watchlist"
       ],
-      "categoryClass": "badge-watchlist",
-      "waveClass": "wave-impulse",
+      "levels": [
+        {
+          "label": "0.38 Fib",
+          "value": "$221.63"
+        },
+        {
+          "label": "0.5 Fib / 50 WMA",
+          "value": "$207"
+        },
+        {
+          "label": "0.618 Fib",
+          "value": "$193.09"
+        },
+        {
+          "label": "1.618 Fib",
+          "value": "$405.87"
+        }
+      ],
+      "appr": "+106708%",
+      "categoryClass": "badge-buy-zone",
+      "waveClass": "wave-correct",
       "analystClass": "analyst-buy",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "prevCategory": null,
+      "recClass": "rec-buy",
+      "rec": "BUY",
+      "prevCategory": "Watchlist",
       "yfSymbol": "CRM",
       "displaySym": "CRM",
-      "lastUpdated": "2026-10-26T13:21:42.627896+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.255467+00:00"
     },
     {
       "sym": "NFLX",
       "company": "Netflix Inc · NASDAQ",
-      "category": "Bull Case",
-      "wave": "3-wave pullback completed and standing up well versus a weak broader market; now challenging the 50 WMA from below.",
-      "entry": "$94 (50 WMA, next level to flip to support)",
-      "target": "$89 (200 Day MA, next level to flip to support)",
+      "category": "Buy Zone",
+      "wave": "ABC correction complete or nearly so; 0.618 Fib at $61 tested and held",
+      "entry": "Still in the Buy Zone below the 200 WMA; first target is the 200 WMA at $74, then break above the 50 WMA at $83",
+      "target": "$74 (200 WMA), then $83 (50 WMA)",
       "analyst": "Buy",
       "analystTarget": "$95.00",
-      "summary": "TLI is happy with NFLX's behavior, closing +2.3% yesterday and slightly green in premarket today even as the broader market struggled — exactly how a name that already completed its 3-wave pullback should act. The focus now shifts to challenging the 50 WMA at $94 from below and eventually flipping that level to support. TLI describes the technical picture as looking extremely good.",
-      "levels": [
-        {
-          "label": "Resistance to Flip",
-          "value": "$94 (50 WMA)"
-        },
-        {
-          "label": "Prior Close",
-          "value": "+2.3%"
-        },
-        {
-          "label": "Analyst Target",
-          "value": "$95.00"
-        }
-      ],
+      "summary": "NFLX tested the 0.618 Fib at $61 almost perfectly and bulls defended it, with price up 4.6% yesterday to $66 and green again pre-market. It rarely trades below the 200 WMA, and in 2022 it spent five or six months below before reclaiming it. Next steps are reclaiming the 200 WMA at $74 and then breaking the 50 WMA at $83; a clear ABC correction is now visible.",
       "collections": [
         "Watchlist"
       ],
-      "appr": "-5%",
-      "categoryClass": "badge-bull-case",
+      "levels": [
+        {
+          "label": "0.618 Fib",
+          "value": "$61"
+        },
+        {
+          "label": "200 WMA",
+          "value": "$74"
+        },
+        {
+          "label": "50 WMA",
+          "value": "$83"
+        }
+      ],
+      "appr": "-63%",
+      "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-buy",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "prevCategory": null,
+      "recClass": "rec-buy",
+      "rec": "BUY",
+      "prevCategory": "Bull Case",
       "yfSymbol": "NFLX",
       "displaySym": "NFLX",
-      "lastUpdated": "2026-08-19T16:10:29.542563+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.495743+00:00"
     },
     {
       "sym": "REGN",
@@ -1029,34 +1053,30 @@
       "sym": "OSCR",
       "company": "Oscar Health Inc · NYSE",
       "category": "Watchlist",
-      "wave": "Ascending triangle under the 0.887 Fib with a rising wedge; both outcomes open",
-      "entry": "Add again at $25 if offered; bulls need a push through the 0.887 Fib at $32.25",
-      "target": "$58.50 (1.618 Fib, Wave 3); $81 (2.618 Fib, Wave 5)",
+      "wave": "Wave 2 possibly complete; confirmation needs a higher high and hold above $35",
+      "entry": "Higher high and hold above $35, then the blue resistance line just below $37",
+      "target": "$58 (1.618 Fib, Wave 3)",
       "analyst": "Bullish",
       "analystTarget": "$36",
-      "summary": "OSCR trades near $30.50 under the 0.887 Fib, showing both an ascending triangle and a rising wedge, so a drop back to $25 or a breakout are both possible. Earnings are after the close on November 5 and could decide it. TLI views 2027 enrollment trends (higher premiums, insurers exiting) as a tailwind and keeps the Wave 3 target unchanged.",
+      "summary": "OSCR is up 8% pre-market the day before earnings, helped by the Democratic midterm win, which could ease Medicaid cuts and support insurance subsidies. Wave 2 may be complete, but TLI wants a higher high and a hold above $35 to confirm, with blue resistance just under $37 next. No chart changes; Wave 3 target stays at $58.",
       "collections": [
         "Top 10"
       ],
       "levels": [
         {
-          "label": "Resistance 0.887 Fib",
-          "value": "$32.25"
+          "label": "Confirmation level",
+          "value": "$35"
         },
         {
-          "label": "Bull Case blue line",
-          "value": "$36.95"
+          "label": "Blue resistance",
+          "value": "~$37"
         },
         {
-          "label": "Add level",
-          "value": "$25"
-        },
-        {
-          "label": "Wave 3 target 1.618 Fib",
-          "value": "$58.50"
+          "label": "1.618 Fib",
+          "value": "$58"
         }
       ],
-      "appr": "+134%",
+      "appr": "+66%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-bullish",
@@ -1065,7 +1085,7 @@
       "prevCategory": null,
       "yfSymbol": "OSCR",
       "displaySym": "OSCR",
-      "lastUpdated": "2026-11-03T13:06:13.584295+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.562258+00:00"
     },
     {
       "sym": "BTC",
@@ -1113,12 +1133,12 @@
       "sym": "PEP",
       "company": "PepsiCo Inc · NASDAQ",
       "category": "Watchlist",
-      "wave": "Wave C completed with a lower low at $123; bounced to $140 and challenging the 50 month MA at $160",
+      "wave": "Possible completion of Wave C near $123; rebounding toward $140, needs a test of the 50 month MA near $160 and a higher low",
       "entry": "No entry yet; wait for a test of the 50 month MA at $160 and a higher low",
       "target": "$197 (all-time high resistance)",
       "analyst": "Hold",
       "analystTarget": "$150.00",
-      "summary": "PEP made the lower low needed to complete Wave C at $123 and has since bounced to $140. TLI wants to see it challenge the 50 month MA at $160 and, if it meets resistance there and forms a higher low, that would confirm the pullback is over. A break above $160 would move it into the Bull Case with the next resistance at the $197 all-time highs. The dividend yield is 4.1%.",
+      "summary": "At $137 PEP offers a 4.3% dividend, 54 straight years of increases and a TLI DCF price target of $172, while record revenue and free cash flow of $10.5B contrast with soft North American beverages and rate pressure. Technically the stock may have finished Wave C near $123 and bounced toward $140. The next test is the 50 month MA near $160, and a break above it opens the Bull Case toward the $197 high.",
       "collections": [
         "Safe Haven",
         "Watchlist"
@@ -1129,16 +1149,16 @@
           "value": "$123"
         },
         {
-          "label": "Resistance (50 month MA)",
-          "value": "$160"
+          "label": "50 month MA",
+          "value": "~$160"
+        },
+        {
+          "label": "DCF target",
+          "value": "$172"
         },
         {
           "label": "All-time high",
           "value": "$197"
-        },
-        {
-          "label": "Dividend yield",
-          "value": "4.1%"
         }
       ],
       "appr": "+294%",
@@ -1147,10 +1167,10 @@
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": "At Target / Invalidated",
+      "prevCategory": null,
       "yfSymbol": "PEP",
       "displaySym": "PEP",
-      "lastUpdated": "2026-11-03T13:06:14.501556+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.094894+00:00"
     },
     {
       "sym": "PALL",
@@ -1190,44 +1210,41 @@
     {
       "sym": "AMD",
       "company": "Advanced Micro Devices · NASDAQ",
-      "category": "Watchlist",
-      "wave": "Still Wave A, testing the 1.618 Fib from above; Wave B bounce then Wave C expected",
-      "entry": "Buy Zone between the 0.38 Fib at $428 and the 0.5 Fib at $356, 50 WMA at $374",
-      "target": "$684",
+      "category": "Buy Zone",
+      "wave": "ABC pullback; price dipped into the Buy Zone after Wave B rejected at the 0.5 Fib $580",
+      "entry": "Watch for a hold above the 200 Day MA ($414) and a higher low; no need to rush",
+      "target": "Not specified",
       "analyst": "Strong Buy",
       "analystTarget": "$500.40",
-      "summary": "AMD fell 10% on Friday and closed the week at $504, testing the 1.618 Fib at $494 from above. TLI still expects a Wave B bounce followed by a Wave C lower low, and wants a correction into the Buy Zone with the 50 WMA adding confluence. Earnings are Tuesday after hours (estimates: revenue $13.09B, EPS $1.946); no chart changes.",
+      "summary": "AMD fell 17% in one session but found support at the 200 Day MA near $414, dipped just below and is up 8% premarket. The pattern fits Wave A down, a Wave B bounce to the 0.5 Fib at $580, then a lower move into the Buy Zone. TLI wants to see price stabilise above $414 and form a higher low. Downside risk remains the 0.5 Fib at $356.",
       "collections": [
+        "Top 10",
         "Top 20"
       ],
       "levels": [
         {
-          "label": "1.618 Fib",
-          "value": "$494"
+          "label": "200 Day MA",
+          "value": "$414"
         },
         {
-          "label": "Buy Zone 0.38 Fib",
-          "value": "$428"
+          "label": "Wave B high (0.5 Fib)",
+          "value": "$580"
         },
         {
-          "label": "50 WMA",
-          "value": "$374"
-        },
-        {
-          "label": "Buy Zone 0.5 Fib",
+          "label": "Downside risk (0.5 Fib)",
           "value": "$356"
         }
       ],
-      "appr": "+179900%",
-      "categoryClass": "badge-watchlist",
+      "appr": null,
+      "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-strong-buy",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "prevCategory": null,
+      "recClass": "rec-buy",
+      "rec": "BUY",
+      "prevCategory": "Watchlist",
       "yfSymbol": "AMD",
       "displaySym": "AMD",
-      "lastUpdated": "2026-11-03T13:06:13.541107+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.370057+00:00"
     },
     {
       "sym": "V",
@@ -1271,36 +1288,35 @@
       "sym": "UNH",
       "company": "UnitedHealth Group · NYSE",
       "category": "Watchlist",
-      "wave": "Wave 2 pressing into amber 0.5 Fib; unconfirmed until break above Wave 1 top at $455",
-      "entry": "Buy Zone $358 - $383 (0.5 Fib to 0.38 Fib) if rejected",
-      "target": "$627",
+      "wave": "Wave 2 pullback, holding on the 200 DMA/0.5 Fib; Wave 2 line in the sand is the 0.618 Fib at $334",
+      "entry": "Buy Zone $358 - $382 (0.5 Fib to 0.382 Fib); $360 is the key add level",
+      "target": "$664 (Wave 3 target if price clears the blue line into the Bull Case)",
       "analyst": "Buy",
       "analystTarget": "$477",
-      "summary": "UNH is at $407, pressing into the amber 0.5 Fib at $412 after a beat-and-raise quarter on October 13 (adjusted EPS $4.69 vs $4.12, guidance lifted to at least $20.50). TLI treats it as Wave 2, confirmed only by a break above the Wave 1 top at $455. A rejection would offer another chance to add in the Buy Zone at the 0.38 and 0.5 Fibs. Wave 3 and Wave 5 targets are unchanged, and Street consensus is about $477.",
+      "summary": "UNH slipped from a $404.50 close to about $395 in the premarket while OSCR rallied on ACA subsidy hopes. TLI still reads this as a healthy Wave 2 pullback holding on the 200 Day MA, with the 0.382 Fib at $382 down to the 0.5 Fib at $358 as the Buy Zone and the 0.618 Fib at $334 as the line in the sand. The October rally into the 0.618 Fib at $423 looks like Wave B of Wave 2, and the Street target sits around $464 to $481. Next earnings are Jan 20, 2027.",
       "collections": [
         "Top 10",
-        "Top 20",
-        "Safe Haven"
+        "Top 20"
       ],
       "levels": [
         {
-          "label": "0.5 Fib resistance",
-          "value": "$412"
+          "label": "0.382 Fib",
+          "value": "$382"
         },
         {
-          "label": "Wave 1 top",
-          "value": "$455"
+          "label": "0.5 Fib / 200 DMA",
+          "value": "$358-360"
         },
         {
-          "label": "Buy Zone (0.38 / 0.5 Fib)",
-          "value": "$383 / $358"
+          "label": "0.618 Fib (line in sand)",
+          "value": "$334"
         },
         {
-          "label": "Wave 3 target 1.618 Fib",
-          "value": "$627"
+          "label": "Wave 3 target",
+          "value": "$664"
         }
       ],
-      "appr": "+75%",
+      "appr": "+85%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-buy",
@@ -1309,7 +1325,7 @@
       "prevCategory": null,
       "yfSymbol": "UNH",
       "displaySym": "UNH",
-      "lastUpdated": "2026-11-03T13:06:13.783530+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.181505+00:00"
     },
     {
       "sym": "DCTH",
@@ -1353,37 +1369,41 @@
       "sym": "ZVRA",
       "company": "Zevra Therapeutics · NASDAQ",
       "category": "Watchlist",
-      "wave": "Pulling back in three waves (subwave C) after a five-wave rally from $9 in late July; watching for support at the 0.5 Fib ($11) or the 200 Day MA / 0.618 Fib confluence at $10.57.",
-      "entry": "$10.57 - $11 support confluence (0.5-0.618 Fib / 200 Day MA) for Wave 2 completion",
+      "wave": "Wave 2 completed at the 0.618 Fib ($7.49); grinding higher into early Wave 3",
+      "entry": "Hold above the 50 WMA at $10.40; lower-risk entry once the $13.50 Bull Case line flips to support",
+      "target": "$22 (1.618 Fib, Wave 3); $31 (2.618 Fib, Wave 5)",
       "analyst": "Buy",
-      "summary": "ZVRA is retracing in three waves (subwave C) after its five-wave rally from $9 in late July, with TLI watching the $11 (0.5 Fib) and $10.57 (200-day MA / 0.618 Fib confluence) support levels. A hold and consolidation at either level would complete Wave 2 and re-open the buy case, with an upside target near $17.14 (1.618 Fib) over the coming months.",
+      "analystTarget": "$27",
+      "summary": "ZVRA bottomed its Wave 2 at the 0.618 Fib at $7.49 and is now near $11, holding above the 50 WMA at $10.40. The next step is a break and hold above the ~$13.50 Bull Case line. Next buy entry is a hold above $10.40, with the 200 WMA near $8 as downside risk and an area to add again. Street average target of $27 sits above TLI's $22 Wave 3 level.",
+      "collections": [],
       "levels": [
         {
-          "label": "Entry Zone",
-          "value": "$10.57 - $11"
+          "label": "50 WMA",
+          "value": "$10.40"
         },
         {
-          "label": "Wave Count",
-          "value": "Subwave C of Wave 2"
+          "label": "Bull Case line",
+          "value": "~$13.50"
         },
         {
-          "label": "Near-Term Target",
-          "value": "$17.14 (1.618 Fib)"
+          "label": "200 WMA",
+          "value": "~$8"
+        },
+        {
+          "label": "Wave 2 low (0.618 Fib)",
+          "value": "$7.49"
         }
       ],
-      "target": "$22 (1.618 Fib, Wave 3 target — unchanged)",
-      "appr": "+108%",
-      "analystTarget": "$16.00",
-      "collections": [],
+      "appr": "-56%",
       "categoryClass": "badge-watchlist",
-      "waveClass": "wave-top",
+      "waveClass": "wave-impulse",
       "analystClass": "analyst-buy",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": "Bull Case",
+      "prevCategory": null,
       "yfSymbol": "ZVRA",
       "displaySym": "ZVRA",
-      "lastUpdated": "2026-09-28T13:19:04.515702+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.868299+00:00"
     },
     {
       "sym": "MELI",
@@ -1431,33 +1451,41 @@
       "sym": "NVDA",
       "company": "NVIDIA Corp · NASDAQ",
       "category": "Watchlist",
-      "wave": "Holding 50 WMA; deeper drop to Buy Zone if lost",
-      "entry": "Buy Zone below 50 WMA (exact range not given)",
-      "target": null,
+      "wave": "Ongoing correction; relief bounce off the 0.23 Fib, deeper pullback still possible",
+      "entry": "Start buying below the 0.38 Fib at $146; be patient",
+      "target": "Resistance at 200 Day MA $204",
       "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "TLI says a loss of the 50 WMA near $200 would open a drop into the Buy Zone. The rising 200 WMA is converging on that zone, which adds confluence. Until the 50 WMA breaks, this is a waiting setup.",
+      "analystTarget": "",
+      "summary": "NVDA bounced 4.5% to about $189 after testing the 0.23 Fib at $180, but TLI calls it a relief bounce and says it is too early to say the worst is over. A deeper pullback is still possible, so the plan is patience with buying below the 0.38 Fib at $146. If price keeps rising, the 200 Day MA at $204 is the resistance where the correction ideally completes. No changes to the chart.",
+      "collections": [],
       "levels": [
         {
-          "label": "50 WMA",
-          "value": "$200"
+          "label": "0.23 Fib",
+          "value": "$180"
         },
         {
-          "label": "Buy Zone",
-          "value": "Below 50 WMA, near rising 200 WMA"
+          "label": "Current",
+          "value": "~$189"
+        },
+        {
+          "label": "200 Day MA",
+          "value": "$204"
+        },
+        {
+          "label": "0.38 Fib",
+          "value": "$146"
         }
       ],
-      "appr": null,
-      "collections": [],
+      "appr": "+52532%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": "At Target / Invalidated",
+      "prevCategory": null,
       "yfSymbol": "NVDA",
       "displaySym": "NVDA",
-      "lastUpdated": "2026-10-26T13:21:43.827484+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.624742+00:00"
     },
     {
       "sym": "TOST",
@@ -1547,70 +1575,77 @@
     {
       "sym": "ONDS",
       "company": "Ondas Holdings · NASDAQ",
-      "category": "Watchlist",
-      "wave": "Slipped below 0.618 Fib; eyeing 0.78 Fib / 200 WMA",
-      "entry": "200 WMA / 0.78 Fib confluence",
-      "target": null,
+      "category": "Buy Zone",
+      "wave": "Deep Wave C of the ABC correction after a 5-wave impulse to ~$14",
+      "entry": "Buy Zone between the 0.618 Fib $6.20 and 0.78 Fib $3.74; price ~$5.50 testing the 200 WMA; wait for confirmation (earnings 12 November)",
+      "target": "$27.57 (1.618 Fib, Wave 3); $42.33 (2.618 Fib, Wave 5)",
       "analyst": "Buy",
-      "analystTarget": null,
-      "summary": "ONDS consolidated on its 0.618 Fib for five months, then dipped below it and traded near $6 premarket. TLI notes the 200 WMA lines up with the 0.78 Fib, creating a magnet if the 0.618 is not recaptured soon. He says members should be ready for a drop there, which he would see as a clear buy, and that the impulse count remains valid.",
-      "levels": [
-        {
-          "label": "Lost support (0.618 Fib)",
-          "value": "about $6"
-        },
-        {
-          "label": "Confluence (0.78 Fib / 200 WMA)",
-          "value": "clear buy zone"
-        }
-      ],
-      "appr": null,
+      "analystTarget": "$19",
+      "summary": "ONDS completed a five-wave impulse near $14 and is in the late stage of Wave C, around $5.50 and testing the 200 WMA inside the Buy Zone. The 200 WMA confluence acts like a magnet and TLI wants it held, with earnings due 12 November before getting greedy on adds. Street target averages $19 versus a $27.57 Wave 3 target.",
       "collections": [
         "Watchlist"
       ],
-      "categoryClass": "badge-watchlist",
+      "levels": [
+        {
+          "label": "0.618 Fib",
+          "value": "$6.20"
+        },
+        {
+          "label": "0.78 Fib",
+          "value": "$3.74"
+        },
+        {
+          "label": "1.618 Fib",
+          "value": "$27.57"
+        },
+        {
+          "label": "2.618 Fib",
+          "value": "$42.33"
+        }
+      ],
+      "appr": "+4361%",
+      "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-buy",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "prevCategory": "Buy Zone",
+      "recClass": "rec-buy",
+      "rec": "BUY",
+      "prevCategory": "Watchlist",
       "yfSymbol": "ONDS",
       "displaySym": "ONDS",
-      "lastUpdated": "2026-10-26T13:21:43.942230+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.668385+00:00"
     },
     {
       "sym": "HIMS",
       "company": "Hims & Hers Health · NYSE",
       "category": "Watchlist",
-      "wave": "ABC pullback from July $39 high; testing Bull Case line",
-      "entry": "Support at $25 (Bull Case line) with 200 WMA at $24",
-      "target": "$39",
+      "wave": "Pullback testing the 0.618 Fib; needs to hold and break back into the Bull Case",
+      "entry": "Hold of the 0.618 Fib at $23; Bull Case on a break above the blue line at $25.41 (earnings Monday)",
+      "target": "Wedge breakout level at $30",
       "analyst": "Bullish",
       "analystTarget": "",
-      "summary": "HIMS has pulled back in an ABC from its July high near $39 and is now testing the $25 Bull Case line, with the 200 WMA just beneath. TLI wants buyers to defend it and the wedge bottom to be reclaimed, then the 50 WMA and a break above the $30 wedge top. Losing the 200 WMA exposes the 0.78 Fib near $21.",
+      "summary": "HIMS dropped with the market to test the 0.618 Fib at $23, which now needs to hold. Reclaiming the blue support line at $25.41 would put it in the Bull Case, followed by flipping the 200 Day MA at $26.94 to support and breaking the 50 Day MA at $28.61. The goal is the wedge breakout at $30. Earnings are scheduled for Monday.",
+      "collections": [
+        "Top 10"
+      ],
       "levels": [
         {
-          "label": "Bull Case Support",
-          "value": "$25"
+          "label": "0.618 Fib",
+          "value": "$23"
         },
         {
-          "label": "200 WMA",
-          "value": "$24"
+          "label": "Blue line",
+          "value": "$25.41"
         },
         {
-          "label": "Wedge Top",
-          "value": "$30"
+          "label": "200 Day MA",
+          "value": "$26.94"
         },
         {
-          "label": "Downside Risk (0.78 Fib)",
-          "value": "$21"
+          "label": "50 Day MA",
+          "value": "$28.61"
         }
       ],
-      "collections": [
-        "Top 10",
-        "Watchlist"
-      ],
-      "appr": "+56%",
+      "appr": "+4754%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-bullish",
@@ -1619,7 +1654,7 @@
       "prevCategory": null,
       "yfSymbol": "HIMS",
       "displaySym": "HIMS",
-      "lastUpdated": "2026-11-03T13:02:55.017689+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.320877+00:00"
     },
     {
       "sym": "SOFI",
@@ -1663,34 +1698,30 @@
       "sym": "OPEN",
       "company": "Opendoor Technologies Inc · NASDAQ",
       "category": "Watchlist",
-      "wave": "Deep pullback near 0.887 Fib, support unconfirmed",
-      "entry": "$1.61 (0.887 Fib), reclaim $2.65",
-      "target": "$4.37 (200 DMA)",
+      "wave": "Deep correction sitting on the 0.887 Fib support; long-term reversal depends on a Fed pivot",
+      "entry": "$1.61 (0.887 Fib support); price near $1.80, expect continued consolidation while rates stay elevated",
+      "target": "$4.37 (200 WMA, roughly a +100% bounce from here)",
       "analyst": "Hold",
       "analystTarget": null,
-      "summary": "OPEN's long pullback came close to the 0.887 Fib at $1.61, which TLI finds interesting for bulls, but support is not yet confirmed. He wants sideways consolidation and a reclaim of the 0.78 Fib at $2.65, then a flip of the 200 DMA at $4.37. Losing $1.61 would expose $0.44.",
-      "levels": [
-        {
-          "label": "0.887 Fib",
-          "value": "$1.61"
-        },
-        {
-          "label": "Reclaim (0.78 Fib)",
-          "value": "$2.65"
-        },
-        {
-          "label": "200 DMA",
-          "value": "$4.37"
-        },
-        {
-          "label": "Lower support",
-          "value": "$0.44"
-        }
-      ],
-      "appr": "+171%",
+      "summary": "Rate hikes have driven OPEN from $10.80 to $1.80 over the last 12 months, and TLI sees extreme value while it sits on the 0.887 Fib support. It is so oversold that even a 100% bounce would only put it slightly above the 200 WMA. Expect consolidation while inflation and rates stay high, with large upside (talked up as +2600%) when the Fed pivots.",
       "collections": [
         "Watchlist"
       ],
+      "levels": [
+        {
+          "label": "0.887 Fib support",
+          "value": "$1.61"
+        },
+        {
+          "label": "Recent drop from",
+          "value": "$10.80"
+        },
+        {
+          "label": "200 WMA / +100% bounce",
+          "value": "~$4.37"
+        }
+      ],
+      "appr": "+171%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
@@ -1699,7 +1730,7 @@
       "prevCategory": null,
       "yfSymbol": "OPEN",
       "displaySym": "OPEN",
-      "lastUpdated": "2026-10-26T13:21:44.012284+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.052253+00:00"
     },
     {
       "sym": "COIN",
@@ -1782,144 +1813,142 @@
     {
       "sym": "CIFR",
       "company": "Cipher Mining Inc · NASDAQ",
-      "category": "Watchlist",
-      "wave": "Pullback to 0.618 Fib / 200 WMA confluence, awaiting Wave 3",
-      "entry": "$7.82 (0.618 Fib + 200 WMA)",
-      "target": "$56 (1.618 Fib)",
-      "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "CIFR has pulled back to the confluence of the 0.618 Fib and the 200 WMA at $7.82, which must hold or the price enters the Bear Case. If it holds, TLI wants consolidation and a WMA squeeze before a challenge of the 50 WMA at $17. Breaking $17 and then the $25 Bull Case line would signal Wave 3 is underway, aiming for the 1.618 Fib at $56.",
-      "levels": [
-        {
-          "label": "Support (0.618 Fib / 200 WMA)",
-          "value": "$7.82"
-        },
-        {
-          "label": "50 WMA",
-          "value": "$17"
-        },
-        {
-          "label": "Bull Case line",
-          "value": "$25"
-        },
-        {
-          "label": "Wave 3 target (1.618)",
-          "value": "$56"
-        }
-      ],
-      "appr": "+616%",
-      "collections": [
-        "Watchlist"
-      ],
-      "categoryClass": "badge-watchlist",
-      "waveClass": "wave-impulse",
-      "analystClass": "analyst-hold",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "prevCategory": "Buy Zone",
-      "yfSymbol": "CIFR",
-      "displaySym": "CIFR",
-      "lastUpdated": "2026-10-26T13:21:42.386712+00:00"
-    },
-    {
-      "sym": "NBIS",
-      "company": "Nebius Group N.V. · NASDAQ",
-      "category": "Watchlist",
-      "wave": "Deep Wave 4 pullback, below 50 WMA",
-      "entry": "$147 (0.5 Fib)",
-      "target": null,
-      "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "NBIS has fallen below the 50 WMA at $161, which TLI wants reclaimed quickly. Next support is the 0.5 Fib at $147, just above the $143 invalidation line. This is a deeper Wave 4 than usual, and the count stays valid only while $143 holds. A break below would put it in the Bear Case. For now TLI is waiting for support to confirm.",
-      "levels": [
-        {
-          "label": "50 WMA",
-          "value": "$161"
-        },
-        {
-          "label": "0.5 Fib",
-          "value": "$147"
-        },
-        {
-          "label": "Invalidation",
-          "value": "$143"
-        },
-        {
-          "label": "0.38 Fib",
-          "value": "$179"
-        }
-      ],
-      "appr": null,
-      "collections": [],
-      "categoryClass": "badge-watchlist",
-      "waveClass": "wave-correct",
-      "analystClass": "analyst-hold",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "prevCategory": "Bull Case",
-      "yfSymbol": "NBIS",
-      "displaySym": "NBIS",
-      "lastUpdated": "2026-10-26T13:21:43.656850+00:00"
-    },
-    {
-      "sym": "IREN",
-      "company": "Iris Energy Ltd · NASDAQ",
       "category": "Buy Zone",
-      "wave": "Wave C pullback, support unconfirmed",
-      "entry": "$17 - $19 (200 WMA + 0.78 Fib)",
-      "target": null,
+      "wave": "Deeper Wave 2; last line of defence is the 0.887 Fib, which buyers defended",
+      "entry": "Accumulate near the 0.887 Fib ($4.93); watch for reclaim of $7.88 (0.78 Fib / 200 WMA confluence)",
+      "target": "Reclaim $7.88, then 0.618 Fib $12.60; 50 WMA $17.46 beyond",
       "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "IREN dropped to about $24 after hours and is inside TLI's buy zone, but support has not been confirmed. The preferred entry is a deeper pullback into the $17-$19 confluence of the 200 WMA and 0.78 Fib. TLI says to wait for Wave C to finish and not rush. Earnings are due on 5 November.",
-      "levels": [
-        {
-          "label": "Current price",
-          "value": "~$24"
-        },
-        {
-          "label": "Confluence zone",
-          "value": "$17 - $19"
-        },
-        {
-          "label": "Earnings",
-          "value": "5 Nov"
-        }
-      ],
-      "appr": null,
+      "analystTarget": "",
+      "summary": "CIFR broke below the $7.88 confluence of the 0.78 Fib and 200 WMA and tested the 0.887 Fib at $4.93, where buyers stepped in for a 12% bounce to about $6.23. The first job is reclaiming $7.88, then the 0.618 Fib at $12.60 needs to flip to support before challenging the 50 WMA at $17.46. The chart remains valid while price holds above the blue line.",
       "collections": [
         "Watchlist"
       ],
+      "levels": [
+        {
+          "label": "0.887 Fib",
+          "value": "$4.93"
+        },
+        {
+          "label": "0.78 Fib / 200 WMA",
+          "value": "$7.88"
+        },
+        {
+          "label": "0.618 Fib",
+          "value": "$12.60"
+        },
+        {
+          "label": "50 WMA",
+          "value": "$17.46"
+        }
+      ],
+      "appr": "+788%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
       "prevCategory": "Watchlist",
+      "yfSymbol": "CIFR",
+      "displaySym": "CIFR",
+      "lastUpdated": "2026-11-07T06:21:07.936058+00:00"
+    },
+    {
+      "sym": "NBIS",
+      "company": "Nebius Group N.V. · NASDAQ",
+      "category": "At Target / Invalidated",
+      "wave": "Wave C broke below the 0.618 Fib, invalidating the previous count; clearer ABC correction now",
+      "entry": "Deeper pullback gives a lower accumulation level; wait for the 50 WMA at $163 to flip to support",
+      "target": "Challenge the 50 WMA at $163 from below",
+      "analyst": "Hold",
+      "analystTarget": "",
+      "summary": "NBIS Wave C dropped below the 0.618 Fib, invalidating TLI's earlier wave count, though long-term bulls can see the deeper pullback as a cheaper entry. Price is up about 9.8% premarket to $132. The next test is the 50 WMA at $163, and flipping it to support would signal the pullback is done. The chart now shows a cleaner ABC correction.",
+      "collections": [],
+      "levels": [
+        {
+          "label": "Current",
+          "value": "~$132"
+        },
+        {
+          "label": "50 WMA",
+          "value": "$163"
+        },
+        {
+          "label": "0.618 Fib",
+          "value": "broken"
+        }
+      ],
+      "appr": "+0%",
+      "categoryClass": "badge-at-target",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": "Watchlist",
+      "yfSymbol": "NBIS",
+      "displaySym": "NBIS",
+      "lastUpdated": "2026-11-07T06:21:08.016200+00:00"
+    },
+    {
+      "sym": "IREN",
+      "company": "Iris Energy Ltd · NASDAQ",
+      "category": "Buy Zone",
+      "wave": "Wave C of correction still playing out, just above the 200 WMA",
+      "entry": "200 WMA + 0.78 Fib stacked at ~$17.10; price ~$20.65",
+      "target": "$141 (1.618 extension, 2-3 yrs)",
+      "analyst": "Buy",
+      "analystTarget": "$75 - $82",
+      "summary": "IREN broke the 0.618 Fib at $29.89 and trades near $20.65, just above the rising 200 WMA. TLI sees Wave C still in progress, with the 0.78 Fib at $17.10 as the downside risk and a combined support zone with the 200 WMA. A turn here opens the way to $141 over 2-3 years. Earnings were due after the close on 5 Nov; the Street rates it Buy.",
+      "collections": [],
+      "levels": [
+        {
+          "label": "0.618 Fib",
+          "value": "$29.89"
+        },
+        {
+          "label": "0.78 Fib",
+          "value": "$17.10"
+        },
+        {
+          "label": "1.618 extension",
+          "value": "$141"
+        }
+      ],
+      "appr": "-30%",
+      "categoryClass": "badge-buy-zone",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-buy",
+      "recClass": "rec-buy",
+      "rec": "BUY",
+      "prevCategory": null,
       "yfSymbol": "IREN",
       "displaySym": "IREN",
-      "lastUpdated": "2026-10-26T13:21:43.192422+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.391593+00:00"
     },
     {
       "sym": "MU",
       "company": "Micron Technology Inc · NASDAQ",
       "category": "Watchlist",
-      "wave": "Testing lower wedge support",
-      "entry": "Confirmed support near $800 (0.38 Fib) to $746 (200 DMA)",
-      "target": "",
+      "wave": "Preferred count has Wave C forming a lower low",
+      "entry": "Scale in; confluence of 50 WMA and 0.5 Fib at $660; a break below enters the Buy Zone",
+      "target": "Not specified",
       "analyst": "Hold",
       "analystTarget": "",
-      "summary": "MU is testing the bottom of its wedge and TLI is waiting to see whether buyers step in. A failure of this level that drops toward the 200 day MA near $746, which lines up with July lows, would offer a strong buy if support is confirmed. No rush; support is not yet confirmed.",
+      "summary": "MU pulled back to $650 and tested the confluence of the 50 WMA and 0.5 Fib at $660, then rose about 8% premarket, a sign buyers are stepping in. A drop below $660 and the 0.5 Fib would move it into the Buy Zone. TLI urges scaling in, with downside risk at the 0.618 Fib at $519. No changes to the chart.",
+      "collections": [],
       "levels": [
         {
-          "label": "0.38 Fib",
-          "value": "$800"
+          "label": "50 WMA / 0.5 Fib",
+          "value": "$660"
         },
         {
-          "label": "200 Day MA",
-          "value": "$746"
+          "label": "Recent low",
+          "value": "$650"
+        },
+        {
+          "label": "0.618 Fib (downside)",
+          "value": "$519"
         }
       ],
-      "collections": [],
       "appr": null,
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
@@ -1929,43 +1958,47 @@
       "prevCategory": null,
       "yfSymbol": "MU",
       "displaySym": "MU",
-      "lastUpdated": "2026-11-03T13:02:55.543586+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.587665+00:00"
     },
     {
       "sym": "SPCX",
       "company": "SpaceX Corp · NASDAQ",
-      "category": "Bull Case",
-      "wave": "Price reclaimed and confirmed the $147 IPO support level with a strong bounce and a fresh higher high, now looking very strong.",
-      "entry": "$147 (IPO support, reclaimed and holding)",
-      "target": "$175 then $202 (near-term upside targets)",
+      "category": "Watchlist",
+      "wave": "Pullback in progress, possible Wave C; price just above the 0.618 Fib, support not yet confirmed",
+      "entry": "Buy Zone is the 0.618 Fib at $132 only on confirmed support; no buying until then",
+      "target": "Reclaim the 50 Day MA at $149 as first sign the pullback is done",
       "analyst": "Hold",
-      "summary": "SPCX has confirmed the $147 IPO support level with a strong bounce and a new higher high, and TLI now has upside targets at $175 and $202. TLI flags this as bullish for the broader space too, likely lifting sentiment in names like $ASTS and $RKLB — though TLI still strongly prefers $ASTS over $SPCX at current levels given its perceived long-term moat and undervaluation.",
+      "analystTarget": "$800 (Street target TLI views as unrealistic)",
+      "summary": "SPCX is down 4.7% pre-market to $134, just above the 0.618 Fib at $132. There are two outcomes: support holds there, or a deeper Wave C drops below $105. TLI says not to buy until support is confirmed. A hold at $132 followed by a break and hold above the 50 Day MA at $149 would be an early sign the pullback is complete.",
+      "collections": [],
       "levels": [
         {
-          "label": "Confirmed Support",
-          "value": "$147 (IPO level)"
+          "label": "0.618 Fib",
+          "value": "$132"
         },
         {
-          "label": "Target 1",
-          "value": "$175"
+          "label": "50 Day MA",
+          "value": "$149"
         },
         {
-          "label": "Target 2",
-          "value": "$202"
+          "label": "Deeper Wave C risk",
+          "value": "<$105"
+        },
+        {
+          "label": "Pre-market price",
+          "value": "$134"
         }
       ],
-      "appr": "+19%",
-      "analystTarget": "$800 (Street target TLI views as unrealistic)",
-      "collections": [],
-      "categoryClass": "badge-bull-case",
+      "appr": "+7991%",
+      "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": "Watchlist",
+      "prevCategory": "Bull Case",
       "yfSymbol": "SPCX",
       "displaySym": "SPCX",
-      "lastUpdated": "2026-09-28T13:19:03.811590+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.750344+00:00"
     },
     {
       "sym": "NU",
@@ -2007,40 +2040,39 @@
       "sym": "ETH",
       "company": "Ethereum · Cryptocurrency",
       "category": "Buy Zone",
-      "wave": "ABC pullback after five waves up",
-      "entry": "$2,158 (200 Day MA + 0.5 Fib confluence); scale in",
-      "target": "Challenge 50 Day MA at $2,500",
+      "wave": "Consolidating at the 200 Day MA / 0.5 Fib confluence",
+      "entry": "Long-term Buy Zone; downside risk is $2,000 confluence",
+      "target": "Challenge 50 Day MA at $2,500, then flip it to support",
       "analyst": "Buy",
       "analystTarget": "",
-      "summary": "After five clean waves up, Ethereum is pulling back in an ABC into a confluence of the 200 Day MA and 0.5 Fib near $2,158. TLI treats that as the next Buy Zone if support holds, with the 50 Day MA near $2,500 the first upside test. If it fails, the 0.618 Fib at $2,000 is the next support. TLI suggests scaling in for those bullish on crypto.",
+      "summary": "ETH bounced from the confluence of the 200 Day MA and 0.5 Fib near $2,158, nearly reached the 50 Day MA at $2,500, then pulled back to just above the 200 Day MA. TLI is comfortable with sideways consolidation. The next step is to challenge the 50 Day MA and flip it to support. Downside risk is the $2,000 confluence of the 0.618 Fib, blue support and psychological level.",
+      "collections": [
+        "Top 10"
+      ],
       "levels": [
         {
-          "label": "Entry Zone",
+          "label": "200 Day MA / 0.5 Fib",
           "value": "$2,158"
-        },
-        {
-          "label": "Downside support",
-          "value": "$2,000"
         },
         {
           "label": "50 Day MA",
           "value": "$2,500"
+        },
+        {
+          "label": "Downside confluence",
+          "value": "$2,000"
         }
-      ],
-      "collections": [
-        "Top 10",
-        "Watchlist"
       ],
       "appr": "-98%",
       "categoryClass": "badge-buy-zone",
-      "waveClass": "wave-correct",
+      "waveClass": "wave-top",
       "analystClass": "analyst-buy",
       "recClass": "rec-buy",
       "rec": "BUY",
       "prevCategory": null,
       "yfSymbol": "ETH",
       "displaySym": "ETH",
-      "lastUpdated": "2026-11-02T13:32:20.009611+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.288580+00:00"
     },
     {
       "sym": "VICI",
@@ -2125,42 +2157,44 @@
     {
       "sym": "RDDT",
       "company": "Reddit Inc · NYSE",
-      "category": "Bull Case",
-      "wave": "Wave 1 formed as a Leading Diagonal, Wave 2 pulled back in three waves to the 0.78 Fib, and price is now testing the 200 Day MA on strong earnings ahead of a potential Primary Wave 3.",
-      "entry": "$138 (0.78 Fib, Wave 2 low) / $178 (200 Day MA, needs to flip to support)",
-      "target": "$280 (1.618 Fib, aligning with prior highs)",
+      "category": "Buy Zone",
+      "wave": "Deep in Wave C of the ABC correction after a 5-wave impulse to ~$283; 0.78 Fib tested for 2 weeks",
+      "entry": "Starter position at ~$95.50 while the 0.78 Fib holds; downside risk if $89 is lost is $65",
+      "target": "$335 (1.0 Fib); $487 (1.618 Fib)",
       "analyst": "Hold",
-      "summary": "TLI reads RDDT's recent action as a Leading Diagonal Wave 1 followed by a valid three-wave Wave 2 pullback to the 0.78 Fib at $138. A double earnings beat has pushed price up 12.5% to $178, right at the 200 Day MA. If that level flips to support and price breaks above $208, TLI believes Primary Wave 3 is underway, with the 1.618 Fib near $280 (matching prior highs) acting as a magnet.",
-      "collections": [],
+      "analystTarget": "$154",
+      "summary": "RDDT finished a five-wave impulse near $283 a year ago and is now late in Wave C, trading about $95.50 in the Buy Zone. The 0.78 Fib has held for two weeks despite a rough market, which is where theory wants Wave C to end. Losing $89 would open a drop toward $65. Street targets (avg ~$154) sit below TLI's long-term Fib targets.",
+      "collections": [
+        "Watchlist"
+      ],
       "levels": [
         {
-          "label": "Wave 2 Support",
-          "value": "$138 (0.78 Fib)"
+          "label": "0.78 Fib",
+          "value": "~$95.50"
         },
         {
-          "label": "Key Flip Level",
-          "value": "$178 (200 Day MA)"
+          "label": "Support",
+          "value": "$89"
         },
         {
-          "label": "Wave 3 Confirmation",
-          "value": "Break above $208"
+          "label": "Downside risk",
+          "value": "$65"
         },
         {
-          "label": "LT Target",
-          "value": "$280 (1.618 Fib)"
+          "label": "1.0 Fib",
+          "value": "$335"
         }
       ],
-      "appr": "+103%",
-      "analystTarget": null,
-      "categoryClass": "badge-bull-case",
-      "waveClass": "wave-impulse",
+      "appr": "+251%",
+      "categoryClass": "badge-buy-zone",
+      "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": null,
+      "prevCategory": "Bull Case",
       "yfSymbol": "RDDT",
       "displaySym": "RDDT",
-      "lastUpdated": "2026-08-14T16:22:02.495236+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.708397+00:00"
     },
     {
       "sym": "CELH",
@@ -2279,42 +2313,38 @@
     {
       "sym": "SEZL",
       "company": "Sezzle Inc · NASDAQ",
-      "category": "Buy Zone",
-      "wave": "Wave 2 complete; bounced to Wave 1 top and $186 resistance, pulled back to the 0.618 Fib at $105",
-      "entry": "$105 - $122 (0.5-0.618 Fib Buy Zone)",
-      "target": "$351 (1.618 Fib, Wave 3 target)",
+      "category": "Bull Case",
+      "wave": "Wave 2 complete; bounced off the 50 WMA and pushing back toward the Wave 1 top at $186",
+      "entry": "Break above blue resistance at $186 (top of Wave 1) to form a higher high",
+      "target": "$351 (1.618 Fib, Wave 3)",
       "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "SEZL has behaved normally since finishing Wave 2: it rallied to the top of Wave 1 and the $186 blue resistance line, was rejected, then pulled back to the 0.618 Fib at $105. TLI now wants to see price challenge $186 again from below and watch how it reacts. Earnings are due tomorrow after hours and good results and guidance could be the catalyst for a move toward $186. There are no changes to the chart and the Wave 3 target stays at the 1.618 Fib near $351.",
+      "analystTarget": "",
+      "summary": "SEZL beat on EPS ($1.37 vs $1.28) and revenue ($165.5M vs $155M), and the stock is up 26% pre-market to $173. The chart is unchanged: resistance is the blue line at $186, the Wave 1 top that held in July. TLI wants a break above $186 to confirm a higher high.",
       "collections": [],
       "levels": [
         {
-          "label": "Buy Zone",
-          "value": "$105 - $122"
+          "label": "Pre-market price",
+          "value": "$173"
         },
         {
-          "label": "Resistance",
+          "label": "Wave 1 top resistance",
           "value": "$186"
         },
         {
-          "label": "Wave 3 target (1.618 Fib)",
+          "label": "1.618 Fib",
           "value": "$351"
-        },
-        {
-          "label": "Catalyst",
-          "value": "Earnings tomorrow after hours"
         }
       ],
-      "appr": "+234%",
-      "categoryClass": "badge-buy-zone",
+      "appr": "+89%",
+      "categoryClass": "badge-bull-case",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": null,
+      "prevCategory": "Buy Zone",
       "yfSymbol": "SEZL",
       "displaySym": "SEZL",
-      "lastUpdated": "2026-11-03T13:06:14.576230+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.626301+00:00"
     },
     {
       "sym": "RR",
@@ -2356,34 +2386,34 @@
       "sym": "GRAB",
       "company": "Grab Holdings Ltd · NASDAQ",
       "category": "Buy Zone",
-      "wave": "Basing in a 12-month wedge after dropping to the 0.887 Fib at $2.70; post-earnings pop to $3.10 wedge breakout level",
-      "entry": "$2.70 (0.887 Fib, below the CEO's $30M share purchase)",
-      "target": "$10 (TLI fair value estimate)",
+      "wave": "Attempting breakout toward the Bull Case line",
+      "entry": "Accumulate as a hedge to the US market; breakout above $4 enters the Bull Case",
+      "target": "Next resistance $4 (Bull Case line / 200 WMA / 50 WMA confluence)",
       "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "GRAB has traded in a wedge for over a year and fell to the 0.887 Fib at $2.70, below where the CEO bought $30M of stock. Earnings were strong, with revenue of $1.11B and full-year 2026 guidance raised to $4.15B-$4.20B, and the stock rose 8.3% premarket to $3.10. That price is the wedge breakout level and matches the 50 day MA; a break above it targets the 200 WMA at $3.93.",
+      "analystTarget": "",
+      "summary": "GRAB rose 3.5% while the broader market sold off, and is attempting to break out. Next resistance is the $4 confluence of the blue Bull Case line, 200 WMA and 50 WMA. TLI still sees it as undervalued, misunderstood and a useful hedge against the US market. A break above $4 moves it into the Bull Case.",
       "collections": [
         "Watchlist"
       ],
       "levels": [
         {
-          "label": "Entry (0.887 Fib)",
-          "value": "$2.70"
+          "label": "Resistance confluence",
+          "value": "$4"
         },
         {
-          "label": "Wedge breakout / 50 day MA",
-          "value": "$3.10"
+          "label": "Bull Case line",
+          "value": "$4"
         },
         {
           "label": "200 WMA",
-          "value": "$3.93"
+          "value": "$4"
         },
         {
-          "label": "Fair value",
-          "value": "$10"
+          "label": "50 WMA",
+          "value": "$4"
         }
       ],
-      "appr": "+270%",
+      "appr": "+0%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
@@ -2392,7 +2422,7 @@
       "prevCategory": null,
       "yfSymbol": "GRAB",
       "displaySym": "GRAB",
-      "lastUpdated": "2026-11-03T13:06:14.539245+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.511113+00:00"
     },
     {
       "sym": "ASTI",
@@ -3728,34 +3758,30 @@
       "sym": "QQQ",
       "company": "Invesco QQQ Trust · NASDAQ",
       "category": "Watchlist",
-      "wave": "Pullback from Wave 5 top; stalled just above 2 Fib $731.78",
-      "entry": "First support 1.618 Fib $639.61; Buy Zone below at 0.382 Fib $532 / 200 WMA ~$500",
+      "wave": "Pullback from Wave 5 top; 200 WMA cuts through the Standard support level",
+      "entry": "Best case holds $621 (shallow); otherwise wait for bulls at the 200 WMA, the usual pullback target",
       "target": "Bull case line 2 Fib $731.78; aggregate holdings target ~$917",
       "analyst": "Hold",
       "analystTarget": "$917",
-      "summary": "QQQ is pulling back from its Wave 5 push as AI-capex fears, weak mega-cap earnings and a hawkish Fed (December hike odds 75%+) weigh on tech. TLI sees the 1.618 Fib at $639.61 as first support, with the Buy Zone at the 0.382 Fib near $532 if it breaks. He advises accumulating at or below the rising 200 WMA, which QQQ historically retests.",
+      "summary": "TLI posted the QQQ support map and points out that the 200 WMA runs right through the Standard Level, which he does not see as a coincidence. The shallow best case is a hold near $621; the 200 WMA is the usual destination in a pullback. No action until buyers show up there.",
       "collections": [
         "Top 20"
       ],
       "levels": [
         {
-          "label": "1st Support (1.618 Fib)",
-          "value": "$639.61"
-        },
-        {
-          "label": "Buy Zone (0.382 Fib)",
-          "value": "$532"
+          "label": "Shallow hold",
+          "value": "$621"
         },
         {
           "label": "200 WMA",
-          "value": "~$500"
+          "value": "Through Standard Level"
         },
         {
-          "label": "Aggregate Target",
-          "value": "~$917"
+          "label": "Bull case line",
+          "value": "$731.78"
         }
       ],
-      "appr": "+24%",
+      "appr": "-100%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-top",
       "analystClass": "analyst-hold",
@@ -3764,7 +3790,7 @@
       "prevCategory": null,
       "yfSymbol": "QQQ",
       "displaySym": "QQQ",
-      "lastUpdated": "2026-11-03T13:06:14.111139+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.440094+00:00"
     },
     {
       "sym": "SPY",
@@ -3812,45 +3838,43 @@
       "sym": "UPS",
       "company": "United Parcel Service · NYSE",
       "category": "Bull Case",
-      "wave": "Wave C complete; beginning Wave 3, above 50 WMA",
-      "entry": "Bounced from Buy Zone at 0.618 Fib $90; now above 50 WMA $104",
-      "target": "$155",
+      "wave": "Wave 2 complete at the Buy Zone; Wave 3 appears underway",
+      "entry": "Retest and hold of the 50 WMA (~$105) is the next buy entry; 0.618 Fib support at $97 in place since March 2026",
+      "target": "$155.84 (1.618 Fib, Wave 3); $196.19 (2.618 Fib, Wave 5)",
       "analyst": "Hold",
-      "analystTarget": "",
-      "summary": "UPS bounced out of its Buy Zone near $90 and now sits above the 50 WMA, starting a strong move. TLI expects resistance around $112, a pullback for a higher low, then a run to the 200 WMA near $129 and the Wave 3 target. A resolution of the Iran war could act as a catalyst; the stock also pays about a 6% dividend.",
-      "levels": [
-        {
-          "label": "Resistance",
-          "value": "$112"
-        },
-        {
-          "label": "200 WMA",
-          "value": "$129"
-        },
-        {
-          "label": "Wave 3 Target (1.618)",
-          "value": "$155"
-        },
-        {
-          "label": "Buy Zone Low (0.618)",
-          "value": "$90"
-        }
-      ],
+      "analystTarget": "$115",
+      "summary": "UPS bounced hard from the Buy Zone after Wave 2 pulled into the 0.78 Fib at $90.51 and now trades near $111, pressing the larger 0.618 Fib at $112.88. The 50 WMA near $105 is acting as support. It pays about 5.9% via a $6.56 dividend with the next ex-date on 16 November. Street consensus is ~$115 from 29 analysts, behind TLI's Wave 3 target.",
       "collections": [
-        "Top 10",
-        "Watchlist",
         "Safe Haven"
       ],
-      "appr": "+24981%",
+      "levels": [
+        {
+          "label": "0.618 Fib",
+          "value": "$112.88"
+        },
+        {
+          "label": "50 WMA",
+          "value": "~$105"
+        },
+        {
+          "label": "0.618 Fib support",
+          "value": "$97.36"
+        },
+        {
+          "label": "1.618 Fib",
+          "value": "$155.84"
+        }
+      ],
+      "appr": "+212%",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": "Watchlist",
+      "prevCategory": null,
       "yfSymbol": "UPS",
       "displaySym": "UPS",
-      "lastUpdated": "2026-11-03T13:02:55.275782+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.793055+00:00"
     },
     {
       "sym": "META",
@@ -4047,42 +4071,42 @@
     {
       "sym": "INTC",
       "company": "Intel Corporation · NASDAQ",
-      "category": "Watchlist",
-      "wave": "Wave C heading below Wave A low",
-      "entry": "$65 - $80",
-      "target": null,
+      "category": "Buy Zone",
+      "wave": "Wave C of correction after huge Wave 5 run; no base yet",
+      "entry": "Deep in buy zone ~$56.80; 0.78 Fib $45.01 with 200 WMA is key support",
+      "target": "$168; 1.618 extension $244",
       "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "INTC has retraced roughly half of its June high of $141 and is following the same pattern as MU and SNDK. A Wave C that undercuts the Wave A low would land in the buy zone beneath the 0.5 Fib. TLI sees this as a decent area to begin accumulating again and says INTC will be added to the Watchlist soon.",
+      "analystTarget": "$92 - $97",
+      "summary": "INTC has sliced through the 0.5 Fib ($80.40) and 0.618 Fib ($65.80) and trades near $56.80, deep in the buy zone. TLI views this as Wave C and wants the 0.78 Fib at $45.01, beside the 200 WMA, to hold, but no base has formed so patience is needed. A turn from there would reopen $168 and the $244 extension. The Street rates it Hold.",
+      "collections": [],
       "levels": [
         {
-          "label": "Buy zone",
-          "value": "$65 - $80"
-        },
-        {
           "label": "0.5 Fib",
-          "value": "$80"
+          "value": "$80.40"
         },
         {
-          "label": "50 WMA",
-          "value": "$78"
+          "label": "0.618 Fib",
+          "value": "$65.80"
         },
         {
-          "label": "June high",
-          "value": "$141"
+          "label": "0.78 Fib + 200 WMA",
+          "value": "$45.01"
+        },
+        {
+          "label": "1.618 extension",
+          "value": "$244"
         }
       ],
-      "appr": null,
-      "collections": [],
-      "categoryClass": "badge-watchlist",
+      "appr": "+196%",
+      "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": null,
+      "prevCategory": "Watchlist",
       "yfSymbol": "INTC",
       "displaySym": "INTC",
-      "lastUpdated": "2026-10-26T13:21:43.120227+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.357228+00:00"
     },
     {
       "sym": "ACHR",
@@ -4395,45 +4419,44 @@
     {
       "sym": "KHC",
       "company": "Kraft Heinz Company · NASDAQ",
-      "category": "Watchlist",
-      "wave": "Testing support on the 0.618 Fib just below the 50 WMA; needs a hold above $23 to confirm the Buy Zone before Wave 3 continuation.",
-      "entry": "$23 support hold (0.618 Fib / just below 50 WMA) needed for confirmation",
-      "target": "$35 (Wave 3 target, next 12 months)",
+      "category": "Bull Case",
+      "wave": "Wave 2 complete at deep Fibs; Wave 3 appears underway",
+      "entry": "Hold above the Buy Zone; price ~$25 back above the 50 WMA",
+      "target": "$34.90 (1.618 Fib, Wave 3); $42 (2.618 Fib, Wave 5); $45 stretch",
       "analyst": "Hold",
-      "summary": "KHC is testing support right at its 0.618 Fib, just below the 50-week MA, with a brief dip below that TLI attributes to negative publicity around the brand rather than a change in structure. TLI wants to see a hold and consolidation above $23 to confirm the Buy Zone, which would set up a move toward the Wave 3 target at $35 over the next 12 months. The ~6.7% dividend is highlighted as a major factor that could help the position outperform even on a modest price gain.",
-      "levels": [
-        {
-          "label": "Entry Zone",
-          "value": "$23"
-        },
-        {
-          "label": "Wave Count",
-          "value": "0.618 Fib support test"
-        },
-        {
-          "label": "LT Target",
-          "value": "$35 (Wave 3, 12 months)"
-        },
-        {
-          "label": "Dividend",
-          "value": "+6.7%"
-        }
-      ],
+      "analystTarget": "$25",
+      "summary": "KHC bounced from the Buy Zone after Wave 2 reached the 0.78 Fib at $22.57 and 0.887 Fib at $21.87, and now trades around $25 above the 50 WMA but below the 200 WMA near $31. The $1.60 dividend yields about 6.3%, ex-date 4 December. Street consensus is Hold near $25 from 20 analysts, so TLI is ahead of the Street.",
       "collections": [
-        "Watchlist",
         "Safe Haven"
       ],
-      "appr": "+52%",
-      "analystTarget": null,
-      "categoryClass": "badge-watchlist",
+      "levels": [
+        {
+          "label": "0.78 Fib",
+          "value": "$22.57"
+        },
+        {
+          "label": "0.887 Fib",
+          "value": "$21.87"
+        },
+        {
+          "label": "200 WMA",
+          "value": "~$31"
+        },
+        {
+          "label": "1.618 Fib",
+          "value": "$34.90"
+        }
+      ],
+      "appr": "+40%",
+      "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": null,
+      "prevCategory": "Watchlist",
       "yfSymbol": "KHC",
       "displaySym": "KHC",
-      "lastUpdated": "2026-09-28T13:19:02.396753+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.550195+00:00"
     },
     {
       "sym": "NESN",
@@ -4550,38 +4573,42 @@
     {
       "sym": "DELL",
       "company": "Dell Technologies Inc · NYSE",
-      "category": "At Target / Invalidated",
-      "wave": "Wave A of ABC correction after 4.618 Fib extension",
-      "entry": "Buy Zone on Wave C (below current price)",
-      "target": null,
+      "category": "Buy Zone",
+      "wave": "Wave A of ABC correction after Wave 5 topped at the 4.618 Fib ($592.82); sitting on the 0.382 Fib",
+      "entry": "Buy Zone starts at the 0.382 Fib at $393; real support at 0.5 Fib $331 + rising 200 WMA, deepest 0.618 Fib $269; wait for support confirmation",
+      "target": "Street average target about $595 (high $735)",
       "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "DELL fell sharply from $592 at the extreme 4.618 Fib to $438 and is judged to still be in Wave A. TLI expects a test of the 0.38 Fib, then a Wave B bounce that fails at the white fib levels, then a Wave C drop into the Buy Zone. He advises waiting for support in that zone, or at least a confirmed hold of the 0.38 Fib, before taking a position.",
+      "analystTarget": "$595",
+      "summary": "DELL fell from about $595 to $393 on memory-shortage worries, a downgrade, Intel's PC demand warning and a chip selloff, and inventory has tripled. Wave 5 topped at the 4.618 Fib where the SELL label sat. TLI sees the Buy Zone starting at the 0.382 Fib but is watching $331 (0.5 Fib plus 200 WMA) most closely, and wants consolidation before adding. Earnings are November 24.",
+      "collections": [],
       "levels": [
         {
-          "label": "4.618 Fib top",
-          "value": "$592"
+          "label": "0.382 Fib",
+          "value": "$393"
         },
         {
-          "label": "Current",
-          "value": "$438"
+          "label": "0.5 Fib + 200 WMA",
+          "value": "$331"
         },
         {
-          "label": "Wave A support test",
-          "value": "0.38 Fib"
+          "label": "0.618 Fib",
+          "value": "$269"
+        },
+        {
+          "label": "Bull Case line",
+          "value": "$180"
         }
       ],
-      "appr": null,
-      "collections": [],
-      "categoryClass": "badge-at-target",
+      "appr": "+155659%",
+      "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": null,
+      "prevCategory": "At Target / Invalidated",
       "yfSymbol": "DELL",
       "displaySym": "DELL",
-      "lastUpdated": "2026-10-26T13:21:42.691112+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.421308+00:00"
     },
     {
       "sym": "KO",
@@ -4615,29 +4642,21 @@
       "sym": "SNDK",
       "company": "Sandisk Corp · NASDAQ",
       "category": "Watchlist",
-      "wave": "Wave B ABC correction — sharp -11% to -16% pullback into Fib range",
-      "entry": "$923 (200 WMA / 0.618 Fib confluence, awaiting confirmed support)",
-      "target": null,
+      "wave": "Wave C of Wave 2 trading below the standard 0.618 Fib; support not confirmed",
+      "entry": "Buy entry when the 0.618 Fib at $921 flips to support",
+      "target": "Not specified",
       "analyst": "Hold",
-      "analystTarget": null,
+      "analystTarget": "",
+      "summary": "SNDK is trading below the usual 0.618 Fib for Wave C, so support is unconfirmed and a test of the 0.78 Fib at $531 cannot be ruled out. Bulls want to recapture the 0.618 Fib at $921 quickly. Flipping that level to support is the buy entry and would complete the Wave 2 chart.",
       "collections": [],
-      "summary": "$SNDK dropped -11% and then another -5% premarket, a fast but standard ABC correction after rejecting at the 0.5 Fib near $1921, breaking the 50 WMA, and printing a lower low. TLI says the stock is now entering the important 0.5–0.618 Fib Buy Zone range, with the 200-week MA rising to meet the 0.618 Fib near $923 as an attractive confluence — but cautions the downtrend is still intact and support needs to be confirmed before adding.",
       "levels": [
         {
-          "label": "Recent Move",
-          "value": "-11% then -5% PM (Wave B rejection)"
+          "label": "0.618 Fib",
+          "value": "$921"
         },
         {
-          "label": "Buy Zone",
-          "value": "0.5–0.618 Fib range"
-        },
-        {
-          "label": "Confluence Target",
-          "value": "$923 (200 WMA / 0.618 Fib)"
-        },
-        {
-          "label": "Status",
-          "value": "Downtrend intact — awaiting confirmed support"
+          "label": "0.78 Fib",
+          "value": "$531"
         }
       ],
       "appr": null,
@@ -4649,7 +4668,7 @@
       "prevCategory": null,
       "yfSymbol": "SNDK",
       "displaySym": "SNDK",
-      "lastUpdated": "2026-07-28T21:19:06.370205+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.757490+00:00"
     },
     {
       "sym": "GIS",
@@ -4938,35 +4957,43 @@
       "sym": "APP",
       "company": "AppLovin Corp · NASDAQ",
       "category": "Buy Zone",
-      "wave": "Consolidating sideways above the 0.618 Fib since August 10, with support confluence at the 200 WMA; setup for the next impulse leg (Wave 3) targeting the 1.618 Fib.",
-      "entry": "Buy Zone above $291 (0.618 Fib) / $237 (200 WMA) support; TLI recommends a starter position here.",
-      "target": "$1,480 (1.618 Fib, Wave 3 target)",
+      "wave": "Bounced from the 200 WMA/blue support line at $243 in the Buy Zone after a double earnings beat; Wave 2 holding",
+      "entry": "Buy Zone around the 200 WMA $243-247; want a hold above the 0.618 Fib at $281",
+      "target": "$1,480 (1.618 Fib, Wave 3); near term $378 (0.5 Fib) and $449 (50 WMA)",
       "analyst": "Hold",
-      "summary": "APP has been consolidating sideways since mid-August above the 0.618 Fib ($291) and the 200 WMA support confluence (roughly $237). TLI sees this as a Buy Zone: as long as support holds, the next major move is a Wave 3 impulse toward the 1.618 Fib target of $1,480. TLI's team is bullish based on fundamental due diligence and recommends starting a position here, even though the author personally holds no position yet.",
-      "levels": [
-        {
-          "label": "Entry Zone",
-          "value": "$237-$291 (200 WMA / 0.618 Fib)"
-        },
-        {
-          "label": "Wave 3 Target",
-          "value": "$1,480 (1.618 Fib)"
-        }
-      ],
+      "analystTarget": null,
+      "summary": "APP flushed to its 200 WMA near $243-247, bounced and then reported a double beat, with EPS of $4.30 versus $4.03 expected and revenue of $2.18B versus $2.07B. The stock is up about 16% in the premarket and TLI wants to see it hold above the 0.618 Fib at $281, then reclaim the 0.5 Fib at $378. The 50 WMA at $449 is the next level after that.",
       "collections": [
         "Watchlist"
       ],
-      "appr": "+409%",
-      "analystTarget": null,
+      "levels": [
+        {
+          "label": "200 WMA / support",
+          "value": "$243"
+        },
+        {
+          "label": "0.618 Fib",
+          "value": "$281"
+        },
+        {
+          "label": "0.5 Fib",
+          "value": "$378"
+        },
+        {
+          "label": "50 WMA",
+          "value": "$449"
+        }
+      ],
+      "appr": "+640%",
       "categoryClass": "badge-buy-zone",
-      "waveClass": "wave-impulse",
+      "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": "Watchlist",
+      "prevCategory": null,
       "yfSymbol": "APP",
       "displaySym": "APP",
-      "lastUpdated": "2026-09-28T13:19:01.065636+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.832625+00:00"
     },
     {
       "sym": "SNOW",
@@ -5670,31 +5697,35 @@
       "sym": "SILVER",
       "company": "Silver (Spot) · Safe Haven",
       "category": "Buy Zone",
-      "wave": "Wave C pullback retesting old 1980/2011 resistance from above",
-      "entry": "Wave C support between $47 and $50",
-      "target": "$69 (50 WMA)",
+      "wave": "Wave C support bounce from the blue line at $49; attempting to reclaim the 0.618 Fib at $53",
+      "entry": "Buy Zone: Wave C support between $47 and $50; reclaim the 0.618 Fib at $53",
+      "target": "$60 (50 Day MA / breakout flip), then $70 (200 Day MA) for the Bull Case",
       "analyst": "Hold",
-      "analystTarget": null,
-      "summary": "On the zoomed-out view, silver is retesting the previous resistance levels of $47 (1980) and $50 (2011) from above as support. TLI expects Wave C to find support in that $47 to $50 band, making a pullback to the 200 WMA unlikely. A retest of the 200 WMA at $39 remains the downside risk since Wave C can be prolonged. TLI still expects silver to recover quickly as capital rotates.",
+      "analystTarget": "",
+      "summary": "Buyers are stepping in after Silver bounced from the blue support line at $49 and is now trying to reclaim the 0.618 Fib at $53. Next, TLI wants a challenge and flip of the breakout level near the 50 Day MA at $60, then a break above the 200 Day MA at $70, which would put it in the Bull Case. Still comfortable holding.",
       "collections": [
         "Top 20",
         "Safe Haven"
       ],
       "levels": [
         {
-          "label": "Support zone",
-          "value": "$47 - $50"
+          "label": "Blue support",
+          "value": "$49"
         },
         {
-          "label": "200 WMA (downside risk)",
-          "value": "$39"
+          "label": "0.618 Fib",
+          "value": "$53"
         },
         {
-          "label": "First target (50 WMA)",
-          "value": "$69"
+          "label": "50 Day MA / breakout",
+          "value": "$60"
+        },
+        {
+          "label": "200 Day MA",
+          "value": "$70"
         }
       ],
-      "appr": "+47%",
+      "appr": "+28%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
@@ -5703,7 +5734,7 @@
       "prevCategory": null,
       "yfSymbol": "SILVER",
       "displaySym": "SILVER",
-      "lastUpdated": "2026-11-03T13:06:13.941885+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.711923+00:00"
     },
     {
       "sym": "EWZ",
@@ -5863,28 +5894,28 @@
       "sym": "BE",
       "company": "Bloom Energy · NYSE",
       "category": "Watchlist",
-      "wave": "Wave C of ABC correction after parabolic run",
-      "entry": "Add after Wave C completes (below $180)",
+      "wave": "Still in Wave C, repeatedly rejected below the 200 DMA; Wave C may finish below Wave A",
+      "entry": "Starter only between the 0.5 Fib $180 and 0.618 Fib $139, add after support confirms; no rush",
       "target": null,
       "analyst": "Hold",
       "analystTarget": null,
-      "summary": "BE rose from about $16 in mid 2025 to $350 in June 2026, and TLI reads that parabolic move as setting up heavy downside. He thinks the ABC correction is unfinished and expects a drop below $180. There is no need to buy yet, but once Wave C finishes he sees a chance to add.",
+      "summary": "BE keeps retesting the 200 Day MA from below and getting rejected, so TLI is not convinced a new impulse has started. A lower low could test the 0.5 Fib at $180, and since Wave C often ends below Wave A the 0.618 Fib at $139 is also in play. The ABC correction is orderly, and the approach is a small starter between the 0.5 and 0.618 Fib, adding only after support is confirmed.",
+      "collections": [],
       "levels": [
         {
-          "label": "June 2026 peak",
-          "value": "$350"
+          "label": "0.5 Fib",
+          "value": "$180"
         },
         {
-          "label": "Expected Wave C low",
-          "value": "below $180"
+          "label": "0.618 Fib",
+          "value": "$139"
         },
         {
-          "label": "Mid 2025 base",
-          "value": "$16"
+          "label": "Resistance",
+          "value": "200 DMA"
         }
       ],
       "appr": null,
-      "collections": [],
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
@@ -5893,7 +5924,7 @@
       "prevCategory": null,
       "yfSymbol": "BE",
       "displaySym": "BE",
-      "lastUpdated": "2026-10-26T13:21:42.189864+00:00"
+      "lastUpdated": "2026-11-07T06:21:07.901655+00:00"
     },
     {
       "sym": "BKNG",
@@ -6053,31 +6084,33 @@
       "sym": "UBER",
       "company": "Uber Technologies · NYSE",
       "category": "Watchlist",
-      "wave": "Wave 4 pullback into the 200 WMA",
+      "wave": "Held the invalidation line after a test of $64 and is back at the 0.38 Fib $70.90; chart unchanged",
       "entry": "Support at 200 WMA near $67.50; below that $61.22 / $51.55",
       "target": "$100.79",
       "analyst": "Strong Buy",
       "analystTarget": "$103",
-      "summary": "UBER is down about 28% from its high on robotaxi competition fears and heavy self-driving spending, and now sits on the 200 WMA in a Wave 4 pullback ahead of Nov 4 earnings. The Wave 1 high near $64 is the invalidation line. Bulls need to flip $70.90 back to support, targeting Wave 5 at $100.79.",
+      "summary": "UBER was saved by the invalidation line, bounced from a $64 test and is back at the 0.38 Fib at $70.90 with no change to the chart. Q3 revenue of $14.77B and non-GAAP EPS of $0.88 beat, gross bookings grew 20%, but the Q4 EPS guide of $0.95 to $0.99 was below the roughly $1.06 expected. The Street target is about $101 to $103 with 27 Buys and 3 Holds.",
+      "collections": [
+        "Watchlist"
+      ],
       "levels": [
         {
-          "label": "Current / 200 WMA",
-          "value": "$67.50"
-        },
-        {
-          "label": "Bull Case (0.38 Fib)",
+          "label": "0.38 Fib",
           "value": "$70.90"
         },
         {
-          "label": "Invalidation (Wave 1 high)",
+          "label": "200 WMA",
+          "value": "~$67.50"
+        },
+        {
+          "label": "Recent low",
           "value": "$64"
         },
         {
-          "label": "Wave 5 Target",
-          "value": "$100.79"
+          "label": "Street target",
+          "value": "$101-103"
         }
       ],
-      "collections": [],
       "appr": "-50%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
@@ -6087,7 +6120,7 @@
       "prevCategory": null,
       "yfSymbol": "UBER",
       "displaySym": "UBER",
-      "lastUpdated": "2026-11-03T13:02:55.340600+00:00"
+      "lastUpdated": "2026-11-07T06:21:08.137042+00:00"
     },
     {
       "sym": "INDA",
@@ -6130,6 +6163,124 @@
       "yfSymbol": "INDA",
       "displaySym": "INDA",
       "lastUpdated": "2026-11-03T13:02:55.438907+00:00"
+    },
+    {
+      "sym": "LVMHF",
+      "company": "LVMH Moet Hennessy Louis Vuitton",
+      "category": "Buy Zone",
+      "wave": "Wave C completing at the 0.618 Fib, aligned with the 200 Month MA",
+      "entry": "Buy Zone: hold above the confluence of the 200 Month MA at $414 and the 0.618 Fib; consolidation here is where bulls can accumulate",
+      "target": "Reclaim the 0.5 Fib at $526, then the top of the channel",
+      "analyst": "Hold",
+      "analystTarget": "",
+      "summary": "LVMHF is bouncing from the lower part of the Buy Zone where the 0.618 Fib lines up with the 200 Month MA at $414, an extra-strong confluence. The next goal is to reclaim the 0.5 Fib at $526 and then test the channel top; a channel breakout would put it in the Bull Case. There is also a 3.3% dividend yield.",
+      "collections": [],
+      "levels": [
+        {
+          "label": "200 Month MA / 0.618 Fib",
+          "value": "$414"
+        },
+        {
+          "label": "0.5 Fib",
+          "value": "$526"
+        },
+        {
+          "label": "Dividend yield",
+          "value": "3.3%"
+        }
+      ],
+      "appr": "-100%",
+      "categoryClass": "badge-buy-zone",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": null,
+      "yfSymbol": "LVMHF",
+      "displaySym": "LVMHF",
+      "lastUpdated": "2026-11-07T06:21:07.458016+00:00"
+    },
+    {
+      "sym": "LINC",
+      "company": "Lincoln Educational Services Corp · NASDAQ",
+      "category": "Watchlist",
+      "wave": "Finishing Wave A into the 200 WMA after a ~63% drop from the Wave 5 high at $56.36; Wave B bounce then Wave C expected",
+      "entry": "Wait for support confirmation at the 200 WMA just below $20.50",
+      "target": "$42.45 (0.618 Fib, Wave B target)",
+      "analyst": "Hold",
+      "analystTarget": "$50",
+      "summary": "LINC trades at $20.50, about 63% below the Wave 5 high of $56.36, and TLI believes Wave A is finishing right into the 200 WMA. The plan is to look for support confirmation at the 200 WMA, after which a Wave B bounce could reach the 0.382 Fib at $33.81, 0.5 Fib at $38.13 and 0.618 Fib at $42.45. A later Wave C could then drop to the 0.78 Fib at $13.56. Street target is about $50 with earnings on Nov 9 before the open.",
+      "collections": [],
+      "levels": [
+        {
+          "label": "0.382 Fib",
+          "value": "$33.81"
+        },
+        {
+          "label": "0.5 Fib",
+          "value": "$38.13"
+        },
+        {
+          "label": "0.618 Fib",
+          "value": "$42.45"
+        },
+        {
+          "label": "0.78 Fib (Wave C)",
+          "value": "$13.56"
+        }
+      ],
+      "appr": "-79%",
+      "categoryClass": "badge-watchlist",
+      "waveClass": "wave-top",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": null,
+      "yfSymbol": "LINC",
+      "displaySym": "LINC",
+      "lastUpdated": "2026-11-07T06:21:07.975212+00:00"
+    },
+    {
+      "sym": "VST",
+      "company": "Vistra Corp · NYSE",
+      "category": "Watchlist",
+      "wave": "A-B-C running flat or Wave 1-2 of a cycle; price near the 200 WMA",
+      "entry": "Add near the 200 WMA / 0.5 Fib confluence (~$118, ex-ATH support)",
+      "target": "$327 (1.618 Fib, Wave 3); $395 if measured as cycle Wave 1-2",
+      "analyst": "Bullish",
+      "analystTarget": "",
+      "summary": "TLI sees VST at about $118, sliding into the 200 WMA after falling from ~$150, with both the flat-correction and Wave 1-2 counts still valid. The 200 WMA lines up with the 0.5 Fib and the prior all-time-high support. Projected Wave 3 targets are $327 (about 175% upside) and $395, and TLI plans to add here.",
+      "collections": [
+        "Watchlist"
+      ],
+      "levels": [
+        {
+          "label": "Current",
+          "value": "~$118"
+        },
+        {
+          "label": "Wave 3 (1.618)",
+          "value": "$327"
+        },
+        {
+          "label": "Cycle Wave 3",
+          "value": "$395"
+        },
+        {
+          "label": "Prior high",
+          "value": "~$150"
+        }
+      ],
+      "appr": "+64%",
+      "categoryClass": "badge-watchlist",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-bullish",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": null,
+      "yfSymbol": "VST",
+      "displaySym": "VST",
+      "lastUpdated": "2026-11-07T06:21:08.476671+00:00"
     }
   ]
 }
