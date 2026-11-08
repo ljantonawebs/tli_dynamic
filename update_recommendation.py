@@ -148,6 +148,13 @@ def merge_entry(data, entry):
     prev_category = existing["category"] if existing else None
 
     entry.setdefault("target", existing.get("target") if existing else None)
+    # keep live-price / analyst-source fields written by update_market_data.py
+    for f in ("livePrice", "livePriceSource", "livePriceAsOf", "analystSource", "analystAsOf"):
+        if existing and existing.get(f) is not None:
+            entry.setdefault(f, existing[f])
+    if entry.get("livePrice") and "appr" not in entry:
+        from update_market_data import compute_live_appr
+        entry["appr"], entry["apprBasis"] = compute_live_appr(entry)
     entry.setdefault("appr", compute_appr(entry.get("entry"), entry.get("target")))
     entry.setdefault("analystTarget", existing.get("analystTarget") if existing else None)
     entry.setdefault("levels", existing.get("levels", []) if existing else [])
