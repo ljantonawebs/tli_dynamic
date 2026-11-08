@@ -114,6 +114,11 @@ def compute_live_appr(asset):
     if isinstance(price, str):
         price = parse_target(price)
     if target and price:
+        ratio = target / price
+        # e.g. GLD/PALL ETF price vs a TLI target quoted in spot $/oz: the two
+        # are in different units, so a % would be meaningless
+        if ratio > 15 or ratio < 1 / 15:
+            return None, "unit-mismatch"
         pct = round((target - price) / price * 100)
         return f"{'+' if pct >= 0 else ''}{pct}%", "live"
     legacy = ur.compute_appr(asset.get("entry"), asset.get("target"))
