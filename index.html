@@ -608,8 +608,8 @@
       ${entryCellHtml(a)}
       <td class="price-val" title="${a.target || ''}">${priceOnly(a.target)}</td>
       <td>${apprHtml}</td>
-      <td class="${a.analystClass || 'analyst-none'}">${a.analyst || '—'}</td>
-      <td class="price-val" title="${a.analystTarget || ''}">${priceOnly(a.analystTarget)}</td>
+      <td class="${a.analystClass || 'analyst-none'}" title="${analystSourceTip(a)}" style="cursor:help">${a.analyst || '—'}</td>
+      <td class="price-val" title="${analystSourceTip(a, true)}" style="cursor:help">${priceOnly(a.analystTarget)}</td>
       <td><span class="${a.recClass}"><span class="${isBuy ? 'dot-buy' : 'dot-wait'}"></span>${a.rec}</span></td>
     </tr>`;
   }
@@ -627,6 +627,17 @@
     const d = new Date(a.livePriceAsOf);
     const when = isNaN(d) ? '' : ' · ' + d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
     return src + when;
+  }
+
+  // Hover text for the Analyst / Analyst Target cells: where the data came from.
+  function analystSourceTip(a, withTarget) {
+    const esc = t => String(t).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+    const lines = [];
+    if (withTarget && a.analystTarget) lines.push('Target: ' + a.analystTarget);
+    lines.push('Source: ' + (a.analystSource && a.analystSource !== 'none'
+      ? a.analystSource : 'no analyst coverage'));
+    if (a.analystAsOf) lines.push('Retrieved: ' + a.analystAsOf);
+    return esc(lines.join('\n'));
   }
 
   function renderMainTable() {
@@ -727,8 +738,8 @@
         <td><span class="entry-num" id="cp-entry-${sym}"${entryData}>${entryShown}</span></td>
         <td class="price-val" title="${d.target || ''}">${priceOnly(d.target)}</td>
         <td>${apprHtml}</td>
-        <td class="${d.analystClass || 'analyst-none'}">${d.analyst || '—'}</td>
-        <td class="price-val" title="${d.analystTarget || ''}">${priceOnly(d.analystTarget)}</td>
+        <td class="${d.analystClass || 'analyst-none'}" title="${analystSourceTip(d)}" style="cursor:help">${d.analyst || '—'}</td>
+        <td class="price-val" title="${analystSourceTip(d, true)}" style="cursor:help">${priceOnly(d.analystTarget)}</td>
         <td>
           <span class="${d.recClass}">
             <span class="${isBuy ? 'dot-buy' : 'dot-wait'}"></span>${d.rec}
