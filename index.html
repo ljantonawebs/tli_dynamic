@@ -118,6 +118,7 @@
     .price-link:hover .live-price { color:#93c5fd; text-decoration:underline; text-underline-offset:3px; }
     .live-chg.up { color:#4ade80; }
     .live-chg.dn { color:#f87171; }
+    .price-src   { font-size:9px; color:#64748b; white-space:nowrap; }
     .price-val   { font-family:'SF Mono','Fira Code',monospace; font-size:11px; color:#94a3b8; }
     .price-none  { color:#374151; font-size:11px; }
 
@@ -603,7 +604,7 @@
       <td><span class="badge ${a.categoryClass}">${a.category}</span>${changedHtml}${dateHtml}</td>
       <td>${colHtml}</td>
       <td title="${a.wave || ''}"><span class="wave ${a.waveClass}">${waveNumber(a.wave)}</span></td>
-      <td><div class="price-cell"><a class="price-link" href="https://finance.yahoo.com/quote/${a.yfSymbol || a.sym}" target="_blank" rel="noopener" title="Open ${a.sym} on Yahoo Finance"><span class="live-price" id="price-${a.sym}">—</span></a><span class="live-chg" id="chg-${a.sym}"></span></div></td>
+      <td><div class="price-cell"><a class="price-link" href="https://finance.yahoo.com/quote/${a.yfSymbol || a.sym}" target="_blank" rel="noopener" title="Open ${a.sym} on Yahoo Finance"><span class="live-price" id="price-${a.sym}">${storedPrice(a)}</span></a><span class="live-chg" id="chg-${a.sym}"></span><span class="price-src" id="src-${a.sym}" title="${a.livePriceSource || ''}">${storedPriceLabel(a)}</span></div></td>
       ${entryCellHtml(a)}
       <td class="price-val" title="${a.target || ''}">${priceOnly(a.target)}</td>
       <td>${apprHtml}</td>
@@ -611,6 +612,21 @@
       <td class="price-val" title="${a.analystTarget || ''}">${priceOnly(a.analystTarget)}</td>
       <td><span class="${a.recClass}"><span class="${isBuy ? 'dot-buy' : 'dot-wait'}"></span>${a.rec}</span></td>
     </tr>`;
+  }
+
+  // Price snapshot written by the routine (IBKR first, public fallback) —
+  // shown immediately; replaced by the in-browser Yahoo quote when that works.
+  function storedPrice(a) {
+    const p = Number(a.livePrice);
+    return (a.livePrice != null && isFinite(p)) ? fmtPrice(p, a.yfSymbol || a.sym) : '—';
+  }
+  function storedPriceLabel(a) {
+    if (a.livePrice == null) return '';
+    const src = (a.livePriceSource || '').toUpperCase().startsWith('IBKR') ? 'IBKR'
+              : (a.livePriceSource || 'stored').split(/[ (]/)[0];
+    const d = new Date(a.livePriceAsOf);
+    const when = isNaN(d) ? '' : ' · ' + d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    return src + when;
   }
 
   function renderMainTable() {
@@ -890,6 +906,8 @@
           flashCell(pe, p > parseFloat(old.replace(/[$,]/g, '')));
         }
         pe.textContent = nw;
+        const se = document.getElementById('src-' + sym);
+        if (se) { se.textContent = 'Yahoo · live'; se.title = 'Yahoo Finance (browser refresh)'; }
         n++;
       }
       if (ce && pct != null) {
@@ -989,6 +1007,7 @@
     renderHeader();
     renderSummary();
     renderMainTable();
+    updateEntryHighlights();
 
     countdownTimer = setInterval(updateCountdown, 1000);
     updateCountdown();
