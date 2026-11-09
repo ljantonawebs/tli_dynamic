@@ -3,13 +3,12 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "November 9, 2026",
-    "lastUpdated": "2026-11-09T04:11:45.684079+00:00",
+    "lastUpdated": "2026-11-09T04:18:53.180145+00:00",
     "marketData": {
-      "updatedAt": "2026-11-08T13:13:15.114868+00:00",
+      "updatedAt": "2026-11-09T04:18:53.177042+00:00",
       "assetsUpdatedThisRun": 159,
       "priceSources": {
-        "IBKR": 158,
-        "Benzinga (IBKR no contract; Yahoo/Google not retrievable)": 1
+        "IBKR": 159
       },
       "analystSources": {
         "IBKR (target) + MarketBeat (rating)": 81,
@@ -199,10 +198,10 @@
       "analystTarget": "$188.70",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
-      "livePrice": 109.35,
+      "livePrice": 107.16,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:56Z",
-      "appr": "+85%",
+      "livePriceAsOf": "2026-11-09T03:56:49Z",
+      "appr": "+89%",
       "apprBasis": "live",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-impulse",
@@ -245,7 +244,7 @@
           "value": "$51.45"
         }
       ],
-      "appr": "+21%",
+      "appr": "+20%",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-mod-buy",
@@ -255,9 +254,9 @@
       "yfSymbol": "ZETA",
       "displaySym": "ZETA",
       "lastUpdated": "2026-11-07T06:21:08.834926+00:00",
-      "livePrice": 31.35,
+      "livePrice": 31.7,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:53Z",
+      "livePriceAsOf": "2026-11-09T01:42:55Z",
       "analystSource": "MarketBeat (rating + target; no IBKR preview)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -281,7 +280,7 @@
         }
       ],
       "target": "$79 (Primary Wave 3 target)",
-      "appr": "+781%",
+      "appr": "+769%",
       "analystTarget": "$34.83",
       "collections": [
         "Watchlist"
@@ -295,9 +294,9 @@
       "yfSymbol": "WYFI",
       "displaySym": "WYFI",
       "lastUpdated": "2026-09-28T13:19:04.397425+00:00",
-      "livePrice": 8.97,
+      "livePrice": 9.09,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:05Z",
+      "livePriceAsOf": "2026-11-09T02:13:44Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -329,7 +328,7 @@
           "value": "$34"
         }
       ],
-      "appr": "+224%",
+      "appr": "+221%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -339,9 +338,9 @@
       "yfSymbol": "ADUR",
       "displaySym": "ADUR",
       "lastUpdated": "2026-11-07T06:21:07.788235+00:00",
-      "livePrice": 10.49,
+      "livePrice": 10.58,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T22:56:53Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -373,7 +372,7 @@
           "value": "$20"
         }
       ],
-      "appr": "+94%",
+      "appr": "+89%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
@@ -383,9 +382,9 @@
       "yfSymbol": "GRRR",
       "displaySym": "GRRR",
       "lastUpdated": "2026-11-03T13:06:14.185881+00:00",
-      "livePrice": 6.92,
+      "livePrice": 7.1,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:29:30Z",
+      "livePriceAsOf": "2026-11-09T02:15:38Z",
       "analystSource": "MarketBeat (rating + target)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -427,9 +426,9 @@
       "yfSymbol": "ASTS",
       "displaySym": "ASTS",
       "lastUpdated": "2026-11-07T06:21:08.220194+00:00",
-      "livePrice": 32.49,
+      "livePrice": 32.48,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:53Z",
+      "livePriceAsOf": "2026-11-09T03:59:31Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -468,10 +467,10 @@
       "analystTarget": "$161.66",
       "analystSource": "MarketBeat (target + rating)",
       "analystAsOf": "2026-11-08",
-      "livePrice": 75.75,
+      "livePrice": 77.7,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:57:46Z",
-      "appr": "+346%",
+      "livePriceAsOf": "2026-11-09T04:00:41Z",
+      "appr": "+334%",
       "apprBasis": "live",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
@@ -509,7 +508,7 @@
         "Safe Haven"
       ],
       "target": "$36 (1.618 Fib, Wave 3 target)",
-      "appr": "+23%",
+      "appr": "+22%",
       "analystTarget": "$28.58",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-correct",
@@ -520,9 +519,9 @@
       "yfSymbol": "PFE",
       "displaySym": "PFE",
       "lastUpdated": "2026-09-28T13:19:03.313311+00:00",
-      "livePrice": 29.35,
+      "livePrice": 29.47,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:23Z",
+      "livePriceAsOf": "2026-11-09T03:24:57Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -554,7 +553,7 @@
       "collections": [
         "Safe Haven"
       ],
-      "appr": "+240%",
+      "appr": "+234%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-top",
       "analystClass": "analyst-none",
@@ -564,9 +563,9 @@
       "yfSymbol": "SLV",
       "displaySym": "SLV",
       "lastUpdated": "2026-08-20T16:10:58.938928+00:00",
-      "livePrice": 47.0,
+      "livePrice": 47.92,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:40Z",
+      "livePriceAsOf": "2026-11-09T04:08:41Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -604,10 +603,10 @@
       "analystTarget": "$345.71",
       "analystSource": "MarketBeat (rating + target; no IBKR preview)",
       "analystAsOf": "2026-11-08",
-      "livePrice": 284.43,
+      "livePrice": 287.37,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:47Z",
-      "appr": "+105%",
+      "livePriceAsOf": "2026-11-09T04:09:46Z",
+      "appr": "+103%",
       "apprBasis": "live",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
@@ -652,10 +651,10 @@
       "analystTarget": "$309.55",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
-      "livePrice": 259.82,
+      "livePrice": 262.0,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:48Z",
-      "appr": "+37%",
+      "livePriceAsOf": "2026-11-09T04:07:53Z",
+      "appr": "+35%",
       "apprBasis": "live",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-top",
@@ -700,10 +699,10 @@
       "analystTarget": "$318.85",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
-      "livePrice": 342.65,
+      "livePrice": 344.7,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:43Z",
-      "appr": "+4%",
+      "livePriceAsOf": "2026-11-09T04:09:46Z",
+      "appr": "+3%",
       "apprBasis": "live",
       "categoryClass": "badge-at-target",
       "waveClass": "wave-top",
@@ -748,10 +747,10 @@
       "analystTarget": "$600.05",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
-      "livePrice": 531.4,
+      "livePrice": 537.5,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:16Z",
-      "appr": "+30%",
+      "livePriceAsOf": "2026-11-09T04:05:40Z",
+      "appr": "+29%",
       "apprBasis": "live",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-top",
@@ -796,10 +795,10 @@
       "analystTarget": "$175.37",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
-      "livePrice": 148.75,
+      "livePrice": 150.35,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:22:50Z",
-      "appr": "+25%",
+      "livePriceAsOf": "2026-11-09T02:12:24Z",
+      "appr": "+23%",
       "apprBasis": "live",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-top",
@@ -844,10 +843,10 @@
       "analystTarget": "$185.36",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
-      "livePrice": 160.75,
+      "livePrice": 161.95,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:29Z",
-      "appr": "+44%",
+      "livePriceAsOf": "2026-11-09T03:57:45Z",
+      "appr": "+43%",
       "apprBasis": "live",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-top",
@@ -887,7 +886,7 @@
           "value": "$110"
         }
       ],
-      "appr": "+35%",
+      "appr": "+36%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -897,9 +896,9 @@
       "yfSymbol": "BIDU",
       "displaySym": "BIDU",
       "lastUpdated": "2026-11-03T13:06:14.271393+00:00",
-      "livePrice": 81.66,
+      "livePrice": 80.9,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:06:17Z",
+      "livePriceAsOf": "2026-11-09T03:56:40Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -935,7 +934,7 @@
           "value": "$65"
         }
       ],
-      "appr": "+61%",
+      "appr": "+60%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-hold",
@@ -945,9 +944,9 @@
       "yfSymbol": "NVO",
       "displaySym": "NVO",
       "lastUpdated": "2026-11-07T06:21:07.528706+00:00",
-      "livePrice": 40.34,
+      "livePrice": 40.58,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:27Z",
+      "livePriceAsOf": "2026-11-09T04:02:47Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -995,7 +994,7 @@
       "lastUpdated": "2026-11-07T06:21:08.255467+00:00",
       "livePrice": 213.65,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:57:36Z",
+      "livePriceAsOf": "2026-11-09T04:15:22Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1027,7 +1026,7 @@
           "value": "$83"
         }
       ],
-      "appr": "+17%",
+      "appr": "+16%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -1037,9 +1036,9 @@
       "yfSymbol": "NFLX",
       "displaySym": "NFLX",
       "lastUpdated": "2026-11-07T06:21:07.495743+00:00",
-      "livePrice": 63.4,
+      "livePrice": 63.8,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:16Z",
+      "livePriceAsOf": "2026-11-09T03:56:14Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1077,9 +1076,9 @@
       "yfSymbol": "REGN",
       "displaySym": "REGN",
       "lastUpdated": "2026-09-28T13:19:03.484175+00:00",
-      "livePrice": 900.0,
+      "livePrice": 904.35,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T22:52:44Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1117,9 +1116,9 @@
       "analystTarget": "$377.01",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
-      "livePrice": 359.4,
+      "livePrice": 360.64,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:48Z",
+      "livePriceAsOf": "2026-11-09T04:06:54Z",
       "appr": "+110%",
       "apprBasis": "live",
       "categoryClass": "badge-watchlist",
@@ -1158,7 +1157,7 @@
         "Top 20"
       ],
       "target": "$12",
-      "appr": "+255%",
+      "appr": "+259%",
       "analystTarget": "$5.78",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
@@ -1169,9 +1168,9 @@
       "yfSymbol": "NIO",
       "displaySym": "NIO",
       "lastUpdated": "2026-09-28T13:19:02.923355+00:00",
-      "livePrice": 3.38,
+      "livePrice": 3.34,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:52:32Z",
+      "livePriceAsOf": "2026-11-09T04:06:28Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1203,7 +1202,7 @@
           "value": "$80"
         }
       ],
-      "appr": "+107%",
+      "appr": "+106%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
@@ -1213,9 +1212,9 @@
       "yfSymbol": "NKE",
       "displaySym": "NKE",
       "lastUpdated": "2026-11-03T13:06:13.823736+00:00",
-      "livePrice": 38.61,
+      "livePrice": 38.81,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:56:33Z",
+      "livePriceAsOf": "2026-11-09T03:43:11Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1253,10 +1252,10 @@
       "analystTarget": "$20.78",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
-      "livePrice": 30.58,
+      "livePrice": 30.87,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:53:12Z",
-      "appr": "+90%",
+      "livePriceAsOf": "2026-11-09T02:14:46Z",
+      "appr": "+88%",
       "apprBasis": "live",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-impulse",
@@ -1301,10 +1300,10 @@
       "analystTarget": "N/A",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
-      "livePrice": 75897.5,
-      "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-08T13:03:30Z",
-      "appr": "+59%",
+      "livePrice": 74893.5,
+      "livePriceSource": "IBKR (PAXOS)",
+      "livePriceAsOf": "2026-11-09T04:09:48Z",
+      "appr": "+61%",
       "apprBasis": "live",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
@@ -1358,9 +1357,9 @@
       "yfSymbol": "PEP",
       "displaySym": "PEP",
       "lastUpdated": "2026-11-07T06:21:08.094894+00:00",
-      "livePrice": 141.7,
+      "livePrice": 141.34,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:49:27Z",
+      "livePriceAsOf": "2026-11-09T04:15:22Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1399,9 +1398,9 @@
       "yfSymbol": "PALL",
       "displaySym": "PALL",
       "lastUpdated": "2026-08-21T16:20:29.170061+00:00",
-      "livePrice": 18.5,
+      "livePrice": 18.84,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T23:42:12Z",
+      "livePriceAsOf": "2026-11-09T03:15:01Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
       "apprBasis": "unit-mismatch"
@@ -1440,9 +1439,9 @@
       "analystTarget": "$567.27",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
-      "livePrice": 448.14,
+      "livePrice": 455.5,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:50Z",
+      "livePriceAsOf": "2026-11-09T04:08:10Z",
       "appr": null,
       "apprBasis": null,
       "categoryClass": "badge-buy-zone",
@@ -1480,10 +1479,10 @@
       "analystTarget": "$401.21",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
-      "livePrice": 422.62,
+      "livePrice": 425.2,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:39:33Z",
-      "appr": "+15%",
+      "livePriceAsOf": "2026-11-09T01:17:32Z",
+      "appr": "+14%",
       "apprBasis": "live",
       "categoryClass": "badge-at-target",
       "waveClass": "wave-top",
@@ -1529,10 +1528,10 @@
       "analystTarget": "$473.18",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
-      "livePrice": 393.94,
+      "livePrice": 397.0,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:20Z",
-      "appr": "+69%",
+      "livePriceAsOf": "2026-11-09T03:42:02Z",
+      "appr": "+67%",
       "apprBasis": "live",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
@@ -1581,9 +1580,9 @@
       "yfSymbol": "DCTH",
       "displaySym": "DCTH",
       "lastUpdated": "2026-08-28T16:10:04.654351+00:00",
-      "livePrice": 14.94,
+      "livePrice": 14.93,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T23:11:34Z",
+      "livePriceAsOf": "2026-11-09T04:14:07Z",
       "analystSource": "MarketBeat (target + rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1617,7 +1616,7 @@
           "value": "$7.49"
         }
       ],
-      "appr": "+92%",
+      "appr": "+90%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-mod-buy",
@@ -1627,9 +1626,9 @@
       "yfSymbol": "ZVRA",
       "displaySym": "ZVRA",
       "lastUpdated": "2026-11-07T06:21:08.868299+00:00",
-      "livePrice": 11.45,
+      "livePrice": 11.59,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:43:40Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1675,9 +1674,9 @@
       "yfSymbol": "MELI",
       "displaySym": "MELI",
       "lastUpdated": "2026-11-03T13:02:55.195988+00:00",
-      "livePrice": 1510.93,
+      "livePrice": 1511.51,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:46Z",
+      "livePriceAsOf": "2026-11-09T01:37:28Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1711,7 +1710,7 @@
           "value": "$146"
         }
       ],
-      "appr": "+8%",
+      "appr": "+14%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-buy",
@@ -1721,9 +1720,9 @@
       "yfSymbol": "NVDA",
       "displaySym": "NVDA",
       "lastUpdated": "2026-11-07T06:21:08.624742+00:00",
-      "livePrice": 188.7,
+      "livePrice": 179.33,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:59Z",
+      "livePriceAsOf": "2026-11-09T04:11:36Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1769,9 +1768,9 @@
       "yfSymbol": "TOST",
       "displaySym": "TOST",
       "lastUpdated": "2026-11-03T13:06:14.315235+00:00",
-      "livePrice": 34.75,
+      "livePrice": 34.67,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:57:18Z",
+      "livePriceAsOf": "2026-11-09T04:14:07Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1803,7 +1802,7 @@
           "value": "$68 (1.618 Fib)"
         }
       ],
-      "appr": "+133%",
+      "appr": "+135%",
       "analystTarget": "$37.38",
       "collections": [
         "Top 10",
@@ -1818,9 +1817,9 @@
       "yfSymbol": "JD",
       "displaySym": "JD",
       "lastUpdated": "2026-08-21T16:20:28.980865+00:00",
-      "livePrice": 29.15,
+      "livePrice": 28.88,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:46Z",
+      "livePriceAsOf": "2026-11-09T04:09:26Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1856,7 +1855,7 @@
           "value": "$42.33"
         }
       ],
-      "appr": "+417%",
+      "appr": "+412%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -1866,9 +1865,9 @@
       "yfSymbol": "ONDS",
       "displaySym": "ONDS",
       "lastUpdated": "2026-11-07T06:21:08.668385+00:00",
-      "livePrice": 5.33,
+      "livePrice": 5.39,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:57Z",
+      "livePriceAsOf": "2026-11-09T04:01:13Z",
       "analystSource": "MarketBeat (rating + target)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1914,9 +1913,9 @@
       "yfSymbol": "HIMS",
       "displaySym": "HIMS",
       "lastUpdated": "2026-11-07T06:21:08.320877+00:00",
-      "livePrice": 26.03,
+      "livePrice": 26.16,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:41Z",
+      "livePriceAsOf": "2026-11-09T03:55:44Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1945,7 +1944,7 @@
           "value": "$61"
         }
       ],
-      "appr": "+276%",
+      "appr": "+274%",
       "collections": [
         "Watchlist"
       ],
@@ -1958,9 +1957,9 @@
       "yfSymbol": "SOFI",
       "displaySym": "SOFI",
       "lastUpdated": "2026-08-28T16:10:04.285222+00:00",
-      "livePrice": 16.22,
+      "livePrice": 16.33,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:40Z",
+      "livePriceAsOf": "2026-11-09T03:56:25Z",
       "analystSource": "MarketBeat (target + rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -1992,7 +1991,7 @@
           "value": "~$4.37"
         }
       ],
-      "appr": "+210%",
+      "appr": "+208%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
@@ -2002,9 +2001,9 @@
       "yfSymbol": "OPEN",
       "displaySym": "OPEN",
       "lastUpdated": "2026-11-07T06:21:08.052253+00:00",
-      "livePrice": 1.41,
+      "livePrice": 1.42,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:51Z",
+      "livePriceAsOf": "2026-11-09T04:05:14Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2050,9 +2049,9 @@
       "yfSymbol": "COIN",
       "displaySym": "COIN",
       "lastUpdated": "2026-10-26T13:21:42.563311+00:00",
-      "livePrice": 134.19,
+      "livePrice": 134.76,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:45Z",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2081,7 +2080,7 @@
           "value": "Wave 3 in progress"
         }
       ],
-      "appr": "+30%",
+      "appr": "+35%",
       "collections": [],
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
@@ -2092,9 +2091,9 @@
       "yfSymbol": "HYPE",
       "displaySym": "HYPE",
       "lastUpdated": "2026-08-26T16:12:38.721351+00:00",
-      "livePrice": 77.44,
+      "livePrice": 74.85,
       "livePriceSource": "IBKR (PAXOS)",
-      "livePriceAsOf": "2026-11-08T12:00:44Z",
+      "livePriceAsOf": "2026-11-09T03:28:47Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2130,7 +2129,7 @@
           "value": "$17.46"
         }
       ],
-      "appr": "+20%",
+      "appr": "+21%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -2140,9 +2139,9 @@
       "yfSymbol": "CIFR",
       "displaySym": "CIFR",
       "lastUpdated": "2026-11-07T06:21:07.936058+00:00",
-      "livePrice": 6.5691,
+      "livePrice": 6.53,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:55Z",
+      "livePriceAsOf": "2026-11-09T03:57:02Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2172,7 +2171,7 @@
           "value": "broken"
         }
       ],
-      "appr": "+25%",
+      "appr": "+26%",
       "categoryClass": "badge-at-target",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -2182,9 +2181,9 @@
       "yfSymbol": "NBIS",
       "displaySym": "NBIS",
       "lastUpdated": "2026-11-07T06:21:08.016200+00:00",
-      "livePrice": 130.92,
+      "livePrice": 129.86,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:37Z",
+      "livePriceAsOf": "2026-11-09T04:05:25Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2214,7 +2213,7 @@
           "value": "$141"
         }
       ],
-      "appr": "+546%",
+      "appr": "+556%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -2224,9 +2223,9 @@
       "yfSymbol": "IREN",
       "displaySym": "IREN",
       "lastUpdated": "2026-11-07T06:21:08.391593+00:00",
-      "livePrice": 21.81,
+      "livePrice": 21.5,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:54Z",
+      "livePriceAsOf": "2026-11-09T04:08:49Z",
       "analystSource": "MarketBeat (rating + target)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2266,9 +2265,9 @@
       "yfSymbol": "MU",
       "displaySym": "MU",
       "lastUpdated": "2026-11-07T06:21:08.587665+00:00",
-      "livePrice": 694.79,
+      "livePrice": 690.0,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:59Z",
+      "livePriceAsOf": "2026-11-09T04:15:22Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -2302,7 +2301,7 @@
           "value": "$134"
         }
       ],
-      "appr": "+10%",
+      "appr": "+8%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-buy",
@@ -2312,9 +2311,9 @@
       "yfSymbol": "SPCX",
       "displaySym": "SPCX",
       "lastUpdated": "2026-11-07T06:21:07.750344+00:00",
-      "livePrice": 135.64,
+      "livePrice": 137.53,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:55Z",
+      "livePriceAsOf": "2026-11-09T04:11:09Z",
       "analystSource": "MarketBeat (target) + Benzinga (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2343,7 +2342,7 @@
           "value": "$29"
         }
       ],
-      "appr": "+141%",
+      "appr": "+139%",
       "collections": [],
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
@@ -2354,9 +2353,9 @@
       "yfSymbol": "NU",
       "displaySym": "NU",
       "lastUpdated": "2026-10-26T13:21:43.773069+00:00",
-      "livePrice": 12.03,
+      "livePrice": 12.14,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:44Z",
+      "livePriceAsOf": "2026-11-09T04:08:43Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2388,7 +2387,7 @@
           "value": "$2,000"
         }
       ],
-      "appr": "+12%",
+      "appr": "+17%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-top",
       "analystClass": "analyst-none",
@@ -2398,9 +2397,9 @@
       "yfSymbol": "ETH",
       "displaySym": "ETH",
       "lastUpdated": "2026-11-07T06:21:08.288580+00:00",
-      "livePrice": 2236.9,
-      "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-08T13:04:06Z",
+      "livePrice": 2141.05,
+      "livePriceSource": "IBKR (PAXOS)",
+      "livePriceAsOf": "2026-11-09T04:10:06Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2442,9 +2441,9 @@
       "category": "Watchlist",
       "categoryClass": "badge-watchlist",
       "prevCategory": null,
-      "livePrice": 24.81,
+      "livePrice": 24.79,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:44:13Z",
+      "livePriceAsOf": "2026-11-09T04:15:22Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -2479,7 +2478,7 @@
       "collections": [
         "Watchlist"
       ],
-      "appr": "+186%",
+      "appr": "+185%",
       "analystTarget": "$194.38",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
@@ -2490,9 +2489,9 @@
       "yfSymbol": "ALB",
       "displaySym": "ALB",
       "lastUpdated": "2026-08-17T16:13:30.257094+00:00",
-      "livePrice": 99.25,
+      "livePrice": 99.66,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:25:23Z",
+      "livePriceAsOf": "2026-11-09T03:41:50Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2528,7 +2527,7 @@
           "value": "$335"
         }
       ],
-      "appr": "+250%",
+      "appr": "+248%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -2538,9 +2537,9 @@
       "yfSymbol": "RDDT",
       "displaySym": "RDDT",
       "lastUpdated": "2026-11-07T06:21:08.708397+00:00",
-      "livePrice": 95.65,
+      "livePrice": 96.13,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:56:46Z",
+      "livePriceAsOf": "2026-11-09T03:56:13Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2588,7 +2587,7 @@
       "lastUpdated": "2026-08-20T16:10:58.217788+00:00",
       "livePrice": 32.11,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:46Z",
+      "livePriceAsOf": "2026-11-09T03:09:14Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2628,9 +2627,9 @@
       "category": "Watchlist",
       "categoryClass": "badge-watchlist",
       "prevCategory": null,
-      "livePrice": 416.13,
+      "livePrice": 417.0,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:00:04Z",
+      "livePriceAsOf": "2026-11-09T03:26:50Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -2672,7 +2671,7 @@
       "prevCategory": null,
       "livePrice": 64.72,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:00:09Z",
+      "livePriceAsOf": "2026-11-09T04:14:07Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2702,7 +2701,7 @@
           "value": "$351"
         }
       ],
-      "appr": "+134%",
+      "appr": "+133%",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -2712,9 +2711,9 @@
       "yfSymbol": "SEZL",
       "displaySym": "SEZL",
       "lastUpdated": "2026-11-07T06:21:07.626301+00:00",
-      "livePrice": 150.0,
+      "livePrice": 150.65,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:24:59Z",
+      "livePriceAsOf": "2026-11-09T02:13:37Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2743,7 +2742,7 @@
           "value": "Wave 2, reversal signs building"
         }
       ],
-      "appr": "+1345%",
+      "appr": null,
       "collections": [],
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
@@ -2754,12 +2753,12 @@
       "yfSymbol": "RR",
       "displaySym": "RR",
       "lastUpdated": "2026-08-26T16:12:38.901826+00:00",
-      "livePrice": 0.8998,
+      "livePrice": 0.865,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:31Z",
+      "livePriceAsOf": "2026-11-09T01:16:54Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
-      "apprBasis": "live"
+      "apprBasis": "unit-mismatch"
     },
     {
       "sym": "GRAB",
@@ -2802,9 +2801,9 @@
       "yfSymbol": "GRAB",
       "displaySym": "GRAB",
       "lastUpdated": "2026-11-07T06:21:08.511113+00:00",
-      "livePrice": 3.42,
+      "livePrice": 3.43,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:06Z",
+      "livePriceAsOf": "2026-11-09T04:11:27Z",
       "analystSource": "MarketBeat (rating + target; no IBKR preview)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2836,7 +2835,7 @@
           "value": "$16.85 (1.618 Fib)"
         }
       ],
-      "appr": "+1078%",
+      "appr": "+1062%",
       "analystTarget": "$20.00",
       "collections": [],
       "categoryClass": "badge-watchlist",
@@ -2848,9 +2847,9 @@
       "yfSymbol": "ASTI",
       "displaySym": "ASTI",
       "lastUpdated": "2026-07-22T21:15:00.880072+00:00",
-      "livePrice": 1.43,
+      "livePrice": 1.45,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:31:13Z",
+      "livePriceAsOf": "2026-11-09T04:14:07Z",
       "analystSource": "StockAnalysis",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2886,9 +2885,9 @@
       "category": "Buy Zone",
       "categoryClass": "badge-buy-zone",
       "prevCategory": null,
-      "livePrice": 121.93,
+      "livePrice": 121.96,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:17:56Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2913,7 +2912,7 @@
           "value": "$15"
         }
       ],
-      "appr": "+26%",
+      "appr": "+24%",
       "collections": [],
       "categoryClass": "badge-at-target",
       "waveClass": "wave-correct",
@@ -2924,9 +2923,9 @@
       "yfSymbol": "ABCL",
       "displaySym": "ABCL",
       "lastUpdated": "2026-10-26T13:21:41.783087+00:00",
-      "livePrice": 11.86,
+      "livePrice": 12.09,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:51:34Z",
+      "livePriceAsOf": "2026-11-09T04:07:23Z",
       "analystSource": "MarketBeat (rating + target)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2955,7 +2954,7 @@
       ],
       "collections": [],
       "target": "$9.55 (1.618 Fib, Wave 3 target)",
-      "appr": "+864%",
+      "appr": "+865%",
       "analystTarget": "N/A",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-impulse",
@@ -2966,9 +2965,9 @@
       "yfSymbol": "SIDU",
       "displaySym": "SIDU",
       "lastUpdated": "2026-08-17T16:13:31.556564+00:00",
-      "livePrice": 0.9903,
+      "livePrice": 0.9901,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:55:04Z",
+      "livePriceAsOf": "2026-11-09T03:39:07Z",
       "analystSource": "MarketBeat (rating only)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -2996,7 +2995,7 @@
         }
       ],
       "target": "$184",
-      "appr": "+418%",
+      "appr": "+414%",
       "analystTarget": "$77.77",
       "collections": [
         "Watchlist"
@@ -3010,9 +3009,9 @@
       "yfSymbol": "MP",
       "displaySym": "MP",
       "lastUpdated": "2026-08-21T16:20:29.211215+00:00",
-      "livePrice": 35.52,
+      "livePrice": 35.77,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:56:17Z",
+      "livePriceAsOf": "2026-11-09T03:59:17Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3026,7 +3025,7 @@
       "summary": "This week's HOOD update was published as a video walkthrough of the Elliott Wave Theory impulse count rather than as written commentary, so no new numeric details (entry, targets, or level changes) were included in the email body itself. Existing HOOD levels and thesis are carried forward unchanged pending a written follow-up.",
       "entry": "$85 (blue Bull Case line, tested and held) — wants $100 flipped to support before continuing higher",
       "target": "$175 (1.618 Fib, Wave 3 target)",
-      "appr": "+116%",
+      "appr": "+117%",
       "analystTarget": "$121.83",
       "levels": [
         {
@@ -3058,9 +3057,9 @@
       "yfSymbol": "HOOD",
       "displaySym": "HOOD",
       "lastUpdated": "2026-09-28T13:19:02.263932+00:00",
-      "livePrice": 80.99,
+      "livePrice": 80.48,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:57:30Z",
+      "livePriceAsOf": "2026-11-09T03:55:29Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3100,9 +3099,9 @@
       "category": "Bull Case",
       "categoryClass": "badge-bull-case",
       "prevCategory": null,
-      "livePrice": 868.56,
+      "livePrice": 871.13,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:25Z",
+      "livePriceAsOf": "2026-11-09T02:00:43Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "entry"
@@ -3142,9 +3141,9 @@
       "category": "Watchlist",
       "categoryClass": "badge-watchlist",
       "prevCategory": null,
-      "livePrice": 260.03,
+      "livePrice": 260.5,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:56:49Z",
+      "livePriceAsOf": "2026-11-09T04:15:22Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3176,7 +3175,7 @@
           "value": "$243 (12-18 months)"
         }
       ],
-      "appr": "+81%",
+      "appr": "+77%",
       "analystTarget": "$144.39",
       "collections": [],
       "categoryClass": "badge-watchlist",
@@ -3188,9 +3187,9 @@
       "yfSymbol": "NOW",
       "displaySym": "NOW",
       "lastUpdated": "2026-09-28T13:19:02.974897+00:00",
-      "livePrice": 101.92,
+      "livePrice": 103.71,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:54Z",
+      "livePriceAsOf": "2026-11-09T04:05:40Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3225,7 +3224,7 @@
           "value": "$230"
         }
       ],
-      "appr": "+39%",
+      "appr": "+38%",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-mod-buy",
       "recClass": "rec-wait",
@@ -3236,9 +3235,9 @@
       "category": "Watchlist",
       "categoryClass": "badge-watchlist",
       "prevCategory": null,
-      "livePrice": 165.42,
+      "livePrice": 166.08,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T23:03:51Z",
+      "livePriceAsOf": "2026-11-09T02:19:18Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3267,7 +3266,7 @@
           "value": "€21"
         }
       ],
-      "appr": "+57%",
+      "appr": "+55%",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
@@ -3278,9 +3277,9 @@
       "category": "Buy Zone",
       "categoryClass": "badge-buy-zone",
       "prevCategory": null,
-      "livePrice": 13.37,
+      "livePrice": 13.53,
       "livePriceSource": "IBKR (Euronext Paris, EUR)",
-      "livePriceAsOf": "2026-11-06T20:55:06Z",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "MarketScreener (rating + target)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3322,7 +3321,7 @@
       "prevCategory": null,
       "livePrice": 83.96,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:00:24Z",
+      "livePriceAsOf": "2026-11-09T04:15:22Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3355,7 +3354,7 @@
           "value": "$59"
         }
       ],
-      "appr": "+48%",
+      "appr": "+52%",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-mod-buy",
       "recClass": "rec-wait",
@@ -3366,9 +3365,9 @@
       "category": "Watchlist",
       "categoryClass": "badge-watchlist",
       "prevCategory": null,
-      "livePrice": 39.92,
+      "livePrice": 38.9,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:09:06Z",
+      "livePriceAsOf": "2026-11-09T04:14:07Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3410,9 +3409,9 @@
       "category": "Buy Zone",
       "categoryClass": "badge-buy-zone",
       "prevCategory": null,
-      "livePrice": 165.61,
+      "livePrice": 165.2,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:47Z",
+      "livePriceAsOf": "2026-11-09T03:43:27Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3447,7 +3446,7 @@
           "value": "$331 (1.618 Fib, ~2029)"
         }
       ],
-      "appr": "+245%",
+      "appr": "+243%",
       "analystTarget": "$127.31",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
@@ -3458,9 +3457,9 @@
       "yfSymbol": "KKR",
       "displaySym": "KKR",
       "lastUpdated": "2026-08-14T16:22:02.494780+00:00",
-      "livePrice": 96.0,
+      "livePrice": 96.48,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:37Z",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3493,7 +3492,7 @@
           "value": "$202"
         }
       ],
-      "appr": "+218%",
+      "appr": "+216%",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-mod-buy",
       "recClass": "rec-wait",
@@ -3504,9 +3503,9 @@
       "category": "Watchlist",
       "categoryClass": "badge-watchlist",
       "prevCategory": null,
-      "livePrice": 63.5,
+      "livePrice": 63.9,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T23:50:30Z",
+      "livePriceAsOf": "2026-11-09T02:31:13Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3539,7 +3538,7 @@
           "value": "$113"
         }
       ],
-      "appr": "+378%",
+      "appr": "+377%",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-mod-buy",
       "recClass": "rec-wait",
@@ -3550,9 +3549,9 @@
       "category": "Watchlist",
       "categoryClass": "badge-watchlist",
       "prevCategory": null,
-      "livePrice": 23.65,
+      "livePrice": 23.71,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:28Z",
+      "livePriceAsOf": "2026-11-09T04:04:28Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3592,9 +3591,9 @@
       "yfSymbol": "DUOL",
       "displaySym": "DUOL",
       "lastUpdated": "2026-08-26T16:12:38.544826+00:00",
-      "livePrice": 160.39,
+      "livePrice": 160.42,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:26:41Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3623,7 +3622,7 @@
           "value": "$39 (1.618 Fib)"
         }
       ],
-      "appr": "+111%",
+      "appr": "+113%",
       "collections": [
         "Watchlist"
       ],
@@ -3636,9 +3635,9 @@
       "yfSymbol": "DKNG",
       "displaySym": "DKNG",
       "lastUpdated": "2026-07-21T21:12:10.862366+00:00",
-      "livePrice": 18.49,
+      "livePrice": 18.3,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:56:29Z",
+      "livePriceAsOf": "2026-11-09T04:03:01Z",
       "analystSource": "MarketBeat (rating + target)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3684,9 +3683,9 @@
       "yfSymbol": "ASML",
       "displaySym": "ASML",
       "lastUpdated": "2026-11-03T13:02:55.491198+00:00",
-      "livePrice": 1427.09,
+      "livePrice": 1425.0,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:27Z",
+      "livePriceAsOf": "2026-11-09T04:12:42Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3722,7 +3721,7 @@
           "value": "$54"
         }
       ],
-      "appr": "+29%",
+      "appr": "+28%",
       "categoryClass": "badge-at-target",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-hold",
@@ -3732,9 +3731,9 @@
       "yfSymbol": "PYPL",
       "displaySym": "PYPL",
       "lastUpdated": "2026-11-03T13:06:14.462096+00:00",
-      "livePrice": 59.03,
+      "livePrice": 59.54,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:18Z",
+      "livePriceAsOf": "2026-11-09T02:21:18Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3772,9 +3771,9 @@
       "analystTarget": "$159.48",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
-      "livePrice": 190.67,
+      "livePrice": 189.99,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:55:38Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "appr": "+19%",
       "apprBasis": "live",
       "categoryClass": "badge-watchlist",
@@ -3817,7 +3816,7 @@
           "value": "$49 (1.618 Fib)"
         }
       ],
-      "appr": "+120%",
+      "appr": "+119%",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
@@ -3828,9 +3827,9 @@
       "category": "Buy Zone",
       "categoryClass": "badge-buy-zone",
       "prevCategory": null,
-      "livePrice": 22.3,
+      "livePrice": 22.36,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:36:49Z",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3865,7 +3864,7 @@
           "value": "$181"
         }
       ],
-      "appr": "+20%",
+      "appr": "+18%",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-mod-buy",
       "recClass": "rec-wait",
@@ -3876,9 +3875,9 @@
       "category": "Bull Case",
       "categoryClass": "badge-bull-case",
       "prevCategory": null,
-      "livePrice": 106.9,
+      "livePrice": 108.05,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T23:33:54Z",
+      "livePriceAsOf": "2026-11-09T04:15:22Z",
       "analystSource": "MarketBeat (rating + target; IBKR preview stale 2026-05-30)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -3921,7 +3920,7 @@
       "categoryClass": "badge-buy-zone",
       "prevCategory": null,
       "livePrice": 5119.0,
-      "livePriceSource": "IBKR",
+      "livePriceSource": "IBKR (NYBOT CC Dec-26 futures)",
       "livePriceAsOf": "2026-11-06T18:29:56Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
@@ -3960,9 +3959,9 @@
       "yfSymbol": "TGT",
       "displaySym": "TGT",
       "lastUpdated": "2026-09-28T13:19:04.019336+00:00",
-      "livePrice": 158.49,
+      "livePrice": 158.41,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:53:55Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4004,9 +4003,9 @@
       "yfSymbol": "DASH",
       "displaySym": "DASH",
       "lastUpdated": "2026-08-21T16:20:29.417396+00:00",
-      "livePrice": 179.51,
+      "livePrice": 179.67,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:10:09Z",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4033,7 +4032,7 @@
         "Watchlist"
       ],
       "target": "$4 (Wave 3)",
-      "appr": "+655%",
+      "appr": "+658%",
       "analystTarget": "$4.00",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
@@ -4044,9 +4043,9 @@
       "yfSymbol": "SLNH",
       "displaySym": "SLNH",
       "lastUpdated": "2026-08-18T16:12:59.914758+00:00",
-      "livePrice": 0.5298,
+      "livePrice": 0.528,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:54:43Z",
+      "livePriceAsOf": "2026-11-09T02:04:18Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4075,7 +4074,7 @@
           "value": "$138"
         }
       ],
-      "appr": "+25%",
+      "appr": "+24%",
       "collections": [
         "Watchlist"
       ],
@@ -4088,9 +4087,9 @@
       "yfSymbol": "LULU",
       "displaySym": "LULU",
       "lastUpdated": "2026-10-26T13:21:43.256145+00:00",
-      "livePrice": 110.25,
+      "livePrice": 111.15,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:29Z",
+      "livePriceAsOf": "2026-11-09T01:38:00Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4132,7 +4131,7 @@
       "prevCategory": null,
       "livePrice": 122.8,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:00:05Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4173,7 +4172,7 @@
       "categoryClass": "badge-watchlist",
       "prevCategory": null,
       "livePrice": 76.84,
-      "livePriceSource": "IBKR",
+      "livePriceSource": "IBKR (TSX, CAD)",
       "livePriceAsOf": "2026-11-06T20:59:59Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
@@ -4203,7 +4202,7 @@
           "value": "$101 (Wave 3)"
         }
       ],
-      "appr": "+70%",
+      "appr": "+68%",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-mod-buy",
       "recClass": "rec-wait",
@@ -4214,9 +4213,9 @@
       "category": "Watchlist",
       "categoryClass": "badge-watchlist",
       "prevCategory": null,
-      "livePrice": 59.49,
+      "livePrice": 60.22,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:35:50Z",
+      "livePriceAsOf": "2026-11-09T03:57:17Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4256,9 +4255,9 @@
       "category": "Watchlist",
       "categoryClass": "badge-watchlist",
       "prevCategory": null,
-      "livePrice": 112.75,
+      "livePrice": 112.76,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:26Z",
+      "livePriceAsOf": "2026-11-09T04:14:07Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4300,9 +4299,9 @@
       "yfSymbol": "CPER",
       "displaySym": "CPER",
       "lastUpdated": "2026-11-03T13:06:14.409069+00:00",
-      "livePrice": 37.67,
+      "livePrice": 37.64,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:00:00Z",
+      "livePriceAsOf": "2026-11-09T01:00:00Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4342,9 +4341,9 @@
       "category": "At Target / Invalidated",
       "categoryClass": "badge-at-target",
       "prevCategory": null,
-      "livePrice": 341.5,
+      "livePrice": 345.32,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:35Z",
+      "livePriceAsOf": "2026-11-09T02:15:52Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -4378,9 +4377,9 @@
       "analystTarget": "N/A",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
-      "livePrice": 657.5,
+      "livePrice": 659.41,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:46Z",
+      "livePriceAsOf": "2026-11-09T04:13:09Z",
       "appr": "+11%",
       "apprBasis": "live",
       "categoryClass": "badge-watchlist",
@@ -4426,9 +4425,9 @@
       "analystTarget": "N/A",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
-      "livePrice": 736.53,
+      "livePrice": 740.13,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:52Z",
+      "livePriceAsOf": "2026-11-09T04:11:44Z",
       "appr": "+13%",
       "apprBasis": "live",
       "categoryClass": "badge-watchlist",
@@ -4482,9 +4481,9 @@
       "yfSymbol": "UPS",
       "displaySym": "UPS",
       "lastUpdated": "2026-11-07T06:21:08.793055+00:00",
-      "livePrice": 108.5,
+      "livePrice": 108.3,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:47:37Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4518,7 +4517,7 @@
         }
       ],
       "collections": [],
-      "appr": "+49%",
+      "appr": "+48%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -4528,9 +4527,9 @@
       "yfSymbol": "META",
       "displaySym": "META",
       "lastUpdated": "2026-08-27T16:18:19.129698+00:00",
-      "livePrice": 612.0,
+      "livePrice": 617.5,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:34Z",
+      "livePriceAsOf": "2026-11-09T04:12:42Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4561,7 +4560,7 @@
         "Watchlist"
       ],
       "target": "$42 (if $23 breaks)",
-      "appr": "+582%",
+      "appr": "+584%",
       "analystTarget": "$23.11",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-impulse",
@@ -4572,9 +4571,9 @@
       "yfSymbol": "CLSK",
       "displaySym": "CLSK",
       "lastUpdated": "2026-09-28T13:19:01.449470+00:00",
-      "livePrice": 6.16,
+      "livePrice": 6.14,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:57Z",
+      "livePriceAsOf": "2026-11-09T03:58:59Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4620,9 +4619,9 @@
       "yfSymbol": "RBLX",
       "displaySym": "RBLX",
       "lastUpdated": "2026-07-17T21:13:32.752142+00:00",
-      "livePrice": 49.15,
+      "livePrice": 49.67,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:56Z",
+      "livePriceAsOf": "2026-11-09T03:34:06Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -4655,7 +4654,7 @@
           "value": "$310"
         }
       ],
-      "appr": "+566%",
+      "appr": "+568%",
       "analystTarget": "$131.97",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-impulse",
@@ -4666,9 +4665,9 @@
       "yfSymbol": "CRWV",
       "displaySym": "CRWV",
       "lastUpdated": "2026-08-14T16:22:02.495601+00:00",
-      "livePrice": 46.54,
+      "livePrice": 46.4,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:50Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4704,9 +4703,9 @@
       "yfSymbol": "AEHR",
       "displaySym": "AEHR",
       "lastUpdated": "2026-07-20T19:15:14.970724+00:00",
-      "livePrice": 53.01,
+      "livePrice": 53.52,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:47Z",
+      "livePriceAsOf": "2026-11-09T04:12:10Z",
       "analystSource": "MarketBeat (rating + target)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -4740,7 +4739,7 @@
           "value": "$244"
         }
       ],
-      "appr": "+196%",
+      "appr": "+198%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
@@ -4750,9 +4749,9 @@
       "yfSymbol": "INTC",
       "displaySym": "INTC",
       "lastUpdated": "2026-11-07T06:21:08.357228+00:00",
-      "livePrice": 56.83,
+      "livePrice": 56.36,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:58Z",
+      "livePriceAsOf": "2026-11-09T04:13:10Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4792,9 +4791,9 @@
       "yfSymbol": "ACHR",
       "displaySym": "ACHR",
       "lastUpdated": "2026-08-14T16:22:02.496882+00:00",
-      "livePrice": 4.41,
+      "livePrice": 4.47,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:24Z",
+      "livePriceAsOf": "2026-11-09T04:00:59Z",
       "analystSource": "MarketBeat (target + rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -4822,7 +4821,7 @@
           "value": "$470 (1.618 Fib)"
         }
       ],
-      "appr": "+2%",
+      "appr": "+1%",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
@@ -4832,9 +4831,9 @@
       "yfSymbol": "AMGN",
       "displaySym": "AMGN",
       "lastUpdated": "2026-07-21T21:12:10.902867+00:00",
-      "livePrice": 461.5,
+      "livePrice": 464.0,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:57:05Z",
+      "livePriceAsOf": "2026-11-09T02:17:54Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4863,7 +4862,7 @@
           "value": "$805 (Wave 5)"
         }
       ],
-      "appr": "+24%",
+      "appr": "+23%",
       "collections": [],
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
@@ -4874,9 +4873,9 @@
       "yfSymbol": "MA",
       "displaySym": "MA",
       "lastUpdated": "2026-08-28T16:10:04.389871+00:00",
-      "livePrice": 651.35,
+      "livePrice": 654.53,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:52:10Z",
+      "livePriceAsOf": "2026-11-09T01:19:06Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -4922,9 +4921,9 @@
       "yfSymbol": "GLD",
       "displaySym": "GLD",
       "lastUpdated": "2026-07-22T21:15:00.806166+00:00",
-      "livePrice": 373.37,
+      "livePrice": 377.3,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:26Z",
+      "livePriceAsOf": "2026-11-09T04:13:34Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
       "apprBasis": "unit-mismatch"
@@ -4970,9 +4969,9 @@
       "yfSymbol": "RKLB",
       "displaySym": "RKLB",
       "lastUpdated": "2026-11-03T13:02:55.391869+00:00",
-      "livePrice": 53.57,
+      "livePrice": 53.63,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:43Z",
+      "livePriceAsOf": "2026-11-09T04:11:56Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5002,7 +5001,7 @@
         }
       ],
       "collections": [],
-      "appr": "+72%",
+      "appr": "+73%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -5012,9 +5011,9 @@
       "yfSymbol": "ORCL",
       "displaySym": "ORCL",
       "lastUpdated": "2026-08-19T16:10:29.333999+00:00",
-      "livePrice": 115.98,
+      "livePrice": 115.8,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:55Z",
+      "livePriceAsOf": "2026-11-09T04:00:42Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5060,9 +5059,9 @@
       "yfSymbol": "EL",
       "displaySym": "EL",
       "lastUpdated": "2026-11-02T13:32:19.893407+00:00",
-      "livePrice": 110.0,
+      "livePrice": 110.06,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T22:06:50Z",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5096,7 +5095,7 @@
           "value": "~4.1% yield"
         }
       ],
-      "appr": "+100%",
+      "appr": "+101%",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
@@ -5106,9 +5105,9 @@
       "yfSymbol": "DOW",
       "displaySym": "DOW",
       "lastUpdated": "2026-07-24T21:19:27.422251+00:00",
-      "livePrice": 31.5,
+      "livePrice": 31.4,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:23:25Z",
+      "livePriceAsOf": "2026-11-09T04:15:22Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5154,9 +5153,9 @@
       "yfSymbol": "KHC",
       "displaySym": "KHC",
       "lastUpdated": "2026-11-07T06:21:08.550195+00:00",
-      "livePrice": 24.65,
+      "livePrice": 24.61,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:25Z",
+      "livePriceAsOf": "2026-11-09T04:14:07Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5194,7 +5193,7 @@
       "lastUpdated": "2026-07-24T21:19:28.604806+00:00",
       "livePrice": 85.85,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T16:30:30Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "MarketScreener",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -5239,8 +5238,8 @@
       "displaySym": "AML",
       "lastUpdated": "2026-07-24T21:19:57.302141+00:00",
       "livePrice": 34.74,
-      "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T16:35:22Z",
+      "livePriceSource": "IBKR (LSE, GBp)",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "StockAnalysis",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -5284,9 +5283,9 @@
       "yfSymbol": "BRK.B",
       "displaySym": "BRK.B",
       "lastUpdated": "2026-07-28T21:19:05.648866+00:00",
-      "livePrice": 559.29,
-      "livePriceSource": "Benzinga (IBKR no contract; Yahoo/Google not retrievable)",
-      "livePriceAsOf": "2026-11-03T16:35:00Z",
+      "livePrice": 571.7,
+      "livePriceSource": "IBKR",
+      "livePriceAsOf": "2026-11-09T04:07:06Z",
       "analystSource": "MarketBeat (rating + target; no IBKR contract)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "entry"
@@ -5320,7 +5319,7 @@
           "value": "$180"
         }
       ],
-      "appr": "+79%",
+      "appr": "+80%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -5330,9 +5329,9 @@
       "yfSymbol": "DELL",
       "displaySym": "DELL",
       "lastUpdated": "2026-11-07T06:21:07.421308+00:00",
-      "livePrice": 331.7,
+      "livePrice": 330.49,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:57:28Z",
+      "livePriceAsOf": "2026-11-09T03:33:47Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5364,9 +5363,9 @@
       "yfSymbol": "KO",
       "displaySym": "KO",
       "lastUpdated": "2026-07-28T21:19:05.911870+00:00",
-      "livePrice": 95.77,
+      "livePrice": 96.18,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:52:46Z",
+      "livePriceAsOf": "2026-11-09T03:32:02Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -5402,9 +5401,9 @@
       "yfSymbol": "SNDK",
       "displaySym": "SNDK",
       "lastUpdated": "2026-11-07T06:21:08.757490+00:00",
-      "livePrice": 841.46,
+      "livePrice": 836.45,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:57Z",
+      "livePriceAsOf": "2026-11-09T04:14:31Z",
       "analystSource": "MarketBeat (rating + target; IBKR preview stale)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -5432,7 +5431,7 @@
         }
       ],
       "target": "$46 (COVID low) → $54 (200 Monthly MA)",
-      "appr": "+30%",
+      "appr": "+29%",
       "analystTarget": "$38.19",
       "collections": [
         "Watchlist",
@@ -5447,9 +5446,9 @@
       "yfSymbol": "GIS",
       "displaySym": "GIS",
       "lastUpdated": "2026-08-21T16:20:29.023942+00:00",
-      "livePrice": 35.42,
+      "livePrice": 35.53,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T23:47:11Z",
+      "livePriceAsOf": "2026-11-09T03:34:53Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5487,10 +5486,10 @@
       "analystTarget": "$647.08",
       "analystSource": "MarketBeat (target + rating)",
       "analystAsOf": "2026-11-08",
-      "livePrice": 597.2,
+      "livePrice": 603.01,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T22:26:45Z",
-      "appr": "+41%",
+      "livePriceAsOf": "2026-11-09T04:14:07Z",
+      "appr": "+40%",
       "apprBasis": "live",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
@@ -5526,7 +5525,7 @@
           "value": "Higher low"
         }
       ],
-      "appr": "+74%",
+      "appr": "+70%",
       "collections": [],
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
@@ -5537,9 +5536,9 @@
       "yfSymbol": "ADBE",
       "displaySym": "ADBE",
       "lastUpdated": "2026-08-28T16:10:04.427600+00:00",
-      "livePrice": 239.1,
+      "livePrice": 243.47,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:57:40Z",
+      "livePriceAsOf": "2026-11-09T04:14:02Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5585,9 +5584,9 @@
       "yfSymbol": "WFC",
       "displaySym": "WFC",
       "lastUpdated": "2026-08-14T16:22:02.495343+00:00",
-      "livePrice": 84.18,
+      "livePrice": 83.94,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:33:12Z",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5620,7 +5619,7 @@
           "value": "$19.85"
         }
       ],
-      "appr": "+53%",
+      "appr": "+52%",
       "analystTarget": "$13.26",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-top",
@@ -5631,9 +5630,9 @@
       "yfSymbol": "PATH",
       "displaySym": "PATH",
       "lastUpdated": "2026-08-14T16:22:02.495394+00:00",
-      "livePrice": 12.94,
+      "livePrice": 13.03,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:47Z",
+      "livePriceAsOf": "2026-11-09T03:54:34Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5679,9 +5678,9 @@
       "yfSymbol": "HPQ",
       "displaySym": "HPQ",
       "lastUpdated": "2026-08-14T16:22:02.495927+00:00",
-      "livePrice": 28.5,
+      "livePrice": 28.46,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:52Z",
+      "livePriceAsOf": "2026-11-09T04:14:07Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5731,9 +5730,9 @@
       "yfSymbol": "REMX",
       "displaySym": "REMX",
       "lastUpdated": "2026-08-14T16:22:02.496651+00:00",
-      "livePrice": 51.4,
+      "livePrice": 51.5,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:00:18Z",
+      "livePriceAsOf": "2026-11-09T01:16:04Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5769,7 +5768,7 @@
           "value": "$449"
         }
       ],
-      "appr": "+279%",
+      "appr": "+278%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -5779,9 +5778,9 @@
       "yfSymbol": "APP",
       "displaySym": "APP",
       "lastUpdated": "2026-11-07T06:21:07.832625+00:00",
-      "livePrice": 390.98,
+      "livePrice": 391.22,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:54Z",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5806,7 +5805,7 @@
           "value": "$398"
         }
       ],
-      "appr": "+44%",
+      "appr": "+43%",
       "analystTarget": "$328.34",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
@@ -5817,9 +5816,9 @@
       "yfSymbol": "SNOW",
       "displaySym": "SNOW",
       "lastUpdated": "2026-08-14T16:22:02.496939+00:00",
-      "livePrice": 276.24,
+      "livePrice": 279.0,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:46:25Z",
+      "livePriceAsOf": "2026-11-09T03:44:49Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5852,7 +5851,7 @@
           "value": "$583"
         }
       ],
-      "appr": "+116%",
+      "appr": "+115%",
       "analystTarget": "$245.96",
       "categoryClass": "badge-at-target",
       "waveClass": "wave-impulse",
@@ -5863,9 +5862,9 @@
       "yfSymbol": "NET",
       "displaySym": "NET",
       "lastUpdated": "2026-08-14T16:22:02.497049+00:00",
-      "livePrice": 269.32,
+      "livePrice": 271.42,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:05Z",
+      "livePriceAsOf": "2026-11-09T04:04:55Z",
       "analystSource": "MarketBeat (target + rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5907,7 +5906,7 @@
       "lastUpdated": "2026-08-14T16:22:02.497067+00:00",
       "livePrice": 455.16,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:42:25Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5953,7 +5952,7 @@
       "lastUpdated": "2026-08-17T16:13:30.675607+00:00",
       "livePrice": 55.18,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:00:04Z",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -5997,9 +5996,9 @@
       "yfSymbol": "TEAM",
       "displaySym": "TEAM",
       "lastUpdated": "2026-08-17T16:13:31.665021+00:00",
-      "livePrice": 153.5,
+      "livePrice": 153.68,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:29:00Z",
+      "livePriceAsOf": "2026-11-09T02:10:57Z",
       "analystSource": "MarketBeat (rating + target; no IBKR preview)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6043,9 +6042,9 @@
       "yfSymbol": "WMT",
       "displaySym": "WMT",
       "lastUpdated": "2026-08-17T16:13:31.927951+00:00",
-      "livePrice": 125.25,
+      "livePrice": 125.52,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:18Z",
+      "livePriceAsOf": "2026-11-09T04:14:07Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -6080,7 +6079,7 @@
       "collections": [
         "Watchlist"
       ],
-      "appr": "+338%",
+      "appr": "+326%",
       "analystTarget": "$18.50",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-top",
@@ -6091,9 +6090,9 @@
       "yfSymbol": "MRAM",
       "displaySym": "MRAM",
       "lastUpdated": "2026-09-28T13:19:02.623627+00:00",
-      "livePrice": 11.75,
+      "livePrice": 12.08,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T23:19:32Z",
+      "livePriceAsOf": "2026-11-09T03:41:41Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6121,7 +6120,7 @@
           "value": "$15–$15.50 (200 WMA)"
         }
       ],
-      "appr": "+52%",
+      "appr": "+53%",
       "analystTarget": "$16.03",
       "collections": [],
       "categoryClass": "badge-bull-case",
@@ -6133,9 +6132,9 @@
       "yfSymbol": "OWL",
       "displaySym": "OWL",
       "lastUpdated": "2026-08-18T16:13:00.029161+00:00",
-      "livePrice": 9.9,
+      "livePrice": 9.8,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:55:47Z",
+      "livePriceAsOf": "2026-11-09T01:35:32Z",
       "analystSource": "MarketBeat (rating + target)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6175,9 +6174,9 @@
       "yfSymbol": "TMDX",
       "displaySym": "TMDX",
       "lastUpdated": "2026-08-19T16:10:29.279836+00:00",
-      "livePrice": 87.79,
+      "livePrice": 88.24,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:32:20Z",
+      "livePriceAsOf": "2026-11-09T04:15:22Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -6211,7 +6210,7 @@
         }
       ],
       "collections": [],
-      "appr": "+106%",
+      "appr": "+111%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -6221,9 +6220,9 @@
       "yfSymbol": "MSTR",
       "displaySym": "MSTR",
       "lastUpdated": "2026-11-03T13:02:55.090700+00:00",
-      "livePrice": 129.3,
+      "livePrice": 125.82,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:44Z",
+      "livePriceAsOf": "2026-11-09T04:04:22Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6252,7 +6251,7 @@
           "value": "$28 (50 WMA / wedge)"
         }
       ],
-      "appr": "+48%",
+      "appr": "+55%",
       "collections": [],
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
@@ -6263,9 +6262,9 @@
       "yfSymbol": "BMNR",
       "displaySym": "BMNR",
       "lastUpdated": "2026-08-28T16:10:04.807958+00:00",
-      "livePrice": 18.91,
+      "livePrice": 18.07,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:15Z",
+      "livePriceAsOf": "2026-11-09T04:17:35Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6307,7 +6306,7 @@
       "lastUpdated": "2026-08-26T16:12:38.591040+00:00",
       "livePrice": 116.14,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:17Z",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -6338,7 +6337,7 @@
       "collections": [
         "Watchlist"
       ],
-      "appr": "+153%",
+      "appr": "+152%",
       "analystTarget": "$92.32",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-impulse",
@@ -6349,9 +6348,9 @@
       "yfSymbol": "CAVA",
       "displaySym": "CAVA",
       "lastUpdated": "2026-08-21T16:20:29.459675+00:00",
-      "livePrice": 58.97,
+      "livePrice": 59.15,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:15:44Z",
+      "livePriceAsOf": "2026-11-09T04:15:22Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6387,9 +6386,9 @@
       "yfSymbol": "TTD",
       "displaySym": "TTD",
       "lastUpdated": "2026-08-26T16:12:39.082209+00:00",
-      "livePrice": 12.98,
+      "livePrice": 13.04,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:57:37Z",
+      "livePriceAsOf": "2026-11-09T01:53:17Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -6425,9 +6424,9 @@
       "yfSymbol": "WDC",
       "displaySym": "WDC",
       "lastUpdated": "2026-08-26T16:12:39.128889+00:00",
-      "livePrice": 265.95,
+      "livePrice": 265.75,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:33Z",
+      "livePriceAsOf": "2026-11-09T03:58:39Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -6463,9 +6462,9 @@
       "yfSymbol": "XLV",
       "displaySym": "XLV",
       "lastUpdated": "2026-08-26T16:12:39.173769+00:00",
-      "livePrice": 185.0,
+      "livePrice": 184.8,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:30:10Z",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6496,7 +6495,7 @@
       "collections": [
         "Safe Haven"
       ],
-      "appr": "+70%",
+      "appr": "+67%",
       "analystTarget": "N/A",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
@@ -6507,9 +6506,9 @@
       "yfSymbol": "PALLADIUM",
       "displaySym": "PALLADIUM",
       "lastUpdated": "2026-09-28T13:19:03.258948+00:00",
-      "livePrice": 1021.5,
+      "livePrice": 1039.5,
       "livePriceSource": "IBKR (NYMEX PA Dec-26 futures)",
-      "livePriceAsOf": "2026-11-06T21:59:57Z",
+      "livePriceAsOf": "2026-11-09T04:03:51Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6538,7 +6537,7 @@
           "value": "$42, then $46 (Bull Case line)"
         }
       ],
-      "appr": "+31%",
+      "appr": "+32%",
       "collections": [],
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-impulse",
@@ -6549,9 +6548,9 @@
       "yfSymbol": "FXI",
       "displaySym": "FXI",
       "lastUpdated": "2026-08-28T16:10:04.322148+00:00",
-      "livePrice": 35.04,
+      "livePrice": 34.89,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:03:35Z",
+      "livePriceAsOf": "2026-11-09T02:38:28Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6591,9 +6590,9 @@
       "yfSymbol": "ZM",
       "displaySym": "ZM",
       "lastUpdated": "2026-08-28T16:10:04.357378+00:00",
-      "livePrice": 90.11,
+      "livePrice": 89.88,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T22:00:22Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6632,10 +6631,10 @@
       "analystTarget": "N/A",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
-      "livePrice": 51.938,
-      "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-08",
-      "appr": "+208%",
+      "livePrice": 53.1035,
+      "livePriceSource": "IBKR (London Silver XAGUSD spot)",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
+      "appr": "+201%",
       "apprBasis": "live",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
@@ -6684,9 +6683,9 @@
       "yfSymbol": "EWZ",
       "displaySym": "EWZ",
       "lastUpdated": "2026-10-26T13:21:42.840826+00:00",
-      "livePrice": 32.1,
+      "livePrice": 32.08,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:27Z",
+      "livePriceAsOf": "2026-11-09T04:11:36Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -6728,9 +6727,9 @@
       "yfSymbol": "MCD",
       "displaySym": "MCD",
       "lastUpdated": "2026-09-28T13:19:02.453959+00:00",
-      "livePrice": 277.1,
+      "livePrice": 276.52,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:57:47Z",
+      "livePriceAsOf": "2026-11-09T04:14:07Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6772,9 +6771,9 @@
       "yfSymbol": "MKC",
       "displaySym": "MKC",
       "lastUpdated": "2026-09-28T13:19:02.567895+00:00",
-      "livePrice": 48.44,
+      "livePrice": 48.4,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T23:25:07Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -6808,7 +6807,7 @@
           "value": "$526.32"
         }
       ],
-      "appr": "+488%",
+      "appr": "+501%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-top",
       "analystClass": "analyst-none",
@@ -6818,9 +6817,9 @@
       "yfSymbol": "SOL",
       "displaySym": "SOL",
       "lastUpdated": "2026-11-03T13:06:14.622667+00:00",
-      "livePrice": 89.46,
+      "livePrice": 87.56,
       "livePriceSource": "IBKR (PAXOS)",
-      "livePriceAsOf": "2026-11-08T13:05:05Z",
+      "livePriceAsOf": "2026-11-09T04:16:41Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6860,9 +6859,9 @@
       "yfSymbol": "BE",
       "displaySym": "BE",
       "lastUpdated": "2026-11-07T06:21:07.901655+00:00",
-      "livePrice": 174.56,
+      "livePrice": 173.24,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:52Z",
+      "livePriceAsOf": "2026-11-09T04:15:22Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -6908,9 +6907,9 @@
       "yfSymbol": "BKNG",
       "displaySym": "BKNG",
       "lastUpdated": "2026-11-03T13:06:14.228484+00:00",
-      "livePrice": 160.79,
+      "livePrice": 161.1,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:54:02Z",
+      "livePriceAsOf": "2026-11-09T01:00:00Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6939,7 +6938,7 @@
           "value": "$34"
         }
       ],
-      "appr": "+196%",
+      "appr": "+195%",
       "collections": [],
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
@@ -6950,9 +6949,9 @@
       "yfSymbol": "CLF",
       "displaySym": "CLF",
       "lastUpdated": "2026-10-26T13:21:42.445198+00:00",
-      "livePrice": 11.47,
+      "livePrice": 11.53,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:59:53Z",
+      "livePriceAsOf": "2026-11-09T01:02:12Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -6992,9 +6991,9 @@
       "yfSymbol": "CMG",
       "displaySym": "CMG",
       "lastUpdated": "2026-10-26T13:21:42.507011+00:00",
-      "livePrice": 34.36,
+      "livePrice": 34.43,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:58:43Z",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": null
@@ -7027,7 +7026,7 @@
           "value": "$37"
         }
       ],
-      "appr": "+116%",
+      "appr": "+117%",
       "collections": [],
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
@@ -7038,9 +7037,9 @@
       "yfSymbol": "LYFT",
       "displaySym": "LYFT",
       "lastUpdated": "2026-10-26T13:21:43.322977+00:00",
-      "livePrice": 17.1,
+      "livePrice": 17.09,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:43:35Z",
+      "livePriceAsOf": "2026-11-09T04:15:22Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -7076,7 +7075,7 @@
           "value": "$101-103"
         }
       ],
-      "appr": "+47%",
+      "appr": "+46%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -7086,9 +7085,9 @@
       "yfSymbol": "UBER",
       "displaySym": "UBER",
       "lastUpdated": "2026-11-07T06:21:08.137042+00:00",
-      "livePrice": 68.68,
+      "livePrice": 68.99,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:54:37Z",
+      "livePriceAsOf": "2026-11-09T02:38:48Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -7134,9 +7133,9 @@
       "yfSymbol": "INDA",
       "displaySym": "INDA",
       "lastUpdated": "2026-11-03T13:02:55.438907+00:00",
-      "livePrice": 50.96,
+      "livePrice": 50.89,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:18:46Z",
+      "livePriceAsOf": "2026-11-09T04:18:38Z",
       "analystSource": "none",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -7176,9 +7175,9 @@
       "yfSymbol": "LVMHF",
       "displaySym": "LVMHF",
       "lastUpdated": "2026-11-07T06:21:07.458016+00:00",
-      "livePrice": 458.6,
-      "livePriceSource": "IBKR (derived: MC Euronext Paris €411.25 × EUR.USD 1.1151; LVMHF not listed on IBKR)",
-      "livePriceAsOf": "2026-11-06T21:34:01Z",
+      "livePrice": 455.95,
+      "livePriceSource": "IBKR (derived: MC Euronext Paris €408.75 × EUR.USD 1.115475; LVMHF not listed on IBKR)",
+      "livePriceAsOf": "2026-11-09T04:18:26Z",
       "analystSource": "StockAnalysis (rating + target €590.08 converted at EUR.USD 1.1151)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -7224,7 +7223,7 @@
       "lastUpdated": "2026-11-07T06:21:07.975212+00:00",
       "livePrice": 17.66,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-06T21:00:00Z",
+      "livePriceAsOf": "2026-11-09T04:15:22Z",
       "analystSource": "MarketBeat",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
@@ -7260,7 +7259,7 @@
           "value": "~$150"
         }
       ],
-      "appr": "+162%",
+      "appr": "+161%",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -7270,9 +7269,9 @@
       "yfSymbol": "VST",
       "displaySym": "VST",
       "lastUpdated": "2026-11-07T06:21:08.476671+00:00",
-      "livePrice": 124.65,
+      "livePrice": 125.47,
       "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-07T00:55:50Z",
+      "livePriceAsOf": "2026-11-09T03:13:46Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
       "apprBasis": "live"
