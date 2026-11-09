@@ -3,7 +3,7 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "November 9, 2026",
-    "lastUpdated": "2026-11-09T04:18:53.180145+00:00",
+    "lastUpdated": "2026-11-09T12:03:11.506680+00:00",
     "marketData": {
       "updatedAt": "2026-11-09T04:18:53.177042+00:00",
       "assetsUpdatedThisRun": 159,
@@ -1002,23 +1002,25 @@
     {
       "sym": "NFLX",
       "company": "Netflix Inc · NASDAQ",
-      "category": "Buy Zone",
-      "wave": "ABC correction complete or nearly so; 0.618 Fib at $61 tested and held",
-      "entry": "Still in the Buy Zone below the 200 WMA; first target is the 200 WMA at $74, then break above the 50 WMA at $83",
-      "target": "$74 (200 WMA), then $83 (50 WMA)",
       "analyst": "Moderate Buy",
       "analystTarget": "$93.68",
-      "summary": "NFLX tested the 0.618 Fib at $61 almost perfectly and bulls defended it, with price up 4.6% yesterday to $66 and green again pre-market. It rarely trades below the 200 WMA, and in 2022 it spent five or six months below before reclaiming it. Next steps are reclaiming the 200 WMA at $74 and then breaking the 50 WMA at $83; a clear ABC correction is now visible.",
+      "analystSource": "IBKR (target) + MarketBeat (rating)",
+      "analystAsOf": "2026-11-08",
       "collections": [
         "Watchlist"
       ],
+      "category": "Buy Zone",
+      "wave": "ABC correction; now retesting the 0.618 Fib at $61 as support",
+      "entry": "Buying below the 200 WMA is reasonable; ideally support confirms above the 0.618 Fib at $61",
+      "target": "$74 (200 WMA / 0.5 Fib confluence), then $83 (50 WMA)",
+      "summary": "NFLX has pulled back to retest the 0.618 Fib near $61 and TLI is watching whether it holds as support. Price sits roughly 15% under the 200 WMA, a zone TLI considers sensible for bulls to accumulate. The next hurdle is the 200 WMA / 0.5 Fib confluence; reclaiming it would put the 50 WMA at $83 in play. Chart unchanged.",
       "levels": [
         {
           "label": "0.618 Fib",
           "value": "$61"
         },
         {
-          "label": "200 WMA",
+          "label": "200 WMA / 0.5 Fib",
           "value": "$74"
         },
         {
@@ -1026,22 +1028,20 @@
           "value": "$83"
         }
       ],
+      "livePrice": 63.8,
+      "livePriceSource": "IBKR",
+      "livePriceAsOf": "2026-11-09T03:56:14Z",
       "appr": "+16%",
+      "apprBasis": "live",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": "Bull Case",
+      "prevCategory": null,
       "yfSymbol": "NFLX",
       "displaySym": "NFLX",
-      "lastUpdated": "2026-11-07T06:21:07.495743+00:00",
-      "livePrice": 63.8,
-      "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-09T03:56:14Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
-      "apprBasis": "live"
+      "lastUpdated": "2026-11-09T12:03:11.415089+00:00"
     },
     {
       "sym": "REGN",
@@ -1546,46 +1546,50 @@
     {
       "sym": "DCTH",
       "company": "Delcath Systems · NASDAQ",
-      "category": "At Target / Invalidated",
-      "wave": "Subwave 5 of the current 5-wave move looks parabolic; an ABC pullback is expected next to confirm a higher low for Primary Wave 3.",
-      "entry": "Not an add zone now — next Buy Zone is the confluence of the 50 Day MA and the 0.38 Fib at $13.87, reached after the expected ABC pullback",
-      "target": "$34 (Wave 3, 1.618 Fib — unchanged)",
       "analyst": "Moderate Buy",
       "analystTarget": "$22.83",
-      "summary": "Delcath's Subwave 5 has been a parabolic move that TLI expects to be met with a pullback. The team is watching for an ABC pullback toward the confluence of the 50 Day MA and the 0.38 Fib at $13.87, which would also confirm a higher low for Primary Wave 3. TLI remains bullish but wants to see that pullback play out before adding.",
-      "levels": [
-        {
-          "label": "Next Buy Zone",
-          "value": "$13.87 (50 Day MA / 0.38 Fib confluence)"
-        },
-        {
-          "label": "LT Target",
-          "value": "$34 (Wave 3, 1.618 Fib)"
-        },
-        {
-          "label": "Analyst Target",
-          "value": "$22.00"
-        }
-      ],
-      "appr": "+128%",
+      "analystSource": "MarketBeat (target + rating)",
+      "analystAsOf": "2026-11-08",
       "collections": [
         "Watchlist"
       ],
-      "categoryClass": "badge-at-target",
-      "waveClass": "wave-impulse",
-      "analystClass": "analyst-mod-buy",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "prevCategory": null,
-      "yfSymbol": "DCTH",
-      "displaySym": "DCTH",
-      "lastUpdated": "2026-08-28T16:10:04.654351+00:00",
+      "category": "Watchlist",
+      "wave": "Either Subwave 2 ended shallow at the 0.38 Fib ($13.87), or this is a Wave B bounce ahead of a Wave C pullback",
+      "entry": "Buy Zone around the 0.5 Fib at $12.77 on a Wave C pullback; deeper support at $11.68 (50 WMA / 0.618 Fib)",
+      "target": "$34 (Wave 3, 1.618 Fib)",
+      "summary": "DCTH traded flat into earnings after an early pre-market pop. TLI outlines two paths: Subwave 2 may already be over at the 0.38 Fib near $13.87, or the current move is a Wave B bounce with Wave C still to come. The preferred setup is a Wave C dip toward the 0.5 Fib at $12.77, inside the Buy Zone, with the 50 WMA / 0.618 Fib confluence at $11.68 below. TLI is waiting on the earnings reaction; the Wave 3 target stays at $34.",
+      "levels": [
+        {
+          "label": "0.38 Fib",
+          "value": "$13.87"
+        },
+        {
+          "label": "0.5 Fib (Buy Zone)",
+          "value": "$12.77"
+        },
+        {
+          "label": "50 WMA / 0.618 Fib",
+          "value": "$11.68"
+        },
+        {
+          "label": "Wave 3 target",
+          "value": "$34"
+        }
+      ],
       "livePrice": 14.93,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-09T04:14:07Z",
-      "analystSource": "MarketBeat (target + rating)",
-      "analystAsOf": "2026-11-08",
-      "apprBasis": "live"
+      "appr": "+128%",
+      "apprBasis": "live",
+      "categoryClass": "badge-watchlist",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-mod-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": "At Target / Invalidated",
+      "yfSymbol": "DCTH",
+      "displaySym": "DCTH",
+      "lastUpdated": "2026-11-09T12:03:11.506654+00:00"
     },
     {
       "sym": "ZVRA",
@@ -1684,33 +1688,39 @@
     {
       "sym": "NVDA",
       "company": "NVIDIA Corp · NASDAQ",
-      "category": "Watchlist",
-      "wave": "Ongoing correction; relief bounce off the 0.23 Fib, deeper pullback still possible",
-      "entry": "Start buying below the 0.38 Fib at $146; be patient",
-      "target": "Resistance at 200 Day MA $204",
       "analyst": "Buy",
       "analystTarget": "$296.68",
-      "summary": "NVDA bounced 4.5% to about $189 after testing the 0.23 Fib at $180, but TLI calls it a relief bounce and says it is too early to say the worst is over. A deeper pullback is still possible, so the plan is patience with buying below the 0.38 Fib at $146. If price keeps rising, the 200 Day MA at $204 is the resistance where the correction ideally completes. No changes to the chart.",
+      "analystSource": "IBKR (target) + MarketBeat (rating)",
+      "analystAsOf": "2026-11-08",
       "collections": [],
+      "category": "Watchlist",
+      "wave": "Correction underway; broke below the 0.23 Fib at $180, deeper pullback toward the 0.38 Fib expected",
+      "entry": "Buy Zone below the 0.38 Fib at $146 once support is confirmed",
+      "target": "Resistance at 200 Day MA $204",
+      "summary": "NVDA slipped to about $177 pre-market, under the 0.23 Fib at $180, which TLI sees as the long-awaited pullback unfolding. The drop may be an overreaction to headlines and a relief bounce is possible, but the plan is unchanged: wait for price to fall below the 0.38 Fib at $146 and confirm support, which TLI would treat as a strong buy. The 200 WMA at $122 and 0.5 Fib at $118 sit below as deeper support.",
       "levels": [
         {
           "label": "0.23 Fib",
           "value": "$180"
         },
         {
-          "label": "Current",
-          "value": "~$189"
-        },
-        {
-          "label": "200 Day MA",
-          "value": "$204"
-        },
-        {
-          "label": "0.38 Fib",
+          "label": "0.38 Fib (Buy Zone)",
           "value": "$146"
+        },
+        {
+          "label": "200 WMA",
+          "value": "$122"
+        },
+        {
+          "label": "0.5 Fib",
+          "value": "$118"
         }
       ],
+      "livePrice": 179.33,
+      "livePriceSource": "IBKR",
+      "livePriceAsOf": "2026-11-09T04:11:36Z",
       "appr": "+14%",
+      "apprBasis": "live",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-buy",
@@ -1719,13 +1729,7 @@
       "prevCategory": null,
       "yfSymbol": "NVDA",
       "displaySym": "NVDA",
-      "lastUpdated": "2026-11-07T06:21:08.624742+00:00",
-      "livePrice": 179.33,
-      "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-09T04:11:36Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
-      "apprBasis": "live"
+      "lastUpdated": "2026-11-09T12:03:11.466517+00:00"
     },
     {
       "sym": "TOST",
