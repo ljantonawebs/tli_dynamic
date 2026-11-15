@@ -3,7 +3,7 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "November 15, 2026",
-    "lastUpdated": "2026-11-15T04:13:28.428475+00:00",
+    "lastUpdated": "2026-11-15T04:28:48.251338+00:00",
     "marketData": {
       "updatedAt": "2026-11-15T04:13:28.426450+00:00",
       "assetsUpdatedThisRun": 162,
@@ -2025,50 +2025,50 @@
     {
       "sym": "COIN",
       "company": "Coinbase Global Inc · NASDAQ",
-      "category": "Watchlist",
-      "wave": "Wave 2 pullback after 50 WMA rejection",
-      "entry": "$155 - $166 (0.78 - 0.618 Fib)",
-      "target": "$273",
-      "analyst": "Hold",
-      "analystTarget": "$225.60",
-      "summary": "COIN was rejected at the 50 WMA and is now pulling back in what looks like a healthy Wave 2. TLI wants support to be confirmed between the 0.618 and 0.78 Fibs. After that, the price would need to clear the 50/200 WMA confluence and then the $204 line, which would move it into the Bull Case with a Wave 3 target at the 1.618 Fib.",
-      "levels": [
-        {
-          "label": "Support zone",
-          "value": "$155 - $166"
-        },
-        {
-          "label": "50/200 WMA confluence",
-          "value": "$188 - $194"
-        },
-        {
-          "label": "Breakout line",
-          "value": "$204"
-        },
-        {
-          "label": "Wave 3 target",
-          "value": "$273"
-        }
-      ],
-      "appr": "+117%",
       "collections": [
         "Watchlist"
       ],
-      "categoryClass": "badge-watchlist",
-      "waveClass": "wave-correct",
-      "analystClass": "analyst-hold",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "prevCategory": "Bull Case",
-      "yfSymbol": "COIN",
-      "displaySym": "COIN",
-      "lastUpdated": "2026-10-26T13:21:42.563311+00:00",
+      "category": "Buy Zone",
+      "wave": "Wave C of the ABC correction completing inside a falling wedge after the Wave 5 peak near $440",
+      "entry": "Buy Zone from the 0.618 Fib $186 down to the 0.786 Fib $117.53 (~$120 support); DCA in, greedy on support confirmation",
+      "target": "$706 (measured move from the $369 breakout, late 2027)",
+      "summary": "TLI says COIN has slid to about $128 as bitcoin hit a three-month low and risk appetite faded, putting price deep in a wide Buy Zone between the 0.618 Fib at $186 and the 0.786 Fib near $117. Wave C of the correction looks to be finishing inside a falling wedge right on the $120 support, so they suggest scaling in and being greedy if that area holds. Q3 revenue fell 35% to $1.22B, with EPS flattered by crypto gains. A reclaim of the $204.90 Bull Case line is the first bullish signal, and the measured move still points to roughly $706 by late 2027.",
+      "levels": [
+        {
+          "label": "0.786 Fib / support",
+          "value": "$117.53 / $120"
+        },
+        {
+          "label": "0.618 Fib (Buy Zone top)",
+          "value": "$186"
+        },
+        {
+          "label": "Bull Case line",
+          "value": "$204.90"
+        },
+        {
+          "label": "Measured move target",
+          "value": "$706"
+        }
+      ],
+      "analyst": "Hold",
+      "analystTarget": "$225.60",
       "livePrice": 126.08,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-14T00:59:35Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
-      "apprBasis": "live"
+      "appr": "+460%",
+      "apprBasis": "live",
+      "categoryClass": "badge-buy-zone",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-hold",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": "Watchlist",
+      "yfSymbol": "COIN",
+      "displaySym": "COIN",
+      "lastUpdated": "2026-11-15T04:28:48.036252+00:00"
     },
     {
       "sym": "HYPE",
@@ -2482,35 +2482,41 @@
     {
       "sym": "ALB",
       "company": "Albemarle Corp · NYSE",
-      "category": "Buy Zone",
-      "wave": "Price found support exactly at the 0.618 Fib retracement near $114, and TLI is now watching the $143 confluence of the 50- and 200-week moving averages as the trigger to confirm a move into Bull Case.",
-      "entry": "$114 (0.618 Fib support, confirmed bounce); starter position acceptable now",
-      "target": "$284 (1.0 Fib target)",
-      "analyst": "Moderate Buy",
-      "summary": "ALB bounced cleanly off the 0.618 Fibonacci retracement near $114, validating that level as key support and putting the stock back in TLI's buy range. The next hurdle is the $143 confluence of the 50- and 200-week moving averages; a breakout and successful flip to support there would confirm ALB's move into full Bull Case status. TLI considers a starter position reasonable now, with a second entry planned once $143 flips to support, and flags $284 as the 1.0 Fib long-term target. Note: \"WATCHLIST\" in the subject line refers to TLI's Watchlist collection tag, not a downgrade from Buy Zone.",
-      "levels": [
-        {
-          "label": "0.618 Fib Support",
-          "value": "$114 (confirmed bounce)"
-        },
-        {
-          "label": "Bull Case Trigger",
-          "value": "$143 (50/200 WMA confluence)"
-        },
-        {
-          "label": "1.0 Fib Target",
-          "value": "$284"
-        },
-        {
-          "label": "Status",
-          "value": "Starter position OK; add on $143 flip"
-        }
-      ],
       "collections": [
         "Watchlist"
       ],
-      "appr": "+204%",
+      "category": "Buy Zone",
+      "wave": "Wave 2 correction after a five-wave Wave 1 peaked near $220 in May; Wave C low was near $49 in early 2025",
+      "entry": "Buy Zone from the 0.618 Fib $114 down to the 0.786 Fib $85 (price ~$96); bulls add if the 0.786 holds",
+      "target": "$365.65 (1.618 ext, Wave 3); $538.09 (2.618 ext, Wave 5, ~Sep 2027)",
+      "summary": "TLI notes ALB at about $96, sitting inside the Buy Zone between the 0.618 Fib at $114 and the 0.786 Fib at $85 as falling lithium carbonate prices drive this Wave 2 pullback. Q3 revenue rose 19% to $1.6B with a slight EPS beat, but the Q4 outlook is cautious as pricing weakens. Price is under the 200 WMA, so reclaiming the $143 Bull Case line is the first bullish signal; Wave 3 targets $365.65 and Wave 5 $538.09.",
+      "levels": [
+        {
+          "label": "0.786 Fib",
+          "value": "$85"
+        },
+        {
+          "label": "0.618 Fib (Buy Zone top)",
+          "value": "$114"
+        },
+        {
+          "label": "Bull Case line",
+          "value": "$143"
+        },
+        {
+          "label": "Wave 3 target (1.618)",
+          "value": "$365.65"
+        }
+      ],
+      "analyst": "Moderate Buy",
       "analystTarget": "$194.38",
+      "livePrice": 93.53,
+      "livePriceSource": "IBKR",
+      "livePriceAsOf": "2026-11-13T21:00:04Z",
+      "analystSource": "IBKR (target) + MarketBeat (rating)",
+      "analystAsOf": "2026-11-08",
+      "appr": "+291%",
+      "apprBasis": "live",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-correct",
       "analystClass": "analyst-mod-buy",
@@ -2519,13 +2525,7 @@
       "prevCategory": null,
       "yfSymbol": "ALB",
       "displaySym": "ALB",
-      "lastUpdated": "2026-08-17T16:13:30.257094+00:00",
-      "livePrice": 93.53,
-      "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-13T21:00:04Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
-      "apprBasis": "live"
+      "lastUpdated": "2026-11-15T04:28:48.144522+00:00"
     },
     {
       "sym": "RDDT",
@@ -3054,50 +3054,46 @@
     {
       "sym": "HOOD",
       "company": "Robinhood Markets Inc · NASDAQ",
-      "category": "Bull Case",
-      "wave": "EWT Impulse Count (video-format update; no additional written wave detail provided in this post).",
-      "analyst": "Moderate Buy",
-      "summary": "This week's HOOD update was published as a video walkthrough of the Elliott Wave Theory impulse count rather than as written commentary, so no new numeric details (entry, targets, or level changes) were included in the email body itself. Existing HOOD levels and thesis are carried forward unchanged pending a written follow-up.",
-      "entry": "$85 (blue Bull Case line, tested and held) — wants $100 flipped to support before continuing higher",
+      "collections": [
+        "Watchlist"
+      ],
+      "category": "Watchlist",
+      "wave": "Clear Wave C correction in progress; looking for a retest of the Buy Zone",
+      "entry": "Wait for a retest of the Buy Zone at the 0.618 Fib $62; scale in on confirmed support, with more room down to the 200 WMA",
       "target": "$175 (1.618 Fib, Wave 3 target)",
-      "appr": "+128%",
-      "analystTarget": "$121.83",
+      "summary": "TLI now reads HOOD as being in a clear Wave C pullback and wants to see price come back to the Buy Zone at the 0.618 Fib near $62 before acting. Until then they advise patience rather than chasing. Once support is confirmed, bulls can open or add a starter position, scaling in case price extends lower toward the 200 WMA.",
       "levels": [
         {
-          "label": "Bull Case line (held)",
-          "value": "$85"
+          "label": "0.618 Fib Buy Zone",
+          "value": "$62"
         },
         {
-          "label": "200 Day MA",
-          "value": "$96"
-        },
-        {
-          "label": "Level to flip to support",
-          "value": "$100 (50 Day MA / psychological)"
+          "label": "Next step",
+          "value": "Confirmed support, then scale in"
         },
         {
           "label": "Wave 3 target",
           "value": "$175 (1.618 Fib)"
         }
       ],
-      "collections": [
-        "Watchlist"
-      ],
-      "categoryClass": "badge-bull-case",
-      "waveClass": "wave-correct",
-      "analystClass": "analyst-mod-buy",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "prevCategory": null,
-      "yfSymbol": "HOOD",
-      "displaySym": "HOOD",
-      "lastUpdated": "2026-09-28T13:19:02.263932+00:00",
+      "analyst": "Moderate Buy",
+      "analystTarget": "$121.83",
       "livePrice": 76.62,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-14T00:59:41Z",
       "analystSource": "IBKR (target) + MarketBeat (rating)",
       "analystAsOf": "2026-11-08",
-      "apprBasis": "live"
+      "appr": "+128%",
+      "apprBasis": "live",
+      "categoryClass": "badge-watchlist",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-mod-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": "Bull Case",
+      "yfSymbol": "HOOD",
+      "displaySym": "HOOD",
+      "lastUpdated": "2026-11-15T04:28:48.089586+00:00"
     },
     {
       "sym": "GS",
@@ -4478,35 +4474,41 @@
     {
       "sym": "UPS",
       "company": "United Parcel Service · NYSE",
-      "category": "Bull Case",
-      "wave": "Wave 2 complete at the Buy Zone; Wave 3 appears underway",
-      "entry": "Retest and hold of the 50 WMA (~$105) is the next buy entry; 0.618 Fib support at $97 in place since March 2026",
-      "target": "$155.84 (1.618 Fib, Wave 3); $196.19 (2.618 Fib, Wave 5)",
-      "analyst": "Hold",
-      "analystTarget": "$114.77",
-      "summary": "UPS bounced hard from the Buy Zone after Wave 2 pulled into the 0.78 Fib at $90.51 and now trades near $111, pressing the larger 0.618 Fib at $112.88. The 50 WMA near $105 is acting as support. It pays about 5.9% via a $6.56 dividend with the next ex-date on 16 November. Street consensus is ~$115 from 29 analysts, behind TLI's Wave 3 target.",
       "collections": [
         "Safe Haven"
       ],
+      "category": "Bull Case",
+      "wave": "Wave 2 ABC complete above the 0.786 Fib in October; pressing the top of a falling wedge for Wave 3",
+      "entry": "Weekly close above the $113 Bull Case line confirms; Buy Zone $97.36 (0.618) to $90 (0.786) if retested",
+      "target": "$155 (1.618 ext, Wave 3); $196.19 (2.618 ext, Wave 5, ~early 2028)",
+      "summary": "TLI has UPS around $111, pushing against the $113 Bull Case line at the top of a falling wedge, and wants a weekly close above it as confirmation. Wave 2 finished as an ABC just above the 0.786 Fib in October, and a higher low before the breakout would be normal, with the 50 WMA as the near-term target. Q3 beat on EPS and full-year guidance was raised, and the dividend yields about 5.9%. Wave 3 targets $155 and Wave 5 $196.19.",
       "levels": [
         {
-          "label": "0.618 Fib",
-          "value": "$112.88"
+          "label": "Buy Zone",
+          "value": "$90 - $97.36"
         },
         {
-          "label": "50 WMA",
-          "value": "~$105"
+          "label": "Bull Case line",
+          "value": "$113"
         },
         {
-          "label": "0.618 Fib support",
-          "value": "$97.36"
+          "label": "Wave 3 target (1.618)",
+          "value": "$155"
         },
         {
-          "label": "1.618 Fib",
-          "value": "$155.84"
+          "label": "Wave 5 target (2.618)",
+          "value": "$196.19"
         }
       ],
-      "appr": "+41%",
+      "analyst": "Hold",
+      "analystTarget": "$114.77",
+      "livePrice": 110.48,
+      "livePriceSource": "IBKR",
+      "livePriceAsOf": "2026-11-14T00:57:56Z",
+      "analystSource": "IBKR (target) + MarketBeat (rating)",
+      "analystAsOf": "2026-11-08",
+      "appr": "+40%",
+      "apprBasis": "live",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-hold",
@@ -4515,13 +4517,7 @@
       "prevCategory": null,
       "yfSymbol": "UPS",
       "displaySym": "UPS",
-      "lastUpdated": "2026-11-07T06:21:08.793055+00:00",
-      "livePrice": 110.48,
-      "livePriceSource": "IBKR",
-      "livePriceAsOf": "2026-11-14T00:57:56Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
-      "apprBasis": "live"
+      "lastUpdated": "2026-11-15T04:28:48.196755+00:00"
     },
     {
       "sym": "META",
@@ -7310,46 +7306,50 @@
     {
       "sym": "ONTO",
       "company": "Onto Innovation · NYSE",
-      "category": "Watchlist",
       "collections": [
         "Watchlist"
       ],
-      "wave": "Bounce from the 200 WMA after a Q3 double beat; reversal not yet confirmed",
-      "entry": "Hold above the 0.618 Fib / psychological support at $200 (bounced from the 200 WMA at $168)",
-      "target": "$245 (50 WMA; a break above enters the Bull Case)",
-      "summary": "ONTO rallied 12% and is up another 7% premarket after a double beat, with EPS of $2.44 against $2.30 expected and revenue of $409.75M against $392.08M. The bounce came off the 200 WMA at $168, and the focus now is holding the 0.618 Fib and psychological support at $200. A break above the 50 WMA at $245 would put ONTO in the Bull Case, and a higher low after that would confirm the reversal. TLI is very pleased with the chart.",
+      "category": "Buy Zone",
+      "wave": "Wave 2 ABC after a five-wave Wave 1 peak near $385; Wave C dropping into the Buy Zone",
+      "entry": "Buy Zone from the 0.618 Fib $200 to the 0.786 Fib $150 (price ~$204); greedy on support confirmation, rising 200 WMA ~$170",
+      "target": "$643.29 (1.618 ext, Wave 3); $457.16 (1.0 ext)",
+      "summary": "TLI sees ONTO at about $204, right on the 0.618 Fib after flushing to the 200 WMA, and treats the chip-sector weakness as a pullback rather than a broken story. Q3 was a record with revenue up 88% to $410M, a beat on EPS and Q4 guidance above consensus, plus a backlog over $1.3B. The Buy Zone runs from $200 down to $150, a reclaim of $238 is the first bullish signal, and Wave 3 targets $457 then $643.",
       "levels": [
         {
-          "label": "200 WMA",
-          "value": "$168"
+          "label": "0.786 Fib",
+          "value": "$150"
         },
         {
           "label": "0.618 Fib / support",
           "value": "$200"
         },
         {
-          "label": "50 WMA (Bull Case trigger)",
-          "value": "$245"
+          "label": "Bull Case line",
+          "value": "$238"
+        },
+        {
+          "label": "Wave 3 targets",
+          "value": "$457.16 / $643.29"
         }
       ],
       "analyst": "Buy",
       "analystTarget": "$351.38",
-      "appr": "+24%",
-      "categoryClass": "badge-watchlist",
-      "waveClass": "wave-correct",
-      "analystClass": "analyst-buy",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
-      "prevCategory": null,
-      "yfSymbol": "ONTO",
-      "displaySym": "ONTO",
-      "lastUpdated": "2026-11-10T12:17:09.497390+00:00",
       "livePrice": 197.03,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-14T00:42:27Z",
       "analystSource": "IBKR (target) + MarketBeat (rating, May 2026 snapshot)",
       "analystAsOf": "2026-11-10",
-      "apprBasis": "live"
+      "appr": "+226%",
+      "apprBasis": "live",
+      "categoryClass": "badge-buy-zone",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-buy",
+      "recClass": "rec-buy",
+      "rec": "BUY",
+      "prevCategory": "Watchlist",
+      "yfSymbol": "ONTO",
+      "displaySym": "ONTO",
+      "lastUpdated": "2026-11-15T04:28:48.251294+00:00"
     },
     {
       "sym": "AVGO",
