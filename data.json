@@ -3,26 +3,26 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "November 16, 2026",
-    "lastUpdated": "2026-11-16T10:12:36.812929+00:00",
+    "lastUpdated": "2026-11-16T10:17:56.811155+00:00",
     "marketData": {
-      "updatedAt": "2026-11-16T10:12:36.810663+00:00",
-      "assetsUpdatedThisRun": 162,
+      "updatedAt": "2026-11-16T10:17:56.809814+00:00",
+      "assetsUpdatedThisRun": 33,
       "priceSources": {
         "IBKR": 162
       },
       "analystSources": {
-        "MarketBeat": 36,
-        "IBKR (target) + MarketBeat (rating)": 23,
+        "MarketBeat": 32,
         "none": 19,
         "MarketBeat (via web search)": 15,
+        "MarketBeat (via web search); no IBKR preview": 8,
         "MarketBeat (rating + target, via web search; no IBKR preview)": 8,
-        "IBKR (target, preview 2026-08-01) + MarketBeat (rating, via web search)": 5,
-        "IBKR (target, preview 2026-07-27) + MarketBeat (rating, via web search)": 4,
-        "IBKR (target, preview 2026-08-02) + MarketBeat (rating, via web search)": 4,
-        "MarketBeat (via web search); no IBKR preview": 2,
-        "IBKR (target, preview 2026-08-23) + MarketBeat (rating, via web search)": 2,
-        "IBKR (target, preview 2026-10-10) + MarketBeat (rating, via web search)": 2,
-        "StockAnalysis": 2
+        "IBKR (target, preview 2026-08-01) + MarketBeat (rating, via web search)": 7,
+        "IBKR (target, preview 2026-07-27) + MarketBeat (rating, via web search)": 6,
+        "IBKR (target, preview 2026-08-02) + MarketBeat (rating, via web search)": 6,
+        "IBKR (target, preview 2026-07-25) + MarketBeat (rating, via web search)": 4,
+        "IBKR (target, preview 2026-08-03) + MarketBeat (rating, via web search)": 4,
+        "MarketBeat (via web search); IBKR preview stale": 3,
+        "IBKR (target, preview 2026-08-23) + MarketBeat (rating, via web search)": 2
       },
       "apprBasis": "live price -> TLI long-term target (entry -> target only when no live price)",
       "register": "SOURCES.md"
@@ -3767,8 +3767,8 @@
       "livePrice": 59.13,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T07:43:14Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-07-25) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -3802,8 +3802,8 @@
       ],
       "analyst": "Moderate Buy",
       "analystTarget": "$159.48",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-08-03) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "livePrice": 186.0,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T09:00:03Z",
@@ -3863,8 +3863,8 @@
       "livePrice": 21.92,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T10:10:27Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-08-01) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -3874,7 +3874,7 @@
       "entry": "$40 (Wave 2 low, 0.5 Fib / 200 DMA)",
       "target": "$128",
       "analyst": "Moderate Buy",
-      "analystTarget": "$89.70",
+      "analystTarget": "$93.67",
       "summary": "VSXY smashed the quarter with an EPS beat of roughly +80%, validating TLI's original thesis first shared last July at $18. Wave 2 held cleanly at the 0.5 Fib and 200-day MA around $40, and the share price has since ripped from $40 to $75 in two weeks. TLI leaves the Wave 3 target at $128 and the eventual Wave 5 target at $181 unchanged.",
       "collections": [
         "Watchlist"
@@ -3911,8 +3911,8 @@
       "livePrice": 107.0,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T01:03:00Z",
-      "analystSource": "MarketBeat (rating + target; IBKR preview stale 2026-05-30)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "MarketBeat (via web search); IBKR preview stale",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -4039,8 +4039,8 @@
       "livePrice": 171.51,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T10:10:27Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-08-02) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -4066,7 +4066,7 @@
       ],
       "target": "$4 (Wave 3)",
       "appr": "+734%",
-      "analystTarget": "$4.00",
+      "analystTarget": "$3.00",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-hold",
@@ -4079,8 +4079,8 @@
       "livePrice": 0.4796,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T09:38:46Z",
-      "analystSource": "MarketBeat",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "MarketBeat (via web search); no IBKR preview",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -4123,8 +4123,8 @@
       "livePrice": 105.5,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T02:11:31Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-08-31) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -4165,8 +4165,8 @@
       "livePrice": 123.34,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T10:10:27Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-10-17) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -4249,8 +4249,8 @@
       "livePrice": 57.83,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T10:06:27Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-07-21) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -4291,8 +4291,8 @@
       "livePrice": 115.8,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T05:56:46Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-09-06) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -4511,8 +4511,8 @@
       "livePrice": 110.76,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T10:10:27Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-07-25) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "appr": "+40%",
       "apprBasis": "live",
       "categoryClass": "badge-bull-case",
@@ -4533,7 +4533,7 @@
       "entry": "$486 (200 WMA) — TLI calls this level a buy",
       "target": "$914 (0.618 Fib, if $741 breaks)",
       "analyst": "Moderate Buy",
-      "analystTarget": "$785.22",
+      "analystTarget": "$833.12",
       "summary": "META is at a pivotal wedge level, with TLI watching whether price holds the bottom line at $530. A hold there keeps the path open to a breakout above the wedge top at $644, which would confirm the Bull Case and put the $741 resistance and ultimately the $914 0.618 Fib target in play. On the downside, a break of the wedge points to the 0.38 Fib at $528 and then the 200 WMA at $486, which TLI flags outright as a buy level.",
       "levels": [
         {
@@ -4567,8 +4567,8 @@
       "livePrice": 636.0,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T09:39:42Z",
-      "analystSource": "MarketBeat",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "MarketBeat (via web search); IBKR preview stale",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -4611,8 +4611,8 @@
       "livePrice": 6.305,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T10:07:33Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-08-03) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -4659,8 +4659,8 @@
       "livePrice": 49.48,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T07:46:48Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-07-27) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": null
     },
     {
@@ -4687,12 +4687,12 @@
       "company": "CoreWeave Inc · NASDAQ",
       "collections": [],
       "analyst": "Moderate Buy",
-      "analystTarget": "$131.97",
+      "analystTarget": "$116.66",
       "livePrice": 50.12,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T10:08:12Z",
-      "analystSource": "MarketBeat",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "MarketBeat (via web search); no IBKR preview",
+      "analystAsOf": "2026-11-16",
       "appr": "+519%",
       "apprBasis": "live",
       "categoryClass": "badge-watchlist",
@@ -4712,8 +4712,8 @@
       "wave": "Post-earnings pullback (testing 50 WMA resistance)",
       "entry": "$62 (200 WMA / 0.618 Fib confluence, if reached)",
       "target": null,
-      "analyst": "Buy",
-      "analystTarget": "$117.50",
+      "analyst": "Moderate Buy",
+      "analystTarget": "$118.75",
       "summary": "AEHR bounced more than 50% after a strong earnings beat (EPS of $0.11 vs an expected -$0.07 loss), but the rally stalled at the 50 WMA, which acted as resistance and sent the price back down. TLI is not calling this a buy yet and instead is watching for a deeper pullback to the confluence of the 200 WMA and 0.618 Fib around $62, which he'd view as a strong entry if it's reached.",
       "levels": [
         {
@@ -4729,7 +4729,7 @@
       "appr": null,
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
-      "analystClass": "analyst-buy",
+      "analystClass": "analyst-mod-buy",
       "recClass": "rec-wait",
       "rec": "WAIT",
       "prevCategory": null,
@@ -4739,8 +4739,8 @@
       "livePrice": 54.09,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T09:11:41Z",
-      "analystSource": "MarketBeat (rating + target)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "MarketBeat (via web search); no IBKR preview",
+      "analystAsOf": "2026-11-16",
       "apprBasis": null
     },
     {
@@ -4772,8 +4772,8 @@
       ],
       "analyst": "Hold",
       "analystTarget": "$102.92",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-07-20) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "livePrice": 56.85,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T10:08:36Z",
@@ -4795,7 +4795,7 @@
       "category": "Watchlist",
       "wave": "Support held at the 0.78 Fib and price has broken above the 200 WMA, now stalling right at the 0.618 Fib — TLI wants either a retest of the 200 WMA or a flip of the 0.618 Fib to support before treating it as confirmed.",
       "entry": "$5.90 (200 WMA retest) or $6.58 (0.618 Fib flipped to support)",
-      "analyst": "Hold",
+      "analyst": "Moderate Buy",
       "summary": "After an 18-month decline from $14 to $4, ACHR jumped roughly 20% on news that it is acquiring Boeing's Wisk Aero, Insitu, and SkyGrid units in exchange for Boeing taking a near-20% stake, giving Archer a strategic partner, a credit line, and legacy aerospace expertise as the eVTOL market leader. Technically, price has held the 0.78 Fib support, broken above the 200 WMA, and stalled exactly at the 0.618 Fib. TLI sees a low-risk entry either on a retest of the 200 WMA near $5.90 or once the 0.618 Fib at $6.58 is flipped to support.",
       "collections": [],
       "levels": [
@@ -4814,10 +4814,10 @@
       ],
       "target": "Prior all-time highs (unconfirmed)",
       "appr": null,
-      "analystTarget": "$11.83",
+      "analystTarget": "$10.58",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
-      "analystClass": "analyst-hold",
+      "analystClass": "analyst-mod-buy",
       "recClass": "rec-wait",
       "rec": "WAIT",
       "prevCategory": null,
@@ -4827,8 +4827,8 @@
       "livePrice": 3.99,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T10:06:56Z",
-      "analystSource": "MarketBeat (target + rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "MarketBeat (via web search); no IBKR preview",
+      "analystAsOf": "2026-11-16",
       "apprBasis": null
     },
     {
@@ -4867,8 +4867,8 @@
       "livePrice": 469.98,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T02:52:16Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-08-01) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -4878,7 +4878,7 @@
       "wave": "Wave 4 bounce off $450 complete, ran to $594 (1.618 Fib Wave 3 top); cooling expected before the final Wave 5 leg.",
       "entry": "$533 – $550 (50 WMA / 0.5 Fib confluence, next add zone)",
       "target": "$805 (Wave 5)",
-      "analyst": "Buy",
+      "analyst": "Moderate Buy",
       "analystTarget": "$641.39",
       "summary": "TLI calls Mastercard a textbook Elliott Wave example: since bouncing off Wave 4 support at $450, price ran to $594 — the 1.618 Fib Wave 3 top — where some cooling is expected before the final push to Wave 5. The 50 WMA now aligns almost perfectly with the 0.5 Fib at $533, making $533-$550 the next add zone, with $V moving in near-perfect sync and heavy institutional buying over the last quarter supporting the thesis.",
       "levels": [
@@ -4899,7 +4899,7 @@
       "collections": [],
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
-      "analystClass": "analyst-buy",
+      "analystClass": "analyst-mod-buy",
       "recClass": "rec-wait",
       "rec": "WAIT",
       "prevCategory": "Watchlist",
@@ -4909,8 +4909,8 @@
       "livePrice": 663.35,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T08:09:38Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-07-27) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -4991,12 +4991,12 @@
         "Watchlist"
       ],
       "analyst": "Moderate Buy",
-      "analystTarget": "$97.19",
+      "analystTarget": "$99.00",
       "livePrice": 58.79,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T09:58:04Z",
-      "analystSource": "MarketBeat",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "MarketBeat (via web search); no IBKR preview",
+      "analystAsOf": "2026-11-16",
       "appr": "+228%",
       "apprBasis": "live",
       "categoryClass": "badge-buy-zone",
@@ -5047,8 +5047,8 @@
       "livePrice": 122.17,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T10:08:43Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-09-07) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -5080,18 +5080,18 @@
       "collections": [
         "Watchlist"
       ],
-      "analyst": "Hold",
+      "analyst": "Moderate Buy",
       "analystTarget": "$95.76",
       "livePrice": 111.75,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T10:10:02Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-08-16) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "appr": "+63%",
       "apprBasis": "live",
       "categoryClass": "badge-bull-case",
       "waveClass": "wave-impulse",
-      "analystClass": "analyst-hold",
+      "analystClass": "analyst-mod-buy",
       "recClass": "rec-wait",
       "rec": "WAIT",
       "prevCategory": null,
@@ -5141,8 +5141,8 @@
       "livePrice": 33.0,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T04:05:06Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-10-19) + StockAnalysis (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -5189,8 +5189,8 @@
       "livePrice": 25.28,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T09:44:46Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-08-02) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -5201,7 +5201,7 @@
       "entry": "Not disclosed in email body (image/graphic report)",
       "target": null,
       "analyst": "Buy",
-      "analystTarget": "CHF 87.02",
+      "analystTarget": "CHF 89.04",
       "summary": "This TLI post shares Nestlé's Q2'26 earnings results as an image/graphic with no inline written analysis in the email body, so no technical levels or thesis details could be extracted. As a first-time entry for this ticker on the dashboard, it is logged as a Watchlist placeholder pending a future written update with specific entry, target, and wave-count details.",
       "collections": [],
       "levels": [
@@ -5227,8 +5227,8 @@
       "livePrice": 88.12,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T10:03:18Z",
-      "analystSource": "MarketScreener",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "StockAnalysis (via web search); no IBKR preview",
+      "analystAsOf": "2026-11-16",
       "apprBasis": null
     },
     {
@@ -5239,7 +5239,7 @@
       "entry": "No confirmed entry; watch for wedge breakdown (~23% further downside) vs. relief bounce off the recent financing-deal pop",
       "target": "Retest of prior resistance where price was front-run ahead of the last earnings miss (level unspecified; contingent on next earnings)",
       "analyst": "Hold",
-      "analystTarget": "47p",
+      "analystTarget": "38.80p",
       "summary": "TLI's video update frames Aston Martin as a high-risk, speculative swing trade rather than a core position, given the stock's brutal decline and cash-burn concerns despite a roughly £500-600M market cap against £1.5B+ in revenue. Price is consolidating in a falling wedge that could resolve either with another ~23% leg down or a relief bounce, and shares did bounce on news of a new financing deal. TLI flags the level where price was previously front-run ahead of a disastrous earnings report as the key resistance to watch, with the next earnings date still pending.",
       "collections": [],
       "levels": [
@@ -5273,8 +5273,8 @@
       "livePrice": 33.08,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T09:15:36Z",
-      "analystSource": "StockAnalysis",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "StockAnalysis (via web search); no IBKR preview",
+      "analystAsOf": "2026-11-16",
       "apprBasis": null
     },
     {
@@ -5284,8 +5284,8 @@
       "wave": "Cycle Wave 3 (sub-wave 1-2 forming) — clean breakout above 200 Day MA",
       "entry": "Breakout zone above 200 Day MA / 50 Day MA (approaching Golden Cross)",
       "target": "Confluence of 1.618 Fib extension and horizontal resistance (no exact price given)",
-      "analyst": "Hold",
-      "analystTarget": "$524.50",
+      "analyst": "Buy",
+      "analystTarget": "$555.67",
       "collections": [],
       "summary": "In a chart-walkthrough video, TLI introduced $BRK.B as a defensive (though not classic safe-haven) holding — it tracks the S&P during systemic crises but has historically outperformed during valuation-driven corrections like an overvalued-tech unwind. The Elliott Wave count shows a clean breakout above the 50-week MA, the 1.618 Fib, and horizontal support/resistance on the weekly chart, while the daily chart shows a breakout above the 200-day MA with the 50-day MA approaching a Golden Cross. TLI called it a reasonable ~20% opportunity here and said he personally might add.",
       "levels": [
@@ -5309,9 +5309,9 @@
       "appr": "-99%",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-impulse",
-      "analystClass": "analyst-hold",
-      "recClass": "rec-wait",
-      "rec": "WAIT",
+      "analystClass": "analyst-buy",
+      "recClass": "rec-buy",
+      "rec": "BUY",
       "prevCategory": null,
       "yfSymbol": "BRK.B",
       "displaySym": "BRK.B",
@@ -5319,8 +5319,8 @@
       "livePrice": 596.46,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T09:36:58Z",
-      "analystSource": "MarketBeat (rating + target; no IBKR contract)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "StockAnalysis (via web search); no IBKR contract",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "entry"
     },
     {
@@ -5348,8 +5348,8 @@
       ],
       "analyst": "Moderate Buy",
       "analystTarget": "$501.03",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-08-29) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "livePrice": 328.0,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T09:41:00Z",
@@ -5395,8 +5395,8 @@
       "livePrice": 100.0,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T09:59:41Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-07-25) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": null
     },
     {
@@ -5407,7 +5407,7 @@
       "entry": "Buy entry when the 0.618 Fib at $921 flips to support",
       "target": "Not specified",
       "analyst": "Moderate Buy",
-      "analystTarget": "$1,811.38",
+      "analystTarget": "$2,056.23",
       "summary": "SNDK is trading below the usual 0.618 Fib for Wave C, so support is unconfirmed and a test of the 0.78 Fib at $531 cannot be ruled out. Bulls want to recapture the 0.618 Fib at $921 quickly. Flipping that level to support is the buy entry and would complete the Wave 2 chart.",
       "collections": [],
       "levels": [
@@ -5433,8 +5433,8 @@
       "livePrice": 831.61,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T10:04:07Z",
-      "analystSource": "MarketBeat (rating + target; IBKR preview stale)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "MarketBeat (via web search); IBKR preview stale",
+      "analystAsOf": "2026-11-16",
       "apprBasis": null
     },
     {
@@ -5478,8 +5478,8 @@
       "livePrice": 34.41,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T06:34:07Z",
-      "analystSource": "IBKR (target) + MarketBeat (rating)",
-      "analystAsOf": "2026-11-08",
+      "analystSource": "IBKR (target, preview 2026-09-20) + MarketBeat (rating, via web search)",
+      "analystAsOf": "2026-11-16",
       "apprBasis": "live"
     },
     {
@@ -5508,9 +5508,9 @@
         "Top 20"
       ],
       "analyst": "Moderate Buy",
-      "analystTarget": "$647.08",
-      "analystSource": "MarketBeat (target + rating)",
-      "analystAsOf": "2026-11-08",
+      "analystTarget": "$620.07",
+      "analystSource": "MarketBeat (via web search); no IBKR preview",
+      "analystAsOf": "2026-11-16",
       "livePrice": 613.04,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-16T06:34:49Z",
