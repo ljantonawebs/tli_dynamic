@@ -6,7 +6,8 @@ ROUTINE.md", so changes here take effect on the next run without editing the
 schedule.
 
 The dashboard (`index.html`) is generated from `data.json` when the page
-loads. **Never edit `index.html`.** The routine's only job is to keep
+loads. **The routine never edits `index.html`.** Layout changes, such as the
+sticky table header, are made only when the owner asks. The routine's only job is to keep
 `data.json` accurate and push it.
 
 ---
@@ -32,9 +33,11 @@ on the same ticker supersedes them.
    - `levels`: 2–4 `{label, value}` pairs for the Key Levels panel
    - `collections`: list of collection names
    - `company`
-3. **Analyst data:** follow `SOURCES.md` §2 (IBKR target first, then public
-   consensus). Set `analyst`, `analystTarget` and `analystSource`. Use `"N/A"`
-   when there is no coverage.
+3. **Analyst data:** follow `SOURCES.md` §2. It is **IBKR research only**: the
+   rating from the IBKR screener's Average Rating, the target from the newest
+   IBKR earnings preview. Set `analyst`, `analystTarget` and `analystSource`.
+   Use `"N/A"` when IBKR has no coverage. Never use public consensus sites, or
+   the "Street consensus" figures quoted in TLI emails.
 4. Write one JSON object per ticker to a temp file and run
    `python3 update_recommendation.py --file entry.json`.
 5. Label the thread `tli-processed` in Gmail.
@@ -46,15 +49,20 @@ on the same ticker supersedes them.
    data for a ticker, fall back through `SOURCES.md` §1 (Yahoo Finance, Google
    Finance, CoinGecko, Kitco/Investing, …).
 2. **Analyst rating and target** for assets whose `analystAsOf` is older than
-   7 days, or that are new: IBKR target, then public consensus (`SOURCES.md` §2).
+   7 days, that are new, **or whose `analystSource` is not IBKR** (anything
+   other than `IBKR …` or `none`). That last rule replaces older public-site
+   values. Use IBKR research only (`SOURCES.md` §2): screener Average Rating
+   for `analyst`, newest earnings preview `price_targets.avg` for
+   `analystTarget`. If IBKR has nothing, write `"N/A"`.
 3. Write everything to `market.json` (format in the `update_market_data.py`
    docstring), with the actual source name in `livePriceSource` /
    `analystSource`, then run
    `python3 update_market_data.py --file market.json`.
    This recomputes **TLI appreciation = (TLI LT target − live price) / live price**
    for every asset.
-4. If IBKR is unreachable, use public sources for everything and say
-   "IBKR unavailable" in the commit message and the notification.
+4. If IBKR is unreachable, use public sources for **live prices only**, keep
+   the existing analyst fields unchanged, and say "IBKR unavailable" in the
+   commit message and the notification.
 
 ## 4. Commit and push
 

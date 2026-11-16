@@ -1,9 +1,10 @@
 # Data Source Register
 
 Where every number on the dashboard comes from, in priority order. The routine
-always tries **IBKR first**. If IBKR returns nothing for a field (no contract,
-empty snapshot, no coverage, connector down), it moves down the list for that
-field only, and writes the name of the source it actually used into
+always tries **IBKR first**. For live prices, if IBKR returns nothing (no
+contract, empty snapshot, connector down), it moves down the list for that
+field only. Analyst ratings and targets are **IBKR only** (§2), with no
+fallback. The routine writes the name of the source it actually used into
 `data.json`. Each asset carries the fields below, and `meta.marketData` holds a
 per-run summary.
 
@@ -33,33 +34,64 @@ which is the routine's snapshot.
 **Currency rule:** quote the price in the same currency as the TLI target.
 AML is in GBp (pence) on the LSE, NESN in CHF, AF in EUR and VDY in CAD.
 
-## 2. Analyst rating and price target
+## 2. Analyst rating and price target: IBKR research only
 
-| # | Source | What it gives | How to get it |
-|---|---|---|---|
-| 1 | **IBKR connector** (target only) | `price_targets.avg/high/low` | `search_earnings_insights` (contract_id, `type: preview`) → `get_earnings_insight` on the newest preview. IBKR does **not** publish a Buy/Hold consensus rating, so the rating always comes from #2 or below. |
-| 2 | MarketBeat | Consensus rating (Strong Buy … Sell) and average target | `https://www.marketbeat.com/stocks/<EXCH>/<SYM>/forecast/` |
-| 3 | StockAnalysis | Consensus rating and average target | `https://stockanalysis.com/stocks/<sym>/forecast/` |
-| 4 | TipRanks | Consensus (Strong Buy / Moderate Buy / Hold …) and average target | `https://www.tipranks.com/stocks/<sym>/forecast` |
-| 5 | Yahoo Finance | `recommendationKey`, mean target | `https://finance.yahoo.com/quote/<SYM>/analysis` |
-| 6 | Nasdaq / Zacks / MarketScreener | Consensus and target | Non-US listings: MarketScreener |
+The **Analyst** and **Analyst Target** columns come **only** from IBKR
+research. No public consensus sites (MarketBeat, StockAnalysis, TipRanks,
+Yahoo, Zacks, MarketScreener, …) and no figures quoted in TLI emails. If IBKR
+has nothing for a field, that field is `"N/A"`. Never guess a value.
 
-**When IBKR has a target and the public source has a different one:** use the
-IBKR target and record both sources, e.g. `"IBKR (target) + MarketBeat (rating)"`.
-An IBKR preview more than about 4 months old counts as stale, so prefer the
-public average.
+### 2a. Analyst Target (`analystTarget`)
 
-**Rating mapping:** the dashboard only allows `Strong Buy`, `Buy`,
-`Moderate Buy`, `Hold`, `Bullish` and `N/A`.
-- Outperform / Overweight → Buy
-- Neutral / Market Perform / Equal Weight → Hold
-- Any Sell rating → Hold (there is no sell bucket)
+`search_contracts` (primary listing) → `search_earnings_insights`
+(`contract_ids: [id]`, `type: "preview"`, `size: 1`) → `get_earnings_insight`
+on the newest preview → `price_targets.avg`.
 
-`update_market_data.py` applies this mapping automatically.
+- Use the newest preview whatever its age, and put its date in the source,
+  e.g. `IBKR (target, preview 2026-11-15)`.
+- No preview, or no `price_targets` in it: `analystTarget: "N/A"`.
+- Format it in the listing currency (`$167.24`, `€12.89`, `1,250p`).
 
-**No coverage:** crypto, commodities, most ETFs and micro-caps with no analysts
-get `analyst: "N/A"`, `analystTarget: "N/A"` and `analystSource: "none"`. Never
-guess a rating.
+### 2b. Analyst consensus rating (`analyst`)
+
+IBKR earnings previews don't carry a rating. The IBKR screener does: its
+**Average Rating** field runs from 1 (Strong Buy) to 5 (Strong Sell). The
+screener returns rankings, not values, so the rating is read by filtering:
+
+1. `preview_screener` with `selector: "STK"`, the asset's exchange location
+   (e.g. `STK.NYSE`, `STK.NASDAQ`; from `get_screener_capabilities`), scanner
+   `SCAN_avgRating_ASC`, and filters that isolate the stock:
+   `priceAbove` / `priceBelow` = live price ±1%, plus `marketCapAbove1e6`
+   when needed. Confirm the asset's `contract_id` is in the results.
+2. Repeat with an `avgRatingBelow` filter to find the bucket (2–3 calls):
+   - `avgRatingBelow 2.0`: if the stock is still there, check `1.5`.
+     Below 1.5 → **Strong Buy**, otherwise → **Buy**.
+   - Otherwise `avgRatingBelow 2.5`: if the stock is there → **Moderate Buy**.
+   - Otherwise `avgRatingBelow 6`: if the stock is there → **Hold** (2.5 and
+     up; the dashboard has no sell bucket). If it is gone, it has no rating → `N/A`.
+3. Record it as `IBKR (avg rating 2.0–2.5)`. The full source string is
+   e.g. `IBKR (rating: avg 2.0–2.5; target: preview 2026-11-15)`.
+
+Rating buckets on IBKR's 1–5 scale:
+
+| IBKR Average Rating | Dashboard `analyst` |
+|---|---|
+| below 1.5 | Strong Buy |
+| 1.5 – 2.0 | Buy |
+| 2.0 – 2.5 | Moderate Buy |
+| 2.5 and above | Hold |
+| not rated | N/A |
+
+Non-US listings: use the matching screener selector or location from
+`get_screener_asset_classes`. If IBKR has no screener coverage for the
+listing, the rating is `N/A`.
+
+**No IBKR coverage:** crypto, commodities, most ETFs and micro-caps get
+`analyst: "N/A"`, `analystTarget: "N/A"`, `analystSource: "none"`.
+
+**IBKR unreachable:** leave the existing analyst fields as they are. Don't
+fall back to public sites. Say "IBKR unavailable" in the run report.
+
 
 ## 3. TLI data
 
@@ -68,7 +100,8 @@ emails in Gmail (label `TLI`, processed ones get `tli-processed`).
 
 ## If IBKR is down
 
-Use rows 2+ for every field and write the actual source names into
-`livePriceSource` / `analystSource`. Mention "IBKR unavailable" in the commit
-message and in the run notification, so a whole run on fallback data can be
+Live prices: use rows 2+ of §1 and write the actual source name into
+`livePriceSource`. Analyst fields: keep the existing values, with no public
+fallback (§2). Mention "IBKR unavailable" in the commit
+message and in the run notification, so a whole run on fallback prices can be
 spotted.
