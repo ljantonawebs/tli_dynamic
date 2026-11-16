@@ -47,8 +47,12 @@ has nothing for a field, that field is `"N/A"`. Never guess a value.
 (`contract_ids: [id]`, `type: "preview"`, `size: 1`) → `get_earnings_insight`
 on the newest preview → `price_targets.avg`.
 
-- Use the newest preview whatever its age, and put its date in the source,
-  e.g. `IBKR (target, preview 2026-11-15)`.
+- Use the newest preview **that contains `price_targets`**, whatever its age,
+  and put its date in the source, e.g. `IBKR (target, preview 2026-11-15)`.
+  IBKR often lists a newer placeholder preview with no reporting date and no
+  body. Skip those. `search_earnings_insights` sorts by reporting date, so
+  ask for a few results (`size: 3–5`, or several contract IDs at once) and
+  take the newest one that has targets.
 - No preview, or no `price_targets` in it: `analystTarget: "N/A"`.
 - Format it in the listing currency (`$167.24`, `€12.89`, `1,250p`).
 
