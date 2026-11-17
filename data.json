@@ -3,7 +3,7 @@
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
     "analysisDate": "November 17, 2026",
-    "lastUpdated": "2026-11-17T12:04:31.819710+00:00",
+    "lastUpdated": "2026-11-17T12:12:32.655693+00:00",
     "marketData": {
       "updatedAt": "2026-11-16T13:30:48.779467+00:00",
       "assetsUpdatedThisRun": 145,
@@ -7540,6 +7540,44 @@
       "analystSource": "IBKR (rating: avg 1.5–2.0; target: preview 2026-07-27)",
       "analystAsOf": "2026-11-16",
       "apprBasis": null
+    },
+    {
+      "sym": "PANW",
+      "company": "Palo Alto Networks · NASDAQ",
+      "category": "Watchlist",
+      "collections": [],
+      "wave": "Parabolic Wave 5 topped at the 2 Fib (23); ABC pullback now underway",
+      "entry": "Wait for a full ABC: first support at the 50 WMA / 0.382 Fib 69; preferred deeper pullback below the 0.5 Fib 18 into the Buy Zone, then confirmed support",
+      "target": "$423 (prior Wave 5 high at the 2 Fib)",
+      "levels": [
+        {
+          "label": "Wave 5 top (2 Fib)",
+          "value": "$423"
+        },
+        {
+          "label": "50 WMA / 0.382 Fib",
+          "value": "$269"
+        },
+        {
+          "label": "0.5 Fib (Buy Zone below)",
+          "value": "$218"
+        }
+      ],
+      "summary": "PANW ran a parabolic Wave 5 up to the 2 Fib at $423 and has started to pull back. TLI's first support is the 50 WMA / 0.382 Fib confluence at $269, but would prefer that to fail and the price to reach the 0.5 Fib at $218, where it enters the Buy Zone and confirmed support is needed. Earnings this week could provide the deeper drop; there is no rush, and TLI wants a full ABC before entering.",
+      "analyst": "Buy",
+      "analystTarget": "$401.69",
+      "analystSource": "IBKR (rating: avg 1.5–2.0; target: preview 2026-11-18)",
+      "analystAsOf": "2026-11-17",
+      "appr": "+746%",
+      "categoryClass": "badge-watchlist",
+      "waveClass": "wave-correct",
+      "analystClass": "analyst-buy",
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": null,
+      "yfSymbol": "PANW",
+      "displaySym": "PANW",
+      "lastUpdated": "2026-11-17T12:12:32.655668+00:00"
     }
   ]
 }
