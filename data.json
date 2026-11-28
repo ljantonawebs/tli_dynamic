@@ -2,8 +2,8 @@
   "meta": {
     "title": "The Long Investor — Asset Recommendations Dashboard",
     "subtitle": "Elliott Wave analysis from TLI emails (last 30 days) · Assets & collections parsed from email subjects ($TICKER - COLLECTION) · Click any ticker for full TLI summary",
-    "analysisDate": "November 27, 2026",
-    "lastUpdated": "2026-11-27T12:23:22.982197+00:00",
+    "analysisDate": "November 28, 2026",
+    "lastUpdated": "2026-11-28T12:03:15.636030+00:00",
     "marketData": {
       "updatedAt": "2026-11-27T12:23:22.978500+00:00",
       "assetsUpdatedThisRun": 174,
@@ -507,52 +507,52 @@
     },
     {
       "sym": "PFE",
-      "category": "Bull Case",
+      "company": "Pfizer Inc · NYSE",
+      "analyst": "Hold",
+      "analystTarget": "$28.58",
       "collections": [
         "Safe Haven",
         "Watchlist"
       ],
-      "wave": "Wave 3 starting after Wave 2 held the 0.618 Fib at $23.87; broke above the falling 200 WMA",
-      "entry": "Buy on a hold above the 200 WMA at $29",
-      "target": "$36.29 (1.618 extension, Wave 3); $44.15 (2.618 extension, Wave 5)",
-      "summary": "PFE is around $29 after finally breaking above its falling 200 WMA and wicking toward the 1 extension at $31.43. Wave 1 ended near $28 and Wave 2 bottomed at the 0.618 Fib at $23.87, with a retest giving another entry at $27. Holding above the 200 WMA keeps the Bull Case alive, with Wave 3 targeting $36.29 and Wave 5 $44.15. Meanwhile it yields about 5.9% from a $0.43 quarterly dividend.",
+      "target": "$36 (1.618 Fib, Wave 3); $44.05 (Wave 5)",
+      "category": "Watchlist",
+      "wave": "Pulling back after briefly moving above the 200 WMA; looking for a higher low in the Buy Zone before Wave 3",
+      "entry": "Buy Zone between the 0.5 Fib $27.52 and 0.618 Fib $26.59 (rising 50 WMA support); then the 200 WMA flipped to support and a higher high above $31.40",
+      "summary": "PFE has pulled back after briefly getting above the 200 WMA and may consolidate between the two weekly moving averages. TLI's focus is the Buy Zone between the 0.5 Fib at $27.52 and the 0.618 Fib at $26.59, backed by the rising 50 WMA, ideally forming a higher low. Next he wants the 200 WMA turned into support and a higher high above $31.40, opening the Wave 3 target near $36 and the longer-term Wave 5 target of $44.05.",
       "levels": [
         {
-          "label": "200 WMA (buy entry)",
-          "value": "$29"
+          "label": "0.618 Fib",
+          "value": "$26.59"
         },
         {
-          "label": "1 extension",
-          "value": "$31.43"
+          "label": "0.5 Fib",
+          "value": "$27.52"
         },
         {
-          "label": "Wave 3 target",
-          "value": "$36.29"
+          "label": "Higher high trigger",
+          "value": "$31.40"
         },
         {
-          "label": "Wave 5 target",
-          "value": "$44.15"
+          "label": "Wave 3 / Wave 5 targets",
+          "value": "$36 / $44.05"
         }
       ],
-      "company": "Pfizer Inc · NYSE",
-      "analyst": "Hold",
-      "analystTarget": "$28.58",
       "livePrice": 28.45,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-27T12:00:02Z",
       "analystSource": "IBKR (rating: avg 2.5–5.0; target: preview 2026-08-01)",
       "analystAsOf": "2026-11-24",
-      "appr": "+28%",
+      "appr": "+27%",
       "apprBasis": "live",
-      "categoryClass": "badge-bull-case",
+      "categoryClass": "badge-watchlist",
       "waveClass": "wave-impulse",
       "analystClass": "analyst-hold",
       "recClass": "rec-wait",
       "rec": "WAIT",
-      "prevCategory": null,
+      "prevCategory": "Bull Case",
       "yfSymbol": "PFE",
       "displaySym": "PFE",
-      "lastUpdated": "2026-11-10T12:06:21.209404+00:00"
+      "lastUpdated": "2026-11-28T12:03:15.574658+00:00"
     },
     {
       "sym": "SLV",
@@ -600,32 +600,32 @@
     },
     {
       "sym": "GOOG",
-      "category": "Buy Zone",
-      "wave": "Pullback deepening after the Q3 report; slipped through the 0.382 Fib into the Buy Zone",
-      "entry": "Buy Zone from the 0.382 Fib $268 down to the 0.5 Fib $226, where the 200 WMA is approaching; expect buy alerts in this zone",
-      "summary": "GOOG has slipped through the 0.382 Fib at $268 to about $266.50 and into TLI's Buy Zone, which extends to the 0.5 Fib at $226 where the 200 WMA is heading. Most of the drop followed the 28 October Q3 report, when a search-ad miss, an EPS shortfall and negative free cash flow from heavy capex outweighed Cloud more than doubling. TLI counts GOOG among its biggest targets and expects to send buy alerts within this zone.",
+      "company": "Alphabet Inc Class C · NASDAQ",
+      "analyst": "Buy",
+      "analystTarget": "N/A",
+      "collections": [
+        "Top 20",
+        "Watchlist"
+      ],
+      "target": "$582 (1 Fib, Bull Target)",
+      "category": "Watchlist",
+      "wave": "Pullback still unfinished; a final flush below the 0.382 Fib $268 into the Buy Zone can come at any stage",
+      "entry": "Wait for the Buy Zone below the 0.382 Fib $268 (down to the 0.5 Fib / 200 WMA $226); some may add around $270, but most should wait",
+      "summary": "GOOG has bounced back above the 0.382 Fib at $268, so it is no longer inside TLI's Buy Zone. It is high on TLI's priority list, but he wants patience: a final flush below $268 can still come and would be welcomed as an opportunity. Some members may add near $270, while most are advised to wait for the Buy Zone.",
       "levels": [
         {
           "label": "0.382 Fib (Buy Zone top)",
           "value": "$268"
         },
         {
-          "label": "Current area",
-          "value": "~$266.50"
+          "label": "Early-add area",
+          "value": "~$270"
         },
         {
           "label": "0.5 Fib / 200 WMA (Buy Zone bottom)",
           "value": "$226"
         }
       ],
-      "collections": [
-        "Top 20",
-        "Watchlist"
-      ],
-      "company": "Alphabet Inc Class C · NASDAQ",
-      "analyst": "Buy",
-      "analystTarget": "N/A",
-      "target": "$582 (1 Fib, Bull Target)",
       "livePrice": 277.09,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-27T12:19:27Z",
@@ -633,15 +633,15 @@
       "analystAsOf": "2026-11-24",
       "appr": "+110%",
       "apprBasis": "live",
-      "categoryClass": "badge-buy-zone",
+      "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
       "analystClass": "analyst-buy",
-      "recClass": "rec-buy",
-      "rec": "BUY",
-      "prevCategory": null,
+      "recClass": "rec-wait",
+      "rec": "WAIT",
+      "prevCategory": "Buy Zone",
       "yfSymbol": "GOOG",
       "displaySym": "GOOG",
-      "lastUpdated": "2026-11-26T12:04:02.927080+00:00"
+      "lastUpdated": "2026-11-28T12:03:15.412794+00:00"
     },
     {
       "sym": "AMZN",
@@ -1022,37 +1022,41 @@
     },
     {
       "sym": "NFLX",
-      "category": "Buy Zone",
+      "company": "Netflix Inc · NASDAQ",
+      "analyst": "Moderate Buy",
+      "analystTarget": "$93.68",
       "collections": [
         "Watchlist"
       ],
-      "wave": "Potential Wave C still running, squeezed inside a falling wedge between the 0.618 Fib $61 and 0.65 Fib $57; weekly RSI below 30",
-      "entry": "In the Buy Zone; wants $57 to hold, then a reclaim of the 0.618 Fib $61 and a break of the wedge's upper resistance; downside risk the 0.78 Fib $41",
-      "summary": "NFLX is testing support between the 0.618 Fib at $61 and the 0.65 Fib at $57 as Wave C extends inside a tightening falling wedge, with the weekly RSI under 30. TLI is in its Buy Zone but wants buyers to defend it: $57 holding, a reclaim of $61 and a wedge breakout, then a higher low. If support breaks, the next downside risk is the 0.78 Fib near $41.",
+      "target": "$137 (18-month upside target); $182 (1.0 extension)",
+      "category": "Buy Zone",
+      "wave": "Deep in Wave C, trading inside the Buy Zone between the 0.618 Fib $61 and 0.65 Fib $57",
+      "entry": "Buy Zone $61-$57; needs $57 to hold, reclaim of $61 for early reversal signs, break above $70 to confirm",
+      "summary": "NFLX sits around $59.50, deep in Wave C and inside the Buy Zone between the 0.618 Fib at $61 and the 0.65 Fib at $57, having held up better than tech over the past two weeks. TLI wants $57 to hold (below it the 0.786 Fib at $41 is the risk) and $61 reclaimed for early reversal signs. A break above $70 would confirm the reversal toward the 200 WMA / 0.5 Fib at $75, with an upside target of $137 over 18 months.",
       "levels": [
+        {
+          "label": "0.65 Fib (key support)",
+          "value": "$57"
+        },
         {
           "label": "0.618 Fib (reclaim)",
           "value": "$61"
         },
         {
-          "label": "0.65 Fib (support)",
-          "value": "$57"
+          "label": "Reversal confirmation",
+          "value": "$70"
         },
         {
-          "label": "0.78 Fib (downside risk)",
-          "value": "$41"
+          "label": "200 WMA / 0.5 Fib",
+          "value": "$75"
         }
       ],
-      "company": "Netflix Inc · NASDAQ",
-      "target": "$182 (1.0 extension); $137 (0.618 extension)",
-      "analyst": "Moderate Buy",
-      "analystTarget": "$93.68",
       "livePrice": 60.02,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-27T12:16:03Z",
       "analystSource": "IBKR (rating: avg 2.0–2.5; target: preview 2026-10-17)",
       "analystAsOf": "2026-11-24",
-      "appr": "+203%",
+      "appr": "+128%",
       "apprBasis": "live",
       "categoryClass": "badge-buy-zone",
       "waveClass": "wave-top",
@@ -1062,7 +1066,7 @@
       "prevCategory": null,
       "yfSymbol": "NFLX",
       "displaySym": "NFLX",
-      "lastUpdated": "2026-11-25T12:05:59.533057+00:00"
+      "lastUpdated": "2026-11-28T12:03:15.518997+00:00"
     },
     {
       "sym": "REGN",
@@ -5441,12 +5445,21 @@
     {
       "sym": "SNDK",
       "company": "Sandisk Corp · NASDAQ",
-      "category": "Buy Zone",
-      "wave": "Wave C of the ABC from the $290 Wave 5 top (June): Wave A $130 in July, Wave B rejected at the 0.618 Fib $229 in October; Wave C now in the 0.618-0.78 Fib zone",
-      "entry": "Buy Zone between the 0.618 Fib $113 and 0.78 Fib $65 (channel confluence); TLI priority name, very keen to buy around $82",
+      "analyst": "Buy",
+      "analystTarget": "N/A",
+      "collections": [
+        "Watchlist"
+      ],
       "target": "$351 (1 Fib); $528 (1.618 Fib)",
-      "summary": "TLI flags SNDK as a priority: it bounced about 11% to $82 pre-market, right in the middle of the Buy Zone, with no company news, just memory stocks rallying as the KOSPI jumped. Wave C sits between the 0.618 Fib at $113 and the 0.78 Fib at $65, where the falling channel bottom adds a confluence magnet; the 50 WMA near $140 has been lost. He calls the fundamentals exceptional and wants the 0.618 Fib flipped to support and a channel breakout, opening the 1 Fib at $351 and 1.618 Fib at $528.",
+      "category": "Buy Zone",
+      "wave": "Deep in Wave C, dropped to the 0.78 Fib zone and bouncing",
+      "entry": "BUY ALERT @ $77.75 (1st buy, 20% allocation); Buy Zone 0.618 Fib $113 to 0.78 Fib $65",
+      "summary": "TLI sent a BUY ALERT on SNDK at $77.75, a first buy using 20% of the planned allocation. He started adding because it is deep in Wave C and had fallen all the way to the 0.78 Fib area, buying after a +5% bounce, and it later rose about 13% on the day. The plan still needs the 0.618 Fib at $113 flipped to support to open the 1 Fib at $351 and the 1.618 Fib at $528.",
       "levels": [
+        {
+          "label": "Buy alert (1st buy, 20%)",
+          "value": "$77.75"
+        },
         {
           "label": "0.78 Fib / channel bottom",
           "value": "$65"
@@ -5456,19 +5469,10 @@
           "value": "$113"
         },
         {
-          "label": "50 WMA",
-          "value": "~$140"
-        },
-        {
           "label": "1 / 1.618 Fib targets",
           "value": "$351 / $528"
         }
       ],
-      "collections": [
-        "Watchlist"
-      ],
-      "analyst": "Buy",
-      "analystTarget": "N/A",
       "livePrice": 80.55,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-27T12:20:59Z",
@@ -5484,7 +5488,7 @@
       "prevCategory": null,
       "yfSymbol": "SNDK",
       "displaySym": "SNDK",
-      "lastUpdated": "2026-11-27T12:04:35.831056+00:00"
+      "lastUpdated": "2026-11-28T12:03:15.635989+00:00"
     },
     {
       "sym": "GIS",
@@ -5818,40 +5822,36 @@
     {
       "sym": "APP",
       "company": "AppLovin Corp · NASDAQ",
-      "category": "Watchlist",
+      "analyst": "Buy",
+      "analystTarget": "$654.04",
       "collections": [
         "Watchlist"
       ],
-      "wave": "Wave 2 pullback after a strong Wave 1 from the ~$230 Wave C low stalled at the 200 Day MA (~$415)",
-      "entry": "Watch the 0.382 Fib $345 for Wave A of Wave 2, then a drop into the Buy Zone around $325 holding support",
-      "target": "$629 (1.618 Fib, Wave 3); $822.50 (2.618 Fib, Wave 5)",
-      "summary": "APP trades near $373 after a powerful Wave 1 out of a falling wedge from the ~$230 Wave C low stalled at the 200 Day MA around $415. TLI now expects a three-wave Wave 2, with the 0.382 Fib at $345 holding for Wave A, a small bounce, and then a dip into the Buy Zone around $325. Once Wave 2 holds support, TLI looks for a strong Wave 3 to the 1.618 Fib at $629 and later $822.50, with the prior $746 high acting as a magnet.",
+      "target": "$630 (Wave 3); $822.50 (2.618 Fib, Wave 5)",
+      "category": "Watchlist",
+      "wave": "Bounce looks like Wave B of Wave 2, testing the 200 Day MA $403; wants a rejection and a lower low to finish Wave 2",
+      "entry": "Buy Zone $345-$300 for the Wave 2 low; possible new position as a back-up if GOOG does not reach its Buy Zone",
+      "summary": "APP's bounce is testing the 200 Day MA at $403 and meeting resistance; TLI wants it to be Wave B of Wave 2, rejected there, followed by a lower low into the $345-$300 Buy Zone. He sees strong signs of a new impulse forming, and a Wave 2 that holds support would confirm it, with Wave 3 aiming for $630. He is open to starting APP as a new position if GOOG does not fall into its Buy Zone.",
       "levels": [
         {
+          "label": "200 Day MA (resistance)",
+          "value": "$403"
+        },
+        {
           "label": "Buy Zone",
-          "value": "~$325"
+          "value": "$345 - $300"
         },
         {
-          "label": "0.382 Fib",
-          "value": "$345"
-        },
-        {
-          "label": "200 Day MA",
-          "value": "~$415"
-        },
-        {
-          "label": "Prior high (magnet)",
-          "value": "$746"
+          "label": "Wave 3 target",
+          "value": "$630"
         }
       ],
-      "analyst": "Buy",
-      "analystTarget": "$654.04",
       "livePrice": 394.5,
       "livePriceSource": "IBKR",
       "livePriceAsOf": "2026-11-27T12:16:48Z",
       "analystSource": "IBKR (rating: avg 1.5–2.0; target: preview 2026-08-02)",
       "analystAsOf": "2026-11-24",
-      "appr": "+59%",
+      "appr": "+60%",
       "apprBasis": "live",
       "categoryClass": "badge-watchlist",
       "waveClass": "wave-correct",
@@ -5861,7 +5861,7 @@
       "prevCategory": null,
       "yfSymbol": "APP",
       "displaySym": "APP",
-      "lastUpdated": "2026-11-24T12:07:00.378900+00:00"
+      "lastUpdated": "2026-11-28T12:03:15.473194+00:00"
     },
     {
       "sym": "SNOW",
